@@ -2,6 +2,14 @@ from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 from app.services.pain_handlers import handle_clarification, handle_definition_and_goal
 from app.services.fallback_handlers import handle_fallback
+import logging
+import json
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+)
+logger = logging.getLogger(__name__)
 
 app = FastAPI()
 
@@ -12,6 +20,8 @@ def read_root():
 @app.post("/webhook")
 async def webhook(request: Request):
     body = await request.json()
+    logger.info("Request body: %s", json.dumps(body, ensure_ascii=False))
+
     intent = body["queryResult"]["intent"]["displayName"]
 
     # Intent Map
@@ -30,14 +40,15 @@ async def webhook(request: Request):
         handler = handlers.get(intent, handle_fallback)
         messages = handler(body)
     except Exception as e:
-        messages = [f"Sorry, an error occurred: {str(e)}"]
+        logger.exception("Error occurred while handling request body: %s",str(e))
+        messages = [f"Sorry, an error occurred, please try later."]
 
     text = ""
     message_list = []
     for message in messages:
         message_list.append({
             "text": {
-                "text": message
+                "text": [message]
             }
         })
         text = (text + "\n\n" + message).strip()

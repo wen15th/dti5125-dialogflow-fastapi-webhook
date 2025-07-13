@@ -2,8 +2,8 @@ symptom_config = {
     # Intent - Body Reaction And Pain
     "pain": {
         "clarifier": "Have you felt muscle aches, cramping, or unexplained pain?",
-        "education": "Pain is common in Parkinson’s and can come from different sources...",
-        "trackingPrompt": "Pain can interfere with your ability to stay active and enjoy life..."
+        "education": "Pain is common in Parkinson’s and can come from different sources. It might be caused by poor posture, which can lead to muscle and joint aches, or by cramping when muscles stay tight (called dystonia). Some people feel a strong urge to move and can’t stay still. Others may feel pain linked to how the brain processes pain signals, even when nothing seems wrong in the body.",
+        "trackingPrompt": "Pain can interfere with your ability to stay active and enjoy life. Track of your pain, so together we can find practical ways to manage it so you can keep doing the things you love."
     },
     "light_headedness": {
         "clarifier": "Do you ever feel light-headed or dizzy, especially when standing up?",
