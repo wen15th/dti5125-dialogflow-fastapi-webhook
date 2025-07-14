@@ -1,6 +1,24 @@
 # dti5125-dialogflow-fastapi-webhook
-A backend service built with FastAPI to handle webhook fulfillment requests from a Dialogflow chatbot.
+A backend service built with FastAPI to handle webhook fulfillment requests from a Dialogflow chatbot.  
 
+🗂 Project Directory Structure:
+```
+dti5125-dialogflow-fastapi-webhook/
+├── app/
+│   ├── main.py                 # webhook entry point
+├── services/
+│   ├── pain_handlers.py        # handle logic of pain intent & symptoms
+│   ├── fallback_handlers.py    # handle logic of fallback
+│   ├── rag/                    # RAG-related logic
+│   │   ├── store.py            # webpage crawling and text preprocessing
+│   │   ├── vectorstore.py      # vector store construction and loading
+│   │   ├── prompt.py           # custom prompt templates
+│   │   └── chain.py            # Langchain chain construction
+├── data/                       
+│   ├── chroma/                 # persisted Chroma vectorstore files
+│   │   ├── ...  
+└── requirements.txt            # project dependencies
+```
 
 ## Setup
 ### 1️⃣ Docker
