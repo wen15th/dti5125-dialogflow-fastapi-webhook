@@ -41,8 +41,8 @@ This will start the FastAPI server at: http://localhost:8000.
 
 You can open the interactive API docs at: http://localhost:8000/docs
 
-## Test
-### In local environment
+## Integration Testing
+### 1️⃣ Local Testing with Ngrok
 1. Install `ngrok`, download from: https://ngrok.com/download
 2. Connect your account:
     ```
@@ -62,3 +62,10 @@ You can open the interactive API docs at: http://localhost:8000/docs
     ```
     Add your endpoint to the URL, for example: https://ab12cd34.ngrok.io/webhook  
    Copy and paste it into your Dialogflow Webhook URL field, make sure to click Save after updating.
+
+### 2️⃣ Testing via Public Deployment (Render / Google Cloud Run)
+This project is currently configured to support automated deployments to two platforms for demonstration purposes and public access:
+1. **_Render_** is a cloud platform that offers simple, zero‑configuration deployment for web services and APIs. In this project, deployment to Render is automatically triggered whenever commits are pushed to the `main` branch.  
+   _Webhook URL_: https://dti5125-dialogflow-fastapi-webhook.onrender.com/webhook
+2. **_Google Cloud Run_** is a fully managed serverless platform that automatically scales containerized applications in response to HTTP requests.  A GitHub Actions workflow is defined in `.github/workflows/deploy.yml`, which automatically deploys to Google Cloud Run on every push to the `main` branch.  
+   _Webhook URL_: https://fastapi-service-945640963381.us-central1.run.app/webhook
