@@ -21,13 +21,20 @@ dti5125-dialogflow-fastapi-webhook/
 ```
 
 ## Setup
+There are two ways to set up the development environment: using Docker or setting it up locally.
 ### 1️⃣ Docker
-You can simply set it up using `Docker`:
+
+You can simply set it up using `Docker`, this is the simpler option.  
+- First, install Docker from https://www.docker.com/.
+- Download Docker Desktop based on your operating system.
+- Once installed, run the following two commands to start the service.
+  
 ```bash
    docker build -t dti5125-dialogflow-fastapi-webhook .
    docker run -d -p 8080:8080 dti5125-dialogflow-fastapi-webhook
 ```
-This will start the FastAPI server at: http://localhost:8080  
+This will start the FastAPI server at: http://localhost:8080.  
+That’s it — you’re all set!
 
 To stop Docker, run:
 ```bash
@@ -59,8 +66,51 @@ This will start the FastAPI server at: http://localhost:8000.
 
 You can open the interactive API docs at: http://localhost:8000/docs
 
+## API Testing
+### Postman
+Postman is a tool that lets you easily send requests to your APIs and inspect the responses — perfect for testing endpoints during development.  
+You can download it here: https://www.postman.com/  
+
+Here’s a sample request that Dialogflow sends to the webhook. You can copy the code below and import it into your Postman.
+- To import: open Postman Desktop, go to File → Import, then paste the cURL code — and you're good to go.
+- You can replace https://fastapi-service-945640963381.us-central1.run.app/ with your local address, such as http://localhost:8080 or http://localhost:8000.
+- You can also modify fields like `queryText`, `intent`, `outputContexts`, and `parameters` based on the specific Dialogflow request you want to simulate.
+Feel free to adjust the port number based on your local setup.
+```curl
+curl --location 'https://fastapi-service-945640963381.us-central1.run.app/webhook' \
+--header 'Content-Type: application/json' \
+--data '{
+  "queryResult": {
+    "queryText": "yes",
+    "parameters": {},
+    "outputContexts": [
+      {
+        "name": "projects/dti-5125-chatbot-464822/agent/sessions/a3392205-3a1e-45ab-176b-08f8df34cd13/contexts/report_body_reactions_and_pain_issue-followup",
+        "lifespanCount": 1,
+        "parameters": {
+          "symptom": "pain",
+          "symptom.original": "pain"
+        }
+      },
+      {
+        "name": "projects/dti-5125-chatbot-464822/agent/sessions/a3392205-3a1e-45ab-176b-08f8df34cd13/contexts/__system_counters__",
+        "parameters": {
+          "no-input": 0,
+          "no-match": 0
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/dti-5125-chatbot-464822/agent/intents/a3d0200f-473e-455d-be09-2de3688e317f",
+      "displayName": "Report_Body_Reactions_And_Pain_Issue - yes"
+    }
+  }
+}'
+```
+
 ## Integration Testing
 ### 1️⃣ Local Testing with Ngrok
+Since local services (like `http://localhost:8000`) can’t be accessed from the internet, we need a tool to generate a temporary public link for them — that’s why we use `ngrok`.
 1. Install `ngrok`, download from: https://ngrok.com/download
 2. Connect your account:
     ```
