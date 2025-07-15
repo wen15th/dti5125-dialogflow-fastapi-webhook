@@ -72,7 +72,7 @@ Postman is a tool that lets you easily send requests to your APIs and inspect th
 You can download it here: https://www.postman.com/  
 
 Here’s a sample request that Dialogflow sends to the webhook. You can copy the code below and import it into your Postman.
-- To import: open Postman Desktop, go to File → Import, then paste the cURL code — and you're good to go.
+- To import: open Postman Desktop, click on `Import` (top left), then paste the cURL code — and you're good to go.
 - You can replace https://fastapi-service-945640963381.us-central1.run.app/ with your local address, such as http://localhost:8080 or http://localhost:8000.
 - You can also modify fields like `queryText`, `intent`, `outputContexts`, and `parameters` based on the specific Dialogflow request you want to simulate.
 Feel free to adjust the port number based on your local setup.
@@ -107,6 +107,25 @@ curl --location 'https://fastapi-service-945640963381.us-central1.run.app/webhoo
   }
 }'
 ```
+
+Or you can simply import this link to access our publid Postman workspace:
+[🔗 GNG5125 Chatbot Backend – Postman Collection](https://www.postman.com/wen15th/workspace/gng5125-chatbot-backend/collection/24514734-185cd47e-61ba-4362-9979-c1c27ff41039?action=share&creator=24514734&active-environment=24514734-5acff4cf-2c33-467b-8ef0-7ce32a567217)
+To use it:
+1. Open Postman Desktop.
+2. Click on `Import` (top left).
+3. Copy and paste the link, then click Continue and Import.  
+
+The collection will be added to your workspace and you can start testing endpoints directly.  
+
+💡 **Tips**  
+You can switch environments using the dropdown menu in the top right corner. The following environments are currently configured:
+- local_env: http://127.0.0.1:8000
+- docker: http://127.0.0.1:8080
+- ngrok: Since this is a temporary URL, you'll need to replace it with your own if you're using ngrok
+- Render: https://dti5125-dialogflow-fastapi-webhook.onrender.com
+- Google Cloud Run: https://fastapi-service-945640963381.us-central1.run.app  
+
+The first three are for local development and testing, while the last two are public URLs.
 
 ## Integration Testing
 ### 1️⃣ Local Testing with Ngrok
