@@ -32,3 +32,12 @@ def handle_definition_and_goal(body):
         return [
             "Sorry, I lost track of the symptom. Can you tell me again?"
         ]
+
+def handle_submit(body):
+    parameters = {}
+    for ctx in body["queryResult"].get("outputContexts", []):
+        if "pain_assessment" in ctx["name"]:
+            parameters = ctx.get("parameters", {})
+    # Now parameters contains everything the user provided in the flow!
+    # e.g., parameters.get("pain_type"), parameters.get("pain_location"), etc.
+    return [f"Thank you! Here’s what we collected: {json.dumps(parameters)}"]

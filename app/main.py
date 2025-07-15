@@ -5,6 +5,9 @@ from app.services.fallback_handlers import handle_fallback
 import logging
 import json
 
+
+
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
@@ -53,7 +56,34 @@ async def webhook(request: Request):
         })
         text = (text + "\n\n" + message).strip()
 
-    return JSONResponse(content={
+    output_contexts = []
+
+    if intent == "Report_Body_Reactions_And_Pain_Issue - yes":
+        consent_text = "To help me provide the best care tips, would you be okay to answer a few more questions?"
+        text = (text + "\n\n" + consent_text).strip()
+        message_list.append({
+            "text": {
+                "text": [consent_text]
+            }
+        })
+
+        # Set output context for awaiting_consent
+        session_path = body.get("session") or body.get("sessionInfo", {}).get("session")
+        if not session_path:
+            logger.error("No session path found in webhook request!")
+            session_path = "projects/YOUR_PROJECT_ID/agent/sessions/placeholder"
+
+        output_contexts = [{
+            "name": f"{session_path}/contexts/awaiting_consent",
+            "lifespanCount": 1
+        }]
+
+
+    response = {
         "fulfillmentText": text,
-        "fulfillmentMessages": message_list
-    })
+        "fulfillmentMessages": message_list,
+    }
+    if output_contexts:
+        response["outputContexts"] = output_contexts
+
+    return JSONResponse(content=response)

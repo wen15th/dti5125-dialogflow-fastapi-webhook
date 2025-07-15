@@ -4,7 +4,7 @@ symptom_config = {
         "clarifier": "Have you felt muscle aches, cramping, or unexplained pain?",
         "education": "Pain is common in Parkinson’s and can come from different sources. It might be caused by poor posture, which can lead to muscle and joint aches, or by cramping when muscles stay tight (called dystonia). Some people feel a strong urge to move and can’t stay still. Others may feel pain linked to how the brain processes pain signals, even when nothing seems wrong in the body.",
         "trackingPrompt": "Pain can interfere with your ability to stay active and enjoy life. Track of your pain, so together we can find practical ways to manage it so you can keep doing the things you love."
-    },
+            },
     "light_headedness": {
         "clarifier": "Do you ever feel light-headed or dizzy, especially when standing up?",
         "education": "You may feel dizzy or lightheaded, especially when standing up or moving quickly. This can make you feel unsteady and increase your risk of falls.  Light-headedness or faintness is a known uncomfortable symptom of Parkinson\'s disease.",
