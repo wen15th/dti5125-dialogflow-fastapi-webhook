@@ -2,6 +2,7 @@ from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 from app.services.pain_handlers import handle_clarification, handle_definition_and_goal
 from app.services.fallback_handlers import handle_fallback
+from app.services.pain_handlers import handle_submit 
 import logging
 import json
 
@@ -34,6 +35,7 @@ async def webhook(request: Request):
         # "confirm_yes_movement": handle_symptom_education,
         "Report_Body_Reactions_And_Pain_Issue": handle_clarification,
         "Report_Body_Reactions_And_Pain_Issue - yes": handle_definition_and_goal,
+        "Pain_Duration_Intent - custom": handle_submit, 
         # "Report_Sensory_Issue": handle_clarification,
         # "Report_Sensory_Issue - yes": handle_definition_and_goal
         "Default Fallback Intent": handle_fallback

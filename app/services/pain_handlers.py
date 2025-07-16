@@ -1,5 +1,6 @@
 from app.config.symptom_config import symptom_config
 import logging
+import json
 
 logger = logging.getLogger(__name__)
 
@@ -38,6 +39,10 @@ def handle_submit(body):
     for ctx in body["queryResult"].get("outputContexts", []):
         if "pain_assessment" in ctx["name"]:
             parameters = ctx.get("parameters", {})
-    # Now parameters contains everything the user provided in the flow!
-    # e.g., parameters.get("pain_type"), parameters.get("pain_location"), etc.
-    return [f"Thank you! Here’s what we collected: {json.dumps(parameters)}"]
+    save_answers_jsonl(parameters)
+    return [f"Thank you! I will now generate the caretips based on your answers."]
+
+def save_answers_jsonl(answers, filename="user_answers.jsonl"):
+    with open(filename, "a") as f:
+        f.write(json.dumps(answers) + "\n")
+        
