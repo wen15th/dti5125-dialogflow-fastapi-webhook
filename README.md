@@ -2,22 +2,20 @@
 A backend service built with FastAPI to handle webhook fulfillment requests from a Dialogflow chatbot.  
 
 🗂 Project Directory Structure:
-```
+```graphql
 dti5125-dialogflow-fastapi-webhook/
-├── app/
-│   ├── main.py                 # webhook entry point
-├── services/
-│   ├── pain_handlers.py        # handle logic of pain intent & symptoms
-│   ├── fallback_handlers.py    # handle logic of fallback
-│   ├── rag/                    # RAG-related logic
-│   │   ├── store.py            # webpage crawling and text preprocessing
-│   │   ├── vectorstore.py      # vector store construction and loading
-│   │   ├── prompt.py           # custom prompt templates
-│   │   └── chain.py            # Langchain chain construction
-├── data/                       
-│   ├── chroma/                 # persisted Chroma vectorstore files
-│   │   ├── ...  
-└── requirements.txt            # project dependencies
+├── .github/                # GitHub Actions workflows and related configs
+├── .venv/                  # Virtual environment (not included in version control)
+├── app/                    # Main application code
+│   ├── config/             # Configuration files
+│   ├── data/               # Data files
+│   ├── notebooks/          # Jupyter notebooks for testing and prototyping
+│   ├── services/           # Core logic modules (e.g., fulfillment handlers, utilities)
+│   └── main.py             # FastAPI entry point (webhook endpoint handler)
+├── .gitignore              # Git ignore rules
+├── Dockerfile              # Docker configuration for containerized deployment
+├── README.md               # Project overview and instructions
+├── requirements.txt        # Project dependencies
 ```
 
 ## Setup
