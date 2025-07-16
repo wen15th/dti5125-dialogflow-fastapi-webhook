@@ -1,0 +1,51 @@
+pain_type,pain_location,radiates,duration,self_score,severity_score,severity_class
+Throbbing,Back,Yes,Last week,2,5,Severe
+Throbbing,Everywhere,No,More than a week ago,5,5,Severe
+Burning,Head,Yes,Today,5,4,Moderate
+Throbbing,Stomach,Yes,Several days ago,1,1,Mild
+Throbbing,Back,Yes,More than a week ago,4,5,Severe
+Throbbing,Stomach,Yes,Today,3,3,Moderate
+Sharp,Everywhere,No,Several days ago,4,4,Moderate
+Throbbing,Back,No,Today,4,5,Severe
+Dull,Neck,Yes,Several days ago,3,3,Moderate
+Throbbing,Neck,Yes,More than a week ago,5,1,Mild
+Dull,Head,Yes,More than a week ago,5,5,Severe
+Dull,Back,No,Several days ago,2,1,Mild
+Burning,Leg,Yes,Today,2,1,Mild
+Sharp,Arm,Yes,Last week,3,2,Mild
+Burning,Leg,Yes,Yesterday,2,2,Mild
+Sharp,Neck,No,Last week,3,4,Moderate
+Throbbing,Everywhere,Yes,Today,3,1,Mild
+Throbbing,Chest,No,Several days ago,5,5,Severe
+Burning,Chest,No,More than a week ago,1,1,Mild
+Sharp,Arm,Yes,Last week,5,5,Severe
+Dull,Arm,Yes,Today,2,1,Mild
+Throbbing,Leg,No,Today,5,5,Severe
+Dull,Chest,No,Last week,4,4,Moderate
+Sharp,Back,Yes,More than a week ago,2,2,Mild
+Sharp,Back,Yes,Last week,3,3,Moderate
+Sharp,Arm,Yes,More than a week ago,1,5,Severe
+Burning,Chest,Yes,Today,5,4,Moderate
+Burning,Stomach,Yes,Yesterday,5,5,Severe
+Throbbing,Head,Yes,Last week,4,4,Moderate
+Sharp,Neck,Yes,More than a week ago,2,5,Severe
+Throbbing,Leg,No,More than a week ago,5,3,Moderate
+Burning,Stomach,Yes,Today,1,1,Mild
+Burning,Chest,Yes,Last week,4,4,Moderate
+Throbbing,Everywhere,Yes,Last week,4,4,Moderate
+Dull,Arm,No,Yesterday,5,2,Mild
+Burning,Leg,No,Several days ago,3,5,Severe
+Sharp,Back,No,Last week,4,4,Moderate
+Throbbing,Arm,No,Several days ago,3,3,Moderate
+Burning,Back,Yes,Today,2,2,Mild
+Sharp,Chest,No,More than a week ago,3,3,Moderate
+Throbbing,Leg,No,Last week,3,3,Moderate
+Dull,Leg,Yes,Yesterday,5,5,Severe
+Sharp,Arm,Yes,Today,2,2,Mild
+Throbbing,Stomach,No,Today,1,2,Mild
+Dull,Leg,No,More than a week ago,3,3,Moderate
+Sharp,Chest,Yes,Several days ago,3,3,Moderate
+Dull,Back,No,Yesterday,3,3,Moderate
+Throbbing,Stomach,No,Today,4,2,Mild
+Throbbing,Head,Yes,Last week,1,1,Mild
+Burning,Head,Yes,Yesterday,5,5,Severe
