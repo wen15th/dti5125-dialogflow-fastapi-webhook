@@ -1,5 +1,10 @@
 .env
 
+# app/services/rag/ChromaDB_Parkinson_Data/
+# *.sqlite3
+# *.bin
+# *.pickle
+
 # IDE conf
 .idea/
 
