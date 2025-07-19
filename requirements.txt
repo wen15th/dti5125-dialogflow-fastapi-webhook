@@ -111,6 +111,6 @@ zstandard==0.23.0
 langchain-community==0.3.27
 langchain-chroma==0.2.4
 google-ai-generativelanguage==0.6.15
-google-generativeai==0.7.2
+# google-generativeai==0.7.2
 langchain-google-genai==2.0.10
 structlog==23.1.0
