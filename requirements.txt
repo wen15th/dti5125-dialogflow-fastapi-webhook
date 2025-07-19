@@ -61,7 +61,7 @@ orjson==3.10.18
 overrides==7.7.0
 packaging==24.2
 posthog==5.4.0
-protobuf==6.31.1
+protobuf>=3.20.2,<6.0.0
 pyasn1==0.6.1
 pyasn1_modules==0.4.2
 pybase64==1.4.1
