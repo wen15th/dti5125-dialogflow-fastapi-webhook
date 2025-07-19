@@ -61,7 +61,7 @@ orjson==3.10.18
 overrides==7.7.0
 packaging==24.2
 posthog==5.4.0
-protobuf==6.31.1
+protobuf>=3.20.2,<6.0.0
 pyasn1==0.6.1
 pyasn1_modules==0.4.2
 pybase64==1.4.1
@@ -106,3 +106,11 @@ websocket-client==1.8.0
 websockets==15.0.1
 zipp==3.23.0
 zstandard==0.23.0
+
+# ===== NEW DEPENDENCIES FOR RAG INTEGRATION =====
+langchain-community==0.3.27
+langchain-chroma==0.2.4
+google-ai-generativelanguage==0.6.15
+# google-generativeai==0.7.2
+langchain-google-genai==2.0.10
+structlog==23.1.0

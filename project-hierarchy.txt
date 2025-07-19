@@ -1,0 +1,46 @@
+dti5125-dialogflow-fastapi-webhook
+├─ .env
+├─ .github
+│  └─ workflows
+│     └─ deploy.yml
+├─ .gitignore
+├─ app
+│  ├─ config
+│  │  ├─ symptom_config.py
+│  │  └─ __init__.py
+│  ├─ data
+│  │  ├─ synthetic_users_dataset.csv
+│  │  └─ synthetic_users_dataset_2000.csv
+│  ├─ main.py
+│  ├─ models
+│  │  └─ classification_model.pkl
+│  ├─ notebooks
+│  │  ├─ classification.ipynb
+│  │  └─ synthetic_users.ipynb
+│  ├─ services
+│  │  ├─ fallback_handlers.py
+│  │  ├─ pain_handlers.py
+│  │  ├─ rag
+│  │  │  ├─ ChromaDB_Parkinson_Data
+│  │  │  │  ├─ 5bc03739-0162-4fc7-8bd4-25e0b67899cf
+│  │  │  │  │  ├─ data_level0.bin
+│  │  │  │  │  ├─ header.bin
+│  │  │  │  │  ├─ index_metadata.pickle
+│  │  │  │  │  ├─ length.bin
+│  │  │  │  │  └─ link_lists.bin
+│  │  │  │  ├─ chroma.sqlite3
+│  │  │  │  └─ complete_knowledge_base_sample.json
+│  │  │  ├─ rag_service.py
+│  │  │  ├─ __init__.py
+│  │  │  └─ __pycache__
+│  │  │     ├─ rag_service.cpython-312.pyc
+│  │  │     └─ __init__.cpython-312.pyc
+│  │  ├─ __init__.py
+│  │  └─ __pycache__
+│  │     ├─ pain_handlers.cpython-312.pyc
+│  │     └─ __init__.cpython-312.pyc
+│  └─ __pycache__
+│     └─ main.cpython-312.pyc
+├─ Dockerfile
+├─ README.md
+└─ requirements.txt

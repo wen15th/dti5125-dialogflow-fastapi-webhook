@@ -1,0 +1,1816 @@
+{
+  "total_documents": 7294,
+  "sample_size": 100,
+  "organizations": [
+    "American Parkinson Disease Association",
+    "Michael J. Fox Foundation",
+    "PMD Alliance",
+    "Parkinson Canada",
+    "Parkinson's Foundation",
+    "Parkinson's UK",
+    "ParkinsonNet"
+  ],
+  "persistent_directory": "/content/drive/MyDrive/ChromaDB_Parkinson_Data",
+  "sample_documents": [
+    {
+      "id": "087cf170-cc50-4b41-8b43-99806a9a0bc4",
+      "content_preview": "Close * Understanding Parkinson’s * Understanding Parkinson’s * What is Parkinson's? * 10 Early Signs * Causes * Movement Symptoms * Non-Movement Symptoms * Getting Diagnosed * Statistics * Living wit...",
+      "metadata": {
+        "title": "Homepage | Parkinson's Foundation",
+        "organization": "Parkinson's Foundation",
+        "total_chunks": 12,
+        "keywords": "",
+        "crawl_depth": 0,
+        "chunk_id": 0,
+        "content_type": "web_page",
+        "chunk_length": 1179,
+        "base_url": "https://www.parkinson.org/",
+        "crawled_at": "2025-07-14 13:28:40",
+        "source_url": "https://www.parkinson.org/",
+        "description": "The Parkinson’s Foundation makes life better for people with Parkinson’s disease (PD) by improving care and advancing research toward a cure."
+      }
+    },
+    {
+      "id": "93880001-2c94-4e9f-9b11-40fd57fc975b",
+      "content_preview": "* Understanding Parkinson’s Understanding Parkinson’s  There is a lot to know about Parkinson's disease. Learn about symptoms, how it is diagnosed and what treatment options are available. * Understan...",
+      "metadata": {
+        "title": "Homepage | Parkinson's Foundation",
+        "content_type": "web_page",
+        "chunk_length": 1497,
+        "description": "The Parkinson’s Foundation makes life better for people with Parkinson’s disease (PD) by improving care and advancing research toward a cure.",
+        "source_url": "https://www.parkinson.org/",
+        "crawl_depth": 0,
+        "chunk_id": 1,
+        "keywords": "",
+        "crawled_at": "2025-07-14 13:28:40",
+        "organization": "Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "total_chunks": 12
+      }
+    },
+    {
+      "id": "56121b29-7430-4bff-8bc6-07ef17ef6a0e",
+      "content_preview": "community. * Advancing Research * Finding A Cure * Our Research * Join A Study * Advocate for Research * For Researchers * Parkinson’s Virtual Biotech * How You Can Help How You Can Help  There are ma...",
+      "metadata": {
+        "base_url": "https://www.parkinson.org/",
+        "crawl_depth": 0,
+        "source_url": "https://www.parkinson.org/",
+        "title": "Homepage | Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:40",
+        "description": "The Parkinson’s Foundation makes life better for people with Parkinson’s disease (PD) by improving care and advancing research toward a cure.",
+        "chunk_id": 2,
+        "chunk_length": 543,
+        "content_type": "web_page",
+        "total_chunks": 12,
+        "organization": "Parkinson's Foundation",
+        "keywords": ""
+      }
+    },
+    {
+      "id": "f4059cc8-e424-4371-afa4-2319300b9366",
+      "content_preview": "A black man and an Asian woman look over the railing of a trail boardwalk on a beautiful and sunny summer day #  Better Lives.  Together.  We have everything you need to live better with Parkinson's. ...",
+      "metadata": {
+        "description": "The Parkinson’s Foundation makes life better for people with Parkinson’s disease (PD) by improving care and advancing research toward a cure.",
+        "chunk_id": 3,
+        "chunk_length": 707,
+        "organization": "Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/",
+        "content_type": "web_page",
+        "base_url": "https://www.parkinson.org/",
+        "title": "Homepage | Parkinson's Foundation",
+        "crawl_depth": 0,
+        "crawled_at": "2025-07-14 13:28:40",
+        "keywords": "",
+        "total_chunks": 12
+      }
+    },
+    {
+      "id": "f7ccf8d4-e47e-40a6-9e64-7c65de56638c",
+      "content_preview": "Grandma on tablet with two grandkids ##  PD GENEration: Mapping the Future of Parkinson's Disease  This Parkinson's Foundation initiative offers genetic testing and counseling at no cost for people wi...",
+      "metadata": {
+        "crawled_at": "2025-07-14 13:28:40",
+        "keywords": "",
+        "total_chunks": 12,
+        "organization": "Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/",
+        "title": "Homepage | Parkinson's Foundation",
+        "crawl_depth": 0,
+        "base_url": "https://www.parkinson.org/",
+        "content_type": "web_page",
+        "chunk_id": 4,
+        "description": "The Parkinson’s Foundation makes life better for people with Parkinson’s disease (PD) by improving care and advancing research toward a cure.",
+        "chunk_length": 1495
+      }
+    },
+    {
+      "id": "4287b27a-889c-41c1-bacb-8618095b0278",
+      "content_preview": "Community Survey  READ NOW View all Blogs homepagecare ##  Get Care & Support in Your Area  Find local resources — from specialists through our Global Care Network to Parkinson's Foundation chapters t...",
+      "metadata": {
+        "total_chunks": 12,
+        "chunk_length": 1498,
+        "crawled_at": "2025-07-14 13:28:40",
+        "source_url": "https://www.parkinson.org/",
+        "content_type": "web_page",
+        "chunk_id": 5,
+        "base_url": "https://www.parkinson.org/",
+        "crawl_depth": 0,
+        "organization": "Parkinson's Foundation",
+        "title": "Homepage | Parkinson's Foundation",
+        "description": "The Parkinson’s Foundation makes life better for people with Parkinson’s disease (PD) by improving care and advancing research toward a cure.",
+        "keywords": ""
+      }
+    },
+    {
+      "id": "7cbe4b78-5908-4fd2-b3b6-8acdc860d9e6",
+      "content_preview": "it changes the lives of everyone around them. Seven years ago, my family’s world shifted when my dad was diagnosed. READ HIS STORY ##  Featured News  Headshot of Sneha Mantri, MD, MS ##  Parkinson’s F...",
+      "metadata": {
+        "keywords": "",
+        "description": "The Parkinson’s Foundation makes life better for people with Parkinson’s disease (PD) by improving care and advancing research toward a cure.",
+        "content_type": "web_page",
+        "base_url": "https://www.parkinson.org/",
+        "organization": "Parkinson's Foundation",
+        "crawl_depth": 0,
+        "title": "Homepage | Parkinson's Foundation",
+        "total_chunks": 12,
+        "chunk_id": 6,
+        "chunk_length": 598,
+        "crawled_at": "2025-07-14 13:28:40",
+        "source_url": "https://www.parkinson.org/"
+      }
+    },
+    {
+      "id": "4e3fa331-2149-4053-8461-b15cb14a0eec",
+      "content_preview": "Be the First to Know Get the latest news about PD research, resources and community initiatives — straight to your inbox. Email Address Email Opt In 10211022102314611861 Leave this field blank FL: 575...",
+      "metadata": {
+        "content_type": "web_page",
+        "keywords": "",
+        "organization": "Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "title": "Homepage | Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/",
+        "description": "The Parkinson’s Foundation makes life better for people with Parkinson’s disease (PD) by improving care and advancing research toward a cure.",
+        "chunk_id": 7,
+        "crawled_at": "2025-07-14 13:28:40",
+        "total_chunks": 12,
+        "chunk_length": 724,
+        "crawl_depth": 0
+      }
+    },
+    {
+      "id": "06480c04-cd8f-422d-97e7-423ddc9c08a5",
+      "content_preview": "© 2025 Parkinson's Foundation The Parkinson's Foundation is a 501(c)(3) nonprofit organization. EIN: 13-1866796 contact@parkinson.org Close Close ## Sign Up 1 of 4 Indicates required field  ## Basic I...",
+      "metadata": {
+        "source_url": "https://www.parkinson.org/",
+        "total_chunks": 12,
+        "crawl_depth": 0,
+        "description": "The Parkinson’s Foundation makes life better for people with Parkinson’s disease (PD) by improving care and advancing research toward a cure.",
+        "crawled_at": "2025-07-14 13:28:40",
+        "chunk_length": 1499,
+        "keywords": "",
+        "chunk_id": 8,
+        "content_type": "web_page",
+        "base_url": "https://www.parkinson.org/",
+        "organization": "Parkinson's Foundation",
+        "title": "Homepage | Parkinson's Foundation"
+      }
+    },
+    {
+      "id": "5a252a6b-21f8-4633-a501-5fac5a3d24a1",
+      "content_preview": "with PDHealthcare ProfessionalOther Are you involved with the person with Parkinson's care? Please select responseYesNo Please share the year of Parkinson's diagnosis: ## Address Address Address 1 Add...",
+      "metadata": {
+        "crawled_at": "2025-07-14 13:28:40",
+        "description": "The Parkinson’s Foundation makes life better for people with Parkinson’s disease (PD) by improving care and advancing research toward a cure.",
+        "total_chunks": 12,
+        "organization": "Parkinson's Foundation",
+        "title": "Homepage | Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "keywords": "",
+        "crawl_depth": 0,
+        "source_url": "https://www.parkinson.org/",
+        "chunk_length": 1344,
+        "chunk_id": 9,
+        "content_type": "web_page"
+      }
+    },
+    {
+      "id": "014d9fa2-15d7-46a6-9428-485d02574ac8",
+      "content_preview": "& McDonald IslandsHondurasHong Kong SAR ChinaHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle of ManIsraelItalyJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLeso...",
+      "metadata": {
+        "organization": "Parkinson's Foundation",
+        "total_chunks": 12,
+        "title": "Homepage | Parkinson's Foundation",
+        "description": "The Parkinson’s Foundation makes life better for people with Parkinson’s disease (PD) by improving care and advancing research toward a cure.",
+        "crawled_at": "2025-07-14 13:28:40",
+        "crawl_depth": 0,
+        "keywords": "",
+        "content_type": "web_page",
+        "base_url": "https://www.parkinson.org/",
+        "source_url": "https://www.parkinson.org/",
+        "chunk_id": 10,
+        "chunk_length": 1494
+      }
+    },
+    {
+      "id": "7dc8a9b0-2618-4419-9398-3c6f3d5f2eb3",
+      "content_preview": "IslandsTuvaluTürkiyeU.S. Outlying IslandsU.S. Virgin IslandsUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUruguayUzbekistanVanuatuVatican CityVenezuelaVietnamWallis & FutunaWestern Sahar...",
+      "metadata": {
+        "total_chunks": 12,
+        "crawled_at": "2025-07-14 13:28:40",
+        "crawl_depth": 0,
+        "title": "Homepage | Parkinson's Foundation",
+        "chunk_id": 11,
+        "chunk_length": 1210,
+        "keywords": "",
+        "content_type": "web_page",
+        "base_url": "https://www.parkinson.org/",
+        "description": "The Parkinson’s Foundation makes life better for people with Parkinson’s disease (PD) by improving care and advancing research toward a cure.",
+        "organization": "Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/"
+      }
+    },
+    {
+      "id": "4b7ae9f8-3f63-4e5c-839b-6dceb5da3f91",
+      "content_preview": "Close * Understanding Parkinson’s * Understanding Parkinson’s * What is Parkinson's? * 10 Early Signs * Causes * Movement Symptoms * Non-Movement Symptoms * Getting Diagnosed * Statistics * Living wit...",
+      "metadata": {
+        "crawled_at": "2025-07-14 13:28:41",
+        "chunk_id": 0,
+        "title": "Movement Symptoms | Parkinson's Foundation",
+        "chunk_length": 1179,
+        "base_url": "https://www.parkinson.org/",
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/movement-symptoms",
+        "total_chunks": 15,
+        "content_type": "web_page",
+        "crawl_depth": 1,
+        "description": "Know the movement symptoms Parkinson's can cause such as tremors, postural instability, rigidity and others.",
+        "organization": "Parkinson's Foundation",
+        "keywords": ""
+      }
+    },
+    {
+      "id": "846dafce-58b9-460d-8664-c1486bacb63c",
+      "content_preview": "* Understanding Parkinson’s Understanding Parkinson’s  There is a lot to know about Parkinson's disease. Learn about symptoms, how it is diagnosed and what treatment options are available. * Understan...",
+      "metadata": {
+        "chunk_length": 1497,
+        "description": "Know the movement symptoms Parkinson's can cause such as tremors, postural instability, rigidity and others.",
+        "crawl_depth": 1,
+        "crawled_at": "2025-07-14 13:28:41",
+        "organization": "Parkinson's Foundation",
+        "chunk_id": 1,
+        "base_url": "https://www.parkinson.org/",
+        "keywords": "",
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/movement-symptoms",
+        "content_type": "web_page",
+        "title": "Movement Symptoms | Parkinson's Foundation",
+        "total_chunks": 15
+      }
+    },
+    {
+      "id": "a8d3c6dd-e346-48b6-8a4e-f0db27a1c669",
+      "content_preview": "community. * Advancing Research * Finding A Cure * Our Research * Join A Study * Advocate for Research * For Researchers * Parkinson’s Virtual Biotech * How You Can Help How You Can Help  There are ma...",
+      "metadata": {
+        "chunk_id": 2,
+        "description": "Know the movement symptoms Parkinson's can cause such as tremors, postural instability, rigidity and others.",
+        "keywords": "",
+        "crawled_at": "2025-07-14 13:28:41",
+        "content_type": "web_page",
+        "base_url": "https://www.parkinson.org/",
+        "organization": "Parkinson's Foundation",
+        "title": "Movement Symptoms | Parkinson's Foundation",
+        "total_chunks": 15,
+        "crawl_depth": 1,
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/movement-symptoms",
+        "chunk_length": 543
+      }
+    },
+    {
+      "id": "dce31b08-2888-424d-b685-f6d8e57bffae",
+      "content_preview": "## Breadcrumb * Home * Understanding Parkinson's\n\n## Breadcrumb * Home * Understanding Parkinson's\n\n#  Movement Symptoms  IN THIS SECTION IN THIS SECTION * Understanding Parkinson’s * What is Parkinso...",
+      "metadata": {
+        "content_type": "web_page",
+        "keywords": "",
+        "total_chunks": 15,
+        "organization": "Parkinson's Foundation",
+        "chunk_id": 3,
+        "chunk_length": 1299,
+        "title": "Movement Symptoms | Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/movement-symptoms",
+        "crawl_depth": 1,
+        "crawled_at": "2025-07-14 13:28:41",
+        "description": "Know the movement symptoms Parkinson's can cause such as tremors, postural instability, rigidity and others.",
+        "base_url": "https://www.parkinson.org/"
+      }
+    },
+    {
+      "id": "bbb3e2e8-1d27-4bba-a66a-75151dda95dc",
+      "content_preview": "Multigenerational family of men with their backs to the camera. Grandfather stands in the middle with his grandson on the left and his son on the right. Son's left hand is placed on his father's back ...",
+      "metadata": {
+        "crawled_at": "2025-07-14 13:28:41",
+        "chunk_length": 780,
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/movement-symptoms",
+        "base_url": "https://www.parkinson.org/",
+        "crawl_depth": 1,
+        "description": "Know the movement symptoms Parkinson's can cause such as tremors, postural instability, rigidity and others.",
+        "organization": "Parkinson's Foundation",
+        "keywords": "",
+        "title": "Movement Symptoms | Parkinson's Foundation",
+        "chunk_id": 4,
+        "content_type": "web_page",
+        "total_chunks": 15
+      }
+    },
+    {
+      "id": "d8607c92-d882-4284-8484-779b246f1fea",
+      "content_preview": "Bradykinesia plus either tremor or rigidity must be present for a PD diagnosis to be considered. Another movement symptom, **postural instability**\") (trouble with balance and falls), is often mention...",
+      "metadata": {
+        "keywords": "",
+        "content_type": "web_page",
+        "crawled_at": "2025-07-14 13:28:41",
+        "organization": "Parkinson's Foundation",
+        "title": "Movement Symptoms | Parkinson's Foundation",
+        "total_chunks": 15,
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/movement-symptoms",
+        "chunk_length": 1496,
+        "base_url": "https://www.parkinson.org/",
+        "chunk_id": 5,
+        "crawl_depth": 1,
+        "description": "Know the movement symptoms Parkinson's can cause such as tremors, postural instability, rigidity and others."
+      }
+    },
+    {
+      "id": "f5709cf6-2e9f-49ed-b802-c5de40b1d047",
+      "content_preview": "it diminishes the brain chemical dopamine. Dopamine is vital to smooth, coordinated movements and other body processes. Parkinson's symptoms arise from dopamine declines and affect people who live wit...",
+      "metadata": {
+        "total_chunks": 15,
+        "organization": "Parkinson's Foundation",
+        "description": "Know the movement symptoms Parkinson's can cause such as tremors, postural instability, rigidity and others.",
+        "chunk_id": 6,
+        "crawl_depth": 1,
+        "content_type": "web_page",
+        "title": "Movement Symptoms | Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "chunk_length": 1499,
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/movement-symptoms",
+        "keywords": "",
+        "crawled_at": "2025-07-14 13:28:41"
+      }
+    },
+    {
+      "id": "bbd87836-7940-4354-93a0-8e05ea5ac1a8",
+      "content_preview": "from the combination of bradykinesia and rigidity. * **Micrographia:** small, crowded handwriting due to bradykinesia. * **Shuffling gait:** accompanied by short steps and often a stooped posture. * *...",
+      "metadata": {
+        "content_type": "web_page",
+        "chunk_id": 7,
+        "chunk_length": 379,
+        "crawled_at": "2025-07-14 13:28:41",
+        "crawl_depth": 1,
+        "keywords": "",
+        "organization": "Parkinson's Foundation",
+        "title": "Movement Symptoms | Parkinson's Foundation",
+        "total_chunks": 15,
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/movement-symptoms",
+        "description": "Know the movement symptoms Parkinson's can cause such as tremors, postural instability, rigidity and others.",
+        "base_url": "https://www.parkinson.org/"
+      }
+    },
+    {
+      "id": "4d0e4da6-ff20-4a15-8dc1-5bb46a5da263",
+      "content_preview": "## What causes Parkinson’s movement symptoms? Dopamine is a chemical messenger (neurotransmitter) that is primarily responsible for controlling movement, emotional responses and the ability to feel pl...",
+      "metadata": {
+        "description": "Know the movement symptoms Parkinson's can cause such as tremors, postural instability, rigidity and others.",
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/movement-symptoms",
+        "crawl_depth": 1,
+        "chunk_id": 8,
+        "organization": "Parkinson's Foundation",
+        "content_type": "web_page",
+        "title": "Movement Symptoms | Parkinson's Foundation",
+        "total_chunks": 15,
+        "base_url": "https://www.parkinson.org/",
+        "crawled_at": "2025-07-14 13:28:41",
+        "chunk_length": 1495,
+        "keywords": ""
+      }
+    },
+    {
+      "id": "079d44da-c0a0-4d24-8543-e80a7fd0ad2d",
+      "content_preview": "Awareness  ### Our Top Parkinson’s Awareness Month Videos  READ NOW Man sitting at a table holding an apple Raise Awareness  ### Nourishing Wellness: How to Harness Food as Medicine for Parkinson’s  R...",
+      "metadata": {
+        "chunk_length": 700,
+        "crawled_at": "2025-07-14 13:28:41",
+        "keywords": "",
+        "content_type": "web_page",
+        "crawl_depth": 1,
+        "organization": "Parkinson's Foundation",
+        "description": "Know the movement symptoms Parkinson's can cause such as tremors, postural instability, rigidity and others.",
+        "chunk_id": 9,
+        "base_url": "https://www.parkinson.org/",
+        "total_chunks": 15,
+        "title": "Movement Symptoms | Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/movement-symptoms"
+      }
+    },
+    {
+      "id": "6d3fe3ea-816a-4759-8341-106dd3dcb4ba",
+      "content_preview": "Print  Be the First to Know Get the latest news about PD research, resources and community initiatives — straight to your inbox. Email Address Email Opt In 10211022102314611861 Leave this field blank ...",
+      "metadata": {
+        "crawled_at": "2025-07-14 13:28:41",
+        "total_chunks": 15,
+        "content_type": "web_page",
+        "chunk_id": 10,
+        "chunk_length": 731,
+        "organization": "Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/movement-symptoms",
+        "crawl_depth": 1,
+        "title": "Movement Symptoms | Parkinson's Foundation",
+        "keywords": "",
+        "description": "Know the movement symptoms Parkinson's can cause such as tremors, postural instability, rigidity and others.",
+        "base_url": "https://www.parkinson.org/"
+      }
+    },
+    {
+      "id": "80e362d1-dbc6-445c-910b-2ab172f4a8d9",
+      "content_preview": "© 2025 Parkinson's Foundation The Parkinson's Foundation is a 501(c)(3) nonprofit organization. EIN: 13-1866796 contact@parkinson.org Close Close ## Sign Up 1 of 4 Indicates required field  ## Basic I...",
+      "metadata": {
+        "keywords": "",
+        "base_url": "https://www.parkinson.org/",
+        "content_type": "web_page",
+        "total_chunks": 15,
+        "title": "Movement Symptoms | Parkinson's Foundation",
+        "description": "Know the movement symptoms Parkinson's can cause such as tremors, postural instability, rigidity and others.",
+        "organization": "Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/movement-symptoms",
+        "chunk_length": 1499,
+        "crawled_at": "2025-07-14 13:28:41",
+        "chunk_id": 11,
+        "crawl_depth": 1
+      }
+    },
+    {
+      "id": "94705508-c30d-4214-bb8a-ac92bcdcfdaf",
+      "content_preview": "with PDHealthcare ProfessionalOther Are you involved with the person with Parkinson's care? Please select responseYesNo Please share the year of Parkinson's diagnosis: ## Address Address Address 1 Add...",
+      "metadata": {
+        "crawl_depth": 1,
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/movement-symptoms",
+        "chunk_length": 1344,
+        "chunk_id": 12,
+        "title": "Movement Symptoms | Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:41",
+        "total_chunks": 15,
+        "description": "Know the movement symptoms Parkinson's can cause such as tremors, postural instability, rigidity and others.",
+        "keywords": "",
+        "organization": "Parkinson's Foundation",
+        "content_type": "web_page",
+        "base_url": "https://www.parkinson.org/"
+      }
+    },
+    {
+      "id": "f4e6e0a8-845a-4bc6-84f9-8a2313983bca",
+      "content_preview": "& McDonald IslandsHondurasHong Kong SAR ChinaHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle of ManIsraelItalyJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLeso...",
+      "metadata": {
+        "total_chunks": 15,
+        "content_type": "web_page",
+        "crawl_depth": 1,
+        "description": "Know the movement symptoms Parkinson's can cause such as tremors, postural instability, rigidity and others.",
+        "crawled_at": "2025-07-14 13:28:41",
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/movement-symptoms",
+        "title": "Movement Symptoms | Parkinson's Foundation",
+        "organization": "Parkinson's Foundation",
+        "chunk_id": 13,
+        "base_url": "https://www.parkinson.org/",
+        "chunk_length": 1494,
+        "keywords": ""
+      }
+    },
+    {
+      "id": "defca304-66c7-441a-89b0-bb74e939078e",
+      "content_preview": "IslandsTuvaluTürkiyeU.S. Outlying IslandsU.S. Virgin IslandsUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUruguayUzbekistanVanuatuVatican CityVenezuelaVietnamWallis & FutunaWestern Sahar...",
+      "metadata": {
+        "organization": "Parkinson's Foundation",
+        "total_chunks": 15,
+        "keywords": "",
+        "description": "Know the movement symptoms Parkinson's can cause such as tremors, postural instability, rigidity and others.",
+        "crawl_depth": 1,
+        "chunk_length": 1210,
+        "content_type": "web_page",
+        "crawled_at": "2025-07-14 13:28:41",
+        "title": "Movement Symptoms | Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/movement-symptoms",
+        "chunk_id": 14,
+        "base_url": "https://www.parkinson.org/"
+      }
+    },
+    {
+      "id": "5a8f10ee-86e7-4c73-b7c5-9b5e13904109",
+      "content_preview": "Close * Understanding Parkinson’s * Understanding Parkinson’s * What is Parkinson's? * 10 Early Signs * Causes * Movement Symptoms * Non-Movement Symptoms * Getting Diagnosed * Statistics * Living wit...",
+      "metadata": {
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "chunk_length": 1179,
+        "content_type": "web_page",
+        "organization": "Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "total_chunks": 27,
+        "crawl_depth": 1,
+        "keywords": "",
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "chunk_id": 0,
+        "crawled_at": "2025-07-14 13:28:43"
+      }
+    },
+    {
+      "id": "e7edd11c-0ef2-4d64-bc52-a1a2bbae49a1",
+      "content_preview": "* Understanding Parkinson’s Understanding Parkinson’s  There is a lot to know about Parkinson's disease. Learn about symptoms, how it is diagnosed and what treatment options are available. * Understan...",
+      "metadata": {
+        "total_chunks": 27,
+        "crawled_at": "2025-07-14 13:28:43",
+        "base_url": "https://www.parkinson.org/",
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "crawl_depth": 1,
+        "keywords": "",
+        "chunk_id": 1,
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "organization": "Parkinson's Foundation",
+        "chunk_length": 1497,
+        "content_type": "web_page",
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research"
+      }
+    },
+    {
+      "id": "9b26178c-8afe-4281-b664-05c3beac3c14",
+      "content_preview": "community. * Advancing Research * Finding A Cure * Our Research * Join A Study * Advocate for Research * For Researchers * Parkinson’s Virtual Biotech * How You Can Help How You Can Help  There are ma...",
+      "metadata": {
+        "content_type": "web_page",
+        "total_chunks": 27,
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "chunk_length": 543,
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "organization": "Parkinson's Foundation",
+        "crawl_depth": 1,
+        "chunk_id": 2,
+        "crawled_at": "2025-07-14 13:28:43",
+        "base_url": "https://www.parkinson.org/",
+        "keywords": ""
+      }
+    },
+    {
+      "id": "792047fa-d98a-4745-b061-f1cbbb446ccc",
+      "content_preview": "## Breadcrumb * Home * Advancing Research\n\n## Breadcrumb * Home * Advancing Research\n\n#  Advocate for Research  Help us make Parkinson's research more efficient and effective.  Group of researchers sh...",
+      "metadata": {
+        "total_chunks": 27,
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "content_type": "web_page",
+        "crawled_at": "2025-07-14 13:28:43",
+        "keywords": "",
+        "chunk_id": 3,
+        "chunk_length": 1260,
+        "organization": "Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "crawl_depth": 1,
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "base_url": "https://www.parkinson.org/"
+      }
+    },
+    {
+      "id": "cd14434a-9457-40d2-be93-0033144d6e7b",
+      "content_preview": "Despite promising research, there is neither a cure for Parkinson's nor medications that can reverse its course. But there can be. We can make research more efficient and effective by ensuring that pe...",
+      "metadata": {
+        "base_url": "https://www.parkinson.org/",
+        "crawl_depth": 1,
+        "content_type": "web_page",
+        "chunk_id": 4,
+        "keywords": "",
+        "crawled_at": "2025-07-14 13:28:43",
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "organization": "Parkinson's Foundation",
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "total_chunks": 27,
+        "chunk_length": 1493
+      }
+    },
+    {
+      "id": "92bb4647-f974-492d-b5cc-dc0ae1544967",
+      "content_preview": "patient engagement team provides them with the knowledge and skills necessary to pair up with scientists and health professionals. The trainings can be in person by attending one of the Foundation’s R...",
+      "metadata": {
+        "keywords": "",
+        "total_chunks": 27,
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:43",
+        "chunk_id": 5,
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "content_type": "web_page",
+        "crawl_depth": 1,
+        "organization": "Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "chunk_length": 485
+      }
+    },
+    {
+      "id": "764b9353-684e-4412-baf6-a3b08f25f03a",
+      "content_preview": "* ###  Required Training  All Research Advocates must complete either an in-person training program at one of the Foundation’s Research Advocacy Workshops (formerly known as the Learning Institute) or...",
+      "metadata": {
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "crawled_at": "2025-07-14 13:28:43",
+        "chunk_id": 6,
+        "organization": "Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "chunk_length": 873,
+        "content_type": "web_page",
+        "keywords": "",
+        "crawl_depth": 1,
+        "total_chunks": 27,
+        "base_url": "https://www.parkinson.org/"
+      }
+    },
+    {
+      "id": "3524ee6c-4ffe-45ac-88fd-1d2e70803d87",
+      "content_preview": "## Training and Locations Thank you for your interest in volunteering as a Research Advocate. The first step is to complete the Parkinson’s Foundation Volunteer Orientation. You can register for the o...",
+      "metadata": {
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "total_chunks": 27,
+        "crawl_depth": 1,
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "chunk_id": 7,
+        "base_url": "https://www.parkinson.org/",
+        "content_type": "web_page",
+        "keywords": "",
+        "chunk_length": 1497,
+        "organization": "Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:43"
+      }
+    },
+    {
+      "id": "1b067614-780b-4075-a7a6-0c3431c8dcd1",
+      "content_preview": "Research Advocacy Workshop or online course, please email PatientEngagement@Parkinson.org.  ##  Learn more about the program. Envelope icon PatientEngagement@Parkinson.org Phone icon 1-800-4PD-INFO (4...",
+      "metadata": {
+        "crawled_at": "2025-07-14 13:28:43",
+        "organization": "Parkinson's Foundation",
+        "chunk_length": 1495,
+        "crawl_depth": 1,
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "content_type": "web_page",
+        "keywords": "",
+        "chunk_id": 8,
+        "total_chunks": 27,
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "base_url": "https://www.parkinson.org/"
+      }
+    },
+    {
+      "id": "d129dc9a-cd66-4382-8b96-a30b4b365b3f",
+      "content_preview": "training. Completing the online course does not exclude you from participating in an in-person Research Advocacy Workshop. * ###  Who can attend the Research Advocacy Workshop?  The Research Advocacy ...",
+      "metadata": {
+        "crawled_at": "2025-07-14 13:28:43",
+        "organization": "Parkinson's Foundation",
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "crawl_depth": 1,
+        "content_type": "web_page",
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "keywords": "",
+        "base_url": "https://www.parkinson.org/",
+        "chunk_id": 9,
+        "chunk_length": 1494,
+        "total_chunks": 27,
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research"
+      }
+    },
+    {
+      "id": "a219773a-179d-40ae-8c7a-3fe5a460d98f",
+      "content_preview": "about research * Discussing Parkinson’s Foundation studies * Participating in grant review with the Foundation * Advising research teams on what research is important to the Parkinson’s community * He...",
+      "metadata": {
+        "content_type": "web_page",
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "chunk_id": 10,
+        "crawl_depth": 1,
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:43",
+        "organization": "Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "total_chunks": 27,
+        "chunk_length": 777,
+        "keywords": "",
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research"
+      }
+    },
+    {
+      "id": "56a2e5b4-dcdd-4fb0-9329-b7a7dc86b581",
+      "content_preview": "## Our History of Patient Engagement The Parkinson's Foundation has long been dedicated to making patient engagement a reality in the Parkinson's community. **Patient Engagement Timeline** * **2001:**...",
+      "metadata": {
+        "base_url": "https://www.parkinson.org/",
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "chunk_id": 11,
+        "crawled_at": "2025-07-14 13:28:43",
+        "organization": "Parkinson's Foundation",
+        "total_chunks": 27,
+        "chunk_length": 1497,
+        "content_type": "web_page",
+        "keywords": "",
+        "crawl_depth": 1,
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research"
+      }
+    },
+    {
+      "id": "94258f09-b84c-441d-bd0a-9bd3105d2671",
+      "content_preview": "aims to advance Parkinson’s care through understanding the experiences of people living with this disease and widely sharing those experiences with the PD community. * **2019:** we received an award t...",
+      "metadata": {
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "chunk_length": 850,
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:43",
+        "base_url": "https://www.parkinson.org/",
+        "chunk_id": 12,
+        "crawl_depth": 1,
+        "keywords": "",
+        "content_type": "web_page",
+        "organization": "Parkinson's Foundation",
+        "total_chunks": 27
+      }
+    },
+    {
+      "id": "f4b9f005-0a67-4941-9fbe-d0eb793cb8b9",
+      "content_preview": "**Today,** we are leading the field in innovations in patient engagement. Through strengthening the role of patient advocacy organizations, to creating international collaborations, to co-developing n...",
+      "metadata": {
+        "keywords": "",
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "total_chunks": 27,
+        "base_url": "https://www.parkinson.org/",
+        "content_type": "web_page",
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "organization": "Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:43",
+        "chunk_id": 13,
+        "chunk_length": 1498,
+        "crawl_depth": 1
+      }
+    },
+    {
+      "id": "c3cd9173-81f8-490c-909e-e34b2fcfafd6",
+      "content_preview": "Associate Member, Parkinson Study Group, Waltham, MA **Influencing stakeholders** _“This is a hard disease because there is no cure. The only way we are going to speed the pace of drug development is ...",
+      "metadata": {
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "crawl_depth": 1,
+        "total_chunks": 27,
+        "organization": "Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:43",
+        "chunk_id": 14,
+        "base_url": "https://www.parkinson.org/",
+        "content_type": "web_page",
+        "chunk_length": 1496,
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "keywords": ""
+      }
+    },
+    {
+      "id": "b5366c66-1713-4cc8-84e4-4d9a1e829ecb",
+      "content_preview": "(who lives with Parkinson's) and I learned a lot about Parkinson's disease, its treatment, and clinical research during the Learning Institute. It also opened the door for my appointment to the FDA's ...",
+      "metadata": {
+        "crawl_depth": 1,
+        "base_url": "https://www.parkinson.org/",
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "chunk_id": 15,
+        "crawled_at": "2025-07-14 13:28:43",
+        "keywords": "",
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "organization": "Parkinson's Foundation",
+        "content_type": "web_page",
+        "chunk_length": 379,
+        "total_chunks": 27
+      }
+    },
+    {
+      "id": "813c6443-6abe-46f4-82d3-b9e627980683",
+      "content_preview": "john_andrejack MY PD STORY: John Andrejack  If you have the time and the desire to help yourself and others, I strongly encourage you to seek out and get involved in clinical studies. Your involvement...",
+      "metadata": {
+        "keywords": "",
+        "organization": "Parkinson's Foundation",
+        "crawl_depth": 1,
+        "total_chunks": 27,
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "chunk_length": 1499,
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "base_url": "https://www.parkinson.org/",
+        "crawled_at": "2025-07-14 13:28:43",
+        "chunk_id": 16,
+        "content_type": "web_page"
+      }
+    },
+    {
+      "id": "b4b79b9a-b787-48a6-b79c-a5d09a095b49",
+      "content_preview": "want to learn how to educate their community about research and work with researchers. * ###  Do Research Advocates need to know about research before coming to the training?  No. We accept Research A...",
+      "metadata": {
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "chunk_length": 395,
+        "base_url": "https://www.parkinson.org/",
+        "keywords": "",
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "chunk_id": 17,
+        "organization": "Parkinson's Foundation",
+        "content_type": "web_page",
+        "crawl_depth": 1,
+        "total_chunks": 27,
+        "crawled_at": "2025-07-14 13:28:43",
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders."
+      }
+    },
+    {
+      "id": "829081d4-35c6-4271-a8eb-df3230bed9fa",
+      "content_preview": "##  Application Process * ###  What should I think about before attending a training?  You can think about how you would like to be involved in research. For example, do you want to educate your commu...",
+      "metadata": {
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "content_type": "web_page",
+        "total_chunks": 27,
+        "organization": "Parkinson's Foundation",
+        "crawl_depth": 1,
+        "chunk_length": 938,
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "crawled_at": "2025-07-14 13:28:43",
+        "keywords": "",
+        "base_url": "https://www.parkinson.org/",
+        "chunk_id": 18
+      }
+    },
+    {
+      "id": "8eebbea0-e10a-4784-beaf-8c393616a604",
+      "content_preview": "##  Training Program * ###  What type of courses will I take during the training?  During the training, you will learn how you can play a part in research. Courses include current research in PD, how ...",
+      "metadata": {
+        "content_type": "web_page",
+        "chunk_id": 19,
+        "total_chunks": 27,
+        "keywords": "",
+        "chunk_length": 649,
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "crawl_depth": 1,
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "organization": "Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "base_url": "https://www.parkinson.org/",
+        "crawled_at": "2025-07-14 13:28:43"
+      }
+    },
+    {
+      "id": "44593b13-16f7-4364-beee-2631717ab10c",
+      "content_preview": "##  Serving as a Research Advocate * ###  What do Research Advocates do?  Research Advocates work with researchers and their communities in many ways. Some examples include: * They educate their commu...",
+      "metadata": {
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "content_type": "web_page",
+        "total_chunks": 27,
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "chunk_length": 1499,
+        "keywords": "",
+        "crawl_depth": 1,
+        "crawled_at": "2025-07-14 13:28:43",
+        "base_url": "https://www.parkinson.org/",
+        "organization": "Parkinson's Foundation",
+        "chunk_id": 20
+      }
+    },
+    {
+      "id": "73ffcddd-f0cb-42fe-9a61-3aec766f0261",
+      "content_preview": "the training, will Research Advocates receive ongoing support from the Parkinson's Foundation?  Yes. The training is just the beginning. You will get one-on-one support with your work. We will help yo...",
+      "metadata": {
+        "crawled_at": "2025-07-14 13:28:43",
+        "organization": "Parkinson's Foundation",
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "crawl_depth": 1,
+        "content_type": "web_page",
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "chunk_length": 501,
+        "chunk_id": 21,
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "keywords": "",
+        "total_chunks": 27,
+        "base_url": "https://www.parkinson.org/"
+      }
+    },
+    {
+      "id": "00b0ceeb-a5ea-44e1-8c0f-f5a005872fe7",
+      "content_preview": "##  Related Materials  Podcasts  ### Episode 45: Patient Engagement in Research: The Parkinson’s Advocates in Research Program (PAIR)  Listen Now Fact Sheets  ### Getting Involved in Research  Read No...",
+      "metadata": {
+        "chunk_id": 22,
+        "base_url": "https://www.parkinson.org/",
+        "keywords": "",
+        "total_chunks": 27,
+        "crawled_at": "2025-07-14 13:28:43",
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "content_type": "web_page",
+        "chunk_length": 1450,
+        "organization": "Parkinson's Foundation",
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "crawl_depth": 1
+      }
+    },
+    {
+      "id": "ee353ad8-911b-4311-8e6d-4f253a27c1f0",
+      "content_preview": "© 2025 Parkinson's Foundation The Parkinson's Foundation is a 501(c)(3) nonprofit organization. EIN: 13-1866796 contact@parkinson.org Close Close ## Sign Up 1 of 4 Indicates required field  ## Basic I...",
+      "metadata": {
+        "keywords": "",
+        "organization": "Parkinson's Foundation",
+        "total_chunks": 27,
+        "content_type": "web_page",
+        "crawl_depth": 1,
+        "chunk_id": 23,
+        "chunk_length": 1499,
+        "base_url": "https://www.parkinson.org/",
+        "crawled_at": "2025-07-14 13:28:43",
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "title": "Advocate for Research | Parkinson's Foundation"
+      }
+    },
+    {
+      "id": "ef771472-a175-4658-b8dd-c1986ead2470",
+      "content_preview": "with PDHealthcare ProfessionalOther Are you involved with the person with Parkinson's care? Please select responseYesNo Please share the year of Parkinson's diagnosis: ## Address Address Address 1 Add...",
+      "metadata": {
+        "content_type": "web_page",
+        "crawl_depth": 1,
+        "keywords": "",
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "organization": "Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "crawled_at": "2025-07-14 13:28:43",
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "total_chunks": 27,
+        "chunk_id": 24,
+        "chunk_length": 1344
+      }
+    },
+    {
+      "id": "a9809a45-767a-435d-a6b5-aaf066c80887",
+      "content_preview": "& McDonald IslandsHondurasHong Kong SAR ChinaHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle of ManIsraelItalyJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLeso...",
+      "metadata": {
+        "chunk_length": 1494,
+        "chunk_id": 25,
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "base_url": "https://www.parkinson.org/",
+        "keywords": "",
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "crawl_depth": 1,
+        "organization": "Parkinson's Foundation",
+        "total_chunks": 27,
+        "content_type": "web_page",
+        "crawled_at": "2025-07-14 13:28:43",
+        "title": "Advocate for Research | Parkinson's Foundation"
+      }
+    },
+    {
+      "id": "6a3bc9cb-dda5-4c3d-a4b9-bcdfe62fa270",
+      "content_preview": "IslandsTuvaluTürkiyeU.S. Outlying IslandsU.S. Virgin IslandsUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUruguayUzbekistanVanuatuVatican CityVenezuelaVietnamWallis & FutunaWestern Sahar...",
+      "metadata": {
+        "keywords": "",
+        "description": "Advocate for research to help scientists, industry and government prioritize research, improving studies and influence stakeholders.",
+        "title": "Advocate for Research | Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:43",
+        "content_type": "web_page",
+        "crawl_depth": 1,
+        "base_url": "https://www.parkinson.org/",
+        "source_url": "https://www.parkinson.org/advancing-research/advocate-research",
+        "chunk_id": 26,
+        "chunk_length": 1210,
+        "total_chunks": 27,
+        "organization": "Parkinson's Foundation"
+      }
+    },
+    {
+      "id": "37a6c7b5-3eee-4ee9-983f-66a5d9116185",
+      "content_preview": "Close * Understanding Parkinson’s * Understanding Parkinson’s * What is Parkinson's? * 10 Early Signs * Causes * Movement Symptoms * Non-Movement Symptoms * Getting Diagnosed * Statistics * Living wit...",
+      "metadata": {
+        "crawl_depth": 1,
+        "chunk_length": 1179,
+        "content_type": "web_page",
+        "description": "Looking for inspiration? These stories are written by those in the Parkinson’s disease community who are helping bring awareness to this life-changing disease.",
+        "organization": "Parkinson's Foundation",
+        "chunk_id": 0,
+        "crawled_at": "2025-07-14 13:28:44",
+        "keywords": "",
+        "source_url": "https://www.parkinson.org/living-with-parkinsons/stories",
+        "total_chunks": 10,
+        "title": "My PD Story | Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/"
+      }
+    },
+    {
+      "id": "070d24fd-57a7-44e7-83ed-eea70f5c2051",
+      "content_preview": "* Understanding Parkinson’s Understanding Parkinson’s  There is a lot to know about Parkinson's disease. Learn about symptoms, how it is diagnosed and what treatment options are available. * Understan...",
+      "metadata": {
+        "total_chunks": 10,
+        "crawled_at": "2025-07-14 13:28:44",
+        "chunk_id": 1,
+        "title": "My PD Story | Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "crawl_depth": 1,
+        "chunk_length": 1497,
+        "content_type": "web_page",
+        "description": "Looking for inspiration? These stories are written by those in the Parkinson’s disease community who are helping bring awareness to this life-changing disease.",
+        "keywords": "",
+        "organization": "Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/living-with-parkinsons/stories"
+      }
+    },
+    {
+      "id": "1512f0bb-5155-4ea7-a05f-815e526eceb0",
+      "content_preview": "community. * Advancing Research * Finding A Cure * Our Research * Join A Study * Advocate for Research * For Researchers * Parkinson’s Virtual Biotech * How You Can Help How You Can Help  There are ma...",
+      "metadata": {
+        "content_type": "web_page",
+        "organization": "Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:44",
+        "chunk_id": 2,
+        "description": "Looking for inspiration? These stories are written by those in the Parkinson’s disease community who are helping bring awareness to this life-changing disease.",
+        "title": "My PD Story | Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "chunk_length": 543,
+        "crawl_depth": 1,
+        "total_chunks": 10,
+        "keywords": "",
+        "source_url": "https://www.parkinson.org/living-with-parkinsons/stories"
+      }
+    },
+    {
+      "id": "03b0075d-970d-4ea8-b134-1a4476816f20",
+      "content_preview": "## Breadcrumb * Home * Living with Parkinson's\n\n## Breadcrumb * Home * Living with Parkinson's\n\n#  My PD Story  Looking for inspiration? These stories are written by those in the Parkinson’s disease c...",
+      "metadata": {
+        "keywords": "",
+        "source_url": "https://www.parkinson.org/living-with-parkinsons/stories",
+        "crawled_at": "2025-07-14 13:28:44",
+        "content_type": "web_page",
+        "description": "Looking for inspiration? These stories are written by those in the Parkinson’s disease community who are helping bring awareness to this life-changing disease.",
+        "organization": "Parkinson's Foundation",
+        "total_chunks": 10,
+        "title": "My PD Story | Parkinson's Foundation",
+        "chunk_length": 867,
+        "chunk_id": 3,
+        "crawl_depth": 1,
+        "base_url": "https://www.parkinson.org/"
+      }
+    },
+    {
+      "id": "d6bf6ae3-895e-49b1-9470-7d1687c8c520",
+      "content_preview": "Topics * Advanced PD * Caregiving * Diagnosis & Early PD * Fitness & Diet * Mental Wellness * Movement-Related Symptoms * Non-Movement Symptoms * Research * Treatments & Medications * Young-Onset PD\n\n...",
+      "metadata": {
+        "crawl_depth": 1,
+        "organization": "Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:44",
+        "description": "Looking for inspiration? These stories are written by those in the Parkinson’s disease community who are helping bring awareness to this life-changing disease.",
+        "chunk_id": 4,
+        "base_url": "https://www.parkinson.org/",
+        "content_type": "web_page",
+        "title": "My PD Story | Parkinson's Foundation",
+        "total_chunks": 10,
+        "chunk_length": 1438,
+        "source_url": "https://www.parkinson.org/living-with-parkinsons/stories",
+        "keywords": ""
+      }
+    },
+    {
+      "id": "b39f5f02-b72f-4149-982f-daa3c796d2a1",
+      "content_preview": "Be the First to Know Get the latest news about PD research, resources and community initiatives — straight to your inbox. Email Address Email Opt In 10211022102314611861 Leave this field blank FL: 575...",
+      "metadata": {
+        "source_url": "https://www.parkinson.org/living-with-parkinsons/stories",
+        "description": "Looking for inspiration? These stories are written by those in the Parkinson’s disease community who are helping bring awareness to this life-changing disease.",
+        "content_type": "web_page",
+        "total_chunks": 10,
+        "crawl_depth": 1,
+        "organization": "Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:44",
+        "keywords": "",
+        "chunk_length": 724,
+        "title": "My PD Story | Parkinson's Foundation",
+        "chunk_id": 5,
+        "base_url": "https://www.parkinson.org/"
+      }
+    },
+    {
+      "id": "6c0b4b03-7413-477a-87fc-d4fb5984e8c2",
+      "content_preview": "© 2025 Parkinson's Foundation The Parkinson's Foundation is a 501(c)(3) nonprofit organization. EIN: 13-1866796 contact@parkinson.org Close Close ## Sign Up 1 of 4 Indicates required field  ## Basic I...",
+      "metadata": {
+        "base_url": "https://www.parkinson.org/",
+        "chunk_length": 1499,
+        "title": "My PD Story | Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/living-with-parkinsons/stories",
+        "organization": "Parkinson's Foundation",
+        "content_type": "web_page",
+        "keywords": "",
+        "description": "Looking for inspiration? These stories are written by those in the Parkinson’s disease community who are helping bring awareness to this life-changing disease.",
+        "crawled_at": "2025-07-14 13:28:44",
+        "total_chunks": 10,
+        "chunk_id": 6,
+        "crawl_depth": 1
+      }
+    },
+    {
+      "id": "d7582b07-b9bc-4210-8a2b-51562d4d68a1",
+      "content_preview": "with PDHealthcare ProfessionalOther Are you involved with the person with Parkinson's care? Please select responseYesNo Please share the year of Parkinson's diagnosis: ## Address Address Address 1 Add...",
+      "metadata": {
+        "chunk_id": 7,
+        "crawled_at": "2025-07-14 13:28:44",
+        "description": "Looking for inspiration? These stories are written by those in the Parkinson’s disease community who are helping bring awareness to this life-changing disease.",
+        "content_type": "web_page",
+        "crawl_depth": 1,
+        "chunk_length": 1344,
+        "source_url": "https://www.parkinson.org/living-with-parkinsons/stories",
+        "total_chunks": 10,
+        "title": "My PD Story | Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "organization": "Parkinson's Foundation",
+        "keywords": ""
+      }
+    },
+    {
+      "id": "8604ef59-8dfd-4015-81fa-539770627d83",
+      "content_preview": "& McDonald IslandsHondurasHong Kong SAR ChinaHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle of ManIsraelItalyJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLeso...",
+      "metadata": {
+        "crawled_at": "2025-07-14 13:28:44",
+        "organization": "Parkinson's Foundation",
+        "chunk_id": 8,
+        "chunk_length": 1494,
+        "crawl_depth": 1,
+        "base_url": "https://www.parkinson.org/",
+        "source_url": "https://www.parkinson.org/living-with-parkinsons/stories",
+        "keywords": "",
+        "content_type": "web_page",
+        "title": "My PD Story | Parkinson's Foundation",
+        "total_chunks": 10,
+        "description": "Looking for inspiration? These stories are written by those in the Parkinson’s disease community who are helping bring awareness to this life-changing disease."
+      }
+    },
+    {
+      "id": "6ae214a7-a356-4121-9969-48905c95cef4",
+      "content_preview": "IslandsTuvaluTürkiyeU.S. Outlying IslandsU.S. Virgin IslandsUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUruguayUzbekistanVanuatuVatican CityVenezuelaVietnamWallis & FutunaWestern Sahar...",
+      "metadata": {
+        "total_chunks": 10,
+        "chunk_length": 1210,
+        "base_url": "https://www.parkinson.org/",
+        "organization": "Parkinson's Foundation",
+        "crawl_depth": 1,
+        "crawled_at": "2025-07-14 13:28:44",
+        "chunk_id": 9,
+        "content_type": "web_page",
+        "keywords": "",
+        "title": "My PD Story | Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/living-with-parkinsons/stories",
+        "description": "Looking for inspiration? These stories are written by those in the Parkinson’s disease community who are helping bring awareness to this life-changing disease."
+      }
+    },
+    {
+      "id": "88d13338-1357-4c0b-9435-3256bb070a59",
+      "content_preview": "Close * Understanding Parkinson’s * Understanding Parkinson’s * What is Parkinson's? * 10 Early Signs * Causes * Movement Symptoms * Non-Movement Symptoms * Getting Diagnosed * Statistics * Living wit...",
+      "metadata": {
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/10-early-signs",
+        "crawl_depth": 1,
+        "total_chunks": 15,
+        "chunk_length": 1179,
+        "content_type": "web_page",
+        "chunk_id": 0,
+        "base_url": "https://www.parkinson.org/",
+        "crawled_at": "2025-07-14 13:28:45",
+        "organization": "Parkinson's Foundation",
+        "description": "Know the 10 early signs of Parkinson's disease to tell if you or a loved one has PD.",
+        "keywords": "",
+        "title": "10 Early Signs | Parkinson's Foundation"
+      }
+    },
+    {
+      "id": "a63ba4cf-6d97-4141-a3f7-4feeaab0d660",
+      "content_preview": "* Understanding Parkinson’s Understanding Parkinson’s  There is a lot to know about Parkinson's disease. Learn about symptoms, how it is diagnosed and what treatment options are available. * Understan...",
+      "metadata": {
+        "title": "10 Early Signs | Parkinson's Foundation",
+        "organization": "Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/10-early-signs",
+        "crawl_depth": 1,
+        "base_url": "https://www.parkinson.org/",
+        "description": "Know the 10 early signs of Parkinson's disease to tell if you or a loved one has PD.",
+        "content_type": "web_page",
+        "crawled_at": "2025-07-14 13:28:45",
+        "keywords": "",
+        "chunk_length": 1497,
+        "total_chunks": 15,
+        "chunk_id": 1
+      }
+    },
+    {
+      "id": "560f4b06-4e27-4c21-a058-6542861c4a41",
+      "content_preview": "community. * Advancing Research * Finding A Cure * Our Research * Join A Study * Advocate for Research * For Researchers * Parkinson’s Virtual Biotech * How You Can Help How You Can Help  There are ma...",
+      "metadata": {
+        "crawl_depth": 1,
+        "description": "Know the 10 early signs of Parkinson's disease to tell if you or a loved one has PD.",
+        "chunk_id": 2,
+        "base_url": "https://www.parkinson.org/",
+        "chunk_length": 543,
+        "keywords": "",
+        "organization": "Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/10-early-signs",
+        "total_chunks": 15,
+        "crawled_at": "2025-07-14 13:28:45",
+        "title": "10 Early Signs | Parkinson's Foundation",
+        "content_type": "web_page"
+      }
+    },
+    {
+      "id": "87a94956-ec0a-4707-872f-042a1cc443d6",
+      "content_preview": "## Breadcrumb * Home * Understanding Parkinson's\n\n## Breadcrumb * Home * Understanding Parkinson's\n\n#  10 Early Signs  Know how to recognize the most common early symptoms of Parkinson's.  Lady sittin...",
+      "metadata": {
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/10-early-signs",
+        "total_chunks": 15,
+        "description": "Know the 10 early signs of Parkinson's disease to tell if you or a loved one has PD.",
+        "organization": "Parkinson's Foundation",
+        "title": "10 Early Signs | Parkinson's Foundation",
+        "content_type": "web_page",
+        "crawl_depth": 1,
+        "keywords": "",
+        "crawled_at": "2025-07-14 13:28:45",
+        "base_url": "https://www.parkinson.org/",
+        "chunk_id": 3,
+        "chunk_length": 1397
+      }
+    },
+    {
+      "id": "28424fd1-113a-4cef-a4dd-473f84ea968d",
+      "content_preview": "It can be hard to tell if you or a loved one has Parkinson's disease (PD). Below are 10 signs that you might have the disease. No single one of these signs means that you should worry, but if you have...",
+      "metadata": {
+        "title": "10 Early Signs | Parkinson's Foundation",
+        "chunk_id": 4,
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/10-early-signs",
+        "crawled_at": "2025-07-14 13:28:45",
+        "organization": "Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "chunk_length": 1496,
+        "content_type": "web_page",
+        "crawl_depth": 1,
+        "keywords": "",
+        "description": "Know the 10 early signs of Parkinson's disease to tell if you or a loved one has PD.",
+        "total_chunks": 15
+      }
+    },
+    {
+      "id": "d7ead49c-7122-4cf6-a451-273536f60642",
+      "content_preview": "more trouble smelling foods like bananas, dill pickles or licorice, you should ask your doctor about Parkinson's. **What is normal?** Your sense of smell can be changed by a cold, flu or a stuffy nose...",
+      "metadata": {
+        "title": "10 Early Signs | Parkinson's Foundation",
+        "organization": "Parkinson's Foundation",
+        "chunk_length": 1495,
+        "crawled_at": "2025-07-14 13:28:45",
+        "base_url": "https://www.parkinson.org/",
+        "total_chunks": 15,
+        "crawl_depth": 1,
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/10-early-signs",
+        "content_type": "web_page",
+        "keywords": "",
+        "chunk_id": 5,
+        "description": "Know the 10 early signs of Parkinson's disease to tell if you or a loved one has PD."
+      }
+    },
+    {
+      "id": "bad32021-04f5-440d-bac8-715fa7809521",
+      "content_preview": "it is healed, or another illness like arthritis might cause the same symptom. MORE ABOUT WALKING Man's feet and legs walking on sidewalk with assistance from a cane ####  #6 Constipation  Do you have ...",
+      "metadata": {
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/10-early-signs",
+        "description": "Know the 10 early signs of Parkinson's disease to tell if you or a loved one has PD.",
+        "base_url": "https://www.parkinson.org/",
+        "title": "10 Early Signs | Parkinson's Foundation",
+        "total_chunks": 15,
+        "chunk_id": 6,
+        "organization": "Parkinson's Foundation",
+        "keywords": "",
+        "chunk_length": 1498,
+        "content_type": "web_page",
+        "crawled_at": "2025-07-14 13:28:45",
+        "crawl_depth": 1
+      }
+    },
+    {
+      "id": "0a143c04-3618-4bfd-8327-95d4e07c1d01",
+      "content_preview": "couple engaging on laptop video call ####  #8 Masked Face  Have you been told that you have a serious, depressed or angry look on your face, even when you are not in a bad mood? This is often called f...",
+      "metadata": {
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/10-early-signs",
+        "base_url": "https://www.parkinson.org/",
+        "chunk_length": 1496,
+        "crawl_depth": 1,
+        "keywords": "",
+        "title": "10 Early Signs | Parkinson's Foundation",
+        "description": "Know the 10 early signs of Parkinson's disease to tell if you or a loved one has PD.",
+        "total_chunks": 15,
+        "chunk_id": 7,
+        "organization": "Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:45",
+        "content_type": "web_page"
+      }
+    },
+    {
+      "id": "7c25720e-79bc-402c-9e3b-307e32b0369e",
+      "content_preview": "an injury or if you are sick, it might cause you to stand crookedly. Also, a problem with your bones can make you hunch over. MORE ABOUT STOOPED POSTURE Older couple walking outside with assistance fr...",
+      "metadata": {
+        "content_type": "web_page",
+        "crawl_depth": 1,
+        "title": "10 Early Signs | Parkinson's Foundation",
+        "chunk_id": 8,
+        "total_chunks": 15,
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/10-early-signs",
+        "organization": "Parkinson's Foundation",
+        "keywords": "",
+        "base_url": "https://www.parkinson.org/",
+        "chunk_length": 999,
+        "description": "Know the 10 early signs of Parkinson's disease to tell if you or a loved one has PD.",
+        "crawled_at": "2025-07-14 13:28:45"
+      }
+    },
+    {
+      "id": "6bd58f10-eed0-4e1f-9524-47e0e77233a0",
+      "content_preview": "**For more information, visit ourtreatment page.** _Page reviewed by Dr. Jun Yu, Movement Disorders Fellow at the University of Florida, a Parkinson’s Foundation Center of Excellence._ ##  Related Mat...",
+      "metadata": {
+        "base_url": "https://www.parkinson.org/",
+        "crawled_at": "2025-07-14 13:28:45",
+        "organization": "Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/10-early-signs",
+        "content_type": "web_page",
+        "chunk_length": 1422,
+        "crawl_depth": 1,
+        "chunk_id": 9,
+        "total_chunks": 15,
+        "description": "Know the 10 early signs of Parkinson's disease to tell if you or a loved one has PD.",
+        "title": "10 Early Signs | Parkinson's Foundation",
+        "keywords": ""
+      }
+    },
+    {
+      "id": "c64a0b4c-662f-494d-846a-648e7f697a4a",
+      "content_preview": "* Press Room * Online Community * Online Store * Careers * PD Library * Privacy & Terms *  * Supporter Center\n\n  *  Charity Navigator Logo *  Excellence in Giving - Certified - Transparent *  GuideSta...",
+      "metadata": {
+        "crawl_depth": 1,
+        "base_url": "https://www.parkinson.org/",
+        "organization": "Parkinson's Foundation",
+        "description": "Know the 10 early signs of Parkinson's disease to tell if you or a loved one has PD.",
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/10-early-signs",
+        "title": "10 Early Signs | Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:45",
+        "chunk_id": 10,
+        "total_chunks": 15,
+        "keywords": "",
+        "chunk_length": 283,
+        "content_type": "web_page"
+      }
+    },
+    {
+      "id": "be1e7b12-9442-4cf9-a11a-f227085e54bd",
+      "content_preview": "© 2025 Parkinson's Foundation The Parkinson's Foundation is a 501(c)(3) nonprofit organization. EIN: 13-1866796 contact@parkinson.org Close Close ## Sign Up 1 of 4 Indicates required field  ## Basic I...",
+      "metadata": {
+        "title": "10 Early Signs | Parkinson's Foundation",
+        "content_type": "web_page",
+        "description": "Know the 10 early signs of Parkinson's disease to tell if you or a loved one has PD.",
+        "chunk_id": 11,
+        "organization": "Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "total_chunks": 15,
+        "keywords": "",
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/10-early-signs",
+        "crawled_at": "2025-07-14 13:28:45",
+        "chunk_length": 1499,
+        "crawl_depth": 1
+      }
+    },
+    {
+      "id": "34da40d2-1b44-44f1-8510-591ffdc0b6e6",
+      "content_preview": "with PDHealthcare ProfessionalOther Are you involved with the person with Parkinson's care? Please select responseYesNo Please share the year of Parkinson's diagnosis: ## Address Address Address 1 Add...",
+      "metadata": {
+        "chunk_length": 1344,
+        "content_type": "web_page",
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/10-early-signs",
+        "crawl_depth": 1,
+        "base_url": "https://www.parkinson.org/",
+        "title": "10 Early Signs | Parkinson's Foundation",
+        "total_chunks": 15,
+        "crawled_at": "2025-07-14 13:28:45",
+        "description": "Know the 10 early signs of Parkinson's disease to tell if you or a loved one has PD.",
+        "keywords": "",
+        "organization": "Parkinson's Foundation",
+        "chunk_id": 12
+      }
+    },
+    {
+      "id": "db5a3488-e3ad-4a95-9367-69b5144d1482",
+      "content_preview": "& McDonald IslandsHondurasHong Kong SAR ChinaHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle of ManIsraelItalyJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLeso...",
+      "metadata": {
+        "total_chunks": 15,
+        "title": "10 Early Signs | Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/10-early-signs",
+        "chunk_length": 1494,
+        "content_type": "web_page",
+        "base_url": "https://www.parkinson.org/",
+        "crawled_at": "2025-07-14 13:28:45",
+        "crawl_depth": 1,
+        "keywords": "",
+        "description": "Know the 10 early signs of Parkinson's disease to tell if you or a loved one has PD.",
+        "chunk_id": 13,
+        "organization": "Parkinson's Foundation"
+      }
+    },
+    {
+      "id": "0a3f79fa-9bbf-4449-9c49-738598536db4",
+      "content_preview": "IslandsTuvaluTürkiyeU.S. Outlying IslandsU.S. Virgin IslandsUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUruguayUzbekistanVanuatuVatican CityVenezuelaVietnamWallis & FutunaWestern Sahar...",
+      "metadata": {
+        "content_type": "web_page",
+        "crawl_depth": 1,
+        "title": "10 Early Signs | Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:45",
+        "chunk_id": 14,
+        "source_url": "https://www.parkinson.org/understanding-parkinsons/10-early-signs",
+        "keywords": "",
+        "base_url": "https://www.parkinson.org/",
+        "total_chunks": 15,
+        "organization": "Parkinson's Foundation",
+        "description": "Know the 10 early signs of Parkinson's disease to tell if you or a loved one has PD.",
+        "chunk_length": 1210
+      }
+    },
+    {
+      "id": "b3571f4c-c952-41c2-a259-a524505787a8",
+      "content_preview": "Close * Understanding Parkinson’s * Understanding Parkinson’s * What is Parkinson's? * 10 Early Signs * Causes * Movement Symptoms * Non-Movement Symptoms * Getting Diagnosed * Statistics * Living wit...",
+      "metadata": {
+        "content_type": "web_page",
+        "base_url": "https://www.parkinson.org/",
+        "crawled_at": "2025-07-14 13:28:47",
+        "total_chunks": 13,
+        "source_url": "https://www.parkinson.org/resources-support/carepartners",
+        "title": "For Care Partners | Parkinson's Foundation",
+        "organization": "Parkinson's Foundation",
+        "chunk_length": 1179,
+        "chunk_id": 0,
+        "description": "Check out this section of our website designed for care partners including resources to help manage the caregiving journey along the way.",
+        "keywords": "",
+        "crawl_depth": 1
+      }
+    },
+    {
+      "id": "200700b6-c28d-4e94-92e5-daadd601f43d",
+      "content_preview": "* Understanding Parkinson’s Understanding Parkinson’s  There is a lot to know about Parkinson's disease. Learn about symptoms, how it is diagnosed and what treatment options are available. * Understan...",
+      "metadata": {
+        "crawled_at": "2025-07-14 13:28:47",
+        "total_chunks": 13,
+        "description": "Check out this section of our website designed for care partners including resources to help manage the caregiving journey along the way.",
+        "crawl_depth": 1,
+        "keywords": "",
+        "source_url": "https://www.parkinson.org/resources-support/carepartners",
+        "chunk_length": 1497,
+        "base_url": "https://www.parkinson.org/",
+        "content_type": "web_page",
+        "chunk_id": 1,
+        "title": "For Care Partners | Parkinson's Foundation",
+        "organization": "Parkinson's Foundation"
+      }
+    },
+    {
+      "id": "d35616ae-5051-4b82-944f-c15c028f3112",
+      "content_preview": "community. * Advancing Research * Finding A Cure * Our Research * Join A Study * Advocate for Research * For Researchers * Parkinson’s Virtual Biotech * How You Can Help How You Can Help  There are ma...",
+      "metadata": {
+        "source_url": "https://www.parkinson.org/resources-support/carepartners",
+        "keywords": "",
+        "chunk_length": 543,
+        "description": "Check out this section of our website designed for care partners including resources to help manage the caregiving journey along the way.",
+        "content_type": "web_page",
+        "crawl_depth": 1,
+        "chunk_id": 2,
+        "base_url": "https://www.parkinson.org/",
+        "organization": "Parkinson's Foundation",
+        "total_chunks": 13,
+        "title": "For Care Partners | Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:47"
+      }
+    },
+    {
+      "id": "9158bf45-6847-4aae-bace-4d24b5bb09e1",
+      "content_preview": "## Breadcrumb * Home * Resources & Support\n\n## Breadcrumb * Home * Resources & Support\n\n#  For Care Partners  Parkinson’s disease progresses over time — so does your role as a care partner. Explore al...",
+      "metadata": {
+        "crawl_depth": 1,
+        "keywords": "",
+        "chunk_length": 1098,
+        "content_type": "web_page",
+        "crawled_at": "2025-07-14 13:28:47",
+        "title": "For Care Partners | Parkinson's Foundation",
+        "organization": "Parkinson's Foundation",
+        "description": "Check out this section of our website designed for care partners including resources to help manage the caregiving journey along the way.",
+        "total_chunks": 13,
+        "chunk_id": 3,
+        "source_url": "https://www.parkinson.org/resources-support/carepartners",
+        "base_url": "https://www.parkinson.org/"
+      }
+    },
+    {
+      "id": "44004842-1b88-4718-a4a2-ed6414ee4ab9",
+      "content_preview": "Parkinson’s disease (PD) is a progressive disease, meaning that it changes over time. Your role as a care partner and your level of involvement will also evolve along the way. It’s important to define...",
+      "metadata": {
+        "chunk_id": 4,
+        "content_type": "web_page",
+        "base_url": "https://www.parkinson.org/",
+        "chunk_length": 1499,
+        "description": "Check out this section of our website designed for care partners including resources to help manage the caregiving journey along the way.",
+        "organization": "Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:47",
+        "keywords": "",
+        "crawl_depth": 1,
+        "total_chunks": 13,
+        "title": "For Care Partners | Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/resources-support/carepartners"
+      }
+    },
+    {
+      "id": "7366577d-8483-4742-8daf-2021c11ea39a",
+      "content_preview": "advice for balancing work and caregiving. LEARN MORE ###  Caring From Afar  We define the terms primary and secondary care partner, and ways long-distance caregivers can help. READ MORE ##  Related Pa...",
+      "metadata": {
+        "crawl_depth": 1,
+        "chunk_id": 5,
+        "content_type": "web_page",
+        "description": "Check out this section of our website designed for care partners including resources to help manage the caregiving journey along the way.",
+        "source_url": "https://www.parkinson.org/resources-support/carepartners",
+        "keywords": "",
+        "chunk_length": 1498,
+        "organization": "Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "title": "For Care Partners | Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:47",
+        "total_chunks": 13
+      }
+    },
+    {
+      "id": "e053837d-5d5a-42ac-a81b-6f26e16248cd",
+      "content_preview": "local Parkinson’s Foundation Chapter.** Find your local Chapter for nearby programs, support groups, and events, such as Moving Day, A Walk for Parkinson’s, and join us in raising PD awareness and fun...",
+      "metadata": {
+        "crawl_depth": 1,
+        "title": "For Care Partners | Parkinson's Foundation",
+        "organization": "Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:47",
+        "chunk_id": 6,
+        "content_type": "web_page",
+        "chunk_length": 433,
+        "description": "Check out this section of our website designed for care partners including resources to help manage the caregiving journey along the way.",
+        "total_chunks": 13,
+        "base_url": "https://www.parkinson.org/",
+        "keywords": "",
+        "source_url": "https://www.parkinson.org/resources-support/carepartners"
+      }
+    },
+    {
+      "id": "52c3f217-4814-464b-9b45-37a123de703f",
+      "content_preview": "VIEW FULL LIST ##  Related Materials  Fact Sheets  ### Coping Skills for Care Partners  Read Now Podcasts  ### Episode 102: The Care Partner Experience  Listen Now Audiobooks  ### Caring and Coping: A...",
+      "metadata": {
+        "organization": "Parkinson's Foundation",
+        "chunk_id": 7,
+        "chunk_length": 1375,
+        "content_type": "web_page",
+        "crawl_depth": 1,
+        "crawled_at": "2025-07-14 13:28:47",
+        "source_url": "https://www.parkinson.org/resources-support/carepartners",
+        "total_chunks": 13,
+        "title": "For Care Partners | Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "keywords": "",
+        "description": "Check out this section of our website designed for care partners including resources to help manage the caregiving journey along the way."
+      }
+    },
+    {
+      "id": "fd7cb832-f8ee-42e2-ae55-be6201a21692",
+      "content_preview": "* Press Room * Online Community * Online Store * Careers * PD Library * Privacy & Terms *  * Supporter Center\n\n  *  Charity Navigator Logo *  Excellence in Giving - Certified - Transparent *  GuideSta...",
+      "metadata": {
+        "base_url": "https://www.parkinson.org/",
+        "keywords": "",
+        "title": "For Care Partners | Parkinson's Foundation",
+        "organization": "Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:47",
+        "total_chunks": 13,
+        "chunk_id": 8,
+        "content_type": "web_page",
+        "crawl_depth": 1,
+        "source_url": "https://www.parkinson.org/resources-support/carepartners",
+        "chunk_length": 283,
+        "description": "Check out this section of our website designed for care partners including resources to help manage the caregiving journey along the way."
+      }
+    },
+    {
+      "id": "4dd3bbf4-3feb-403a-ada0-e1988b94f9ff",
+      "content_preview": "© 2025 Parkinson's Foundation The Parkinson's Foundation is a 501(c)(3) nonprofit organization. EIN: 13-1866796 contact@parkinson.org Close Close ## Sign Up 1 of 4 Indicates required field  ## Basic I...",
+      "metadata": {
+        "keywords": "",
+        "total_chunks": 13,
+        "source_url": "https://www.parkinson.org/resources-support/carepartners",
+        "chunk_id": 9,
+        "chunk_length": 1499,
+        "title": "For Care Partners | Parkinson's Foundation",
+        "description": "Check out this section of our website designed for care partners including resources to help manage the caregiving journey along the way.",
+        "base_url": "https://www.parkinson.org/",
+        "crawl_depth": 1,
+        "organization": "Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:47",
+        "content_type": "web_page"
+      }
+    },
+    {
+      "id": "95305b58-9078-4848-8437-131d24519491",
+      "content_preview": "with PDHealthcare ProfessionalOther Are you involved with the person with Parkinson's care? Please select responseYesNo Please share the year of Parkinson's diagnosis: ## Address Address Address 1 Add...",
+      "metadata": {
+        "content_type": "web_page",
+        "description": "Check out this section of our website designed for care partners including resources to help manage the caregiving journey along the way.",
+        "chunk_id": 10,
+        "source_url": "https://www.parkinson.org/resources-support/carepartners",
+        "crawled_at": "2025-07-14 13:28:47",
+        "organization": "Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "chunk_length": 1344,
+        "crawl_depth": 1,
+        "keywords": "",
+        "title": "For Care Partners | Parkinson's Foundation",
+        "total_chunks": 13
+      }
+    },
+    {
+      "id": "f61dc9d8-c837-40aa-9c57-ecaca9f5b539",
+      "content_preview": "& McDonald IslandsHondurasHong Kong SAR ChinaHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle of ManIsraelItalyJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLeso...",
+      "metadata": {
+        "organization": "Parkinson's Foundation",
+        "chunk_id": 11,
+        "source_url": "https://www.parkinson.org/resources-support/carepartners",
+        "crawled_at": "2025-07-14 13:28:47",
+        "content_type": "web_page",
+        "description": "Check out this section of our website designed for care partners including resources to help manage the caregiving journey along the way.",
+        "total_chunks": 13,
+        "keywords": "",
+        "chunk_length": 1494,
+        "base_url": "https://www.parkinson.org/",
+        "crawl_depth": 1,
+        "title": "For Care Partners | Parkinson's Foundation"
+      }
+    },
+    {
+      "id": "d424d151-d443-42bf-9c4c-6ca1551618e8",
+      "content_preview": "IslandsTuvaluTürkiyeU.S. Outlying IslandsU.S. Virgin IslandsUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUruguayUzbekistanVanuatuVatican CityVenezuelaVietnamWallis & FutunaWestern Sahar...",
+      "metadata": {
+        "organization": "Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "chunk_id": 12,
+        "content_type": "web_page",
+        "chunk_length": 1210,
+        "source_url": "https://www.parkinson.org/resources-support/carepartners",
+        "crawl_depth": 1,
+        "title": "For Care Partners | Parkinson's Foundation",
+        "description": "Check out this section of our website designed for care partners including resources to help manage the caregiving journey along the way.",
+        "crawled_at": "2025-07-14 13:28:47",
+        "keywords": "",
+        "total_chunks": 13
+      }
+    },
+    {
+      "id": "977ba93c-bd3f-4abe-9cfb-124dc4cc4e19",
+      "content_preview": "Close * Understanding Parkinson’s * Understanding Parkinson’s * What is Parkinson's? * 10 Early Signs * Causes * Movement Symptoms * Non-Movement Symptoms * Getting Diagnosed * Statistics * Living wit...",
+      "metadata": {
+        "source_url": "https://www.parkinson.org/about-us/careers",
+        "base_url": "https://www.parkinson.org/",
+        "title": "Career Opportunities | Parkinson's Foundation",
+        "organization": "Parkinson's Foundation",
+        "chunk_id": 0,
+        "content_type": "web_page",
+        "keywords": "",
+        "chunk_length": 1179,
+        "total_chunks": 15,
+        "description": "Explore Parkinson’s Foundation career opportunities. We are an equal opportunity employer committed to diversity, equity, and inclusion..",
+        "crawled_at": "2025-07-14 13:28:48",
+        "crawl_depth": 1
+      }
+    },
+    {
+      "id": "5acdbf0a-7ce1-461d-8b2c-f575f60434ac",
+      "content_preview": "* Understanding Parkinson’s Understanding Parkinson’s  There is a lot to know about Parkinson's disease. Learn about symptoms, how it is diagnosed and what treatment options are available. * Understan...",
+      "metadata": {
+        "base_url": "https://www.parkinson.org/",
+        "title": "Career Opportunities | Parkinson's Foundation",
+        "crawl_depth": 1,
+        "chunk_length": 1497,
+        "description": "Explore Parkinson’s Foundation career opportunities. We are an equal opportunity employer committed to diversity, equity, and inclusion..",
+        "content_type": "web_page",
+        "total_chunks": 15,
+        "organization": "Parkinson's Foundation",
+        "crawled_at": "2025-07-14 13:28:48",
+        "chunk_id": 1,
+        "source_url": "https://www.parkinson.org/about-us/careers",
+        "keywords": ""
+      }
+    },
+    {
+      "id": "b36523d4-74b9-422d-90b6-454c2a2f0a42",
+      "content_preview": "community. * Advancing Research * Finding A Cure * Our Research * Join A Study * Advocate for Research * For Researchers * Parkinson’s Virtual Biotech * How You Can Help How You Can Help  There are ma...",
+      "metadata": {
+        "crawl_depth": 1,
+        "total_chunks": 15,
+        "source_url": "https://www.parkinson.org/about-us/careers",
+        "crawled_at": "2025-07-14 13:28:48",
+        "chunk_length": 543,
+        "keywords": "",
+        "description": "Explore Parkinson’s Foundation career opportunities. We are an equal opportunity employer committed to diversity, equity, and inclusion..",
+        "content_type": "web_page",
+        "base_url": "https://www.parkinson.org/",
+        "organization": "Parkinson's Foundation",
+        "title": "Career Opportunities | Parkinson's Foundation",
+        "chunk_id": 2
+      }
+    },
+    {
+      "id": "c9442797-42d7-4c46-be00-9a7539f6c21a",
+      "content_preview": "## Breadcrumb * Home * About Us\n\n## Breadcrumb * Home * About Us\n\n#  Career Opportunities  IN THIS SECTION IN THIS SECTION * About Us * Vision & Mission View Menu * 2022-25 Strategic Plan * Our Commit...",
+      "metadata": {
+        "title": "Career Opportunities | Parkinson's Foundation",
+        "crawl_depth": 1,
+        "organization": "Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "content_type": "web_page",
+        "keywords": "",
+        "source_url": "https://www.parkinson.org/about-us/careers",
+        "total_chunks": 15,
+        "chunk_id": 3,
+        "description": "Explore Parkinson’s Foundation career opportunities. We are an equal opportunity employer committed to diversity, equity, and inclusion..",
+        "chunk_length": 647,
+        "crawled_at": "2025-07-14 13:28:48"
+      }
+    },
+    {
+      "id": "293e89f9-97a9-492d-aa49-d3245ebc4d1a",
+      "content_preview": "NPT Best Nonprofits to work for 2020 The Parkinson's Foundation is a values-driven organization. From our hiring philosophy to the people we serve, our goal is to demonstrate our values in every inter...",
+      "metadata": {
+        "crawl_depth": 1,
+        "content_type": "web_page",
+        "total_chunks": 15,
+        "title": "Career Opportunities | Parkinson's Foundation",
+        "chunk_id": 4,
+        "description": "Explore Parkinson’s Foundation career opportunities. We are an equal opportunity employer committed to diversity, equity, and inclusion..",
+        "organization": "Parkinson's Foundation",
+        "chunk_length": 1497,
+        "crawled_at": "2025-07-14 13:28:48",
+        "keywords": "",
+        "base_url": "https://www.parkinson.org/",
+        "source_url": "https://www.parkinson.org/about-us/careers"
+      }
+    },
+    {
+      "id": "5162c49e-c692-42dc-992b-96fae71b355a",
+      "content_preview": "disease.  Our Vision & Mission Learn more about our commitment to diversity, equity and inclusion. ##  Benefits for Full-Time Employees * ###  Insurance Benefits * Employees and their families are off...",
+      "metadata": {
+        "chunk_length": 1499,
+        "crawl_depth": 1,
+        "content_type": "web_page",
+        "crawled_at": "2025-07-14 13:28:48",
+        "keywords": "",
+        "organization": "Parkinson's Foundation",
+        "title": "Career Opportunities | Parkinson's Foundation",
+        "chunk_id": 5,
+        "description": "Explore Parkinson’s Foundation career opportunities. We are an equal opportunity employer committed to diversity, equity, and inclusion..",
+        "base_url": "https://www.parkinson.org/",
+        "total_chunks": 15,
+        "source_url": "https://www.parkinson.org/about-us/careers"
+      }
+    },
+    {
+      "id": "affe168a-ac1b-4863-a29c-9c649e17f5d5",
+      "content_preview": "Term Disability, Long Term Disability employer-funded—no cost to the employee * Up to 12 weeks of parental leave after one year of full-time service * Bereavement leave benefits * ###  Financial Benef...",
+      "metadata": {
+        "keywords": "",
+        "chunk_id": 6,
+        "total_chunks": 15,
+        "chunk_length": 1189,
+        "description": "Explore Parkinson’s Foundation career opportunities. We are an equal opportunity employer committed to diversity, equity, and inclusion..",
+        "organization": "Parkinson's Foundation",
+        "base_url": "https://www.parkinson.org/",
+        "crawled_at": "2025-07-14 13:28:48",
+        "source_url": "https://www.parkinson.org/about-us/careers",
+        "crawl_depth": 1,
+        "title": "Career Opportunities | Parkinson's Foundation",
+        "content_type": "web_page"
+      }
+    },
+    {
+      "id": "adaa0090-e8fa-43ed-915b-bc9dc9b0d8bc",
+      "content_preview": "##  Benefits for Part-Time Employees * ###  Time Off/Leave Benefits * Flexible scheduling * Vacation days start accruing from the day of hire, as follows: * First and second full years of employment -...",
+      "metadata": {
+        "crawl_depth": 1,
+        "crawled_at": "2025-07-14 13:28:48",
+        "base_url": "https://www.parkinson.org/",
+        "chunk_length": 1496,
+        "title": "Career Opportunities | Parkinson's Foundation",
+        "source_url": "https://www.parkinson.org/about-us/careers",
+        "keywords": "",
+        "description": "Explore Parkinson’s Foundation career opportunities. We are an equal opportunity employer committed to diversity, equity, and inclusion..",
+        "organization": "Parkinson's Foundation",
+        "chunk_id": 7,
+        "total_chunks": 15,
+        "content_type": "web_page"
+      }
+    }
+  ]
+}
