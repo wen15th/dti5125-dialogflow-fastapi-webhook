@@ -1,2001 +1,2001 @@
-pain_type,pain_location,radiates,duration,self_score,severity_score,severity_class
-Throbbing,Neck,Yes,Several days ago,2,4,Moderate
-Throbbing,Leg,No,Yesterday,5,4,Moderate
-Throbbing,Leg,Yes,Several days ago,3,3,Moderate
-Throbbing,Everywhere,Yes,Several days ago,1,1,Mild
-Burning,Neck,Yes,Several days ago,2,1,Mild
-Sharp,Stomach,Yes,More than a week ago,3,3,Moderate
-Dull,Back,Yes,More than a week ago,1,1,Mild
-Dull,Leg,Yes,Today,1,5,Severe
-Burning,Neck,No,More than a week ago,3,3,Moderate
-Sharp,Leg,Yes,More than a week ago,3,3,Moderate
-Sharp,Leg,Yes,Today,2,3,Moderate
-Sharp,Leg,Yes,Last week,5,1,Mild
-Sharp,Head,Yes,More than a week ago,5,5,Severe
-Burning,Everywhere,No,Today,5,4,Moderate
-Dull,Arm,No,Today,4,4,Moderate
-Sharp,Neck,Yes,Yesterday,3,1,Mild
-Throbbing,Chest,No,Today,2,2,Mild
-Dull,Arm,Yes,Last week,1,1,Mild
-Throbbing,Arm,Yes,Several days ago,1,3,Moderate
-Dull,Chest,No,Today,1,3,Moderate
-Dull,Neck,Yes,Last week,1,2,Mild
-Throbbing,Arm,Yes,Yesterday,3,1,Mild
-Sharp,Everywhere,No,Yesterday,2,1,Mild
-Dull,Arm,Yes,Last week,5,5,Severe
-Throbbing,Everywhere,Yes,Last week,5,5,Severe
-Sharp,Neck,No,Last week,1,1,Mild
-Throbbing,Everywhere,No,Yesterday,2,1,Mild
-Throbbing,Leg,No,Several days ago,1,1,Mild
-Burning,Stomach,Yes,Yesterday,5,5,Severe
-Throbbing,Neck,No,Yesterday,4,4,Moderate
-Dull,Head,No,Today,1,1,Mild
-Dull,Chest,Yes,Today,3,1,Mild
-Burning,Arm,Yes,Several days ago,3,1,Mild
-Dull,Chest,No,Several days ago,2,2,Mild
-Sharp,Chest,Yes,More than a week ago,4,4,Moderate
-Burning,Neck,No,Today,3,4,Moderate
-Dull,Leg,No,More than a week ago,2,5,Severe
-Throbbing,Back,No,Last week,1,4,Moderate
-Dull,Neck,Yes,Yesterday,3,1,Mild
-Sharp,Chest,No,Yesterday,5,5,Severe
-Sharp,Neck,Yes,Yesterday,1,4,Moderate
-Throbbing,Neck,Yes,Today,4,5,Severe
-Sharp,Chest,Yes,Today,5,5,Severe
-Dull,Chest,Yes,Yesterday,4,4,Moderate
-Burning,Head,No,Today,2,2,Mild
-Burning,Arm,No,Yesterday,3,3,Moderate
-Throbbing,Everywhere,No,Yesterday,4,5,Severe
-Burning,Head,No,Several days ago,2,4,Moderate
-Dull,Stomach,No,Several days ago,5,5,Severe
-Sharp,Back,No,Today,5,5,Severe
-Burning,Stomach,No,Last week,3,3,Moderate
-Dull,Chest,Yes,More than a week ago,5,5,Severe
-Burning,Head,No,Today,1,1,Mild
-Sharp,Arm,No,Yesterday,5,5,Severe
-Dull,Chest,Yes,Today,3,4,Moderate
-Sharp,Chest,No,More than a week ago,4,4,Moderate
-Burning,Arm,Yes,Today,5,3,Moderate
-Sharp,Back,No,Yesterday,2,2,Mild
-Dull,Neck,No,Several days ago,2,1,Mild
-Sharp,Everywhere,Yes,Yesterday,5,5,Severe
-Sharp,Arm,No,Last week,2,2,Mild
-Sharp,Back,Yes,Last week,4,4,Moderate
-Burning,Arm,Yes,Yesterday,4,4,Moderate
-Sharp,Leg,Yes,Last week,2,5,Severe
-Throbbing,Chest,Yes,Yesterday,3,3,Moderate
-Sharp,Leg,Yes,Several days ago,3,4,Moderate
-Sharp,Stomach,No,Last week,1,1,Mild
-Dull,Back,No,Yesterday,3,4,Moderate
-Dull,Arm,Yes,Yesterday,5,5,Severe
-Dull,Chest,Yes,Yesterday,2,5,Severe
-Throbbing,Neck,Yes,Today,2,4,Moderate
-Sharp,Chest,Yes,Yesterday,3,3,Moderate
-Dull,Head,No,Yesterday,4,3,Moderate
-Throbbing,Stomach,No,Last week,4,5,Severe
-Sharp,Chest,No,Last week,4,5,Severe
-Dull,Everywhere,Yes,Yesterday,5,4,Moderate
-Burning,Back,Yes,More than a week ago,5,4,Moderate
-Throbbing,Stomach,Yes,More than a week ago,4,4,Moderate
-Burning,Arm,No,Last week,2,2,Mild
-Throbbing,Everywhere,Yes,Several days ago,2,5,Severe
-Burning,Stomach,No,Today,5,5,Severe
-Throbbing,Leg,Yes,More than a week ago,2,5,Severe
-Sharp,Neck,Yes,Today,3,3,Moderate
-Sharp,Arm,Yes,More than a week ago,2,4,Moderate
-Dull,Leg,Yes,More than a week ago,5,2,Mild
-Burning,Arm,Yes,Yesterday,5,5,Severe
-Dull,Stomach,Yes,Today,1,5,Severe
-Sharp,Leg,No,Yesterday,5,5,Severe
-Burning,Leg,No,Last week,3,1,Mild
-Dull,Everywhere,Yes,Today,4,5,Severe
-Dull,Neck,No,Last week,4,4,Moderate
-Throbbing,Back,No,Today,3,5,Severe
-Dull,Chest,No,More than a week ago,5,1,Mild
-Burning,Chest,No,More than a week ago,2,5,Severe
-Sharp,Chest,Yes,Several days ago,5,5,Severe
-Throbbing,Chest,Yes,Last week,3,5,Severe
-Dull,Head,No,More than a week ago,5,3,Moderate
-Dull,Arm,No,More than a week ago,1,1,Mild
-Dull,Back,No,Yesterday,5,5,Severe
-Dull,Back,No,Yesterday,4,2,Mild
-Throbbing,Chest,Yes,Several days ago,2,1,Mild
-Burning,Leg,No,Today,3,3,Moderate
-Throbbing,Head,Yes,More than a week ago,4,5,Severe
-Throbbing,Arm,Yes,More than a week ago,3,2,Mild
-Throbbing,Everywhere,Yes,More than a week ago,2,5,Severe
-Burning,Neck,Yes,More than a week ago,3,5,Severe
-Sharp,Leg,Yes,Today,2,5,Severe
-Sharp,Back,Yes,Yesterday,3,4,Moderate
-Sharp,Everywhere,No,Last week,5,3,Moderate
-Burning,Arm,Yes,Today,5,2,Mild
-Sharp,Neck,Yes,More than a week ago,3,5,Severe
-Sharp,Chest,No,Several days ago,2,3,Moderate
-Throbbing,Back,Yes,More than a week ago,2,1,Mild
-Sharp,Head,Yes,Several days ago,5,4,Moderate
-Sharp,Leg,Yes,More than a week ago,2,2,Mild
-Sharp,Head,Yes,Today,5,5,Severe
-Throbbing,Stomach,Yes,Last week,3,5,Severe
-Dull,Leg,No,Last week,3,4,Moderate
-Throbbing,Neck,Yes,Last week,4,5,Severe
-Burning,Back,Yes,Today,2,2,Mild
-Dull,Back,Yes,Last week,1,1,Mild
-Burning,Stomach,Yes,Today,1,2,Mild
-Dull,Arm,Yes,Last week,4,1,Mild
-Burning,Stomach,No,Last week,4,5,Severe
-Burning,Leg,Yes,Today,3,5,Severe
-Dull,Arm,No,Yesterday,3,5,Severe
-Burning,Neck,Yes,Several days ago,5,5,Severe
-Burning,Stomach,No,More than a week ago,1,4,Moderate
-Burning,Head,Yes,Yesterday,5,4,Moderate
-Burning,Head,No,Several days ago,2,2,Mild
-Dull,Arm,No,Yesterday,2,3,Moderate
-Burning,Leg,Yes,Several days ago,3,3,Moderate
-Burning,Neck,Yes,More than a week ago,2,4,Moderate
-Sharp,Leg,No,Yesterday,3,5,Severe
-Sharp,Everywhere,Yes,Several days ago,5,5,Severe
-Dull,Everywhere,No,More than a week ago,1,4,Moderate
-Throbbing,Arm,No,More than a week ago,3,1,Mild
-Throbbing,Neck,No,Several days ago,5,5,Severe
-Burning,Stomach,No,Today,2,1,Mild
-Dull,Chest,Yes,More than a week ago,5,2,Mild
-Sharp,Arm,Yes,More than a week ago,2,3,Moderate
-Burning,Neck,No,Yesterday,4,4,Moderate
-Throbbing,Head,No,More than a week ago,4,1,Mild
-Burning,Arm,No,Yesterday,5,5,Severe
-Sharp,Head,No,Several days ago,4,4,Moderate
-Throbbing,Everywhere,No,Last week,1,2,Mild
-Burning,Head,Yes,Several days ago,5,4,Moderate
-Sharp,Head,Yes,Yesterday,4,3,Moderate
-Throbbing,Neck,No,Yesterday,4,3,Moderate
-Burning,Stomach,No,Yesterday,1,4,Moderate
-Dull,Leg,No,Today,4,4,Moderate
-Throbbing,Chest,No,Last week,2,2,Mild
-Throbbing,Stomach,Yes,Today,3,3,Moderate
-Sharp,Chest,Yes,Yesterday,5,5,Severe
-Burning,Chest,Yes,Today,2,1,Mild
-Burning,Neck,Yes,Several days ago,3,1,Mild
-Sharp,Back,Yes,Several days ago,5,4,Moderate
-Sharp,Back,Yes,Today,3,3,Moderate
-Dull,Head,No,Last week,3,4,Moderate
-Burning,Arm,Yes,Today,5,3,Moderate
-Dull,Neck,No,Today,1,2,Mild
-Dull,Back,No,More than a week ago,3,3,Moderate
-Burning,Chest,No,Several days ago,1,4,Moderate
-Throbbing,Back,Yes,Yesterday,1,1,Mild
-Burning,Back,No,Several days ago,5,1,Mild
-Sharp,Stomach,Yes,More than a week ago,1,5,Severe
-Dull,Leg,Yes,Last week,1,4,Moderate
-Dull,Arm,No,Several days ago,2,1,Mild
-Throbbing,Leg,No,Yesterday,1,1,Mild
-Dull,Arm,No,Yesterday,4,4,Moderate
-Throbbing,Arm,No,Yesterday,1,4,Moderate
-Burning,Stomach,No,Several days ago,2,2,Mild
-Throbbing,Everywhere,No,Today,2,5,Severe
-Burning,Back,Yes,Several days ago,1,1,Mild
-Sharp,Head,No,Last week,5,4,Moderate
-Sharp,Neck,No,Today,2,2,Mild
-Throbbing,Neck,No,Several days ago,4,1,Mild
-Burning,Head,Yes,Yesterday,1,3,Moderate
-Throbbing,Leg,Yes,Last week,4,5,Severe
-Throbbing,Leg,Yes,More than a week ago,4,3,Moderate
-Dull,Stomach,No,Today,1,2,Mild
-Dull,Neck,Yes,Yesterday,1,3,Moderate
-Sharp,Stomach,No,Several days ago,3,2,Mild
-Burning,Chest,No,Today,3,5,Severe
-Throbbing,Arm,Yes,Last week,4,4,Moderate
-Dull,Everywhere,No,More than a week ago,3,5,Severe
-Burning,Back,No,Last week,3,5,Severe
-Burning,Everywhere,No,Last week,2,5,Severe
-Burning,Chest,No,Last week,5,2,Mild
-Sharp,Arm,No,More than a week ago,5,1,Mild
-Dull,Head,Yes,More than a week ago,3,5,Severe
-Sharp,Everywhere,No,Today,2,2,Mild
-Throbbing,Arm,No,Several days ago,3,3,Moderate
-Sharp,Arm,No,More than a week ago,5,3,Moderate
-Burning,Head,No,Last week,3,2,Mild
-Dull,Neck,Yes,Today,2,1,Mild
-Sharp,Stomach,No,More than a week ago,2,5,Severe
-Sharp,Neck,No,More than a week ago,1,1,Mild
-Sharp,Neck,No,Today,5,4,Moderate
-Burning,Neck,No,Last week,1,1,Mild
-Burning,Leg,Yes,Today,1,1,Mild
-Sharp,Head,Yes,Last week,1,1,Mild
-Burning,Neck,No,Today,3,4,Moderate
-Throbbing,Neck,Yes,Several days ago,2,2,Mild
-Burning,Arm,Yes,Last week,5,5,Severe
-Burning,Leg,No,Yesterday,3,3,Moderate
-Sharp,Neck,Yes,Today,3,3,Moderate
-Throbbing,Neck,No,Today,4,2,Mild
-Dull,Chest,Yes,Several days ago,1,1,Mild
-Dull,Neck,Yes,Last week,1,5,Severe
-Sharp,Arm,Yes,Yesterday,2,2,Mild
-Burning,Everywhere,No,Yesterday,2,4,Moderate
-Throbbing,Arm,No,Today,5,5,Severe
-Sharp,Stomach,No,More than a week ago,5,5,Severe
-Sharp,Everywhere,Yes,Today,4,5,Severe
-Dull,Everywhere,No,Last week,4,1,Mild
-Throbbing,Leg,No,Today,2,5,Severe
-Dull,Stomach,Yes,Several days ago,5,4,Moderate
-Throbbing,Neck,No,Last week,1,1,Mild
-Throbbing,Neck,Yes,More than a week ago,5,4,Moderate
-Dull,Neck,Yes,Last week,3,1,Mild
-Dull,Stomach,No,Yesterday,3,1,Mild
-Burning,Leg,No,Last week,3,4,Moderate
-Sharp,Stomach,Yes,Several days ago,4,4,Moderate
-Throbbing,Arm,Yes,Last week,2,2,Mild
-Burning,Chest,Yes,Last week,2,5,Severe
-Burning,Stomach,Yes,Yesterday,5,4,Moderate
-Sharp,Everywhere,Yes,Yesterday,4,4,Moderate
-Sharp,Everywhere,No,Last week,5,5,Severe
-Burning,Leg,Yes,Several days ago,2,3,Moderate
-Throbbing,Arm,No,Yesterday,5,5,Severe
-Throbbing,Neck,No,Yesterday,4,2,Mild
-Burning,Chest,Yes,Several days ago,3,3,Moderate
-Burning,Leg,No,Several days ago,3,5,Severe
-Burning,Arm,No,More than a week ago,3,1,Mild
-Throbbing,Back,No,More than a week ago,4,5,Severe
-Sharp,Chest,Yes,More than a week ago,3,5,Severe
-Burning,Back,Yes,More than a week ago,3,4,Moderate
-Sharp,Arm,No,Today,4,3,Moderate
-Sharp,Head,No,Yesterday,5,4,Moderate
-Burning,Everywhere,Yes,Several days ago,2,2,Mild
-Dull,Chest,No,Several days ago,1,2,Mild
-Dull,Arm,No,Last week,2,1,Mild
-Throbbing,Chest,Yes,Several days ago,5,3,Moderate
-Dull,Everywhere,No,More than a week ago,5,3,Moderate
-Burning,Leg,Yes,Several days ago,3,3,Moderate
-Throbbing,Neck,Yes,Today,1,1,Mild
-Sharp,Stomach,No,Last week,4,4,Moderate
-Throbbing,Back,No,Today,4,3,Moderate
-Dull,Neck,Yes,Several days ago,2,5,Severe
-Dull,Neck,No,Several days ago,3,3,Moderate
-Burning,Back,Yes,Today,3,5,Severe
-Dull,Back,Yes,Yesterday,2,1,Mild
-Dull,Head,No,Several days ago,4,5,Severe
-Burning,Everywhere,Yes,Yesterday,1,4,Moderate
-Sharp,Arm,Yes,More than a week ago,3,3,Moderate
-Throbbing,Everywhere,No,Yesterday,2,1,Mild
-Dull,Head,No,Today,2,2,Mild
-Sharp,Arm,No,Today,4,4,Moderate
-Dull,Arm,No,Last week,3,5,Severe
-Dull,Head,No,Last week,5,1,Mild
-Sharp,Stomach,No,More than a week ago,5,4,Moderate
-Burning,Chest,Yes,Last week,2,2,Mild
-Dull,Back,Yes,Yesterday,1,1,Mild
-Dull,Neck,No,Several days ago,3,5,Severe
-Dull,Leg,Yes,More than a week ago,3,1,Mild
-Burning,Back,No,More than a week ago,2,5,Severe
-Throbbing,Neck,Yes,Several days ago,4,1,Mild
-Throbbing,Head,Yes,Last week,4,4,Moderate
-Dull,Leg,No,Today,4,2,Mild
-Dull,Head,Yes,Several days ago,4,2,Mild
-Sharp,Everywhere,Yes,Last week,4,5,Severe
-Dull,Everywhere,No,Today,3,5,Severe
-Dull,Arm,No,Last week,4,5,Severe
-Burning,Everywhere,No,Last week,1,2,Mild
-Sharp,Stomach,Yes,Today,3,3,Moderate
-Dull,Arm,Yes,Yesterday,1,1,Mild
-Burning,Leg,Yes,More than a week ago,5,1,Mild
-Burning,Neck,Yes,More than a week ago,5,4,Moderate
-Dull,Back,No,Several days ago,1,1,Mild
-Burning,Neck,Yes,Several days ago,1,4,Moderate
-Sharp,Arm,No,Several days ago,5,3,Moderate
-Burning,Chest,No,Yesterday,2,2,Mild
-Burning,Everywhere,No,More than a week ago,5,4,Moderate
-Burning,Back,Yes,Today,3,4,Moderate
-Burning,Neck,No,Yesterday,3,3,Moderate
-Throbbing,Everywhere,Yes,Today,1,1,Mild
-Dull,Stomach,Yes,Last week,5,4,Moderate
-Dull,Leg,Yes,Several days ago,5,5,Severe
-Sharp,Arm,Yes,Several days ago,4,4,Moderate
-Throbbing,Arm,Yes,Last week,1,1,Mild
-Throbbing,Stomach,No,Today,2,1,Mild
-Dull,Leg,Yes,Last week,1,5,Severe
-Burning,Everywhere,No,Yesterday,5,4,Moderate
-Burning,Stomach,Yes,More than a week ago,3,2,Mild
-Dull,Leg,No,Yesterday,1,5,Severe
-Dull,Chest,Yes,Today,4,4,Moderate
-Sharp,Back,No,Yesterday,1,2,Mild
-Throbbing,Everywhere,No,Today,2,2,Mild
-Burning,Arm,No,Several days ago,2,2,Mild
-Dull,Neck,Yes,Several days ago,5,2,Mild
-Burning,Chest,Yes,Today,2,2,Mild
-Sharp,Neck,Yes,Several days ago,2,4,Moderate
-Sharp,Everywhere,Yes,Today,1,1,Mild
-Throbbing,Stomach,No,More than a week ago,4,5,Severe
-Burning,Arm,Yes,Several days ago,4,1,Mild
-Sharp,Stomach,Yes,More than a week ago,1,3,Moderate
-Dull,Chest,Yes,Yesterday,5,2,Mild
-Throbbing,Leg,Yes,Today,3,4,Moderate
-Burning,Everywhere,Yes,Today,4,4,Moderate
-Burning,Arm,No,More than a week ago,2,2,Mild
-Sharp,Stomach,No,Today,1,1,Mild
-Sharp,Back,No,Last week,4,4,Moderate
-Burning,Leg,Yes,Several days ago,3,3,Moderate
-Sharp,Neck,Yes,Last week,3,5,Severe
-Dull,Everywhere,Yes,Yesterday,2,1,Mild
-Throbbing,Head,Yes,More than a week ago,4,3,Moderate
-Throbbing,Head,Yes,Last week,1,2,Mild
-Burning,Chest,No,Yesterday,5,5,Severe
-Burning,Leg,No,Today,3,3,Moderate
-Sharp,Back,No,Last week,1,2,Mild
-Throbbing,Chest,No,More than a week ago,2,5,Severe
-Burning,Arm,No,More than a week ago,1,1,Mild
-Throbbing,Everywhere,No,Last week,4,5,Severe
-Dull,Arm,No,More than a week ago,1,1,Mild
-Throbbing,Arm,Yes,Last week,4,5,Severe
-Burning,Neck,Yes,Last week,5,5,Severe
-Throbbing,Everywhere,Yes,Last week,3,4,Moderate
-Sharp,Arm,No,Last week,5,4,Moderate
-Throbbing,Stomach,No,More than a week ago,2,4,Moderate
-Throbbing,Back,No,Yesterday,1,2,Mild
-Sharp,Everywhere,Yes,Several days ago,1,5,Severe
-Sharp,Back,No,Last week,1,5,Severe
-Sharp,Everywhere,Yes,Yesterday,5,5,Severe
-Dull,Stomach,No,Today,4,4,Moderate
-Burning,Back,Yes,Last week,2,2,Mild
-Sharp,Everywhere,No,Several days ago,4,4,Moderate
-Sharp,Stomach,Yes,Today,2,1,Mild
-Dull,Chest,No,Last week,2,2,Mild
-Throbbing,Everywhere,Yes,Yesterday,1,1,Mild
-Sharp,Everywhere,Yes,Several days ago,2,4,Moderate
-Dull,Neck,Yes,More than a week ago,2,4,Moderate
-Dull,Leg,Yes,More than a week ago,3,3,Moderate
-Burning,Everywhere,No,Several days ago,5,5,Severe
-Dull,Stomach,Yes,Yesterday,3,5,Severe
-Throbbing,Neck,No,Last week,1,1,Mild
-Sharp,Back,No,Today,2,3,Moderate
-Burning,Arm,Yes,More than a week ago,1,4,Moderate
-Dull,Leg,No,Today,1,4,Moderate
-Sharp,Leg,Yes,Last week,2,2,Mild
-Throbbing,Arm,Yes,Several days ago,4,5,Severe
-Sharp,Leg,Yes,Yesterday,3,3,Moderate
-Sharp,Everywhere,No,More than a week ago,1,3,Moderate
-Throbbing,Leg,Yes,More than a week ago,2,2,Mild
-Dull,Stomach,No,More than a week ago,4,4,Moderate
-Sharp,Stomach,No,Several days ago,2,1,Mild
-Dull,Leg,Yes,Yesterday,2,2,Mild
-Sharp,Chest,Yes,Yesterday,1,1,Mild
-Sharp,Stomach,No,Yesterday,4,3,Moderate
-Sharp,Everywhere,Yes,More than a week ago,3,4,Moderate
-Throbbing,Neck,Yes,Several days ago,3,5,Severe
-Dull,Stomach,No,More than a week ago,4,3,Moderate
-Burning,Back,Yes,Today,3,3,Moderate
-Dull,Arm,No,Today,1,1,Mild
-Dull,Neck,No,Today,4,5,Severe
-Sharp,Arm,Yes,More than a week ago,4,5,Severe
-Dull,Back,Yes,Last week,3,1,Mild
-Sharp,Neck,Yes,Today,2,2,Mild
-Dull,Head,Yes,More than a week ago,1,2,Mild
-Throbbing,Neck,Yes,Last week,2,2,Mild
-Throbbing,Neck,Yes,More than a week ago,3,5,Severe
-Dull,Chest,No,Several days ago,5,3,Moderate
-Dull,Neck,Yes,More than a week ago,1,2,Mild
-Burning,Neck,No,Last week,3,4,Moderate
-Throbbing,Neck,No,Several days ago,1,2,Mild
-Sharp,Neck,No,Several days ago,1,1,Mild
-Sharp,Everywhere,Yes,Today,1,1,Mild
-Dull,Head,No,Several days ago,5,1,Mild
-Burning,Leg,Yes,Yesterday,1,2,Mild
-Sharp,Back,Yes,Several days ago,5,1,Mild
-Dull,Neck,No,Today,1,1,Mild
-Sharp,Everywhere,No,Several days ago,5,1,Mild
-Throbbing,Back,Yes,More than a week ago,3,5,Severe
-Dull,Stomach,No,Last week,1,1,Mild
-Dull,Everywhere,No,Today,3,4,Moderate
-Dull,Chest,Yes,Today,3,1,Mild
-Throbbing,Back,No,Several days ago,1,1,Mild
-Throbbing,Stomach,No,Last week,2,5,Severe
-Burning,Arm,No,Yesterday,3,3,Moderate
-Burning,Arm,No,Last week,2,5,Severe
-Burning,Neck,No,Last week,1,2,Mild
-Sharp,Stomach,Yes,Yesterday,1,1,Mild
-Dull,Head,Yes,More than a week ago,3,3,Moderate
-Burning,Back,Yes,Last week,1,2,Mild
-Sharp,Everywhere,Yes,Several days ago,3,3,Moderate
-Throbbing,Stomach,Yes,Last week,2,4,Moderate
-Throbbing,Back,Yes,Yesterday,3,3,Moderate
-Dull,Everywhere,Yes,Several days ago,4,2,Mild
-Dull,Leg,No,Several days ago,5,5,Severe
-Dull,Leg,Yes,Last week,2,4,Moderate
-Throbbing,Leg,No,Today,5,5,Severe
-Dull,Stomach,No,Today,5,5,Severe
-Throbbing,Neck,No,Today,5,5,Severe
-Throbbing,Leg,No,Yesterday,5,5,Severe
-Dull,Back,Yes,Several days ago,2,5,Severe
-Burning,Back,Yes,Today,4,4,Moderate
-Burning,Head,No,Yesterday,2,2,Mild
-Dull,Leg,Yes,Today,5,5,Severe
-Burning,Leg,No,Today,5,4,Moderate
-Sharp,Back,Yes,Yesterday,1,5,Severe
-Throbbing,Stomach,Yes,Several days ago,5,5,Severe
-Dull,Back,Yes,Today,3,1,Mild
-Sharp,Chest,No,Last week,1,1,Mild
-Throbbing,Stomach,No,Last week,1,1,Mild
-Sharp,Stomach,Yes,Yesterday,2,5,Severe
-Throbbing,Back,No,Yesterday,5,5,Severe
-Dull,Neck,Yes,Last week,1,1,Mild
-Dull,Neck,Yes,More than a week ago,4,5,Severe
-Burning,Leg,No,Today,3,5,Severe
-Dull,Everywhere,No,Today,5,1,Mild
-Sharp,Stomach,No,Last week,3,5,Severe
-Burning,Neck,Yes,Last week,2,4,Moderate
-Dull,Back,No,Today,1,3,Moderate
-Dull,Leg,No,Last week,2,3,Moderate
-Dull,Neck,No,More than a week ago,5,5,Severe
-Sharp,Leg,No,Yesterday,3,4,Moderate
-Dull,Arm,Yes,Today,2,1,Mild
-Burning,Neck,No,Last week,4,3,Moderate
-Sharp,Chest,No,Several days ago,5,5,Severe
-Sharp,Everywhere,No,Last week,4,5,Severe
-Dull,Leg,No,Yesterday,3,4,Moderate
-Dull,Back,Yes,Yesterday,4,4,Moderate
-Sharp,Stomach,Yes,Yesterday,5,5,Severe
-Dull,Head,No,Yesterday,1,2,Mild
-Throbbing,Everywhere,Yes,Today,3,3,Moderate
-Burning,Everywhere,Yes,Several days ago,5,5,Severe
-Throbbing,Stomach,No,Last week,2,5,Severe
-Dull,Head,Yes,Several days ago,4,4,Moderate
-Throbbing,Head,No,Yesterday,4,1,Mild
-Throbbing,Stomach,No,Last week,5,5,Severe
-Sharp,Leg,Yes,Several days ago,3,1,Mild
-Throbbing,Arm,Yes,Yesterday,5,2,Mild
-Dull,Head,No,Yesterday,2,3,Moderate
-Burning,Leg,No,Today,1,1,Mild
-Throbbing,Neck,Yes,Yesterday,5,5,Severe
-Sharp,Stomach,Yes,More than a week ago,5,5,Severe
-Burning,Head,No,Today,2,3,Moderate
-Burning,Chest,Yes,Last week,3,4,Moderate
-Dull,Chest,No,More than a week ago,4,4,Moderate
-Dull,Head,No,Yesterday,4,3,Moderate
-Dull,Chest,No,Today,5,5,Severe
-Burning,Stomach,Yes,Today,2,1,Mild
-Throbbing,Back,Yes,Yesterday,2,5,Severe
-Throbbing,Everywhere,No,Today,4,2,Mild
-Throbbing,Neck,No,Yesterday,5,4,Moderate
-Dull,Head,No,Several days ago,5,5,Severe
-Burning,Leg,No,More than a week ago,3,5,Severe
-Burning,Neck,No,More than a week ago,3,3,Moderate
-Throbbing,Arm,No,Today,2,2,Mild
-Burning,Arm,Yes,Several days ago,4,2,Mild
-Sharp,Arm,No,Today,1,1,Mild
-Sharp,Stomach,No,Yesterday,4,5,Severe
-Throbbing,Head,No,Last week,5,1,Mild
-Dull,Everywhere,Yes,More than a week ago,1,4,Moderate
-Throbbing,Everywhere,No,Yesterday,5,2,Mild
-Sharp,Chest,No,More than a week ago,5,4,Moderate
-Burning,Leg,No,Today,3,5,Severe
-Throbbing,Stomach,No,More than a week ago,2,1,Mild
-Dull,Chest,Yes,Last week,4,1,Mild
-Throbbing,Everywhere,Yes,Yesterday,2,4,Moderate
-Sharp,Back,No,Several days ago,1,4,Moderate
-Burning,Leg,Yes,More than a week ago,4,3,Moderate
-Throbbing,Everywhere,No,More than a week ago,4,5,Severe
-Burning,Everywhere,Yes,Several days ago,3,5,Severe
-Throbbing,Neck,Yes,Last week,4,5,Severe
-Dull,Arm,Yes,Today,4,4,Moderate
-Throbbing,Everywhere,No,More than a week ago,4,4,Moderate
-Throbbing,Arm,No,Yesterday,4,5,Severe
-Dull,Neck,Yes,Yesterday,4,4,Moderate
-Burning,Neck,Yes,More than a week ago,3,4,Moderate
-Sharp,Chest,No,Today,3,3,Moderate
-Burning,Head,No,Last week,3,2,Mild
-Dull,Leg,No,Today,5,4,Moderate
-Dull,Arm,Yes,Yesterday,1,1,Mild
-Dull,Everywhere,No,Today,1,1,Mild
-Dull,Stomach,Yes,Last week,1,4,Moderate
-Throbbing,Arm,Yes,Several days ago,4,1,Mild
-Dull,Head,No,Several days ago,4,2,Mild
-Dull,Chest,No,Yesterday,4,5,Severe
-Burning,Head,No,Last week,3,4,Moderate
-Burning,Leg,Yes,Yesterday,4,5,Severe
-Dull,Back,Yes,Yesterday,2,2,Mild
-Dull,Head,Yes,Last week,5,5,Severe
-Throbbing,Arm,No,Yesterday,4,2,Mild
-Burning,Head,Yes,More than a week ago,1,1,Mild
-Sharp,Arm,Yes,Several days ago,4,4,Moderate
-Dull,Leg,No,Today,2,1,Mild
-Burning,Chest,No,Yesterday,5,5,Severe
-Sharp,Arm,No,More than a week ago,1,4,Moderate
-Dull,Leg,Yes,More than a week ago,2,5,Severe
-Dull,Leg,Yes,Several days ago,3,4,Moderate
-Throbbing,Head,Yes,More than a week ago,1,4,Moderate
-Sharp,Leg,No,Yesterday,3,4,Moderate
-Burning,Head,No,Several days ago,4,2,Mild
-Sharp,Arm,No,Several days ago,1,2,Mild
-Sharp,Arm,Yes,Yesterday,2,5,Severe
-Burning,Back,No,Yesterday,1,1,Mild
-Throbbing,Arm,Yes,Last week,2,1,Mild
-Burning,Leg,No,Today,1,1,Mild
-Dull,Chest,Yes,Several days ago,5,5,Severe
-Sharp,Arm,No,More than a week ago,4,5,Severe
-Burning,Neck,Yes,Several days ago,1,1,Mild
-Sharp,Head,Yes,Several days ago,5,5,Severe
-Burning,Back,No,Several days ago,3,3,Moderate
-Burning,Everywhere,No,Several days ago,5,5,Severe
-Sharp,Everywhere,No,Last week,4,4,Moderate
-Sharp,Head,No,Today,1,5,Severe
-Dull,Arm,No,Several days ago,3,4,Moderate
-Throbbing,Stomach,No,More than a week ago,1,5,Severe
-Burning,Everywhere,No,More than a week ago,2,5,Severe
-Sharp,Everywhere,No,Today,4,4,Moderate
-Throbbing,Stomach,No,Today,5,5,Severe
-Burning,Leg,No,Last week,1,1,Mild
-Sharp,Everywhere,Yes,Today,2,5,Severe
-Throbbing,Arm,Yes,Today,4,5,Severe
-Sharp,Leg,No,More than a week ago,1,4,Moderate
-Dull,Everywhere,Yes,Last week,5,2,Mild
-Burning,Arm,No,More than a week ago,4,2,Mild
-Sharp,Neck,Yes,Several days ago,4,4,Moderate
-Dull,Chest,No,Yesterday,5,5,Severe
-Burning,Neck,Yes,Several days ago,3,4,Moderate
-Throbbing,Chest,No,Today,4,5,Severe
-Burning,Everywhere,No,Several days ago,5,5,Severe
-Burning,Head,No,Last week,1,4,Moderate
-Throbbing,Arm,No,Today,2,3,Moderate
-Dull,Neck,No,Last week,2,5,Severe
-Dull,Neck,No,Last week,2,2,Mild
-Sharp,Head,No,Today,3,5,Severe
-Sharp,Back,Yes,Several days ago,1,1,Mild
-Burning,Everywhere,Yes,Last week,2,5,Severe
-Burning,Head,No,Yesterday,4,4,Moderate
-Throbbing,Head,No,Yesterday,2,2,Mild
-Dull,Neck,No,Several days ago,2,1,Mild
-Throbbing,Stomach,No,Last week,3,4,Moderate
-Sharp,Everywhere,No,Yesterday,1,1,Mild
-Throbbing,Neck,Yes,Yesterday,1,1,Mild
-Dull,Chest,No,More than a week ago,4,2,Mild
-Dull,Back,Yes,Today,1,1,Mild
-Sharp,Back,No,Yesterday,1,5,Severe
-Sharp,Back,Yes,Yesterday,2,1,Mild
-Throbbing,Neck,No,Today,1,3,Moderate
-Throbbing,Arm,Yes,Several days ago,3,3,Moderate
-Dull,Chest,No,Several days ago,3,4,Moderate
-Dull,Head,Yes,More than a week ago,4,3,Moderate
-Burning,Head,No,Several days ago,4,4,Moderate
-Burning,Leg,No,Yesterday,1,2,Mild
-Sharp,Chest,Yes,Today,4,4,Moderate
-Burning,Neck,No,Yesterday,5,5,Severe
-Sharp,Everywhere,No,Last week,3,3,Moderate
-Burning,Chest,Yes,Last week,5,4,Moderate
-Dull,Back,No,Yesterday,5,4,Moderate
-Sharp,Everywhere,No,More than a week ago,1,5,Severe
-Sharp,Neck,No,Last week,1,2,Mild
-Burning,Everywhere,Yes,Last week,3,4,Moderate
-Throbbing,Head,Yes,Yesterday,3,4,Moderate
-Dull,Chest,Yes,More than a week ago,4,4,Moderate
-Throbbing,Head,No,Last week,5,4,Moderate
-Dull,Back,No,Last week,4,1,Mild
-Dull,Head,Yes,Several days ago,2,1,Mild
-Throbbing,Leg,Yes,Last week,3,2,Mild
-Throbbing,Leg,No,More than a week ago,3,1,Mild
-Throbbing,Arm,No,Yesterday,5,1,Mild
-Burning,Neck,No,Several days ago,5,5,Severe
-Sharp,Arm,Yes,Several days ago,2,4,Moderate
-Burning,Back,Yes,Today,1,4,Moderate
-Burning,Everywhere,Yes,Today,4,5,Severe
-Dull,Stomach,Yes,Yesterday,5,4,Moderate
-Burning,Neck,No,Today,1,2,Mild
-Sharp,Arm,No,More than a week ago,3,4,Moderate
-Throbbing,Everywhere,No,Several days ago,4,4,Moderate
-Dull,Leg,Yes,Today,3,4,Moderate
-Throbbing,Stomach,No,Yesterday,1,1,Mild
-Dull,Chest,Yes,More than a week ago,2,1,Mild
-Sharp,Leg,Yes,Yesterday,3,5,Severe
-Throbbing,Chest,No,Last week,2,2,Mild
-Burning,Stomach,No,Yesterday,3,3,Moderate
-Burning,Back,No,More than a week ago,2,5,Severe
-Throbbing,Stomach,No,Today,3,2,Mild
-Throbbing,Chest,No,Several days ago,4,3,Moderate
-Sharp,Neck,No,Several days ago,4,4,Moderate
-Sharp,Stomach,No,Today,5,5,Severe
-Dull,Everywhere,No,Last week,2,1,Mild
-Dull,Chest,Yes,Last week,3,5,Severe
-Throbbing,Everywhere,No,Several days ago,3,3,Moderate
-Throbbing,Head,No,More than a week ago,2,1,Mild
-Throbbing,Stomach,Yes,Several days ago,2,1,Mild
-Throbbing,Head,Yes,More than a week ago,5,2,Mild
-Sharp,Everywhere,Yes,More than a week ago,5,5,Severe
-Sharp,Head,Yes,Yesterday,1,2,Mild
-Sharp,Head,No,Last week,4,5,Severe
-Sharp,Head,No,Today,1,1,Mild
-Dull,Chest,Yes,More than a week ago,5,3,Moderate
-Sharp,Head,No,Several days ago,4,5,Severe
-Throbbing,Head,No,Several days ago,4,5,Severe
-Burning,Arm,No,Today,5,2,Mild
-Sharp,Arm,Yes,Several days ago,3,4,Moderate
-Dull,Arm,No,Last week,4,4,Moderate
-Dull,Everywhere,Yes,Today,3,4,Moderate
-Burning,Everywhere,No,Today,3,4,Moderate
-Sharp,Neck,Yes,Several days ago,1,1,Mild
-Burning,Everywhere,Yes,Last week,3,5,Severe
-Sharp,Everywhere,Yes,More than a week ago,4,5,Severe
-Burning,Chest,Yes,Today,5,4,Moderate
-Throbbing,Neck,Yes,Yesterday,2,2,Mild
-Burning,Neck,No,Yesterday,4,4,Moderate
-Dull,Leg,No,Yesterday,1,2,Mild
-Throbbing,Head,No,Last week,2,2,Mild
-Dull,Leg,No,Last week,1,1,Mild
-Dull,Neck,No,Last week,5,1,Mild
-Dull,Arm,Yes,Today,3,3,Moderate
-Dull,Chest,No,Several days ago,2,2,Mild
-Dull,Back,Yes,Today,4,2,Mild
-Throbbing,Neck,Yes,Today,2,1,Mild
-Throbbing,Leg,Yes,Yesterday,2,3,Moderate
-Burning,Back,Yes,More than a week ago,3,1,Mild
-Dull,Neck,Yes,Today,3,1,Mild
-Burning,Arm,No,Today,1,2,Mild
-Dull,Chest,No,Yesterday,5,5,Severe
-Throbbing,Back,Yes,Today,2,4,Moderate
-Sharp,Head,Yes,More than a week ago,3,4,Moderate
-Sharp,Neck,Yes,Today,2,2,Mild
-Sharp,Back,Yes,More than a week ago,4,5,Severe
-Burning,Stomach,No,Yesterday,4,1,Mild
-Burning,Stomach,Yes,More than a week ago,2,3,Moderate
-Burning,Arm,Yes,More than a week ago,3,3,Moderate
-Dull,Back,Yes,Today,1,5,Severe
-Burning,Back,No,Yesterday,1,1,Mild
-Burning,Leg,No,Last week,2,2,Mild
-Dull,Arm,Yes,More than a week ago,2,1,Mild
-Dull,Arm,No,Several days ago,2,1,Mild
-Burning,Back,No,Several days ago,2,2,Mild
-Throbbing,Neck,Yes,Today,2,3,Moderate
-Sharp,Chest,Yes,Last week,5,5,Severe
-Throbbing,Back,Yes,More than a week ago,3,3,Moderate
-Throbbing,Leg,No,Last week,3,3,Moderate
-Dull,Arm,Yes,Today,1,2,Mild
-Sharp,Chest,Yes,More than a week ago,3,4,Moderate
-Sharp,Everywhere,Yes,Last week,1,4,Moderate
-Dull,Everywhere,No,Yesterday,3,3,Moderate
-Sharp,Arm,No,Today,5,5,Severe
-Throbbing,Back,Yes,Yesterday,4,4,Moderate
-Burning,Leg,Yes,Several days ago,2,5,Severe
-Dull,Chest,No,More than a week ago,5,2,Mild
-Dull,Back,Yes,More than a week ago,4,4,Moderate
-Sharp,Back,Yes,Last week,2,5,Severe
-Sharp,Head,Yes,Several days ago,1,1,Mild
-Throbbing,Neck,Yes,Today,1,1,Mild
-Sharp,Chest,Yes,Last week,3,3,Moderate
-Burning,Chest,Yes,Last week,4,4,Moderate
-Sharp,Head,Yes,Last week,4,4,Moderate
-Burning,Chest,Yes,More than a week ago,2,2,Mild
-Throbbing,Back,Yes,Several days ago,2,2,Mild
-Burning,Stomach,Yes,Last week,5,4,Moderate
-Sharp,Leg,Yes,Yesterday,2,2,Mild
-Sharp,Neck,No,Last week,3,3,Moderate
-Dull,Arm,No,Yesterday,4,4,Moderate
-Burning,Chest,Yes,Several days ago,2,2,Mild
-Throbbing,Neck,No,Several days ago,3,2,Mild
-Sharp,Arm,Yes,Several days ago,5,5,Severe
-Sharp,Stomach,Yes,Several days ago,1,5,Severe
-Throbbing,Stomach,Yes,Today,4,5,Severe
-Dull,Stomach,No,Last week,1,1,Mild
-Dull,Arm,No,Several days ago,1,1,Mild
-Burning,Arm,No,Today,3,3,Moderate
-Throbbing,Arm,Yes,Yesterday,5,5,Severe
-Burning,Stomach,No,Several days ago,5,5,Severe
-Sharp,Leg,Yes,Several days ago,2,4,Moderate
-Throbbing,Neck,No,Today,5,1,Mild
-Dull,Chest,Yes,Yesterday,2,1,Mild
-Burning,Stomach,No,Today,3,4,Moderate
-Sharp,Back,Yes,Yesterday,2,4,Moderate
-Sharp,Back,Yes,Yesterday,4,5,Severe
-Burning,Head,No,Last week,2,2,Mild
-Burning,Back,Yes,Today,1,1,Mild
-Throbbing,Head,Yes,Yesterday,1,4,Moderate
-Burning,Stomach,Yes,Last week,1,1,Mild
-Burning,Stomach,No,More than a week ago,3,3,Moderate
-Throbbing,Neck,No,Yesterday,4,1,Mild
-Throbbing,Neck,Yes,More than a week ago,4,5,Severe
-Throbbing,Arm,No,Last week,2,5,Severe
-Sharp,Head,No,Today,5,5,Severe
-Throbbing,Arm,No,Yesterday,5,3,Moderate
-Sharp,Leg,No,Last week,1,1,Mild
-Dull,Everywhere,Yes,Last week,1,1,Mild
-Throbbing,Stomach,No,Today,1,1,Mild
-Sharp,Neck,No,Last week,3,3,Moderate
-Dull,Stomach,No,Last week,4,4,Moderate
-Dull,Stomach,No,Last week,5,4,Moderate
-Throbbing,Stomach,No,Last week,1,1,Mild
-Burning,Arm,Yes,Today,3,2,Mild
-Throbbing,Leg,Yes,More than a week ago,3,5,Severe
-Dull,Arm,Yes,Last week,3,5,Severe
-Dull,Leg,No,Today,3,2,Mild
-Burning,Back,Yes,Last week,3,5,Severe
-Sharp,Chest,No,Several days ago,4,5,Severe
-Throbbing,Chest,No,Yesterday,5,5,Severe
-Throbbing,Chest,Yes,Yesterday,1,1,Mild
-Sharp,Neck,No,Yesterday,1,1,Mild
-Burning,Back,No,Today,2,2,Mild
-Dull,Chest,Yes,Last week,4,5,Severe
-Sharp,Head,No,Last week,1,1,Mild
-Sharp,Everywhere,No,More than a week ago,1,5,Severe
-Throbbing,Leg,No,More than a week ago,5,2,Mild
-Sharp,Chest,Yes,Today,3,5,Severe
-Sharp,Chest,No,Several days ago,2,4,Moderate
-Throbbing,Neck,Yes,Last week,1,2,Mild
-Dull,Head,No,Yesterday,1,5,Severe
-Dull,Neck,No,More than a week ago,1,1,Mild
-Burning,Head,No,Yesterday,5,5,Severe
-Burning,Everywhere,No,Several days ago,4,4,Moderate
-Burning,Head,No,More than a week ago,1,1,Mild
-Dull,Neck,Yes,Today,5,5,Severe
-Sharp,Chest,No,More than a week ago,4,4,Moderate
-Sharp,Neck,Yes,Last week,1,5,Severe
-Sharp,Back,No,Yesterday,2,5,Severe
-Dull,Leg,No,Yesterday,4,1,Mild
-Burning,Stomach,No,Yesterday,5,5,Severe
-Throbbing,Head,No,Today,4,4,Moderate
-Dull,Leg,No,Yesterday,5,5,Severe
-Sharp,Everywhere,No,Last week,5,5,Severe
-Sharp,Stomach,Yes,Today,3,3,Moderate
-Burning,Leg,Yes,Last week,1,1,Mild
-Burning,Chest,Yes,Last week,3,3,Moderate
-Sharp,Back,Yes,Yesterday,2,1,Mild
-Throbbing,Arm,No,Several days ago,1,1,Mild
-Dull,Everywhere,Yes,Today,1,2,Mild
-Dull,Stomach,Yes,More than a week ago,4,4,Moderate
-Dull,Leg,Yes,Last week,5,4,Moderate
-Dull,Arm,Yes,More than a week ago,3,1,Mild
-Dull,Head,Yes,Yesterday,3,3,Moderate
-Throbbing,Chest,No,Last week,3,1,Mild
-Sharp,Arm,No,Today,4,4,Moderate
-Dull,Neck,No,More than a week ago,1,2,Mild
-Burning,Chest,Yes,Yesterday,5,5,Severe
-Dull,Neck,No,Yesterday,2,2,Mild
-Burning,Chest,No,Yesterday,3,2,Mild
-Sharp,Back,No,Yesterday,3,3,Moderate
-Throbbing,Arm,Yes,Several days ago,2,1,Mild
-Burning,Stomach,Yes,More than a week ago,1,5,Severe
-Sharp,Neck,Yes,Several days ago,3,3,Moderate
-Dull,Stomach,No,Last week,2,3,Moderate
-Dull,Chest,Yes,Last week,2,5,Severe
-Burning,Back,Yes,Today,1,1,Mild
-Throbbing,Everywhere,Yes,Today,5,1,Mild
-Throbbing,Neck,No,More than a week ago,4,5,Severe
-Burning,Back,No,Several days ago,2,5,Severe
-Sharp,Stomach,Yes,Yesterday,5,5,Severe
-Dull,Back,Yes,Last week,2,1,Mild
-Sharp,Chest,Yes,Last week,3,4,Moderate
-Throbbing,Arm,Yes,More than a week ago,1,1,Mild
-Sharp,Chest,No,Today,1,2,Mild
-Dull,Back,Yes,Yesterday,5,5,Severe
-Sharp,Neck,No,Several days ago,1,1,Mild
-Burning,Neck,No,Several days ago,1,1,Mild
-Sharp,Stomach,No,Today,5,5,Severe
-Sharp,Leg,Yes,More than a week ago,3,5,Severe
-Burning,Chest,No,Today,3,4,Moderate
-Throbbing,Arm,No,More than a week ago,2,2,Mild
-Sharp,Neck,Yes,Today,3,3,Moderate
-Dull,Head,Yes,More than a week ago,5,4,Moderate
-Sharp,Neck,Yes,Several days ago,3,3,Moderate
-Sharp,Arm,Yes,Several days ago,2,2,Mild
-Dull,Chest,Yes,Last week,1,2,Mild
-Sharp,Chest,Yes,Yesterday,4,4,Moderate
-Sharp,Leg,No,Yesterday,5,5,Severe
-Throbbing,Back,Yes,More than a week ago,1,2,Mild
-Sharp,Everywhere,Yes,More than a week ago,5,5,Severe
-Throbbing,Head,Yes,Today,3,5,Severe
-Sharp,Back,Yes,Today,1,1,Mild
-Throbbing,Leg,No,Yesterday,5,5,Severe
-Dull,Everywhere,No,Several days ago,5,5,Severe
-Throbbing,Neck,Yes,Today,1,2,Mild
-Throbbing,Neck,Yes,Last week,4,2,Mild
-Throbbing,Leg,No,More than a week ago,2,3,Moderate
-Burning,Leg,No,More than a week ago,2,2,Mild
-Throbbing,Leg,No,Today,4,2,Mild
-Throbbing,Neck,No,More than a week ago,5,1,Mild
-Throbbing,Neck,No,Yesterday,4,4,Moderate
-Throbbing,Stomach,Yes,Today,4,4,Moderate
-Dull,Neck,Yes,Last week,1,3,Moderate
-Sharp,Leg,Yes,Today,4,3,Moderate
-Sharp,Everywhere,Yes,Last week,1,4,Moderate
-Throbbing,Everywhere,No,Yesterday,4,4,Moderate
-Throbbing,Arm,No,More than a week ago,3,3,Moderate
-Dull,Leg,Yes,Today,5,3,Moderate
-Dull,Neck,Yes,Today,1,5,Severe
-Dull,Stomach,No,Yesterday,2,2,Mild
-Throbbing,Chest,Yes,Last week,5,5,Severe
-Sharp,Everywhere,Yes,Today,3,3,Moderate
-Sharp,Back,No,Last week,5,2,Mild
-Dull,Arm,No,Yesterday,3,5,Severe
-Dull,Chest,Yes,Several days ago,1,1,Mild
-Sharp,Everywhere,No,Today,3,3,Moderate
-Burning,Chest,Yes,Several days ago,2,4,Moderate
-Burning,Arm,No,More than a week ago,4,1,Mild
-Burning,Chest,Yes,Several days ago,2,3,Moderate
-Dull,Neck,Yes,Last week,3,4,Moderate
-Sharp,Leg,Yes,More than a week ago,2,5,Severe
-Sharp,Head,No,Yesterday,1,4,Moderate
-Throbbing,Arm,No,More than a week ago,4,2,Mild
-Throbbing,Back,Yes,Today,2,5,Severe
-Burning,Leg,Yes,More than a week ago,4,4,Moderate
-Dull,Head,No,More than a week ago,1,1,Mild
-Burning,Everywhere,Yes,Today,4,4,Moderate
-Dull,Everywhere,Yes,More than a week ago,3,3,Moderate
-Sharp,Back,No,More than a week ago,2,1,Mild
-Burning,Everywhere,Yes,Last week,2,4,Moderate
-Sharp,Arm,No,Last week,4,4,Moderate
-Burning,Chest,Yes,Today,1,5,Severe
-Throbbing,Arm,Yes,Yesterday,3,5,Severe
-Throbbing,Chest,Yes,Last week,1,5,Severe
-Sharp,Back,No,More than a week ago,3,3,Moderate
-Burning,Head,Yes,Several days ago,5,4,Moderate
-Dull,Stomach,No,Last week,1,1,Mild
-Throbbing,Chest,Yes,Yesterday,4,5,Severe
-Burning,Head,No,More than a week ago,5,5,Severe
-Sharp,Head,No,Several days ago,5,5,Severe
-Throbbing,Head,No,Several days ago,1,1,Mild
-Throbbing,Back,No,Several days ago,1,1,Mild
-Burning,Head,Yes,Last week,5,5,Severe
-Throbbing,Stomach,No,Last week,2,2,Mild
-Dull,Neck,Yes,Yesterday,3,5,Severe
-Dull,Stomach,Yes,Yesterday,3,4,Moderate
-Throbbing,Leg,Yes,Several days ago,4,4,Moderate
-Dull,Back,Yes,Several days ago,3,1,Mild
-Sharp,Stomach,No,Yesterday,3,2,Mild
-Dull,Everywhere,Yes,More than a week ago,2,5,Severe
-Dull,Everywhere,No,Today,2,2,Mild
-Burning,Chest,Yes,Several days ago,1,1,Mild
-Burning,Chest,Yes,More than a week ago,3,4,Moderate
-Burning,Chest,Yes,Yesterday,1,2,Mild
-Dull,Arm,No,More than a week ago,1,1,Mild
-Burning,Leg,No,Several days ago,5,4,Moderate
-Throbbing,Leg,No,Last week,4,4,Moderate
-Burning,Back,No,Last week,5,4,Moderate
-Dull,Head,No,Several days ago,5,4,Moderate
-Dull,Neck,Yes,Last week,4,5,Severe
-Burning,Arm,Yes,Last week,2,5,Severe
-Burning,Leg,Yes,More than a week ago,1,4,Moderate
-Sharp,Back,Yes,More than a week ago,5,5,Severe
-Sharp,Leg,No,Yesterday,1,4,Moderate
-Throbbing,Back,No,Several days ago,3,4,Moderate
-Throbbing,Leg,No,Several days ago,4,1,Mild
-Burning,Neck,No,Last week,2,5,Severe
-Throbbing,Back,No,More than a week ago,2,2,Mild
-Dull,Stomach,Yes,Yesterday,3,4,Moderate
-Burning,Arm,No,Several days ago,4,1,Mild
-Dull,Neck,No,More than a week ago,3,1,Mild
-Dull,Leg,Yes,Yesterday,3,3,Moderate
-Dull,Chest,No,Yesterday,1,1,Mild
-Sharp,Head,Yes,Several days ago,4,2,Mild
-Dull,Chest,Yes,Yesterday,3,5,Severe
-Throbbing,Everywhere,Yes,Yesterday,5,2,Mild
-Burning,Head,Yes,More than a week ago,2,3,Moderate
-Burning,Chest,Yes,Today,2,4,Moderate
-Sharp,Chest,Yes,Several days ago,1,1,Mild
-Dull,Chest,No,More than a week ago,1,2,Mild
-Dull,Chest,Yes,More than a week ago,4,4,Moderate
-Throbbing,Leg,Yes,More than a week ago,4,3,Moderate
-Burning,Everywhere,Yes,Last week,3,5,Severe
-Dull,Leg,No,Several days ago,2,1,Mild
-Dull,Leg,Yes,Yesterday,2,2,Mild
-Burning,Back,No,More than a week ago,2,1,Mild
-Throbbing,Leg,Yes,Last week,5,1,Mild
-Dull,Head,Yes,More than a week ago,4,3,Moderate
-Dull,Everywhere,No,Several days ago,1,1,Mild
-Dull,Leg,No,Several days ago,1,3,Moderate
-Burning,Head,No,More than a week ago,4,5,Severe
-Sharp,Stomach,No,Last week,4,1,Mild
-Dull,Chest,No,Last week,4,5,Severe
-Burning,Stomach,No,Yesterday,5,5,Severe
-Sharp,Leg,Yes,Yesterday,2,1,Mild
-Dull,Chest,Yes,More than a week ago,5,5,Severe
-Burning,Arm,Yes,Today,4,5,Severe
-Burning,Head,No,Today,1,1,Mild
-Dull,Stomach,No,More than a week ago,5,1,Mild
-Throbbing,Everywhere,No,Yesterday,1,5,Severe
-Dull,Head,Yes,Several days ago,5,2,Mild
-Sharp,Neck,Yes,More than a week ago,2,4,Moderate
-Sharp,Stomach,Yes,Last week,4,4,Moderate
-Sharp,Arm,Yes,Today,4,4,Moderate
-Sharp,Head,Yes,More than a week ago,5,4,Moderate
-Throbbing,Arm,No,Several days ago,4,4,Moderate
-Sharp,Head,No,Several days ago,1,3,Moderate
-Sharp,Stomach,Yes,Today,2,2,Mild
-Dull,Neck,Yes,Several days ago,5,3,Moderate
-Burning,Chest,Yes,Today,1,2,Mild
-Burning,Stomach,No,Yesterday,3,4,Moderate
-Sharp,Back,Yes,Last week,3,3,Moderate
-Sharp,Stomach,Yes,Today,1,5,Severe
-Sharp,Back,Yes,More than a week ago,5,3,Moderate
-Burning,Neck,No,Several days ago,2,2,Mild
-Throbbing,Stomach,No,Last week,2,2,Mild
-Dull,Everywhere,Yes,Today,5,1,Mild
-Sharp,Stomach,No,Several days ago,1,2,Mild
-Throbbing,Everywhere,No,Last week,4,5,Severe
-Burning,Everywhere,Yes,Several days ago,1,1,Mild
-Throbbing,Arm,Yes,Yesterday,5,5,Severe
-Dull,Neck,Yes,Yesterday,1,2,Mild
-Burning,Neck,No,Last week,2,2,Mild
-Throbbing,Head,Yes,Last week,4,1,Mild
-Dull,Chest,No,Today,4,5,Severe
-Throbbing,Head,No,Several days ago,4,4,Moderate
-Throbbing,Chest,Yes,Several days ago,5,5,Severe
-Throbbing,Chest,No,Today,3,2,Mild
-Dull,Back,No,Today,5,4,Moderate
-Throbbing,Arm,Yes,Last week,3,3,Moderate
-Throbbing,Back,Yes,Last week,5,5,Severe
-Throbbing,Back,No,Several days ago,2,1,Mild
-Burning,Head,Yes,Last week,5,4,Moderate
-Sharp,Arm,Yes,Yesterday,5,5,Severe
-Throbbing,Leg,Yes,Last week,5,4,Moderate
-Throbbing,Back,No,Yesterday,1,1,Mild
-Dull,Head,No,More than a week ago,4,4,Moderate
-Sharp,Back,Yes,Yesterday,2,1,Mild
-Sharp,Leg,Yes,More than a week ago,4,4,Moderate
-Throbbing,Stomach,Yes,Today,3,4,Moderate
-Sharp,Stomach,No,More than a week ago,3,5,Severe
-Burning,Arm,No,Today,5,5,Severe
-Dull,Back,No,Today,3,1,Mild
-Sharp,Back,Yes,Yesterday,4,5,Severe
-Dull,Back,No,Last week,1,1,Mild
-Throbbing,Chest,Yes,Several days ago,5,2,Mild
-Sharp,Back,No,More than a week ago,2,2,Mild
-Sharp,Leg,No,Yesterday,3,4,Moderate
-Throbbing,Everywhere,No,Last week,4,4,Moderate
-Throbbing,Leg,Yes,Today,3,2,Mild
-Burning,Head,Yes,Today,5,3,Moderate
-Dull,Everywhere,Yes,Several days ago,1,1,Mild
-Dull,Chest,No,Last week,2,1,Mild
-Dull,Chest,No,Today,2,2,Mild
-Throbbing,Neck,Yes,Today,5,2,Mild
-Burning,Leg,No,Several days ago,1,1,Mild
-Dull,Arm,No,Last week,4,5,Severe
-Throbbing,Back,Yes,Last week,4,1,Mild
-Sharp,Neck,Yes,Yesterday,1,3,Moderate
-Burning,Neck,No,Last week,3,5,Severe
-Dull,Leg,Yes,More than a week ago,3,1,Mild
-Burning,Back,Yes,Several days ago,2,5,Severe
-Burning,Arm,No,Yesterday,3,1,Mild
-Sharp,Arm,No,More than a week ago,3,3,Moderate
-Sharp,Everywhere,No,Last week,2,4,Moderate
-Dull,Back,No,More than a week ago,3,3,Moderate
-Sharp,Everywhere,No,More than a week ago,5,4,Moderate
-Sharp,Neck,Yes,Several days ago,2,2,Mild
-Burning,Leg,No,Yesterday,3,5,Severe
-Throbbing,Leg,Yes,More than a week ago,4,5,Severe
-Throbbing,Stomach,No,Yesterday,1,4,Moderate
-Sharp,Back,Yes,Several days ago,5,5,Severe
-Dull,Everywhere,No,Today,2,2,Mild
-Throbbing,Head,No,Today,1,4,Moderate
-Dull,Everywhere,Yes,Last week,3,3,Moderate
-Dull,Leg,Yes,Several days ago,3,3,Moderate
-Dull,Arm,No,Yesterday,3,5,Severe
-Throbbing,Stomach,No,Yesterday,5,1,Mild
-Throbbing,Back,No,Yesterday,1,1,Mild
-Burning,Chest,No,Today,4,2,Mild
-Dull,Chest,Yes,Today,3,3,Moderate
-Burning,Arm,Yes,Today,4,5,Severe
-Sharp,Neck,Yes,Several days ago,2,1,Mild
-Throbbing,Everywhere,No,Today,1,4,Moderate
-Burning,Neck,No,Today,3,3,Moderate
-Dull,Stomach,Yes,Last week,5,5,Severe
-Dull,Everywhere,No,Today,1,2,Mild
-Burning,Chest,Yes,More than a week ago,2,5,Severe
-Dull,Stomach,No,Today,5,1,Mild
-Dull,Leg,No,More than a week ago,4,1,Mild
-Throbbing,Chest,Yes,Yesterday,4,5,Severe
-Throbbing,Everywhere,No,More than a week ago,5,5,Severe
-Burning,Stomach,Yes,Yesterday,2,4,Moderate
-Burning,Everywhere,Yes,Several days ago,2,2,Mild
-Dull,Everywhere,No,Last week,2,2,Mild
-Throbbing,Everywhere,No,Several days ago,2,1,Mild
-Sharp,Chest,No,Last week,3,2,Mild
-Burning,Head,Yes,More than a week ago,3,4,Moderate
-Throbbing,Back,No,Yesterday,5,5,Severe
-Throbbing,Stomach,Yes,Yesterday,5,4,Moderate
-Dull,Arm,Yes,Yesterday,3,4,Moderate
-Throbbing,Back,No,Last week,1,1,Mild
-Throbbing,Everywhere,No,Several days ago,2,3,Moderate
-Dull,Leg,No,More than a week ago,4,4,Moderate
-Sharp,Leg,No,More than a week ago,1,5,Severe
-Burning,Stomach,No,Yesterday,2,2,Mild
-Throbbing,Stomach,Yes,Today,2,2,Mild
-Burning,Stomach,No,Last week,2,2,Mild
-Throbbing,Back,Yes,Yesterday,1,4,Moderate
-Throbbing,Neck,No,Several days ago,2,2,Mild
-Burning,Chest,No,Last week,4,5,Severe
-Throbbing,Head,No,Today,4,3,Moderate
-Burning,Back,No,Today,5,4,Moderate
-Burning,Neck,Yes,Last week,1,1,Mild
-Throbbing,Back,Yes,Today,4,4,Moderate
-Sharp,Stomach,Yes,Several days ago,2,4,Moderate
-Sharp,Chest,Yes,More than a week ago,1,2,Mild
-Burning,Chest,No,More than a week ago,2,2,Mild
-Burning,Arm,No,Today,3,4,Moderate
-Sharp,Leg,No,Yesterday,4,2,Mild
-Dull,Arm,Yes,Last week,3,4,Moderate
-Burning,Chest,Yes,Last week,2,3,Moderate
-Sharp,Back,Yes,Last week,3,4,Moderate
-Sharp,Neck,Yes,Yesterday,1,2,Mild
-Throbbing,Back,Yes,Yesterday,3,3,Moderate
-Throbbing,Head,Yes,Last week,5,5,Severe
-Burning,Back,Yes,Several days ago,4,1,Mild
-Burning,Back,No,Yesterday,5,5,Severe
-Throbbing,Leg,Yes,Yesterday,3,1,Mild
-Sharp,Everywhere,No,Today,1,1,Mild
-Burning,Leg,No,Several days ago,4,3,Moderate
-Sharp,Chest,Yes,Several days ago,4,4,Moderate
-Sharp,Head,No,More than a week ago,4,2,Mild
-Dull,Leg,No,Several days ago,1,1,Mild
-Burning,Stomach,Yes,Last week,1,4,Moderate
-Sharp,Head,No,Today,1,1,Mild
-Sharp,Neck,No,More than a week ago,3,5,Severe
-Sharp,Head,Yes,Today,4,4,Moderate
-Sharp,Stomach,No,Last week,2,2,Mild
-Throbbing,Chest,Yes,Last week,4,1,Mild
-Burning,Arm,Yes,Last week,5,4,Moderate
-Dull,Chest,No,Today,1,2,Mild
-Sharp,Back,No,Today,5,1,Mild
-Burning,Head,No,Last week,5,4,Moderate
-Burning,Head,No,Several days ago,4,1,Mild
-Burning,Everywhere,No,Several days ago,2,5,Severe
-Burning,Leg,No,Last week,3,3,Moderate
-Burning,Arm,No,Several days ago,1,1,Mild
-Dull,Back,Yes,Last week,2,2,Mild
-Throbbing,Stomach,No,More than a week ago,3,3,Moderate
-Burning,Chest,No,Yesterday,2,1,Mild
-Burning,Back,Yes,Yesterday,4,5,Severe
-Throbbing,Back,No,More than a week ago,3,3,Moderate
-Burning,Stomach,No,Yesterday,5,1,Mild
-Burning,Back,Yes,Today,5,5,Severe
-Throbbing,Everywhere,No,More than a week ago,1,5,Severe
-Sharp,Leg,Yes,More than a week ago,4,4,Moderate
-Sharp,Everywhere,Yes,Today,1,3,Moderate
-Burning,Stomach,No,More than a week ago,2,4,Moderate
-Burning,Back,No,More than a week ago,3,3,Moderate
-Dull,Head,Yes,Last week,3,2,Mild
-Sharp,Leg,Yes,More than a week ago,1,4,Moderate
-Sharp,Stomach,No,Several days ago,1,1,Mild
-Dull,Neck,Yes,Yesterday,3,4,Moderate
-Burning,Back,No,Several days ago,3,4,Moderate
-Sharp,Everywhere,No,Last week,5,5,Severe
-Sharp,Arm,No,Yesterday,4,4,Moderate
-Burning,Stomach,Yes,Several days ago,4,4,Moderate
-Dull,Everywhere,No,Last week,1,5,Severe
-Dull,Head,Yes,Several days ago,2,2,Mild
-Burning,Stomach,Yes,Several days ago,5,3,Moderate
-Sharp,Back,No,Several days ago,4,5,Severe
-Burning,Chest,Yes,More than a week ago,2,5,Severe
-Sharp,Stomach,Yes,Several days ago,2,4,Moderate
-Dull,Everywhere,Yes,More than a week ago,5,5,Severe
-Burning,Neck,No,Yesterday,1,2,Mild
-Throbbing,Neck,Yes,Yesterday,3,3,Moderate
-Dull,Head,No,Several days ago,2,5,Severe
-Sharp,Leg,No,Several days ago,5,5,Severe
-Sharp,Stomach,Yes,More than a week ago,2,2,Mild
-Burning,Back,No,Yesterday,4,1,Mild
-Throbbing,Back,Yes,More than a week ago,3,5,Severe
-Burning,Arm,No,Yesterday,5,1,Mild
-Burning,Head,No,More than a week ago,5,2,Mild
-Sharp,Everywhere,No,Last week,3,3,Moderate
-Sharp,Everywhere,No,Yesterday,3,5,Severe
-Sharp,Everywhere,No,Last week,1,1,Mild
-Dull,Neck,No,Last week,4,4,Moderate
-Dull,Back,No,Several days ago,3,5,Severe
-Throbbing,Arm,Yes,Yesterday,4,4,Moderate
-Dull,Neck,No,Today,3,3,Moderate
-Dull,Leg,Yes,Today,1,2,Mild
-Burning,Stomach,Yes,More than a week ago,4,4,Moderate
-Sharp,Back,No,Several days ago,4,1,Mild
-Dull,Everywhere,Yes,Last week,1,1,Mild
-Dull,Leg,Yes,Today,2,5,Severe
-Sharp,Arm,No,More than a week ago,1,4,Moderate
-Throbbing,Stomach,No,Yesterday,2,2,Mild
-Burning,Chest,Yes,Yesterday,2,1,Mild
-Sharp,Head,No,Yesterday,2,5,Severe
-Burning,Stomach,No,Last week,4,4,Moderate
-Sharp,Everywhere,No,Yesterday,2,2,Mild
-Throbbing,Neck,Yes,Several days ago,5,3,Moderate
-Throbbing,Leg,No,Yesterday,2,2,Mild
-Burning,Leg,Yes,Several days ago,2,4,Moderate
-Burning,Leg,No,Several days ago,4,4,Moderate
-Throbbing,Everywhere,No,More than a week ago,5,1,Mild
-Burning,Everywhere,No,Last week,5,5,Severe
-Sharp,Everywhere,Yes,Yesterday,1,4,Moderate
-Sharp,Back,Yes,Last week,5,5,Severe
-Sharp,Everywhere,Yes,Today,3,4,Moderate
-Dull,Chest,Yes,Today,2,2,Mild
-Dull,Stomach,Yes,Today,2,3,Moderate
-Sharp,Stomach,No,Several days ago,3,5,Severe
-Burning,Back,Yes,Last week,5,4,Moderate
-Throbbing,Head,Yes,Yesterday,3,4,Moderate
-Throbbing,Arm,No,More than a week ago,4,2,Mild
-Throbbing,Leg,Yes,Last week,2,5,Severe
-Throbbing,Leg,No,Last week,5,5,Severe
-Dull,Back,Yes,Several days ago,4,4,Moderate
-Dull,Arm,Yes,Several days ago,1,1,Mild
-Sharp,Chest,Yes,Today,1,1,Mild
-Burning,Arm,No,More than a week ago,3,3,Moderate
-Burning,Arm,Yes,More than a week ago,5,1,Mild
-Sharp,Chest,Yes,Yesterday,5,5,Severe
-Dull,Neck,No,Today,2,2,Mild
-Sharp,Back,Yes,Today,4,4,Moderate
-Throbbing,Stomach,Yes,Today,3,3,Moderate
-Burning,Neck,Yes,Yesterday,1,4,Moderate
-Burning,Stomach,Yes,Last week,2,5,Severe
-Sharp,Neck,No,Today,3,5,Severe
-Dull,Arm,No,Today,3,3,Moderate
-Sharp,Stomach,No,Today,4,4,Moderate
-Burning,Back,No,More than a week ago,4,5,Severe
-Throbbing,Arm,Yes,More than a week ago,4,2,Mild
-Throbbing,Arm,No,Several days ago,3,2,Mild
-Dull,Chest,No,Today,5,3,Moderate
-Sharp,Head,Yes,Today,3,3,Moderate
-Sharp,Chest,No,Several days ago,2,2,Mild
-Burning,Back,Yes,More than a week ago,5,5,Severe
-Sharp,Chest,Yes,Last week,3,3,Moderate
-Dull,Chest,Yes,Several days ago,3,3,Moderate
-Dull,Stomach,Yes,More than a week ago,3,4,Moderate
-Burning,Stomach,Yes,Several days ago,5,4,Moderate
-Burning,Head,No,Last week,1,5,Severe
-Dull,Leg,Yes,More than a week ago,5,2,Mild
-Dull,Leg,No,Several days ago,4,4,Moderate
-Burning,Stomach,Yes,Yesterday,1,1,Mild
-Sharp,Stomach,Yes,More than a week ago,5,5,Severe
-Sharp,Chest,Yes,Last week,4,5,Severe
-Burning,Arm,No,Yesterday,2,1,Mild
-Throbbing,Leg,No,More than a week ago,5,5,Severe
-Sharp,Stomach,No,More than a week ago,4,4,Moderate
-Throbbing,Neck,No,Several days ago,5,1,Mild
-Burning,Everywhere,No,Last week,4,4,Moderate
-Burning,Neck,Yes,Yesterday,3,5,Severe
-Sharp,Stomach,Yes,Several days ago,1,5,Severe
-Dull,Neck,No,Several days ago,5,5,Severe
-Throbbing,Leg,No,Last week,1,2,Mild
-Sharp,Everywhere,No,More than a week ago,1,3,Moderate
-Burning,Leg,No,Last week,2,2,Mild
-Dull,Neck,Yes,More than a week ago,3,1,Mild
-Dull,Neck,Yes,Last week,4,4,Moderate
-Sharp,Stomach,Yes,More than a week ago,2,4,Moderate
-Throbbing,Chest,Yes,More than a week ago,5,4,Moderate
-Dull,Neck,No,Several days ago,1,1,Mild
-Throbbing,Chest,Yes,Yesterday,2,2,Mild
-Sharp,Neck,No,Yesterday,2,2,Mild
-Burning,Head,Yes,Last week,3,5,Severe
-Dull,Head,No,Today,4,1,Mild
-Dull,Everywhere,No,Several days ago,5,4,Moderate
-Sharp,Neck,Yes,Last week,5,3,Moderate
-Throbbing,Stomach,No,Yesterday,5,5,Severe
-Burning,Stomach,Yes,More than a week ago,1,5,Severe
-Sharp,Arm,No,Yesterday,1,5,Severe
-Throbbing,Chest,No,More than a week ago,4,4,Moderate
-Throbbing,Arm,Yes,Yesterday,3,3,Moderate
-Dull,Arm,Yes,Several days ago,3,5,Severe
-Dull,Chest,Yes,Last week,1,4,Moderate
-Dull,Head,Yes,Yesterday,5,4,Moderate
-Burning,Leg,Yes,More than a week ago,5,5,Severe
-Burning,Back,Yes,Last week,5,1,Mild
-Sharp,Arm,Yes,More than a week ago,5,1,Mild
-Dull,Back,Yes,Yesterday,1,4,Moderate
-Dull,Leg,No,Today,2,2,Mild
-Sharp,Chest,Yes,Yesterday,1,1,Mild
-Burning,Neck,No,Last week,4,4,Moderate
-Throbbing,Chest,Yes,Yesterday,1,4,Moderate
-Dull,Leg,No,Yesterday,2,5,Severe
-Sharp,Chest,No,More than a week ago,1,1,Mild
-Sharp,Neck,Yes,Yesterday,5,5,Severe
-Sharp,Chest,No,Yesterday,5,5,Severe
-Dull,Back,Yes,Yesterday,5,3,Moderate
-Throbbing,Arm,No,Today,2,2,Mild
-Dull,Chest,Yes,More than a week ago,3,3,Moderate
-Burning,Stomach,No,More than a week ago,3,4,Moderate
-Dull,Back,No,More than a week ago,5,5,Severe
-Burning,Arm,No,Today,3,3,Moderate
-Burning,Arm,No,Yesterday,4,5,Severe
-Dull,Stomach,Yes,Last week,5,5,Severe
-Burning,Neck,Yes,Yesterday,4,5,Severe
-Burning,Chest,No,Last week,2,2,Mild
-Throbbing,Head,No,Last week,4,4,Moderate
-Sharp,Arm,No,More than a week ago,5,4,Moderate
-Dull,Chest,No,Today,4,3,Moderate
-Burning,Head,Yes,Today,4,3,Moderate
-Burning,Neck,No,More than a week ago,1,1,Mild
-Throbbing,Head,Yes,Today,2,2,Mild
-Burning,Chest,No,Last week,4,4,Moderate
-Dull,Stomach,Yes,More than a week ago,3,4,Moderate
-Burning,Neck,Yes,Several days ago,3,3,Moderate
-Burning,Head,No,Yesterday,3,4,Moderate
-Throbbing,Chest,Yes,More than a week ago,4,5,Severe
-Throbbing,Leg,Yes,Last week,3,1,Mild
-Burning,Neck,No,Several days ago,5,5,Severe
-Burning,Everywhere,Yes,Today,1,5,Severe
-Burning,Everywhere,Yes,Yesterday,1,1,Mild
-Burning,Arm,No,Several days ago,3,5,Severe
-Burning,Everywhere,Yes,Yesterday,5,4,Moderate
-Throbbing,Leg,No,Yesterday,4,5,Severe
-Burning,Leg,Yes,More than a week ago,1,1,Mild
-Burning,Chest,Yes,Yesterday,3,1,Mild
-Dull,Head,No,Yesterday,1,2,Mild
-Dull,Arm,Yes,Several days ago,1,1,Mild
-Burning,Neck,Yes,Today,4,4,Moderate
-Throbbing,Chest,No,More than a week ago,3,3,Moderate
-Throbbing,Chest,Yes,Yesterday,2,2,Mild
-Dull,Everywhere,No,More than a week ago,2,2,Mild
-Burning,Leg,Yes,Last week,2,4,Moderate
-Sharp,Everywhere,No,Yesterday,4,4,Moderate
-Burning,Arm,Yes,More than a week ago,3,2,Mild
-Burning,Back,No,More than a week ago,2,4,Moderate
-Dull,Head,No,Several days ago,5,5,Severe
-Sharp,Back,No,More than a week ago,5,2,Mild
-Burning,Everywhere,Yes,Today,5,5,Severe
-Dull,Stomach,No,Today,3,3,Moderate
-Dull,Leg,Yes,More than a week ago,5,4,Moderate
-Dull,Head,No,Yesterday,4,5,Severe
-Burning,Chest,Yes,Today,1,3,Moderate
-Throbbing,Chest,Yes,Today,5,4,Moderate
-Burning,Leg,No,Last week,3,4,Moderate
-Dull,Leg,Yes,More than a week ago,4,5,Severe
-Burning,Neck,No,Yesterday,3,5,Severe
-Dull,Leg,Yes,Today,3,3,Moderate
-Sharp,Stomach,Yes,Last week,3,5,Severe
-Dull,Chest,No,Today,4,2,Mild
-Dull,Stomach,No,Today,1,1,Mild
-Dull,Arm,Yes,Last week,5,4,Moderate
-Throbbing,Arm,Yes,Last week,3,5,Severe
-Burning,Neck,Yes,Today,5,5,Severe
-Throbbing,Back,Yes,Today,4,4,Moderate
-Sharp,Stomach,No,Several days ago,1,1,Mild
-Throbbing,Chest,No,Last week,1,2,Mild
-Throbbing,Chest,Yes,Last week,4,1,Mild
-Sharp,Stomach,No,Several days ago,5,5,Severe
-Dull,Stomach,Yes,Today,5,1,Mild
-Burning,Neck,Yes,Several days ago,3,3,Moderate
-Sharp,Leg,No,More than a week ago,4,5,Severe
-Sharp,Arm,No,Last week,3,1,Mild
-Throbbing,Stomach,No,Last week,4,2,Mild
-Sharp,Leg,No,Last week,2,1,Mild
-Sharp,Everywhere,Yes,Last week,5,3,Moderate
-Dull,Neck,Yes,Yesterday,4,1,Mild
-Throbbing,Neck,Yes,Last week,5,5,Severe
-Sharp,Leg,Yes,Today,2,1,Mild
-Sharp,Arm,No,More than a week ago,1,5,Severe
-Sharp,Chest,No,Several days ago,4,4,Moderate
-Throbbing,Back,Yes,Yesterday,4,4,Moderate
-Throbbing,Back,No,Several days ago,3,3,Moderate
-Burning,Head,Yes,Last week,1,5,Severe
-Throbbing,Head,Yes,More than a week ago,3,2,Mild
-Sharp,Back,Yes,Last week,5,1,Mild
-Sharp,Arm,No,Last week,1,1,Mild
-Sharp,Everywhere,Yes,Several days ago,1,3,Moderate
-Burning,Arm,No,Several days ago,4,3,Moderate
-Burning,Leg,Yes,More than a week ago,4,2,Mild
-Burning,Arm,No,Today,2,2,Mild
-Burning,Head,Yes,Yesterday,3,4,Moderate
-Burning,Back,Yes,Last week,3,5,Severe
-Burning,Everywhere,Yes,Today,3,1,Mild
-Sharp,Arm,No,More than a week ago,1,1,Mild
-Dull,Arm,No,More than a week ago,1,2,Mild
-Sharp,Everywhere,No,Several days ago,1,1,Mild
-Burning,Chest,No,Last week,4,4,Moderate
-Throbbing,Leg,No,Yesterday,5,5,Severe
-Sharp,Everywhere,No,Today,2,2,Mild
-Throbbing,Arm,Yes,Last week,1,4,Moderate
-Burning,Arm,Yes,Several days ago,2,1,Mild
-Sharp,Neck,No,Today,2,4,Moderate
-Throbbing,Back,No,Several days ago,5,4,Moderate
-Burning,Everywhere,Yes,More than a week ago,3,3,Moderate
-Sharp,Arm,Yes,Today,5,5,Severe
-Dull,Neck,Yes,Yesterday,5,5,Severe
-Sharp,Stomach,No,Yesterday,3,2,Mild
-Throbbing,Back,Yes,Yesterday,1,1,Mild
-Throbbing,Head,Yes,Several days ago,2,3,Moderate
-Dull,Back,No,Today,1,3,Moderate
-Sharp,Chest,No,Several days ago,3,3,Moderate
-Throbbing,Chest,No,Last week,3,1,Mild
-Throbbing,Stomach,Yes,Several days ago,4,2,Mild
-Sharp,Back,No,More than a week ago,2,2,Mild
-Throbbing,Arm,Yes,Several days ago,1,1,Mild
-Burning,Arm,Yes,Today,5,2,Mild
-Sharp,Back,Yes,Several days ago,4,5,Severe
-Sharp,Stomach,No,Today,5,5,Severe
-Burning,Chest,No,More than a week ago,1,2,Mild
-Dull,Head,Yes,Last week,1,1,Mild
-Sharp,Everywhere,No,Last week,4,4,Moderate
-Burning,Stomach,No,Today,2,5,Severe
-Dull,Chest,No,Last week,1,5,Severe
-Sharp,Everywhere,No,Yesterday,2,5,Severe
-Dull,Head,Yes,Today,5,5,Severe
-Burning,Head,No,Yesterday,3,3,Moderate
-Burning,Leg,Yes,More than a week ago,3,5,Severe
-Throbbing,Chest,No,Last week,2,2,Mild
-Throbbing,Everywhere,No,More than a week ago,5,2,Mild
-Dull,Everywhere,No,Today,1,3,Moderate
-Sharp,Stomach,Yes,More than a week ago,4,1,Mild
-Sharp,Stomach,Yes,Last week,1,4,Moderate
-Burning,Everywhere,Yes,Yesterday,5,5,Severe
-Burning,Stomach,Yes,Several days ago,1,5,Severe
-Burning,Head,Yes,Yesterday,2,2,Mild
-Throbbing,Head,Yes,Yesterday,4,5,Severe
-Dull,Head,No,Last week,4,1,Mild
-Dull,Chest,No,Last week,3,4,Moderate
-Sharp,Everywhere,No,More than a week ago,2,1,Mild
-Sharp,Neck,Yes,Several days ago,3,5,Severe
-Throbbing,Chest,No,Yesterday,2,1,Mild
-Burning,Everywhere,Yes,Last week,4,4,Moderate
-Dull,Head,No,Today,3,3,Moderate
-Dull,Leg,No,Last week,5,4,Moderate
-Dull,Back,Yes,Last week,4,1,Mild
-Dull,Head,Yes,Last week,2,2,Mild
-Dull,Arm,No,Last week,2,1,Mild
-Dull,Head,Yes,Yesterday,2,2,Mild
-Burning,Chest,No,Today,3,3,Moderate
-Burning,Back,No,Last week,3,3,Moderate
-Burning,Everywhere,No,Yesterday,5,4,Moderate
-Burning,Stomach,Yes,Yesterday,5,4,Moderate
-Throbbing,Everywhere,No,Several days ago,3,1,Mild
-Burning,Leg,No,Today,5,5,Severe
-Dull,Everywhere,Yes,Several days ago,3,2,Mild
-Dull,Leg,No,Last week,4,1,Mild
-Throbbing,Neck,Yes,Today,5,4,Moderate
-Sharp,Back,No,Yesterday,3,2,Mild
-Throbbing,Arm,Yes,More than a week ago,5,3,Moderate
-Dull,Stomach,No,Last week,2,2,Mild
-Throbbing,Everywhere,Yes,Several days ago,3,2,Mild
-Sharp,Arm,No,More than a week ago,1,4,Moderate
-Dull,Head,Yes,More than a week ago,1,1,Mild
-Sharp,Leg,Yes,Yesterday,3,4,Moderate
-Throbbing,Arm,No,Last week,5,5,Severe
-Throbbing,Leg,No,Several days ago,3,3,Moderate
-Dull,Chest,No,Several days ago,1,4,Moderate
-Sharp,Back,No,Several days ago,5,5,Severe
-Sharp,Chest,No,Several days ago,1,2,Mild
-Throbbing,Stomach,Yes,Last week,4,4,Moderate
-Throbbing,Head,Yes,Several days ago,1,1,Mild
-Sharp,Head,No,More than a week ago,5,5,Severe
-Throbbing,Head,Yes,Several days ago,4,4,Moderate
-Sharp,Everywhere,Yes,Today,4,4,Moderate
-Burning,Arm,Yes,Last week,3,1,Mild
-Burning,Back,Yes,Yesterday,3,3,Moderate
-Sharp,Neck,No,Today,1,2,Mild
-Throbbing,Chest,Yes,Today,5,5,Severe
-Dull,Chest,No,Several days ago,1,1,Mild
-Burning,Leg,Yes,Last week,3,1,Mild
-Sharp,Arm,Yes,Today,4,4,Moderate
-Throbbing,Leg,No,Several days ago,5,5,Severe
-Dull,Stomach,Yes,Yesterday,5,5,Severe
-Throbbing,Stomach,No,Yesterday,2,1,Mild
-Dull,Leg,Yes,Last week,1,5,Severe
-Throbbing,Neck,Yes,More than a week ago,4,5,Severe
-Burning,Head,Yes,Yesterday,5,5,Severe
-Burning,Head,No,Today,4,4,Moderate
-Throbbing,Back,Yes,Several days ago,5,4,Moderate
-Sharp,Arm,Yes,More than a week ago,1,1,Mild
-Throbbing,Leg,Yes,Several days ago,1,2,Mild
-Sharp,Head,No,Several days ago,4,4,Moderate
-Sharp,Head,No,Yesterday,1,1,Mild
-Dull,Leg,No,Several days ago,4,4,Moderate
-Burning,Everywhere,Yes,Today,1,5,Severe
-Sharp,Back,Yes,Today,4,3,Moderate
-Dull,Head,Yes,Last week,2,5,Severe
-Dull,Back,No,Last week,5,2,Mild
-Burning,Chest,No,Last week,1,5,Severe
-Throbbing,Head,No,Yesterday,5,4,Moderate
-Dull,Arm,Yes,Last week,2,2,Mild
-Throbbing,Back,No,More than a week ago,2,5,Severe
-Burning,Head,No,Yesterday,5,5,Severe
-Dull,Stomach,Yes,Several days ago,3,5,Severe
-Sharp,Neck,Yes,Yesterday,5,5,Severe
-Throbbing,Everywhere,Yes,Last week,3,2,Mild
-Dull,Chest,Yes,Several days ago,5,1,Mild
-Burning,Everywhere,Yes,Yesterday,2,1,Mild
-Throbbing,Everywhere,No,Last week,4,2,Mild
-Sharp,Arm,Yes,Several days ago,3,4,Moderate
-Sharp,Neck,Yes,Today,4,4,Moderate
-Dull,Back,No,More than a week ago,1,1,Mild
-Burning,Leg,Yes,Last week,1,4,Moderate
-Dull,Arm,No,Last week,5,5,Severe
-Burning,Neck,No,More than a week ago,3,5,Severe
-Throbbing,Neck,No,Several days ago,1,1,Mild
-Dull,Stomach,Yes,Yesterday,1,1,Mild
-Burning,Everywhere,Yes,More than a week ago,1,1,Mild
-Burning,Head,No,Last week,1,2,Mild
-Throbbing,Neck,Yes,More than a week ago,2,4,Moderate
-Burning,Neck,No,Today,2,4,Moderate
-Throbbing,Neck,No,Today,3,2,Mild
-Sharp,Everywhere,Yes,Several days ago,5,5,Severe
-Burning,Leg,No,Yesterday,2,5,Severe
-Burning,Everywhere,Yes,Today,1,2,Mild
-Sharp,Arm,Yes,Yesterday,5,5,Severe
-Burning,Everywhere,No,Yesterday,5,5,Severe
-Burning,Chest,No,Several days ago,3,5,Severe
-Sharp,Head,Yes,Yesterday,1,3,Moderate
-Burning,Back,Yes,Several days ago,4,4,Moderate
-Burning,Neck,Yes,More than a week ago,5,4,Moderate
-Dull,Arm,Yes,More than a week ago,1,5,Severe
-Dull,Leg,Yes,More than a week ago,3,3,Moderate
-Sharp,Arm,No,Today,2,1,Mild
-Burning,Stomach,Yes,Yesterday,2,3,Moderate
-Dull,Neck,No,More than a week ago,3,3,Moderate
-Throbbing,Leg,Yes,Last week,5,5,Severe
-Throbbing,Leg,No,Last week,1,5,Severe
-Sharp,Arm,No,Last week,2,2,Mild
-Dull,Neck,Yes,Today,1,5,Severe
-Burning,Everywhere,No,Several days ago,1,1,Mild
-Sharp,Chest,No,Yesterday,2,4,Moderate
-Dull,Back,No,Yesterday,5,1,Mild
-Throbbing,Chest,No,Yesterday,4,1,Mild
-Burning,Chest,No,Today,4,4,Moderate
-Burning,Back,No,More than a week ago,1,1,Mild
-Dull,Stomach,Yes,Today,2,4,Moderate
-Burning,Back,No,Yesterday,3,3,Moderate
-Burning,Chest,Yes,Yesterday,4,5,Severe
-Throbbing,Neck,No,Last week,2,1,Mild
-Sharp,Stomach,Yes,Several days ago,3,3,Moderate
-Dull,Back,No,Several days ago,1,1,Mild
-Burning,Head,Yes,Today,3,4,Moderate
-Burning,Head,No,Yesterday,4,1,Mild
-Burning,Everywhere,Yes,More than a week ago,3,5,Severe
-Dull,Head,Yes,Yesterday,5,5,Severe
-Sharp,Arm,No,Several days ago,2,2,Mild
-Sharp,Stomach,Yes,Yesterday,2,1,Mild
-Throbbing,Everywhere,Yes,Last week,2,3,Moderate
-Sharp,Head,No,Several days ago,1,3,Moderate
-Throbbing,Arm,No,Several days ago,4,5,Severe
-Throbbing,Head,Yes,Last week,3,3,Moderate
-Throbbing,Leg,Yes,Several days ago,2,1,Mild
-Throbbing,Chest,Yes,More than a week ago,4,5,Severe
-Throbbing,Neck,Yes,Today,4,4,Moderate
-Burning,Leg,No,Today,4,4,Moderate
-Burning,Everywhere,Yes,Yesterday,1,4,Moderate
-Dull,Stomach,No,Today,2,1,Mild
-Throbbing,Chest,Yes,Several days ago,2,2,Mild
-Burning,Arm,Yes,Today,4,5,Severe
-Sharp,Chest,Yes,Yesterday,2,2,Mild
-Burning,Stomach,No,Last week,4,5,Severe
-Sharp,Back,No,Yesterday,1,1,Mild
-Sharp,Everywhere,No,Today,5,5,Severe
-Dull,Arm,No,Yesterday,1,1,Mild
-Burning,Neck,No,Several days ago,4,5,Severe
-Sharp,Everywhere,Yes,Several days ago,2,5,Severe
-Dull,Head,Yes,Several days ago,1,1,Mild
-Sharp,Stomach,Yes,Last week,1,1,Mild
-Sharp,Leg,Yes,Last week,2,2,Mild
-Sharp,Back,Yes,Yesterday,5,4,Moderate
-Dull,Leg,No,Last week,2,1,Mild
-Sharp,Chest,No,Today,5,5,Severe
-Sharp,Leg,Yes,Last week,2,1,Mild
-Sharp,Head,No,Today,2,2,Mild
-Burning,Arm,Yes,Yesterday,4,5,Severe
-Throbbing,Everywhere,No,Last week,2,5,Severe
-Burning,Arm,Yes,Several days ago,5,3,Moderate
-Throbbing,Stomach,No,More than a week ago,1,1,Mild
-Sharp,Leg,Yes,Today,3,3,Moderate
-Burning,Stomach,Yes,Today,1,1,Mild
-Dull,Neck,Yes,Today,2,5,Severe
-Burning,Everywhere,Yes,More than a week ago,5,5,Severe
-Dull,Neck,No,Several days ago,2,2,Mild
-Throbbing,Leg,Yes,Today,3,4,Moderate
-Sharp,Leg,No,Today,3,2,Mild
-Sharp,Stomach,No,Several days ago,2,5,Severe
-Burning,Arm,Yes,More than a week ago,1,3,Moderate
-Throbbing,Stomach,No,More than a week ago,1,1,Mild
-Burning,Neck,Yes,Today,3,5,Severe
-Throbbing,Leg,No,Yesterday,2,2,Mild
-Throbbing,Stomach,No,Yesterday,4,3,Moderate
-Dull,Chest,Yes,More than a week ago,4,2,Mild
-Throbbing,Leg,No,Several days ago,2,2,Mild
-Sharp,Chest,No,More than a week ago,1,1,Mild
-Throbbing,Chest,No,More than a week ago,2,2,Mild
-Throbbing,Arm,Yes,More than a week ago,2,5,Severe
-Burning,Head,Yes,Today,3,4,Moderate
-Throbbing,Leg,Yes,Today,4,4,Moderate
-Dull,Neck,No,Yesterday,3,3,Moderate
-Sharp,Arm,Yes,Yesterday,3,3,Moderate
-Burning,Stomach,No,Last week,4,4,Moderate
-Dull,Stomach,No,Several days ago,5,3,Moderate
-Dull,Back,Yes,Several days ago,4,2,Mild
-Dull,Head,No,Several days ago,3,3,Moderate
-Throbbing,Neck,No,Last week,4,4,Moderate
-Burning,Arm,No,Several days ago,2,5,Severe
-Throbbing,Neck,Yes,Today,4,2,Mild
-Sharp,Leg,No,Several days ago,2,3,Moderate
-Throbbing,Chest,No,Several days ago,1,5,Severe
-Dull,Leg,Yes,More than a week ago,1,1,Mild
-Dull,Leg,Yes,Today,4,5,Severe
-Sharp,Head,No,Yesterday,2,2,Mild
-Throbbing,Arm,Yes,Today,3,3,Moderate
-Throbbing,Stomach,Yes,Today,3,1,Mild
-Sharp,Chest,No,Today,5,5,Severe
-Dull,Chest,Yes,Last week,1,5,Severe
-Throbbing,Everywhere,No,Several days ago,2,2,Mild
-Dull,Leg,Yes,Last week,5,2,Mild
-Burning,Chest,No,Several days ago,4,4,Moderate
-Dull,Everywhere,Yes,Today,3,4,Moderate
-Sharp,Stomach,No,Several days ago,4,5,Severe
-Burning,Stomach,No,Several days ago,1,5,Severe
-Burning,Chest,Yes,Yesterday,1,1,Mild
-Throbbing,Stomach,Yes,Yesterday,2,2,Mild
-Dull,Chest,No,Yesterday,1,2,Mild
-Sharp,Leg,Yes,Yesterday,2,5,Severe
-Burning,Back,Yes,Today,1,3,Moderate
-Dull,Neck,Yes,Yesterday,5,5,Severe
-Sharp,Chest,No,Today,3,4,Moderate
-Burning,Arm,Yes,Yesterday,1,4,Moderate
-Throbbing,Arm,No,Several days ago,1,1,Mild
-Throbbing,Neck,No,Yesterday,3,5,Severe
-Sharp,Everywhere,Yes,Today,5,5,Severe
-Burning,Head,Yes,More than a week ago,3,1,Mild
-Dull,Leg,No,Several days ago,2,2,Mild
-Throbbing,Arm,No,Last week,3,5,Severe
-Dull,Chest,No,Last week,4,5,Severe
-Sharp,Leg,No,Today,3,4,Moderate
-Dull,Neck,Yes,Yesterday,5,4,Moderate
-Dull,Everywhere,Yes,More than a week ago,3,4,Moderate
-Sharp,Leg,Yes,Today,4,4,Moderate
-Throbbing,Back,No,Today,5,4,Moderate
-Sharp,Head,No,Last week,1,4,Moderate
-Sharp,Leg,Yes,More than a week ago,4,4,Moderate
-Sharp,Back,No,Last week,5,4,Moderate
-Burning,Head,No,Last week,1,2,Mild
-Throbbing,Everywhere,No,Last week,1,2,Mild
-Throbbing,Stomach,No,More than a week ago,2,2,Mild
-Sharp,Stomach,No,Several days ago,2,5,Severe
-Sharp,Head,No,Several days ago,4,2,Mild
-Burning,Head,Yes,Today,1,5,Severe
-Burning,Leg,No,Today,3,2,Mild
-Sharp,Arm,No,More than a week ago,2,5,Severe
-Sharp,Neck,No,Yesterday,1,1,Mild
-Sharp,Back,No,More than a week ago,1,1,Mild
-Burning,Arm,No,More than a week ago,4,5,Severe
-Dull,Back,No,Several days ago,5,4,Moderate
-Dull,Everywhere,No,Several days ago,1,5,Severe
-Throbbing,Arm,No,More than a week ago,3,4,Moderate
-Dull,Head,No,Last week,3,4,Moderate
-Sharp,Back,No,Several days ago,5,5,Severe
-Throbbing,Leg,No,Several days ago,1,1,Mild
-Dull,Stomach,Yes,More than a week ago,3,5,Severe
-Sharp,Head,No,Yesterday,4,4,Moderate
-Throbbing,Chest,No,Several days ago,2,2,Mild
-Dull,Chest,No,Last week,2,5,Severe
-Burning,Neck,No,Several days ago,1,2,Mild
-Sharp,Neck,No,Yesterday,3,3,Moderate
-Throbbing,Arm,No,Yesterday,1,1,Mild
-Dull,Chest,No,Today,4,4,Moderate
-Throbbing,Back,No,Last week,1,4,Moderate
-Sharp,Back,No,Last week,4,5,Severe
-Throbbing,Leg,Yes,Several days ago,3,1,Mild
-Sharp,Head,No,Today,4,5,Severe
-Sharp,Neck,Yes,Last week,3,5,Severe
-Sharp,Neck,Yes,Several days ago,4,4,Moderate
-Throbbing,Chest,Yes,Today,1,1,Mild
-Dull,Head,No,Today,1,1,Mild
-Sharp,Head,No,Today,4,4,Moderate
-Throbbing,Back,No,Today,2,1,Mild
-Sharp,Leg,No,Yesterday,5,4,Moderate
-Throbbing,Leg,Yes,More than a week ago,4,2,Mild
-Sharp,Leg,Yes,More than a week ago,3,3,Moderate
-Burning,Neck,Yes,More than a week ago,1,1,Mild
-Throbbing,Neck,Yes,Yesterday,5,4,Moderate
-Sharp,Back,No,More than a week ago,2,3,Moderate
-Burning,Leg,Yes,Yesterday,5,5,Severe
-Throbbing,Neck,Yes,Several days ago,3,2,Mild
-Dull,Everywhere,Yes,Last week,3,5,Severe
-Sharp,Arm,No,More than a week ago,3,3,Moderate
-Throbbing,Head,No,More than a week ago,1,4,Moderate
-Burning,Everywhere,Yes,More than a week ago,1,5,Severe
-Burning,Stomach,Yes,More than a week ago,2,2,Mild
-Sharp,Everywhere,Yes,Several days ago,1,5,Severe
-Burning,Everywhere,No,Yesterday,2,1,Mild
-Throbbing,Everywhere,Yes,Last week,1,5,Severe
-Throbbing,Head,Yes,Yesterday,4,3,Moderate
-Throbbing,Arm,Yes,Yesterday,1,1,Mild
-Dull,Head,No,Last week,4,4,Moderate
-Throbbing,Everywhere,No,More than a week ago,4,4,Moderate
-Dull,Arm,No,Last week,5,5,Severe
-Sharp,Neck,No,Today,4,4,Moderate
-Sharp,Head,Yes,More than a week ago,5,4,Moderate
-Throbbing,Chest,No,Last week,4,5,Severe
-Dull,Head,No,Last week,1,1,Mild
-Dull,Arm,Yes,Today,1,1,Mild
-Throbbing,Head,No,Today,3,3,Moderate
-Throbbing,Everywhere,No,Today,2,1,Mild
-Sharp,Everywhere,Yes,Last week,4,5,Severe
-Dull,Head,Yes,Yesterday,4,4,Moderate
-Dull,Leg,No,Last week,3,3,Moderate
-Burning,Head,Yes,Yesterday,1,2,Mild
-Dull,Leg,Yes,More than a week ago,5,1,Mild
-Throbbing,Back,No,Last week,1,3,Moderate
-Sharp,Stomach,Yes,Several days ago,5,5,Severe
-Sharp,Chest,No,More than a week ago,4,5,Severe
-Burning,Head,Yes,Today,2,4,Moderate
-Burning,Everywhere,No,Last week,1,1,Mild
-Burning,Leg,No,More than a week ago,5,4,Moderate
-Sharp,Everywhere,Yes,Last week,4,4,Moderate
-Burning,Chest,No,Last week,2,1,Mild
-Burning,Arm,No,Several days ago,3,3,Moderate
-Burning,Stomach,No,Today,1,1,Mild
-Burning,Stomach,No,Yesterday,1,1,Mild
-Sharp,Everywhere,Yes,Today,4,5,Severe
-Dull,Everywhere,Yes,More than a week ago,3,3,Moderate
-Sharp,Chest,No,Yesterday,3,1,Mild
-Sharp,Neck,Yes,Today,5,5,Severe
-Sharp,Neck,Yes,Last week,5,5,Severe
-Throbbing,Stomach,No,Yesterday,5,5,Severe
-Burning,Stomach,No,Today,2,1,Mild
-Sharp,Everywhere,Yes,More than a week ago,2,5,Severe
-Sharp,Chest,No,More than a week ago,1,4,Moderate
-Sharp,Chest,Yes,Several days ago,2,2,Mild
-Dull,Head,No,Several days ago,1,2,Mild
-Dull,Neck,No,Today,3,4,Moderate
-Dull,Everywhere,No,Several days ago,5,5,Severe
-Sharp,Leg,No,Today,4,4,Moderate
-Burning,Everywhere,Yes,Yesterday,1,5,Severe
-Throbbing,Neck,Yes,Several days ago,2,3,Moderate
-Sharp,Stomach,No,Yesterday,2,2,Mild
-Burning,Leg,Yes,Today,4,5,Severe
-Sharp,Stomach,No,Today,2,5,Severe
-Sharp,Leg,Yes,Last week,4,5,Severe
-Throbbing,Everywhere,Yes,Today,1,3,Moderate
-Throbbing,Back,Yes,Several days ago,2,2,Mild
-Sharp,Chest,Yes,Last week,4,5,Severe
-Throbbing,Leg,Yes,Last week,4,4,Moderate
-Dull,Arm,Yes,More than a week ago,1,2,Mild
-Sharp,Everywhere,No,Today,3,4,Moderate
-Burning,Everywhere,Yes,Last week,1,5,Severe
-Throbbing,Neck,Yes,More than a week ago,2,2,Mild
-Burning,Everywhere,Yes,Yesterday,5,4,Moderate
-Dull,Stomach,Yes,Several days ago,2,3,Moderate
-Dull,Everywhere,Yes,More than a week ago,5,4,Moderate
-Burning,Everywhere,Yes,More than a week ago,2,5,Severe
-Dull,Chest,No,More than a week ago,1,1,Mild
-Throbbing,Back,Yes,More than a week ago,5,5,Severe
-Dull,Leg,Yes,Several days ago,1,1,Mild
-Throbbing,Everywhere,No,Today,3,5,Severe
-Dull,Chest,Yes,Yesterday,2,1,Mild
-Sharp,Head,Yes,More than a week ago,3,4,Moderate
-Burning,Head,Yes,Yesterday,1,1,Mild
-Throbbing,Neck,Yes,Yesterday,2,1,Mild
-Dull,Chest,No,More than a week ago,5,1,Mild
-Throbbing,Arm,Yes,Several days ago,1,3,Moderate
-Burning,Head,No,Several days ago,5,5,Severe
-Sharp,Back,Yes,Today,3,3,Moderate
-Sharp,Back,No,Last week,4,1,Mild
-Burning,Everywhere,No,More than a week ago,1,1,Mild
-Throbbing,Neck,Yes,Several days ago,1,1,Mild
-Dull,Head,No,Last week,3,2,Mild
-Burning,Head,No,More than a week ago,2,2,Mild
-Dull,Neck,No,Last week,4,4,Moderate
-Dull,Arm,Yes,Several days ago,3,3,Moderate
-Dull,Back,Yes,More than a week ago,5,1,Mild
-Dull,Everywhere,No,Today,2,1,Mild
-Dull,Back,No,Yesterday,3,1,Mild
-Burning,Everywhere,Yes,Last week,2,5,Severe
-Burning,Stomach,No,More than a week ago,1,1,Mild
-Sharp,Chest,No,Last week,5,5,Severe
-Burning,Head,Yes,More than a week ago,2,4,Moderate
-Sharp,Stomach,No,Last week,1,2,Mild
-Burning,Leg,Yes,Yesterday,5,1,Mild
-Throbbing,Chest,Yes,Last week,5,3,Moderate
-Burning,Everywhere,Yes,Today,2,2,Mild
-Dull,Neck,Yes,More than a week ago,3,5,Severe
-Burning,Chest,No,Yesterday,1,1,Mild
-Burning,Arm,Yes,Today,3,3,Moderate
-Dull,Chest,Yes,Last week,1,4,Moderate
-Dull,Head,Yes,Last week,5,5,Severe
-Throbbing,Stomach,No,Several days ago,5,1,Mild
-Throbbing,Leg,No,Several days ago,2,2,Mild
-Burning,Head,No,More than a week ago,3,3,Moderate
-Dull,Neck,Yes,Yesterday,2,2,Mild
-Burning,Arm,No,Several days ago,2,2,Mild
-Dull,Everywhere,Yes,Yesterday,5,5,Severe
-Throbbing,Everywhere,Yes,Yesterday,5,4,Moderate
-Throbbing,Neck,Yes,Yesterday,1,3,Moderate
-Burning,Neck,Yes,Yesterday,1,5,Severe
-Dull,Arm,Yes,Last week,4,4,Moderate
-Sharp,Everywhere,Yes,Yesterday,4,5,Severe
-Dull,Arm,No,Today,5,5,Severe
-Throbbing,Neck,No,Today,1,2,Mild
-Sharp,Head,Yes,Yesterday,2,5,Severe
-Sharp,Leg,No,More than a week ago,4,3,Moderate
-Dull,Chest,No,Last week,3,4,Moderate
-Throbbing,Everywhere,No,Several days ago,3,3,Moderate
-Throbbing,Back,Yes,Last week,3,3,Moderate
-Dull,Arm,No,Several days ago,4,5,Severe
-Burning,Everywhere,No,Several days ago,4,4,Moderate
-Burning,Leg,Yes,Today,2,2,Mild
-Burning,Head,Yes,Last week,4,2,Mild
-Throbbing,Chest,Yes,Last week,2,2,Mild
-Burning,Stomach,Yes,Today,5,5,Severe
-Burning,Stomach,No,More than a week ago,5,4,Moderate
-Burning,Head,No,More than a week ago,1,2,Mild
-Sharp,Neck,No,Today,3,3,Moderate
-Sharp,Neck,No,Today,3,5,Severe
-Sharp,Arm,Yes,Several days ago,4,4,Moderate
-Sharp,Neck,Yes,Yesterday,3,4,Moderate
-Burning,Everywhere,No,Several days ago,4,4,Moderate
-Sharp,Arm,No,Several days ago,5,5,Severe
-Throbbing,Arm,No,Several days ago,2,1,Mild
-Burning,Arm,Yes,More than a week ago,3,4,Moderate
-Dull,Arm,No,Several days ago,3,4,Moderate
-Throbbing,Chest,No,Several days ago,1,2,Mild
-Burning,Everywhere,Yes,Last week,3,5,Severe
-Sharp,Leg,No,Today,4,5,Severe
-Sharp,Stomach,No,Last week,4,5,Severe
-Burning,Back,No,Today,4,4,Moderate
-Throbbing,Back,Yes,Several days ago,3,5,Severe
-Throbbing,Everywhere,No,More than a week ago,2,5,Severe
-Burning,Leg,No,More than a week ago,4,4,Moderate
-Sharp,Stomach,No,Yesterday,4,3,Moderate
-Sharp,Stomach,No,More than a week ago,1,1,Mild
-Dull,Stomach,Yes,Today,3,3,Moderate
-Sharp,Stomach,No,Yesterday,4,4,Moderate
-Burning,Chest,Yes,Several days ago,5,2,Mild
-Throbbing,Leg,No,More than a week ago,5,4,Moderate
-Dull,Neck,No,Last week,5,4,Moderate
-Throbbing,Neck,No,Yesterday,5,5,Severe
-Burning,Stomach,Yes,More than a week ago,4,4,Moderate
-Sharp,Chest,Yes,Several days ago,3,3,Moderate
-Burning,Everywhere,Yes,Yesterday,3,4,Moderate
-Dull,Back,Yes,Several days ago,2,2,Mild
-Burning,Leg,Yes,Last week,5,5,Severe
-Throbbing,Back,No,Several days ago,1,2,Mild
-Sharp,Stomach,No,Last week,4,5,Severe
-Sharp,Neck,No,Last week,5,4,Moderate
-Burning,Head,Yes,Yesterday,1,1,Mild
-Sharp,Stomach,Yes,Yesterday,5,2,Mild
-Dull,Leg,No,Last week,1,4,Moderate
-Burning,Chest,Yes,Today,4,4,Moderate
-Burning,Arm,Yes,Last week,3,5,Severe
-Burning,Leg,No,Last week,3,3,Moderate
-Dull,Arm,Yes,Today,3,1,Mild
-Dull,Leg,No,Last week,5,1,Mild
-Dull,Stomach,No,Last week,3,3,Moderate
-Dull,Leg,No,More than a week ago,4,1,Mild
-Burning,Chest,No,Today,2,5,Severe
-Burning,Everywhere,Yes,Yesterday,4,5,Severe
-Throbbing,Everywhere,Yes,Last week,1,1,Mild
-Dull,Leg,Yes,More than a week ago,3,3,Moderate
-Dull,Arm,No,Several days ago,2,2,Mild
-Burning,Back,No,Today,4,3,Moderate
-Burning,Neck,Yes,More than a week ago,4,5,Severe
-Sharp,Stomach,No,Yesterday,5,4,Moderate
-Dull,Back,Yes,Today,2,3,Moderate
-Throbbing,Everywhere,No,More than a week ago,3,5,Severe
-Burning,Neck,Yes,More than a week ago,1,1,Mild
-Burning,Neck,No,Yesterday,3,3,Moderate
-Sharp,Everywhere,No,More than a week ago,1,5,Severe
-Throbbing,Leg,Yes,Last week,1,3,Moderate
-Throbbing,Stomach,Yes,Today,5,5,Severe
-Dull,Arm,Yes,More than a week ago,5,3,Moderate
-Throbbing,Neck,No,More than a week ago,1,1,Mild
-Dull,Leg,Yes,Last week,1,4,Moderate
-Throbbing,Stomach,Yes,More than a week ago,1,5,Severe
-Sharp,Back,Yes,Last week,1,2,Mild
-Burning,Arm,Yes,Yesterday,3,5,Severe
-Sharp,Chest,No,Yesterday,2,2,Mild
-Throbbing,Leg,Yes,Today,1,1,Mild
-Burning,Everywhere,Yes,Today,1,2,Mild
-Burning,Stomach,Yes,Yesterday,4,5,Severe
-Throbbing,Leg,No,More than a week ago,2,3,Moderate
-Sharp,Chest,No,Today,5,2,Mild
-Dull,Leg,Yes,More than a week ago,2,4,Moderate
-Dull,Head,Yes,More than a week ago,4,4,Moderate
-Burning,Arm,No,Several days ago,1,5,Severe
-Dull,Chest,No,Today,3,5,Severe
-Throbbing,Everywhere,No,More than a week ago,2,1,Mild
-Sharp,Everywhere,No,Yesterday,2,5,Severe
-Dull,Leg,Yes,Yesterday,3,3,Moderate
-Dull,Leg,Yes,Yesterday,4,2,Mild
-Throbbing,Everywhere,Yes,Several days ago,2,2,Mild
-Sharp,Stomach,Yes,Several days ago,1,5,Severe
-Throbbing,Arm,No,Several days ago,4,3,Moderate
-Throbbing,Arm,Yes,Today,4,4,Moderate
-Dull,Leg,Yes,Several days ago,5,4,Moderate
-Dull,Everywhere,Yes,Today,5,4,Moderate
-Burning,Head,Yes,Several days ago,4,4,Moderate
-Dull,Neck,No,Yesterday,1,1,Mild
-Burning,Stomach,No,More than a week ago,3,5,Severe
-Sharp,Leg,Yes,More than a week ago,4,3,Moderate
-Burning,Neck,No,Several days ago,4,4,Moderate
-Throbbing,Head,Yes,Yesterday,1,2,Mild
-Sharp,Everywhere,Yes,Yesterday,1,1,Mild
-Sharp,Head,No,Last week,3,4,Moderate
-Sharp,Neck,Yes,More than a week ago,4,5,Severe
-Throbbing,Leg,No,Several days ago,3,3,Moderate
-Burning,Neck,No,Yesterday,2,3,Moderate
-Throbbing,Chest,Yes,Yesterday,3,4,Moderate
-Burning,Leg,Yes,Several days ago,5,5,Severe
-Dull,Chest,Yes,More than a week ago,1,5,Severe
-Sharp,Leg,Yes,Several days ago,3,3,Moderate
-Sharp,Back,Yes,Yesterday,2,4,Moderate
-Dull,Back,No,Several days ago,4,3,Moderate
-Burning,Arm,Yes,Today,4,2,Mild
-Throbbing,Back,No,Yesterday,5,2,Mild
-Sharp,Everywhere,Yes,Several days ago,4,4,Moderate
-Sharp,Arm,No,More than a week ago,5,3,Moderate
-Throbbing,Back,Yes,More than a week ago,1,1,Mild
-Sharp,Leg,No,Several days ago,3,5,Severe
-Sharp,Stomach,Yes,Last week,5,4,Moderate
-Dull,Arm,Yes,Several days ago,1,2,Mild
-Sharp,Neck,Yes,Today,5,5,Severe
-Burning,Leg,No,Today,4,4,Moderate
-Throbbing,Leg,No,Several days ago,3,3,Moderate
-Sharp,Chest,No,Yesterday,3,5,Severe
-Dull,Chest,Yes,More than a week ago,2,1,Mild
-Throbbing,Leg,No,Today,1,2,Mild
-Throbbing,Back,No,Several days ago,1,2,Mild
-Dull,Leg,No,Yesterday,4,4,Moderate
-Throbbing,Leg,No,Today,2,1,Mild
-Dull,Head,Yes,Last week,3,5,Severe
-Throbbing,Chest,No,Yesterday,5,5,Severe
-Throbbing,Everywhere,Yes,Yesterday,5,4,Moderate
-Burning,Arm,Yes,Last week,3,3,Moderate
-Sharp,Arm,No,Yesterday,3,4,Moderate
-Sharp,Leg,Yes,Yesterday,3,5,Severe
-Dull,Leg,Yes,Last week,5,1,Mild
-Throbbing,Back,Yes,Yesterday,2,2,Mild
-Burning,Chest,No,Last week,4,4,Moderate
-Sharp,Neck,Yes,Yesterday,5,4,Moderate
-Dull,Everywhere,No,More than a week ago,5,5,Severe
-Dull,Head,Yes,More than a week ago,3,3,Moderate
-Throbbing,Arm,No,More than a week ago,1,4,Moderate
-Dull,Back,Yes,Last week,1,2,Mild
-Dull,Arm,No,Today,4,4,Moderate
-Sharp,Everywhere,No,Yesterday,3,3,Moderate
-Sharp,Back,Yes,Yesterday,5,5,Severe
-Throbbing,Chest,Yes,Yesterday,3,2,Mild
-Burning,Head,Yes,Last week,1,2,Mild
-Dull,Head,Yes,Today,2,2,Mild
-Sharp,Leg,No,More than a week ago,5,3,Moderate
-Burning,Stomach,No,Yesterday,1,2,Mild
-Dull,Neck,Yes,More than a week ago,3,2,Mild
-Throbbing,Back,No,More than a week ago,2,2,Mild
-Throbbing,Everywhere,Yes,Today,2,4,Moderate
-Dull,Chest,No,More than a week ago,4,5,Severe
-Throbbing,Head,Yes,Today,3,2,Mild
-Dull,Neck,No,Yesterday,1,2,Mild
-Sharp,Chest,Yes,Today,1,3,Moderate
-Burning,Chest,Yes,Yesterday,1,4,Moderate
-Burning,Stomach,Yes,Last week,1,1,Mild
-Dull,Neck,Yes,Several days ago,5,5,Severe
-Dull,Neck,No,Today,2,1,Mild
-Dull,Arm,Yes,Yesterday,2,2,Mild
-Sharp,Everywhere,Yes,More than a week ago,3,4,Moderate
-Dull,Arm,Yes,Last week,5,5,Severe
-Dull,Stomach,Yes,Yesterday,4,5,Severe
-Throbbing,Back,No,Today,4,5,Severe
-Sharp,Leg,Yes,Yesterday,1,1,Mild
-Throbbing,Chest,No,Last week,4,4,Moderate
-Sharp,Neck,No,Last week,2,1,Mild
-Dull,Neck,Yes,Last week,4,5,Severe
-Dull,Everywhere,Yes,More than a week ago,2,1,Mild
-Sharp,Head,Yes,Yesterday,5,4,Moderate
-Throbbing,Stomach,No,Last week,5,4,Moderate
-Burning,Everywhere,No,Today,4,4,Moderate
-Dull,Chest,Yes,Last week,1,2,Mild
-Sharp,Stomach,No,Several days ago,5,4,Moderate
-Dull,Back,No,Today,1,2,Mild
-Dull,Chest,Yes,Several days ago,1,1,Mild
-Dull,Arm,Yes,Several days ago,5,4,Moderate
-Throbbing,Back,Yes,More than a week ago,1,5,Severe
-Sharp,Stomach,No,Several days ago,1,1,Mild
-Sharp,Arm,No,Today,4,4,Moderate
-Burning,Back,Yes,Today,4,4,Moderate
-Dull,Chest,Yes,Yesterday,3,4,Moderate
-Throbbing,Leg,No,More than a week ago,1,2,Mild
-Throbbing,Everywhere,Yes,Today,2,5,Severe
-Burning,Neck,Yes,Several days ago,4,5,Severe
-Dull,Chest,Yes,Yesterday,1,3,Moderate
-Throbbing,Everywhere,Yes,More than a week ago,2,4,Moderate
-Throbbing,Leg,Yes,Several days ago,4,5,Severe
-Burning,Chest,No,Today,3,1,Mild
-Burning,Stomach,Yes,Several days ago,4,5,Severe
-Throbbing,Stomach,No,Yesterday,3,4,Moderate
-Burning,Everywhere,Yes,Yesterday,4,4,Moderate
-Sharp,Stomach,No,Today,2,2,Mild
-Sharp,Head,No,Today,2,4,Moderate
-Dull,Back,Yes,Today,2,2,Mild
-Sharp,Everywhere,No,Today,5,4,Moderate
-Burning,Stomach,No,Today,5,4,Moderate
-Sharp,Back,No,Yesterday,1,1,Mild
-Sharp,Leg,No,Today,5,4,Moderate
-Sharp,Chest,Yes,Last week,1,1,Mild
-Throbbing,Arm,No,Yesterday,4,4,Moderate
-Sharp,Back,Yes,Today,3,4,Moderate
-Dull,Leg,Yes,More than a week ago,2,4,Moderate
-Dull,Everywhere,Yes,Today,4,4,Moderate
-Throbbing,Arm,No,Several days ago,1,1,Mild
-Burning,Back,Yes,Today,3,3,Moderate
-Throbbing,Everywhere,Yes,Several days ago,5,5,Severe
-Sharp,Stomach,Yes,Last week,5,4,Moderate
-Sharp,Head,Yes,Yesterday,1,1,Mild
-Sharp,Chest,Yes,Yesterday,5,4,Moderate
-Burning,Stomach,No,Yesterday,5,4,Moderate
-Dull,Arm,Yes,Last week,2,1,Mild
-Dull,Stomach,No,Yesterday,2,3,Moderate
-Sharp,Chest,Yes,Last week,5,5,Severe
-Sharp,Leg,Yes,Several days ago,1,1,Mild
-Burning,Everywhere,No,More than a week ago,1,4,Moderate
-Dull,Chest,Yes,Yesterday,1,5,Severe
-Burning,Neck,Yes,Several days ago,4,4,Moderate
-Sharp,Stomach,No,Last week,3,3,Moderate
-Sharp,Stomach,Yes,Today,3,3,Moderate
-Throbbing,Chest,No,Last week,5,5,Severe
-Burning,Leg,No,Several days ago,1,1,Mild
-Throbbing,Leg,Yes,Today,1,4,Moderate
-Throbbing,Chest,Yes,Several days ago,2,2,Mild
-Sharp,Stomach,Yes,Yesterday,4,3,Moderate
-Dull,Stomach,No,More than a week ago,4,5,Severe
-Sharp,Head,Yes,More than a week ago,2,5,Severe
-Sharp,Chest,Yes,More than a week ago,5,5,Severe
-Sharp,Neck,Yes,Last week,2,2,Mild
-Throbbing,Neck,Yes,Today,2,1,Mild
-Dull,Back,Yes,Today,2,1,Mild
-Sharp,Back,Yes,Today,1,4,Moderate
-Sharp,Neck,No,Several days ago,1,1,Mild
-Dull,Back,No,Several days ago,5,1,Mild
-Dull,Arm,No,More than a week ago,4,5,Severe
-Throbbing,Neck,Yes,Yesterday,1,1,Mild
-Burning,Chest,No,Several days ago,3,3,Moderate
-Dull,Head,Yes,Last week,3,3,Moderate
-Throbbing,Chest,Yes,More than a week ago,1,1,Mild
-Burning,Everywhere,No,More than a week ago,5,4,Moderate
-Sharp,Neck,Yes,Several days ago,4,5,Severe
-Burning,Everywhere,Yes,Several days ago,3,5,Severe
-Sharp,Head,Yes,Yesterday,1,3,Moderate
-Dull,Back,No,Today,1,1,Mild
-Dull,Stomach,No,Today,3,1,Mild
-Throbbing,Everywhere,Yes,More than a week ago,3,3,Moderate
-Burning,Arm,No,More than a week ago,5,4,Moderate
-Dull,Back,No,Several days ago,1,1,Mild
-Sharp,Stomach,Yes,Last week,3,5,Severe
-Burning,Leg,Yes,Today,3,3,Moderate
-Throbbing,Neck,Yes,Today,2,3,Moderate
-Burning,Head,No,Several days ago,5,5,Severe
-Throbbing,Arm,Yes,Yesterday,1,4,Moderate
-Burning,Stomach,No,More than a week ago,5,5,Severe
-Dull,Everywhere,No,Several days ago,4,4,Moderate
-Burning,Back,Yes,Today,4,4,Moderate
-Throbbing,Leg,No,Several days ago,1,1,Mild
-Burning,Head,No,Yesterday,4,4,Moderate
-Dull,Chest,No,Several days ago,3,3,Moderate
-Throbbing,Neck,No,Several days ago,4,4,Moderate
-Sharp,Stomach,Yes,Last week,3,3,Moderate
-Burning,Leg,Yes,More than a week ago,4,1,Mild
-Throbbing,Neck,No,More than a week ago,3,5,Severe
-Burning,Arm,No,Last week,4,1,Mild
-Throbbing,Stomach,No,Today,4,1,Mild
-Dull,Arm,Yes,Today,1,1,Mild
-Dull,Everywhere,Yes,Yesterday,4,5,Severe
-Dull,Arm,Yes,Several days ago,2,2,Mild
-Sharp,Back,Yes,Last week,1,5,Severe
-Throbbing,Leg,No,Last week,3,2,Mild
-Throbbing,Everywhere,No,Today,3,3,Moderate
-Sharp,Everywhere,No,Today,3,3,Moderate
-Sharp,Stomach,No,Today,5,5,Severe
-Dull,Back,No,Last week,1,1,Mild
-Sharp,Back,No,Several days ago,4,5,Severe
-Throbbing,Leg,No,More than a week ago,1,5,Severe
-Dull,Head,Yes,Last week,5,1,Mild
-Throbbing,Neck,Yes,Several days ago,1,2,Mild
-Burning,Stomach,No,Several days ago,3,4,Moderate
-Dull,Back,Yes,Last week,3,3,Moderate
-Dull,Everywhere,No,Today,2,2,Mild
-Dull,Head,No,Yesterday,1,1,Mild
-Throbbing,Leg,Yes,Yesterday,2,5,Severe
-Throbbing,Neck,No,Today,5,5,Severe
-Throbbing,Leg,Yes,Today,3,1,Mild
-Sharp,Everywhere,Yes,More than a week ago,2,5,Severe
-Sharp,Everywhere,Yes,Several days ago,2,4,Moderate
-Dull,Neck,No,Last week,2,2,Mild
-Throbbing,Stomach,No,More than a week ago,4,4,Moderate
-Dull,Back,No,Yesterday,2,4,Moderate
-Burning,Chest,No,Today,4,4,Moderate
-Sharp,Neck,Yes,More than a week ago,5,5,Severe
-Sharp,Chest,Yes,More than a week ago,1,1,Mild
-Burning,Arm,Yes,Last week,2,4,Moderate
-Burning,Leg,Yes,Yesterday,4,5,Severe
-Burning,Leg,No,Last week,3,3,Moderate
-Sharp,Chest,Yes,Last week,5,5,Severe
-Sharp,Neck,Yes,Last week,5,2,Mild
-Burning,Chest,Yes,Today,4,5,Severe
-Burning,Chest,Yes,Last week,2,5,Severe
-Dull,Head,Yes,More than a week ago,5,5,Severe
-Burning,Head,Yes,Yesterday,4,4,Moderate
-Throbbing,Back,No,More than a week ago,1,2,Mild
-Throbbing,Leg,Yes,Today,4,2,Mild
-Dull,Head,Yes,Several days ago,2,1,Mild
-Dull,Head,No,Several days ago,4,2,Mild
+pain_type,radiates,duration,self_score,sleep_score,activity_score,mood_score,severity_score,severity_class
+Dull,No,Yesterday,1,5,5,5,1,Mild
+Dull,Yes,Yesterday,1,4,5,4,1,Mild
+Dull,Yes,Today,2,4,5,5,2,Mild
+Dull,No,Yesterday,2,4,4,4,1,Mild
+Dull,No,Yesterday,2,5,5,5,1,Mild
+Dull,No,Today,1,4,5,5,1,Mild
+Dull,No,Last week,1,4,5,5,1,Mild
+Dull,No,Several days ago,1,4,5,5,1,Mild
+Dull,No,Last week,1,5,5,5,1,Mild
+Dull,No,Several days ago,1,4,5,5,1,Mild
+Burning,No,Today,2,5,5,4,1,Mild
+Dull,No,Yesterday,1,5,5,4,1,Mild
+Dull,No,Today,1,5,4,5,1,Mild
+Dull,No,Several days ago,1,5,4,5,1,Mild
+Dull,No,Today,2,5,5,4,1,Mild
+Sharp,No,Today,1,5,5,5,1,Mild
+Dull,No,Today,1,4,5,4,1,Mild
+Burning,No,More than a week ago,1,5,4,5,1,Mild
+Burning,No,Yesterday,1,4,5,5,1,Mild
+Burning,No,Today,2,5,5,5,1,Mild
+Sharp,No,Today,1,5,5,5,1,Mild
+Dull,Yes,Several days ago,1,4,5,5,1,Mild
+Sharp,No,Last week,1,5,5,4,1,Mild
+Dull,No,Today,1,4,5,5,1,Mild
+Dull,No,Several days ago,1,4,4,5,1,Mild
+Dull,No,Today,2,5,5,5,1,Mild
+Sharp,No,Yesterday,2,5,5,5,2,Mild
+Dull,No,Yesterday,1,5,5,5,1,Mild
+Burning,No,Today,1,5,5,5,1,Mild
+Burning,No,Today,2,5,4,5,1,Mild
+Burning,No,Today,1,5,5,5,1,Mild
+Dull,No,Last week,1,4,4,5,1,Mild
+Dull,Yes,Today,2,5,5,4,1,Mild
+Dull,Yes,Today,1,4,5,5,1,Mild
+Dull,No,Today,1,4,4,5,1,Mild
+Dull,No,Today,1,4,5,4,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Burning,No,Yesterday,1,4,5,5,1,Mild
+Dull,No,Yesterday,2,4,5,4,1,Mild
+Dull,No,Yesterday,1,5,4,4,1,Mild
+Dull,No,Several days ago,1,5,5,4,1,Mild
+Throbbing,Yes,Today,2,4,5,4,2,Mild
+Dull,No,Today,1,4,5,5,1,Mild
+Dull,Yes,Last week,1,5,5,5,1,Mild
+Dull,No,Several days ago,1,4,4,4,1,Mild
+Dull,Yes,Several days ago,1,5,5,4,1,Mild
+Dull,No,Today,2,5,5,5,2,Mild
+Dull,No,Today,1,5,4,5,1,Mild
+Throbbing,No,Today,1,5,5,4,1,Mild
+Sharp,No,Yesterday,2,5,5,5,1,Mild
+Burning,Yes,Today,1,5,4,4,1,Mild
+Throbbing,No,Several days ago,2,4,4,5,1,Mild
+Dull,No,Today,2,5,5,4,2,Mild
+Dull,No,More than a week ago,1,5,4,5,1,Mild
+Dull,No,Yesterday,1,4,5,5,1,Mild
+Dull,No,Several days ago,1,4,5,5,1,Mild
+Dull,No,Yesterday,1,5,5,4,1,Mild
+Dull,No,Today,1,4,5,4,1,Mild
+Dull,No,Yesterday,2,4,5,4,2,Mild
+Burning,No,Today,2,5,4,4,1,Mild
+Dull,Yes,Today,1,4,4,4,1,Mild
+Dull,No,Today,2,5,5,5,2,Mild
+Dull,No,Today,1,5,4,5,1,Mild
+Sharp,No,Yesterday,2,5,4,5,2,Mild
+Dull,No,Last week,1,5,5,4,1,Mild
+Burning,No,Yesterday,1,5,5,5,1,Mild
+Dull,No,Yesterday,1,5,5,5,1,Mild
+Burning,Yes,Yesterday,1,5,5,5,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Dull,No,Yesterday,1,5,5,5,1,Mild
+Dull,Yes,Several days ago,2,4,5,5,2,Mild
+Dull,No,Yesterday,1,5,5,4,1,Mild
+Sharp,Yes,Last week,1,5,5,4,1,Mild
+Dull,No,Yesterday,1,5,4,5,1,Mild
+Sharp,No,Today,1,4,5,4,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Burning,No,Today,2,5,5,4,2,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Throbbing,No,Last week,1,5,4,4,1,Mild
+Burning,No,Today,1,5,5,5,1,Mild
+Dull,No,Today,2,4,5,4,1,Mild
+Dull,Yes,Today,1,4,4,5,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Dull,No,Yesterday,1,4,4,5,1,Mild
+Dull,No,Today,1,4,5,5,1,Mild
+Sharp,No,Today,2,5,5,5,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Sharp,No,Several days ago,1,5,4,5,1,Mild
+Throbbing,No,Today,2,5,5,5,2,Mild
+Dull,No,Today,2,4,5,5,1,Mild
+Throbbing,No,Today,1,5,4,5,1,Mild
+Dull,No,Several days ago,2,5,4,5,1,Mild
+Dull,No,Yesterday,2,4,5,5,2,Mild
+Dull,Yes,Several days ago,1,5,5,5,1,Mild
+Dull,No,Today,1,5,5,4,1,Mild
+Sharp,No,Yesterday,1,5,5,4,1,Mild
+Dull,No,Today,1,5,4,5,1,Mild
+Throbbing,No,Today,1,5,5,5,1,Mild
+Sharp,No,Yesterday,1,4,5,4,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Burning,No,Today,2,5,4,5,2,Mild
+Sharp,No,Today,1,5,5,4,1,Mild
+Dull,No,Today,1,5,4,5,1,Mild
+Throbbing,No,Several days ago,1,5,5,5,1,Mild
+Throbbing,No,Today,1,4,5,4,1,Mild
+Throbbing,Yes,Today,1,5,5,5,1,Mild
+Burning,No,Today,1,5,5,5,1,Mild
+Dull,No,Today,1,5,4,5,1,Mild
+Dull,Yes,Today,1,5,5,4,1,Mild
+Burning,Yes,Yesterday,2,5,5,5,2,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Throbbing,No,Today,2,5,4,5,2,Mild
+Burning,No,Today,1,5,5,5,1,Mild
+Sharp,No,Today,2,4,5,5,1,Mild
+Sharp,Yes,Today,1,5,5,5,1,Mild
+Dull,No,Last week,1,4,5,5,1,Mild
+Dull,No,Yesterday,1,4,5,5,1,Mild
+Burning,Yes,Yesterday,1,5,5,5,1,Mild
+Dull,No,Several days ago,1,5,5,4,1,Mild
+Dull,Yes,Yesterday,1,5,4,5,1,Mild
+Dull,No,Yesterday,1,4,5,5,1,Mild
+Sharp,No,Today,1,5,5,4,1,Mild
+Dull,No,Yesterday,1,5,5,5,1,Mild
+Throbbing,Yes,Today,1,5,5,5,1,Mild
+Dull,Yes,Today,2,5,5,4,1,Mild
+Dull,No,Several days ago,1,5,5,5,1,Mild
+Burning,No,Yesterday,1,5,4,5,1,Mild
+Dull,No,Yesterday,1,4,4,5,1,Mild
+Sharp,No,Yesterday,1,5,5,5,1,Mild
+Dull,No,Yesterday,1,4,4,4,1,Mild
+Dull,No,Last week,1,5,5,5,1,Mild
+Dull,No,Several days ago,1,5,5,5,1,Mild
+Dull,No,More than a week ago,1,5,5,5,1,Mild
+Dull,No,Today,1,5,5,4,1,Mild
+Throbbing,No,Several days ago,1,5,5,4,1,Mild
+Throbbing,Yes,Yesterday,2,5,4,4,1,Mild
+Dull,No,Several days ago,1,5,5,4,1,Mild
+Dull,No,Today,1,4,5,5,1,Mild
+Burning,No,Today,1,5,5,5,1,Mild
+Burning,No,Several days ago,1,5,5,4,1,Mild
+Throbbing,No,Today,1,5,5,5,1,Mild
+Dull,No,Today,1,5,5,4,1,Mild
+Dull,No,Several days ago,1,5,5,5,1,Mild
+Throbbing,Yes,Several days ago,1,4,5,5,1,Mild
+Burning,No,Today,1,4,5,5,1,Mild
+Dull,No,Yesterday,1,5,4,5,1,Mild
+Throbbing,No,Today,1,4,5,5,1,Mild
+Throbbing,No,Last week,1,5,5,5,1,Mild
+Throbbing,No,Today,1,5,5,5,1,Mild
+Dull,No,Today,1,5,4,5,1,Mild
+Dull,No,Several days ago,1,5,4,5,1,Mild
+Dull,No,Last week,1,5,5,5,1,Mild
+Dull,No,Today,2,5,5,4,1,Mild
+Dull,No,Several days ago,1,5,5,4,1,Mild
+Dull,No,Several days ago,1,5,4,5,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Dull,Yes,Today,2,5,5,5,1,Mild
+Dull,No,Yesterday,1,5,4,5,1,Mild
+Dull,No,Today,1,5,5,4,1,Mild
+Dull,No,Today,2,5,5,5,1,Mild
+Burning,No,Today,2,5,4,4,1,Mild
+Dull,Yes,Today,1,4,4,5,1,Mild
+Throbbing,No,Yesterday,1,5,4,5,1,Mild
+Burning,Yes,Today,2,4,5,5,2,Mild
+Dull,Yes,Today,1,5,5,4,1,Mild
+Burning,No,Today,2,5,5,5,1,Mild
+Burning,No,Last week,1,5,5,5,1,Mild
+Dull,No,Yesterday,1,5,5,5,1,Mild
+Burning,No,Several days ago,1,4,5,5,1,Mild
+Dull,No,Yesterday,1,5,5,5,1,Mild
+Dull,No,Last week,1,5,5,4,1,Mild
+Dull,Yes,Today,2,5,4,4,1,Mild
+Dull,No,More than a week ago,2,4,4,5,2,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Burning,No,Today,1,5,4,5,1,Mild
+Throbbing,No,Last week,1,5,5,5,1,Mild
+Dull,No,Several days ago,2,5,5,4,1,Mild
+Throbbing,No,Yesterday,1,5,4,5,1,Mild
+Burning,No,Yesterday,1,4,5,5,1,Mild
+Dull,No,Yesterday,1,5,5,5,1,Mild
+Dull,No,Today,2,4,4,5,1,Mild
+Burning,No,Several days ago,1,5,5,4,1,Mild
+Dull,No,Several days ago,1,4,4,4,1,Mild
+Dull,No,Today,2,5,5,4,2,Mild
+Dull,Yes,Yesterday,2,5,5,4,2,Mild
+Dull,No,Yesterday,1,5,5,4,1,Mild
+Dull,Yes,Today,2,4,5,4,1,Mild
+Dull,No,Today,2,5,5,5,1,Mild
+Burning,No,Several days ago,1,5,4,5,1,Mild
+Burning,No,Yesterday,2,4,5,4,1,Mild
+Sharp,No,Several days ago,1,5,4,5,1,Mild
+Dull,Yes,Today,1,5,4,5,1,Mild
+Dull,No,Several days ago,2,5,5,5,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Throbbing,No,Today,1,5,4,4,1,Mild
+Dull,No,Today,1,4,5,4,1,Mild
+Throbbing,No,Several days ago,1,4,5,5,1,Mild
+Throbbing,Yes,Yesterday,2,5,5,5,2,Mild
+Dull,Yes,Yesterday,1,5,5,5,1,Mild
+Sharp,No,Several days ago,1,5,5,5,1,Mild
+Dull,No,Last week,1,5,5,5,1,Mild
+Throbbing,No,Today,2,5,5,5,1,Mild
+Throbbing,No,Yesterday,1,4,5,5,1,Mild
+Burning,No,Today,2,4,5,4,2,Mild
+Burning,No,Several days ago,2,5,4,5,2,Mild
+Sharp,No,Today,1,5,5,5,1,Mild
+Burning,No,Yesterday,1,5,5,5,1,Mild
+Dull,No,Several days ago,1,4,5,4,1,Mild
+Dull,No,Today,1,4,5,5,1,Mild
+Dull,No,Last week,2,5,5,5,1,Mild
+Dull,No,Today,2,4,4,5,1,Mild
+Dull,Yes,More than a week ago,1,4,4,4,1,Mild
+Sharp,No,Yesterday,2,5,5,4,2,Mild
+Dull,No,Yesterday,1,5,5,5,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Dull,No,Yesterday,1,4,4,4,1,Mild
+Throbbing,No,Today,2,5,5,5,1,Mild
+Dull,No,Yesterday,1,5,5,5,1,Mild
+Sharp,No,Today,1,5,5,4,1,Mild
+Throbbing,No,Today,1,5,5,5,1,Mild
+Burning,Yes,Yesterday,1,4,5,4,1,Mild
+Throbbing,Yes,Several days ago,1,5,5,5,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Burning,Yes,Yesterday,1,4,5,5,1,Mild
+Dull,No,Today,2,5,4,5,1,Mild
+Dull,No,Yesterday,1,5,5,5,1,Mild
+Dull,No,Today,2,4,4,4,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Sharp,No,Several days ago,1,4,4,5,1,Mild
+Throbbing,No,Today,1,4,5,5,1,Mild
+Dull,No,Today,2,5,5,5,1,Mild
+Dull,No,Yesterday,1,5,4,5,1,Mild
+Dull,No,Today,1,5,4,5,1,Mild
+Burning,No,Yesterday,1,5,5,5,1,Mild
+Dull,No,Yesterday,1,5,5,5,1,Mild
+Dull,Yes,More than a week ago,2,5,5,5,1,Mild
+Dull,No,Several days ago,1,5,4,4,1,Mild
+Dull,No,Yesterday,1,4,5,5,1,Mild
+Dull,No,Last week,1,4,4,5,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Dull,No,Today,1,4,5,5,1,Mild
+Throbbing,No,Today,1,5,4,5,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Dull,No,Several days ago,1,5,4,5,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Dull,No,Yesterday,1,5,5,5,1,Mild
+Dull,No,Today,1,5,4,4,1,Mild
+Dull,Yes,Today,2,4,4,4,1,Mild
+Throbbing,No,Several days ago,1,5,4,5,1,Mild
+Dull,No,Yesterday,1,5,5,5,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Dull,Yes,Today,1,5,4,5,1,Mild
+Sharp,No,Yesterday,1,4,5,5,1,Mild
+Sharp,No,Yesterday,1,4,5,5,1,Mild
+Dull,No,Today,1,5,5,4,1,Mild
+Throbbing,No,Several days ago,1,5,5,4,1,Mild
+Burning,No,Several days ago,1,4,5,4,1,Mild
+Dull,Yes,Yesterday,1,5,4,5,1,Mild
+Dull,Yes,Yesterday,1,5,5,4,1,Mild
+Dull,No,Today,2,5,4,4,1,Mild
+Dull,No,Today,2,5,4,5,2,Mild
+Dull,No,Several days ago,2,5,5,5,2,Mild
+Dull,No,Today,1,4,4,4,1,Mild
+Burning,No,Today,1,5,5,5,1,Mild
+Dull,No,Yesterday,1,5,4,5,1,Mild
+Throbbing,No,Today,2,5,5,5,2,Mild
+Dull,No,Several days ago,1,5,5,5,1,Mild
+Burning,No,Today,1,4,4,5,1,Mild
+Dull,No,Today,1,5,5,4,1,Mild
+Dull,No,Today,2,5,5,4,1,Mild
+Dull,No,More than a week ago,1,4,5,5,1,Mild
+Throbbing,No,Today,1,4,5,5,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Dull,No,Yesterday,1,5,5,5,1,Mild
+Sharp,No,Yesterday,1,5,5,4,1,Mild
+Sharp,Yes,Several days ago,1,4,5,5,1,Mild
+Dull,No,Today,2,5,5,5,1,Mild
+Sharp,No,Today,2,5,4,5,1,Mild
+Dull,No,Today,2,5,5,5,1,Mild
+Throbbing,No,Yesterday,1,5,5,5,1,Mild
+Throbbing,Yes,Last week,2,5,4,5,2,Mild
+Dull,No,Yesterday,2,5,5,5,2,Mild
+Dull,Yes,Today,2,5,5,4,1,Mild
+Throbbing,No,Yesterday,2,4,5,4,1,Mild
+Dull,No,Today,1,4,4,5,1,Mild
+Dull,No,Several days ago,1,4,4,5,1,Mild
+Burning,No,Yesterday,1,5,5,5,1,Mild
+Burning,No,Several days ago,2,5,5,5,1,Mild
+Dull,Yes,Today,1,4,5,5,1,Mild
+Burning,No,Yesterday,2,4,5,5,1,Mild
+Dull,No,Today,1,4,5,5,1,Mild
+Dull,No,Yesterday,1,5,5,4,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Throbbing,No,Today,1,5,4,5,1,Mild
+Dull,No,Today,1,4,5,5,1,Mild
+Dull,No,Today,2,5,4,5,1,Mild
+Sharp,No,Today,1,4,5,4,1,Mild
+Dull,Yes,Today,2,5,5,5,2,Mild
+Throbbing,No,Today,1,4,4,5,1,Mild
+Dull,No,Today,2,5,5,5,1,Mild
+Dull,No,Today,2,4,5,5,1,Mild
+Dull,No,Last week,1,5,4,4,1,Mild
+Dull,Yes,Today,1,4,4,4,1,Mild
+Dull,No,Yesterday,2,4,5,4,2,Mild
+Throbbing,No,Yesterday,1,5,4,4,1,Mild
+Throbbing,No,Several days ago,2,5,5,5,1,Mild
+Burning,Yes,Today,1,4,5,4,1,Mild
+Throbbing,No,Last week,1,4,4,5,1,Mild
+Dull,No,Today,1,5,5,4,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Burning,No,Several days ago,1,4,5,5,1,Mild
+Dull,No,Today,2,5,4,5,1,Mild
+Dull,Yes,Yesterday,1,5,4,5,1,Mild
+Throbbing,No,Today,2,4,4,5,1,Mild
+Dull,No,Last week,2,4,5,5,1,Mild
+Dull,No,Yesterday,1,5,5,4,1,Mild
+Throbbing,No,Today,1,4,5,4,1,Mild
+Sharp,No,Today,1,5,5,5,1,Mild
+Burning,No,Yesterday,2,5,4,5,1,Mild
+Dull,No,Today,2,4,4,5,1,Mild
+Throbbing,No,Several days ago,2,4,5,5,1,Mild
+Dull,No,Today,2,5,5,5,1,Mild
+Dull,No,Several days ago,1,4,4,4,1,Mild
+Burning,Yes,Today,2,5,4,5,1,Mild
+Sharp,No,Yesterday,1,5,5,5,1,Mild
+Dull,No,Several days ago,2,5,4,5,1,Mild
+Sharp,No,Yesterday,1,5,5,5,1,Mild
+Dull,No,Today,2,5,4,4,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Burning,No,Today,1,5,5,5,1,Mild
+Throbbing,No,Today,1,4,5,4,1,Mild
+Dull,Yes,Last week,1,5,4,5,1,Mild
+Dull,No,Last week,2,4,4,4,1,Mild
+Dull,No,Today,1,4,4,5,1,Mild
+Sharp,No,Several days ago,2,5,4,5,2,Mild
+Dull,No,Yesterday,1,4,5,4,1,Mild
+Dull,Yes,More than a week ago,1,4,5,5,1,Mild
+Dull,Yes,Today,1,5,5,5,1,Mild
+Dull,No,Yesterday,2,5,5,5,1,Mild
+Burning,No,Yesterday,1,5,5,5,1,Mild
+Dull,No,Today,1,5,5,4,1,Mild
+Throbbing,No,Yesterday,1,5,4,5,1,Mild
+Dull,Yes,Several days ago,1,4,5,5,1,Mild
+Throbbing,No,Several days ago,1,5,5,4,1,Mild
+Dull,No,Last week,1,5,5,5,1,Mild
+Dull,No,Yesterday,1,5,5,5,1,Mild
+Dull,No,Today,2,5,5,4,1,Mild
+Dull,No,Several days ago,1,5,4,4,1,Mild
+Dull,No,Today,1,5,5,4,1,Mild
+Dull,No,Last week,2,5,5,5,1,Mild
+Throbbing,No,Last week,1,4,5,5,1,Mild
+Dull,No,Today,1,5,4,4,1,Mild
+Dull,No,Several days ago,2,5,5,5,2,Mild
+Throbbing,No,Today,1,4,5,4,1,Mild
+Dull,Yes,Yesterday,2,4,5,5,1,Mild
+Dull,No,Today,1,5,4,5,1,Mild
+Dull,No,Today,1,4,5,5,1,Mild
+Dull,No,Today,1,4,5,5,1,Mild
+Dull,No,Last week,1,5,5,5,1,Mild
+Dull,No,Yesterday,1,5,5,5,1,Mild
+Dull,No,Several days ago,2,4,5,4,1,Mild
+Sharp,No,Yesterday,1,5,5,5,1,Mild
+Dull,No,Today,1,4,4,5,1,Mild
+Sharp,No,Today,2,5,5,5,1,Mild
+Dull,No,Several days ago,1,5,5,5,1,Mild
+Sharp,No,Today,2,5,5,4,1,Mild
+Burning,No,Today,1,5,4,4,1,Mild
+Dull,No,Today,1,4,5,5,1,Mild
+Dull,Yes,Today,1,5,5,5,1,Mild
+Dull,Yes,Today,1,5,5,5,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Throbbing,No,Today,1,5,5,4,1,Mild
+Dull,No,Last week,1,5,4,4,1,Mild
+Dull,Yes,Today,1,5,4,4,1,Mild
+Dull,No,Yesterday,1,5,4,4,1,Mild
+Dull,No,Today,1,5,5,4,1,Mild
+Dull,No,Several days ago,1,5,5,5,1,Mild
+Throbbing,No,Last week,1,5,4,4,1,Mild
+Throbbing,No,Yesterday,2,5,4,5,1,Mild
+Dull,No,Today,2,5,5,5,1,Mild
+Dull,No,Last week,2,5,5,5,1,Mild
+Burning,No,Today,1,5,4,5,1,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Sharp,No,Today,1,5,4,5,1,Mild
+Dull,No,Yesterday,1,5,5,5,1,Mild
+Dull,No,Today,2,5,4,5,1,Mild
+Dull,No,Yesterday,1,5,4,5,1,Mild
+Burning,No,Several days ago,1,5,5,4,1,Mild
+Burning,No,Today,1,5,5,5,1,Mild
+Burning,No,Several days ago,1,4,4,5,1,Mild
+Burning,No,Several days ago,1,5,5,5,1,Mild
+Throbbing,Yes,Today,1,5,5,4,1,Mild
+Dull,No,Today,1,5,4,5,1,Mild
+Dull,No,Yesterday,1,5,4,4,1,Mild
+Burning,No,Last week,1,5,5,5,1,Mild
+Sharp,No,Today,2,5,5,5,2,Mild
+Dull,No,Today,1,5,5,5,1,Mild
+Dull,No,Today,3,3,4,3,3,Moderate
+Sharp,No,Several days ago,2,4,3,4,2,Mild
+Burning,No,Yesterday,2,3,4,4,2,Mild
+Throbbing,No,Several days ago,3,4,3,4,2,Mild
+Dull,No,Today,3,4,4,5,3,Moderate
+Dull,No,Today,2,3,4,4,2,Mild
+Throbbing,No,Today,2,3,3,4,2,Mild
+Dull,Yes,Yesterday,3,4,4,4,2,Mild
+Burning,Yes,Last week,2,5,5,5,2,Mild
+Burning,Yes,Today,2,4,4,4,2,Mild
+Sharp,No,Today,2,5,3,3,2,Mild
+Sharp,Yes,Yesterday,3,4,5,4,2,Mild
+Dull,No,Several days ago,2,5,5,4,2,Mild
+Dull,Yes,Today,2,4,4,3,2,Mild
+Burning,Yes,Several days ago,2,4,5,3,2,Mild
+Dull,No,Today,2,5,5,5,2,Mild
+Throbbing,No,Several days ago,2,5,3,5,2,Mild
+Dull,No,Today,3,4,3,5,2,Mild
+Dull,No,Several days ago,2,3,4,4,2,Mild
+Dull,Yes,Yesterday,2,4,3,3,2,Mild
+Dull,No,Last week,2,4,5,5,2,Mild
+Burning,Yes,Today,3,3,5,3,2,Mild
+Throbbing,No,Today,3,3,3,3,2,Mild
+Throbbing,No,More than a week ago,2,4,3,4,2,Mild
+Throbbing,No,Several days ago,2,4,3,4,2,Mild
+Dull,Yes,Yesterday,2,4,3,4,2,Mild
+Burning,Yes,Yesterday,2,3,3,4,2,Mild
+Burning,Yes,Yesterday,2,5,4,4,2,Mild
+Dull,No,Last week,2,5,4,4,2,Mild
+Dull,No,Yesterday,2,5,3,4,2,Mild
+Sharp,No,Several days ago,3,5,4,3,2,Mild
+Throbbing,No,Yesterday,2,3,4,4,2,Mild
+Sharp,No,Several days ago,2,4,4,4,2,Mild
+Dull,Yes,Yesterday,3,4,4,3,3,Moderate
+Dull,Yes,Yesterday,2,3,3,4,2,Mild
+Dull,No,Today,2,3,4,4,2,Mild
+Throbbing,No,Today,2,4,5,4,2,Mild
+Dull,Yes,Yesterday,2,5,4,3,2,Mild
+Sharp,No,More than a week ago,2,5,4,3,2,Mild
+Dull,Yes,Last week,2,4,5,5,2,Mild
+Dull,Yes,Today,2,3,3,4,2,Mild
+Throbbing,No,Today,3,5,5,3,2,Mild
+Dull,No,More than a week ago,2,4,3,3,2,Mild
+Burning,No,Today,2,4,3,3,2,Mild
+Sharp,No,Several days ago,2,4,4,4,2,Mild
+Dull,No,Last week,3,5,3,4,3,Moderate
+Sharp,No,Today,3,5,5,4,3,Moderate
+Sharp,Yes,Several days ago,2,4,4,4,2,Mild
+Dull,No,Last week,2,3,3,3,2,Mild
+Sharp,No,Today,3,3,3,4,2,Mild
+Dull,No,Today,2,4,4,4,2,Mild
+Burning,No,Several days ago,2,4,3,3,2,Mild
+Throbbing,Yes,Several days ago,2,3,5,3,2,Mild
+Throbbing,No,Several days ago,3,4,4,3,2,Mild
+Burning,Yes,Yesterday,2,4,4,4,2,Mild
+Dull,No,Today,2,4,5,4,2,Mild
+Dull,No,Today,2,4,3,4,2,Mild
+Dull,No,Several days ago,2,5,5,3,2,Mild
+Sharp,Yes,Several days ago,2,4,3,4,2,Mild
+Dull,No,Yesterday,2,5,3,4,2,Mild
+Dull,Yes,Today,3,3,3,3,3,Moderate
+Dull,No,Today,3,4,5,3,3,Moderate
+Dull,Yes,Yesterday,3,3,4,3,2,Mild
+Dull,No,Several days ago,3,3,3,5,2,Mild
+Dull,No,Today,3,3,5,4,2,Mild
+Burning,Yes,Yesterday,3,5,4,3,2,Mild
+Dull,Yes,Several days ago,3,5,3,5,3,Moderate
+Burning,Yes,Today,2,5,3,3,2,Mild
+Dull,No,Last week,2,3,5,3,2,Mild
+Dull,Yes,Last week,2,4,5,5,2,Mild
+Burning,No,Today,3,4,4,3,2,Mild
+Dull,Yes,Last week,2,5,5,4,2,Mild
+Burning,No,Yesterday,2,4,4,4,2,Mild
+Sharp,No,Today,2,3,4,4,2,Mild
+Sharp,No,Today,3,5,3,5,2,Mild
+Dull,Yes,More than a week ago,2,4,4,4,2,Mild
+Dull,No,Yesterday,2,3,4,4,2,Mild
+Sharp,No,Several days ago,3,3,5,5,2,Mild
+Sharp,Yes,Several days ago,3,3,5,4,2,Mild
+Dull,Yes,Yesterday,3,3,4,3,2,Mild
+Burning,No,Several days ago,2,3,3,4,2,Mild
+Throbbing,No,Today,2,4,4,4,2,Mild
+Dull,Yes,Yesterday,2,4,4,4,2,Mild
+Dull,No,Yesterday,3,4,5,4,2,Mild
+Dull,No,Last week,2,4,5,3,2,Mild
+Dull,No,Several days ago,3,5,3,3,3,Moderate
+Burning,Yes,Today,2,5,3,4,2,Mild
+Burning,No,Yesterday,3,4,4,4,2,Mild
+Dull,No,Today,2,4,3,4,2,Mild
+Sharp,No,Several days ago,2,4,3,3,2,Mild
+Burning,No,Today,2,4,4,3,2,Mild
+Dull,No,Today,2,4,5,3,2,Mild
+Dull,Yes,Today,3,5,5,4,2,Mild
+Throbbing,No,Last week,2,4,3,4,2,Mild
+Dull,No,Yesterday,2,4,3,3,2,Mild
+Burning,No,Today,2,4,3,4,2,Mild
+Throbbing,No,Today,3,4,3,4,3,Moderate
+Throbbing,Yes,Today,3,3,4,4,3,Moderate
+Burning,Yes,Today,2,5,4,4,2,Mild
+Throbbing,No,Today,3,3,3,4,2,Mild
+Sharp,Yes,Yesterday,2,5,3,3,2,Mild
+Sharp,No,Yesterday,3,4,4,4,3,Moderate
+Dull,No,Several days ago,3,5,5,5,2,Mild
+Burning,No,More than a week ago,2,4,3,4,2,Mild
+Dull,No,Several days ago,2,4,5,3,2,Mild
+Sharp,No,Last week,2,3,3,3,2,Mild
+Dull,No,Yesterday,3,4,3,3,3,Moderate
+Dull,Yes,Today,2,4,4,3,2,Mild
+Burning,No,Today,2,3,3,5,2,Mild
+Sharp,No,Several days ago,2,4,3,5,2,Mild
+Dull,No,Yesterday,2,3,4,4,2,Mild
+Dull,No,Last week,2,3,5,4,2,Mild
+Dull,No,Several days ago,2,3,3,4,2,Mild
+Dull,No,Yesterday,2,3,4,3,2,Mild
+Throbbing,No,Several days ago,2,5,3,4,2,Mild
+Burning,No,Yesterday,2,3,4,4,2,Mild
+Dull,No,Several days ago,2,5,4,5,2,Mild
+Dull,No,More than a week ago,3,4,5,4,2,Mild
+Dull,Yes,Last week,2,3,5,4,2,Mild
+Throbbing,Yes,Last week,2,4,4,3,2,Mild
+Dull,No,Several days ago,2,4,5,4,2,Mild
+Dull,Yes,Today,2,4,5,4,2,Mild
+Dull,No,Yesterday,2,3,3,3,2,Mild
+Burning,No,Last week,2,3,3,5,2,Mild
+Dull,No,Several days ago,2,3,3,4,2,Mild
+Dull,Yes,Several days ago,2,4,3,3,2,Mild
+Dull,No,Several days ago,3,3,4,4,3,Moderate
+Sharp,Yes,Today,3,4,5,5,3,Moderate
+Dull,No,Several days ago,2,4,4,5,2,Mild
+Sharp,Yes,Last week,2,3,5,3,2,Mild
+Dull,No,Last week,2,3,4,5,2,Mild
+Sharp,No,Yesterday,3,3,3,5,2,Mild
+Burning,No,Yesterday,2,4,4,4,2,Mild
+Burning,No,Today,3,4,3,4,2,Mild
+Sharp,Yes,More than a week ago,2,4,3,4,2,Mild
+Dull,No,Today,3,5,5,3,3,Moderate
+Throbbing,No,More than a week ago,2,4,3,3,2,Mild
+Dull,No,Today,2,4,5,4,2,Mild
+Burning,No,Yesterday,2,5,5,4,2,Mild
+Dull,No,Yesterday,2,4,3,4,2,Mild
+Dull,No,Today,2,4,5,3,2,Mild
+Burning,Yes,Several days ago,3,3,5,4,2,Mild
+Burning,No,Today,2,4,3,3,2,Mild
+Dull,No,Yesterday,3,3,5,3,3,Moderate
+Sharp,Yes,Several days ago,3,4,3,4,2,Mild
+Throbbing,No,Several days ago,2,4,4,3,2,Mild
+Dull,Yes,Today,2,4,4,3,2,Mild
+Dull,No,Last week,2,3,4,3,2,Mild
+Sharp,Yes,Last week,2,5,5,5,2,Mild
+Burning,Yes,Today,3,5,3,5,2,Mild
+Dull,Yes,Yesterday,2,4,4,3,2,Mild
+Burning,No,Several days ago,3,4,3,4,3,Moderate
+Dull,No,Yesterday,3,4,5,5,3,Moderate
+Dull,No,Today,2,5,4,4,2,Mild
+Sharp,No,Today,2,4,4,4,2,Mild
+Dull,No,Last week,2,3,5,3,2,Mild
+Throbbing,No,Several days ago,3,3,4,4,2,Mild
+Sharp,Yes,Last week,3,4,4,3,2,Mild
+Dull,No,Several days ago,2,3,3,4,2,Mild
+Dull,No,Several days ago,2,4,3,3,2,Mild
+Dull,No,Several days ago,2,3,3,4,2,Mild
+Throbbing,No,Several days ago,2,3,3,4,2,Mild
+Throbbing,No,Yesterday,2,4,3,4,2,Mild
+Dull,No,Last week,2,3,4,3,2,Mild
+Dull,No,Yesterday,3,5,3,3,3,Moderate
+Dull,No,Yesterday,2,4,3,4,2,Mild
+Dull,Yes,Today,2,3,3,3,2,Mild
+Dull,No,Today,2,3,3,5,2,Mild
+Sharp,Yes,Several days ago,2,3,5,4,2,Mild
+Burning,No,Last week,2,5,3,5,2,Mild
+Throbbing,No,Yesterday,2,3,3,3,2,Mild
+Dull,No,Yesterday,2,5,5,3,2,Mild
+Burning,No,Several days ago,3,3,5,5,3,Moderate
+Sharp,Yes,Today,3,3,3,4,3,Moderate
+Burning,No,Last week,2,4,3,3,2,Mild
+Sharp,No,Several days ago,2,3,4,4,2,Mild
+Burning,Yes,Several days ago,2,5,4,4,2,Mild
+Throbbing,No,Several days ago,3,4,3,4,3,Moderate
+Throbbing,No,Yesterday,2,4,3,3,2,Mild
+Throbbing,Yes,Several days ago,2,4,5,4,2,Mild
+Dull,No,Last week,2,3,3,4,2,Mild
+Dull,No,Today,3,3,4,4,2,Mild
+Burning,No,Today,3,4,3,5,2,Mild
+Throbbing,No,More than a week ago,2,4,3,3,2,Mild
+Burning,No,Yesterday,2,5,4,4,2,Mild
+Dull,No,Last week,3,4,4,3,2,Mild
+Throbbing,No,Last week,3,4,3,5,2,Mild
+Burning,No,Yesterday,2,4,3,5,2,Mild
+Dull,No,Several days ago,3,4,4,4,2,Mild
+Dull,No,Several days ago,2,5,3,3,2,Mild
+Sharp,Yes,Several days ago,2,5,3,3,2,Mild
+Dull,No,Yesterday,2,4,3,4,2,Mild
+Burning,Yes,Yesterday,2,4,3,5,2,Mild
+Dull,Yes,More than a week ago,2,5,3,4,2,Mild
+Sharp,No,Yesterday,2,4,4,5,2,Mild
+Burning,No,Yesterday,2,4,3,3,2,Mild
+Dull,Yes,Several days ago,2,4,4,5,2,Mild
+Dull,No,Yesterday,3,3,4,4,3,Moderate
+Sharp,No,Several days ago,2,3,5,4,2,Mild
+Burning,No,Today,3,4,3,5,2,Mild
+Dull,Yes,Today,2,3,3,3,2,Mild
+Dull,No,Several days ago,2,3,5,3,2,Mild
+Burning,No,Today,3,4,4,4,2,Mild
+Burning,No,Yesterday,2,4,3,4,2,Mild
+Burning,Yes,Last week,2,4,4,3,2,Mild
+Dull,No,Several days ago,2,3,3,3,2,Mild
+Sharp,No,Several days ago,3,3,4,3,2,Mild
+Sharp,Yes,Today,2,5,4,3,2,Mild
+Burning,No,Several days ago,3,5,3,3,2,Mild
+Dull,Yes,Today,2,4,4,3,2,Mild
+Sharp,No,Several days ago,3,5,3,3,3,Moderate
+Dull,No,Today,2,4,5,4,2,Mild
+Sharp,No,Yesterday,3,3,4,3,2,Mild
+Throbbing,No,Today,2,3,3,3,2,Mild
+Dull,No,Today,3,3,5,4,2,Mild
+Burning,No,Today,2,3,3,4,2,Mild
+Dull,No,Today,2,4,4,4,2,Mild
+Dull,No,Last week,2,3,4,3,2,Mild
+Burning,Yes,Today,2,3,3,3,2,Mild
+Dull,No,Last week,2,3,4,4,2,Mild
+Sharp,Yes,Yesterday,2,3,4,5,2,Mild
+Burning,No,Today,3,4,4,3,3,Moderate
+Dull,No,Last week,3,3,5,5,3,Moderate
+Throbbing,Yes,Today,2,5,3,4,2,Mild
+Dull,No,Last week,3,4,3,5,2,Mild
+Throbbing,No,Yesterday,3,3,5,4,2,Mild
+Throbbing,Yes,Several days ago,2,3,4,3,2,Mild
+Burning,No,Today,2,3,4,4,2,Mild
+Dull,Yes,Today,2,4,5,4,2,Mild
+Dull,No,Last week,3,3,3,3,3,Moderate
+Burning,No,Today,2,4,5,4,2,Mild
+Throbbing,No,More than a week ago,2,3,4,3,2,Mild
+Dull,No,Today,3,3,4,4,2,Mild
+Burning,No,Several days ago,2,3,3,4,2,Mild
+Dull,No,Yesterday,2,4,3,5,2,Mild
+Dull,No,Last week,2,5,3,4,2,Mild
+Sharp,Yes,Yesterday,3,4,4,3,2,Mild
+Dull,No,Several days ago,3,4,3,4,3,Moderate
+Dull,No,Today,3,3,4,3,3,Moderate
+Sharp,Yes,Several days ago,3,4,4,5,2,Mild
+Dull,No,More than a week ago,2,4,5,3,2,Mild
+Throbbing,No,Several days ago,3,4,3,4,3,Moderate
+Dull,No,Last week,2,4,4,4,2,Mild
+Dull,No,Today,2,3,5,3,2,Mild
+Dull,No,Today,2,4,3,5,2,Mild
+Dull,No,Today,3,3,3,5,2,Mild
+Sharp,No,Several days ago,2,3,4,3,2,Mild
+Throbbing,No,Today,2,3,3,3,2,Mild
+Throbbing,No,Today,2,3,3,4,2,Mild
+Dull,Yes,Today,3,3,5,5,2,Mild
+Dull,No,Today,3,3,3,4,3,Moderate
+Throbbing,No,Today,2,4,4,3,2,Mild
+Dull,Yes,Several days ago,2,5,5,4,2,Mild
+Dull,Yes,Today,2,3,3,4,2,Mild
+Dull,Yes,Today,2,4,3,3,2,Mild
+Dull,Yes,Several days ago,2,4,4,4,2,Mild
+Throbbing,Yes,Today,3,4,5,4,2,Mild
+Sharp,Yes,More than a week ago,3,5,5,5,2,Mild
+Burning,Yes,Several days ago,2,4,3,3,2,Mild
+Sharp,No,Today,2,3,4,5,2,Mild
+Dull,No,Several days ago,2,3,5,5,2,Mild
+Dull,No,Today,2,3,3,3,2,Mild
+Dull,No,Several days ago,2,4,4,3,2,Mild
+Sharp,No,Last week,2,4,5,5,2,Mild
+Dull,No,Yesterday,3,4,3,3,2,Mild
+Dull,No,Several days ago,2,4,5,5,2,Mild
+Dull,No,Yesterday,3,4,3,4,2,Mild
+Sharp,No,More than a week ago,2,3,4,4,2,Mild
+Dull,No,Several days ago,2,4,3,3,2,Mild
+Sharp,No,Several days ago,2,4,5,3,2,Mild
+Dull,No,Today,2,3,5,3,2,Mild
+Dull,No,Several days ago,2,4,4,4,2,Mild
+Throbbing,Yes,Several days ago,2,5,4,4,2,Mild
+Burning,Yes,Today,2,3,4,3,2,Mild
+Dull,No,Today,2,4,4,3,2,Mild
+Dull,No,Today,2,3,4,3,2,Mild
+Dull,No,Today,3,4,5,4,2,Mild
+Dull,No,Last week,3,5,3,3,2,Mild
+Dull,No,Several days ago,2,3,4,3,2,Mild
+Throbbing,Yes,Last week,3,4,4,4,3,Moderate
+Dull,No,Last week,3,4,5,3,2,Mild
+Dull,No,Several days ago,3,3,5,5,2,Mild
+Throbbing,Yes,Today,2,3,4,5,2,Mild
+Dull,Yes,Today,2,3,5,4,2,Mild
+Burning,No,Today,2,4,4,4,2,Mild
+Dull,No,Last week,2,4,3,5,2,Mild
+Dull,No,Today,3,4,4,5,3,Moderate
+Sharp,No,Several days ago,2,3,4,3,2,Mild
+Dull,No,Yesterday,2,4,3,5,2,Mild
+Dull,No,Several days ago,2,4,4,4,2,Mild
+Sharp,Yes,Yesterday,2,5,5,4,2,Mild
+Throbbing,No,Several days ago,3,3,3,5,3,Moderate
+Throbbing,Yes,Today,2,3,4,4,2,Mild
+Throbbing,No,Several days ago,2,3,3,3,2,Mild
+Dull,No,Last week,3,3,4,5,2,Mild
+Sharp,Yes,Several days ago,3,3,3,4,2,Mild
+Dull,No,Today,2,3,3,4,2,Mild
+Throbbing,No,Last week,2,5,5,4,2,Mild
+Sharp,No,Yesterday,2,3,3,4,2,Mild
+Dull,No,Last week,2,4,3,4,2,Mild
+Burning,Yes,Several days ago,3,5,3,5,2,Mild
+Dull,Yes,Yesterday,2,3,3,3,2,Mild
+Dull,Yes,Several days ago,2,5,4,3,2,Mild
+Dull,No,Today,2,5,4,4,2,Mild
+Dull,Yes,Today,3,4,3,3,2,Mild
+Dull,Yes,Several days ago,2,4,3,3,2,Mild
+Burning,No,Last week,3,3,3,3,3,Moderate
+Throbbing,No,Last week,3,3,5,3,3,Moderate
+Dull,No,Several days ago,3,4,4,5,2,Mild
+Sharp,No,Today,2,5,4,5,2,Mild
+Dull,No,Yesterday,3,4,4,3,2,Mild
+Dull,Yes,Yesterday,2,4,5,3,2,Mild
+Throbbing,No,Last week,2,3,3,4,2,Mild
+Dull,No,Yesterday,2,3,3,5,2,Mild
+Dull,Yes,Today,3,3,4,4,3,Moderate
+Burning,No,Today,2,5,3,4,2,Mild
+Sharp,Yes,Yesterday,2,3,4,5,2,Mild
+Burning,No,Several days ago,3,5,5,5,2,Mild
+Dull,No,Today,2,5,5,3,2,Mild
+Dull,No,Last week,2,4,3,4,2,Mild
+Throbbing,No,Yesterday,2,3,3,5,2,Mild
+Dull,No,Yesterday,2,5,5,5,2,Mild
+Dull,No,Several days ago,2,3,5,4,2,Mild
+Dull,Yes,Yesterday,2,4,5,3,2,Mild
+Dull,Yes,Several days ago,2,3,3,5,2,Mild
+Dull,No,Today,2,3,3,4,2,Mild
+Burning,Yes,Today,2,4,3,5,2,Mild
+Dull,No,More than a week ago,3,3,3,4,2,Mild
+Dull,No,Several days ago,2,3,4,3,2,Mild
+Dull,No,Last week,3,3,5,4,3,Moderate
+Burning,No,Today,2,3,5,3,2,Mild
+Dull,Yes,Several days ago,2,4,4,4,2,Mild
+Dull,No,Several days ago,2,3,5,3,2,Mild
+Burning,No,More than a week ago,3,5,5,4,2,Mild
+Burning,No,Today,2,3,3,4,2,Mild
+Sharp,Yes,Yesterday,2,5,3,4,2,Mild
+Sharp,No,Today,2,4,5,3,2,Mild
+Throbbing,No,Several days ago,2,3,3,4,2,Mild
+Burning,No,Several days ago,2,3,3,3,2,Mild
+Sharp,Yes,Last week,3,3,5,3,2,Mild
+Sharp,No,Today,2,5,4,3,2,Mild
+Throbbing,No,Several days ago,3,3,3,3,2,Mild
+Throbbing,No,Today,2,3,4,5,2,Mild
+Throbbing,No,Several days ago,3,5,4,4,2,Mild
+Throbbing,No,Yesterday,3,5,5,5,2,Mild
+Sharp,No,Today,3,3,3,5,2,Mild
+Dull,Yes,Yesterday,2,5,4,4,2,Mild
+Dull,Yes,Several days ago,2,3,5,4,2,Mild
+Dull,No,More than a week ago,3,5,3,3,2,Mild
+Dull,No,More than a week ago,2,3,3,4,2,Mild
+Burning,No,Today,2,4,4,4,2,Mild
+Dull,Yes,Today,3,5,3,3,2,Mild
+Sharp,Yes,Today,2,5,4,3,2,Mild
+Dull,Yes,Several days ago,2,4,4,3,2,Mild
+Dull,No,Last week,2,3,3,3,2,Mild
+Throbbing,No,Several days ago,2,3,3,3,2,Mild
+Burning,Yes,Several days ago,2,4,3,5,2,Mild
+Sharp,No,Today,2,5,3,4,2,Mild
+Burning,No,Last week,3,3,5,3,2,Mild
+Dull,No,Several days ago,2,5,3,4,2,Mild
+Dull,No,Several days ago,3,4,5,4,2,Mild
+Burning,No,Yesterday,3,4,4,3,3,Moderate
+Dull,Yes,Today,2,5,4,5,2,Mild
+Sharp,No,Today,3,3,4,4,2,Mild
+Burning,Yes,Yesterday,3,5,5,3,3,Moderate
+Dull,Yes,Several days ago,2,5,3,5,2,Mild
+Dull,No,Today,3,3,5,4,2,Mild
+Dull,No,Today,2,4,4,3,2,Mild
+Sharp,No,More than a week ago,3,4,3,3,3,Moderate
+Dull,No,Several days ago,2,5,4,3,2,Mild
+Dull,Yes,Today,2,3,3,3,2,Mild
+Burning,No,Today,2,4,3,5,2,Mild
+Dull,Yes,Today,3,4,4,3,2,Mild
+Sharp,No,Last week,2,5,3,4,2,Mild
+Dull,Yes,Today,2,4,4,4,2,Mild
+Dull,Yes,Several days ago,2,5,3,4,2,Mild
+Dull,No,Today,3,3,4,4,3,Moderate
+Sharp,No,Yesterday,2,3,4,4,2,Mild
+Burning,No,Yesterday,2,4,4,4,2,Mild
+Throbbing,Yes,Several days ago,2,5,3,3,2,Mild
+Dull,Yes,Several days ago,2,3,5,4,2,Mild
+Dull,No,Today,2,3,3,3,2,Mild
+Throbbing,No,Yesterday,2,5,3,3,2,Mild
+Dull,No,Today,2,5,4,3,2,Mild
+Sharp,Yes,Several days ago,2,5,4,4,2,Mild
+Sharp,No,Yesterday,2,4,3,4,2,Mild
+Dull,Yes,Several days ago,2,5,4,3,2,Mild
+Dull,Yes,Today,2,4,4,5,2,Mild
+Dull,No,Today,3,3,4,3,2,Mild
+Burning,No,Today,2,3,4,4,2,Mild
+Burning,Yes,Yesterday,3,4,3,5,3,Moderate
+Dull,No,Today,2,4,5,4,2,Mild
+Dull,No,Yesterday,2,4,4,4,2,Mild
+Burning,No,Last week,2,5,5,4,2,Mild
+Dull,Yes,Today,3,4,3,4,3,Moderate
+Dull,No,Today,2,4,4,3,2,Mild
+Dull,Yes,Several days ago,2,5,4,3,2,Mild
+Dull,No,Several days ago,2,3,4,3,2,Mild
+Dull,Yes,Several days ago,2,5,4,3,2,Mild
+Dull,No,More than a week ago,2,4,3,5,2,Mild
+Burning,No,Several days ago,3,3,3,4,2,Mild
+Dull,Yes,More than a week ago,3,4,3,4,2,Mild
+Dull,No,Today,2,3,5,4,2,Mild
+Dull,No,Yesterday,2,3,4,3,2,Mild
+Dull,Yes,Today,2,4,4,3,2,Mild
+Sharp,Yes,Several days ago,2,5,3,3,2,Mild
+Dull,Yes,Several days ago,2,4,4,4,2,Mild
+Throbbing,No,Several days ago,2,4,5,4,2,Mild
+Sharp,No,Today,2,4,4,3,2,Mild
+Burning,No,Today,3,4,4,3,3,Moderate
+Dull,Yes,Today,2,3,4,4,2,Mild
+Dull,No,Yesterday,3,3,4,4,2,Mild
+Dull,No,Today,2,3,4,5,2,Mild
+Dull,Yes,Several days ago,3,5,3,3,3,Moderate
+Dull,No,Yesterday,3,3,3,3,3,Moderate
+Dull,No,Today,3,5,5,5,3,Moderate
+Dull,No,Several days ago,2,4,3,3,2,Mild
+Sharp,No,Several days ago,3,3,4,5,2,Mild
+Sharp,Yes,Yesterday,2,3,4,4,2,Mild
+Sharp,Yes,Yesterday,3,5,5,4,2,Mild
+Dull,No,Several days ago,2,4,4,3,2,Mild
+Burning,No,Today,2,5,3,4,2,Mild
+Dull,Yes,Several days ago,2,3,4,5,2,Mild
+Dull,Yes,Last week,2,4,4,5,2,Mild
+Dull,No,Yesterday,2,3,5,4,2,Mild
+Sharp,No,More than a week ago,2,3,4,4,2,Mild
+Throbbing,No,Several days ago,2,3,5,3,2,Mild
+Burning,No,Yesterday,3,3,4,3,3,Moderate
+Dull,No,Last week,2,3,4,4,2,Mild
+Dull,No,Today,2,3,4,4,2,Mild
+Throbbing,Yes,Last week,3,5,3,3,2,Mild
+Throbbing,Yes,Today,2,3,5,4,2,Mild
+Dull,Yes,More than a week ago,2,4,3,3,2,Mild
+Sharp,No,Yesterday,3,3,4,4,2,Mild
+Dull,No,Today,2,3,5,3,2,Mild
+Sharp,No,Several days ago,3,5,3,3,3,Moderate
+Burning,Yes,Last week,2,4,3,4,2,Mild
+Throbbing,No,Several days ago,3,3,5,4,3,Moderate
+Throbbing,No,Yesterday,2,3,4,3,2,Mild
+Dull,Yes,Yesterday,3,4,3,3,2,Mild
+Dull,No,Last week,2,4,4,5,2,Mild
+Throbbing,No,Today,2,5,3,4,2,Mild
+Dull,No,Yesterday,2,4,5,3,2,Mild
+Dull,No,Yesterday,2,4,4,4,2,Mild
+Dull,No,More than a week ago,2,3,4,3,2,Mild
+Sharp,No,Today,2,3,3,3,2,Mild
+Burning,No,Today,3,5,5,3,2,Mild
+Dull,No,Several days ago,2,4,3,4,2,Mild
+Dull,No,Yesterday,2,4,4,4,2,Mild
+Dull,Yes,Today,2,4,3,4,2,Mild
+Sharp,No,Last week,3,4,5,3,3,Moderate
+Dull,No,Last week,3,4,3,3,2,Mild
+Burning,No,Today,2,5,3,3,2,Mild
+Burning,No,Several days ago,2,4,4,4,2,Mild
+Burning,No,Today,2,4,4,5,2,Mild
+Dull,Yes,Today,2,4,4,5,2,Mild
+Burning,Yes,Today,3,3,3,4,2,Mild
+Dull,Yes,Today,3,3,3,4,2,Mild
+Throbbing,Yes,Several days ago,3,4,4,5,2,Mild
+Dull,No,Last week,2,4,4,5,2,Mild
+Sharp,No,Today,2,4,4,4,2,Mild
+Dull,No,Today,2,4,3,3,2,Mild
+Dull,No,Yesterday,2,4,3,3,2,Mild
+Dull,No,Several days ago,2,3,3,4,2,Mild
+Throbbing,No,Last week,3,4,3,3,3,Moderate
+Burning,Yes,Yesterday,2,3,5,3,2,Mild
+Dull,No,Yesterday,2,4,3,4,2,Mild
+Dull,No,Today,2,4,4,3,2,Mild
+Burning,Yes,Last week,2,3,3,3,2,Mild
+Burning,No,Today,2,5,5,3,2,Mild
+Sharp,No,Yesterday,2,3,5,4,2,Mild
+Dull,No,Today,2,4,4,5,2,Mild
+Burning,No,Several days ago,2,4,5,4,2,Mild
+Throbbing,No,Today,3,4,3,3,2,Mild
+Dull,No,Last week,2,3,3,5,2,Mild
+Sharp,Yes,Last week,2,5,4,4,2,Mild
+Dull,Yes,Several days ago,2,3,5,4,2,Mild
+Dull,No,Today,2,5,3,4,2,Mild
+Dull,No,Several days ago,2,4,4,3,2,Mild
+Throbbing,No,Today,2,4,5,4,2,Mild
+Dull,Yes,Today,2,5,3,4,2,Mild
+Sharp,Yes,Yesterday,2,4,3,3,2,Mild
+Throbbing,No,More than a week ago,2,4,4,4,2,Mild
+Burning,No,Yesterday,2,5,4,3,2,Mild
+Dull,Yes,Yesterday,3,3,4,3,3,Moderate
+Sharp,No,Yesterday,3,3,4,3,2,Mild
+Throbbing,No,Several days ago,2,5,5,4,2,Mild
+Dull,No,Today,2,4,3,4,2,Mild
+Burning,No,Today,2,4,4,3,2,Mild
+Burning,No,Several days ago,2,3,4,4,2,Mild
+Dull,No,Yesterday,2,4,3,5,2,Mild
+Dull,No,Yesterday,3,5,3,3,2,Mild
+Sharp,No,Several days ago,3,5,3,4,2,Mild
+Burning,No,Several days ago,2,3,3,5,2,Mild
+Burning,No,Yesterday,3,3,5,3,2,Mild
+Dull,Yes,Yesterday,2,3,5,3,2,Mild
+Dull,No,Today,3,4,4,3,2,Mild
+Throbbing,No,Today,2,5,3,3,2,Mild
+Sharp,No,Today,2,5,4,3,2,Mild
+Burning,Yes,Several days ago,3,3,4,4,3,Moderate
+Dull,No,Yesterday,3,2,3,3,3,Moderate
+Burning,No,Several days ago,4,3,3,3,3,Moderate
+Dull,No,Today,3,3,3,3,3,Moderate
+Burning,Yes,Last week,3,2,3,4,3,Moderate
+Burning,No,Several days ago,3,4,4,2,3,Moderate
+Sharp,Yes,Last week,3,3,2,2,3,Moderate
+Dull,No,Several days ago,3,3,4,3,3,Moderate
+Sharp,Yes,Yesterday,3,2,3,3,3,Moderate
+Throbbing,Yes,More than a week ago,3,2,2,3,3,Moderate
+Dull,Yes,Today,4,4,3,2,3,Moderate
+Dull,No,Yesterday,3,3,4,2,3,Moderate
+Dull,No,Several days ago,3,3,2,2,3,Moderate
+Sharp,No,Several days ago,3,2,4,3,3,Moderate
+Dull,Yes,Last week,4,4,3,4,3,Moderate
+Dull,No,Today,4,4,3,3,3,Moderate
+Throbbing,No,Several days ago,3,3,3,2,3,Moderate
+Dull,Yes,Several days ago,4,3,3,2,3,Moderate
+Throbbing,No,Yesterday,4,3,4,3,4,Severe
+Throbbing,No,Several days ago,3,4,4,3,3,Moderate
+Sharp,No,Last week,3,3,3,3,3,Moderate
+Burning,Yes,Today,4,4,2,3,4,Severe
+Burning,No,Yesterday,4,3,4,3,4,Severe
+Burning,Yes,Today,3,2,2,3,3,Moderate
+Sharp,Yes,Last week,3,2,3,3,3,Moderate
+Throbbing,No,Today,3,3,3,3,3,Moderate
+Throbbing,Yes,Several days ago,3,3,3,3,3,Moderate
+Sharp,Yes,Several days ago,3,2,3,3,3,Moderate
+Burning,No,Several days ago,3,2,3,2,3,Moderate
+Burning,Yes,Several days ago,4,2,2,3,4,Severe
+Dull,Yes,More than a week ago,3,3,3,3,3,Moderate
+Dull,No,Today,3,2,3,2,3,Moderate
+Burning,No,More than a week ago,3,3,3,3,3,Moderate
+Throbbing,Yes,Yesterday,3,4,3,4,3,Moderate
+Burning,Yes,Yesterday,3,3,2,3,3,Moderate
+Sharp,No,Last week,4,3,3,2,3,Moderate
+Burning,No,Last week,3,3,2,3,3,Moderate
+Burning,Yes,Today,3,3,2,3,3,Moderate
+Burning,Yes,Several days ago,3,3,2,3,3,Moderate
+Dull,No,Last week,3,2,3,3,3,Moderate
+Burning,Yes,Several days ago,3,3,2,3,3,Moderate
+Burning,Yes,Several days ago,4,4,2,3,3,Moderate
+Burning,No,Last week,3,2,3,4,3,Moderate
+Sharp,Yes,Today,3,3,3,3,3,Moderate
+Dull,Yes,Several days ago,3,3,3,2,3,Moderate
+Burning,No,Yesterday,3,2,2,3,3,Moderate
+Burning,No,Today,4,2,2,2,3,Moderate
+Sharp,Yes,Several days ago,3,2,4,3,3,Moderate
+Dull,Yes,Yesterday,3,2,2,4,3,Moderate
+Sharp,Yes,More than a week ago,3,3,3,4,3,Moderate
+Dull,Yes,More than a week ago,3,4,2,2,3,Moderate
+Throbbing,No,Several days ago,3,2,3,4,3,Moderate
+Throbbing,No,Today,3,3,3,3,3,Moderate
+Sharp,Yes,Last week,3,2,4,3,4,Severe
+Throbbing,Yes,Several days ago,3,3,3,4,3,Moderate
+Burning,Yes,Last week,3,4,3,3,3,Moderate
+Dull,Yes,Last week,4,3,3,3,3,Moderate
+Burning,No,Last week,3,2,2,2,3,Moderate
+Sharp,No,Today,3,4,4,3,3,Moderate
+Throbbing,No,More than a week ago,3,2,2,2,3,Moderate
+Dull,Yes,Several days ago,3,2,2,3,3,Moderate
+Burning,No,Today,4,2,2,3,3,Moderate
+Dull,Yes,Several days ago,4,4,2,3,3,Moderate
+Burning,Yes,Today,3,4,3,2,3,Moderate
+Dull,Yes,Yesterday,3,4,4,2,3,Moderate
+Dull,Yes,Several days ago,4,2,3,3,4,Severe
+Dull,Yes,Several days ago,4,4,3,3,3,Moderate
+Sharp,Yes,More than a week ago,3,3,3,3,3,Moderate
+Sharp,No,Several days ago,3,2,3,3,3,Moderate
+Burning,No,Several days ago,3,3,2,2,3,Moderate
+Throbbing,No,Several days ago,3,3,3,3,3,Moderate
+Burning,No,More than a week ago,3,3,2,2,3,Moderate
+Throbbing,No,Yesterday,3,2,2,3,3,Moderate
+Burning,No,Several days ago,4,3,3,3,3,Moderate
+Burning,Yes,Today,3,3,3,4,3,Moderate
+Dull,Yes,Several days ago,3,3,2,2,3,Moderate
+Throbbing,Yes,Last week,3,2,3,2,3,Moderate
+Burning,No,Today,4,3,3,4,4,Severe
+Burning,Yes,Several days ago,3,2,3,2,3,Moderate
+Sharp,Yes,Several days ago,4,2,2,2,3,Moderate
+Sharp,No,Last week,3,2,3,3,3,Moderate
+Sharp,No,Today,4,2,2,2,3,Moderate
+Burning,No,Yesterday,3,3,4,3,3,Moderate
+Throbbing,Yes,Yesterday,3,2,2,4,3,Moderate
+Burning,Yes,Today,3,3,3,4,3,Moderate
+Burning,Yes,Several days ago,3,3,3,2,3,Moderate
+Throbbing,No,Last week,3,3,3,4,3,Moderate
+Throbbing,No,Several days ago,3,4,3,3,3,Moderate
+Throbbing,No,Several days ago,4,2,2,2,4,Severe
+Burning,No,Last week,3,4,3,3,3,Moderate
+Throbbing,No,Several days ago,3,3,3,3,3,Moderate
+Throbbing,Yes,Several days ago,4,2,3,3,3,Moderate
+Dull,Yes,Last week,3,2,3,2,3,Moderate
+Throbbing,No,Yesterday,3,3,3,4,3,Moderate
+Dull,No,Last week,3,3,2,4,3,Moderate
+Dull,Yes,Yesterday,3,3,3,2,3,Moderate
+Dull,No,Today,3,3,4,3,3,Moderate
+Sharp,No,More than a week ago,3,2,4,3,3,Moderate
+Throbbing,Yes,Yesterday,3,4,3,3,3,Moderate
+Burning,Yes,Last week,3,3,3,3,3,Moderate
+Dull,Yes,Last week,3,3,2,3,3,Moderate
+Dull,No,Several days ago,3,4,3,3,3,Moderate
+Sharp,No,Yesterday,4,2,3,2,4,Severe
+Dull,No,Yesterday,4,3,3,2,3,Moderate
+Dull,No,Today,3,3,2,3,3,Moderate
+Dull,No,Yesterday,4,2,3,3,4,Severe
+Dull,Yes,Last week,3,4,2,4,3,Moderate
+Dull,No,Several days ago,4,2,4,4,3,Moderate
+Dull,No,Yesterday,4,3,3,2,3,Moderate
+Throbbing,No,Several days ago,4,3,3,4,3,Moderate
+Throbbing,Yes,Yesterday,3,3,3,3,3,Moderate
+Dull,No,Last week,3,3,4,2,3,Moderate
+Sharp,Yes,More than a week ago,4,3,3,2,3,Moderate
+Dull,No,Several days ago,4,3,4,3,3,Moderate
+Burning,Yes,Several days ago,3,4,3,2,3,Moderate
+Sharp,Yes,Today,4,3,4,4,4,Severe
+Sharp,Yes,Today,3,3,3,4,3,Moderate
+Sharp,No,Last week,4,3,4,3,3,Moderate
+Sharp,No,Several days ago,3,4,3,3,3,Moderate
+Sharp,No,Today,3,3,3,4,3,Moderate
+Throbbing,No,Last week,3,3,4,2,3,Moderate
+Dull,Yes,Several days ago,3,3,3,2,3,Moderate
+Throbbing,Yes,Yesterday,3,3,3,3,3,Moderate
+Dull,Yes,Today,3,3,3,2,3,Moderate
+Throbbing,Yes,Yesterday,3,2,3,4,3,Moderate
+Sharp,Yes,Several days ago,4,3,3,3,4,Severe
+Throbbing,Yes,Yesterday,3,3,2,3,3,Moderate
+Dull,No,Today,3,3,3,3,3,Moderate
+Dull,Yes,Last week,3,2,4,2,3,Moderate
+Burning,Yes,Several days ago,3,4,3,2,3,Moderate
+Sharp,Yes,Several days ago,3,3,4,4,3,Moderate
+Burning,Yes,Several days ago,4,4,3,4,3,Moderate
+Throbbing,Yes,More than a week ago,4,3,3,3,4,Severe
+Throbbing,Yes,Several days ago,3,2,3,4,3,Moderate
+Dull,Yes,Yesterday,3,3,4,2,3,Moderate
+Dull,No,More than a week ago,4,2,3,2,3,Moderate
+Dull,Yes,Last week,3,2,2,2,3,Moderate
+Burning,Yes,Yesterday,3,4,3,4,3,Moderate
+Burning,Yes,More than a week ago,4,3,2,4,3,Moderate
+Throbbing,No,More than a week ago,3,3,2,3,3,Moderate
+Dull,No,Yesterday,3,3,4,3,3,Moderate
+Dull,Yes,Last week,3,2,3,2,3,Moderate
+Dull,Yes,Yesterday,3,4,4,2,3,Moderate
+Dull,Yes,Last week,4,4,2,3,3,Moderate
+Burning,No,Several days ago,3,4,3,2,3,Moderate
+Throbbing,No,More than a week ago,4,3,2,4,3,Moderate
+Burning,Yes,Several days ago,3,4,3,3,3,Moderate
+Burning,No,Today,3,4,3,3,3,Moderate
+Throbbing,Yes,More than a week ago,3,3,3,3,3,Moderate
+Throbbing,No,More than a week ago,3,4,4,3,3,Moderate
+Burning,Yes,More than a week ago,4,4,4,3,3,Moderate
+Throbbing,No,Yesterday,4,2,4,2,3,Moderate
+Throbbing,No,Several days ago,4,4,3,2,3,Moderate
+Sharp,Yes,Last week,3,3,3,2,3,Moderate
+Burning,Yes,Yesterday,3,3,2,3,3,Moderate
+Burning,Yes,Last week,3,3,2,4,3,Moderate
+Sharp,No,More than a week ago,3,3,3,2,3,Moderate
+Dull,Yes,More than a week ago,4,3,2,3,3,Moderate
+Throbbing,Yes,Last week,3,2,3,3,3,Moderate
+Throbbing,Yes,Several days ago,3,4,4,4,3,Moderate
+Dull,No,Today,3,3,2,3,3,Moderate
+Throbbing,No,Yesterday,4,2,3,2,3,Moderate
+Throbbing,Yes,Several days ago,3,3,2,3,3,Moderate
+Dull,No,Several days ago,4,4,3,2,4,Severe
+Throbbing,Yes,Yesterday,4,2,3,3,4,Severe
+Throbbing,Yes,Several days ago,4,2,2,3,3,Moderate
+Throbbing,Yes,Several days ago,4,2,3,2,4,Severe
+Sharp,No,More than a week ago,4,4,3,3,3,Moderate
+Sharp,No,Last week,4,3,3,3,3,Moderate
+Throbbing,Yes,Yesterday,3,3,4,2,3,Moderate
+Dull,Yes,Yesterday,4,3,3,2,3,Moderate
+Dull,No,Today,3,3,4,2,3,Moderate
+Sharp,Yes,Today,4,2,2,2,4,Severe
+Burning,No,More than a week ago,3,2,3,2,3,Moderate
+Burning,No,Today,3,4,3,2,3,Moderate
+Sharp,Yes,Today,3,3,2,4,3,Moderate
+Burning,Yes,Yesterday,4,4,2,3,4,Severe
+Dull,Yes,Last week,4,2,3,2,4,Severe
+Sharp,No,Last week,4,2,2,3,4,Severe
+Sharp,Yes,Several days ago,4,2,3,2,4,Severe
+Dull,Yes,Last week,3,3,4,3,3,Moderate
+Burning,No,Last week,4,3,3,3,3,Moderate
+Dull,No,Several days ago,3,2,2,2,3,Moderate
+Dull,No,Last week,3,2,3,3,3,Moderate
+Dull,No,Today,3,2,2,4,3,Moderate
+Throbbing,No,Several days ago,3,2,3,4,3,Moderate
+Burning,Yes,Yesterday,3,3,4,2,3,Moderate
+Dull,Yes,Yesterday,3,3,3,2,3,Moderate
+Burning,Yes,Last week,3,2,4,4,3,Moderate
+Dull,Yes,Yesterday,3,4,3,2,3,Moderate
+Sharp,No,Last week,4,3,3,3,4,Severe
+Throbbing,Yes,Last week,3,3,2,2,3,Moderate
+Throbbing,Yes,Today,4,3,3,3,3,Moderate
+Dull,Yes,Several days ago,3,2,4,4,3,Moderate
+Sharp,No,More than a week ago,4,2,3,2,3,Moderate
+Throbbing,Yes,More than a week ago,3,4,4,2,3,Moderate
+Throbbing,No,Today,3,2,3,3,3,Moderate
+Burning,No,Several days ago,3,3,2,2,3,Moderate
+Dull,No,Yesterday,3,2,2,3,3,Moderate
+Burning,Yes,Last week,3,3,4,2,3,Moderate
+Dull,No,Several days ago,4,3,4,3,3,Moderate
+Dull,No,Several days ago,3,2,3,4,3,Moderate
+Throbbing,Yes,Several days ago,4,2,3,4,3,Moderate
+Dull,No,More than a week ago,4,2,2,4,3,Moderate
+Burning,No,Yesterday,3,4,2,3,3,Moderate
+Sharp,No,Several days ago,4,3,2,3,4,Severe
+Dull,Yes,Yesterday,4,3,2,2,3,Moderate
+Burning,Yes,Today,3,2,3,3,3,Moderate
+Burning,No,Last week,3,2,2,2,3,Moderate
+Dull,Yes,Several days ago,4,3,2,2,3,Moderate
+Dull,No,Last week,3,3,3,3,3,Moderate
+Dull,No,Yesterday,3,3,2,2,3,Moderate
+Burning,No,Several days ago,4,3,4,4,4,Severe
+Sharp,No,Last week,4,2,4,3,3,Moderate
+Throbbing,No,More than a week ago,4,2,3,3,3,Moderate
+Throbbing,Yes,Today,3,2,2,4,3,Moderate
+Dull,Yes,More than a week ago,3,4,3,3,3,Moderate
+Throbbing,Yes,Last week,3,3,2,3,3,Moderate
+Dull,Yes,Several days ago,3,2,3,3,3,Moderate
+Throbbing,No,More than a week ago,3,2,3,3,3,Moderate
+Burning,No,Several days ago,4,3,3,3,4,Severe
+Burning,No,Today,4,3,4,3,4,Severe
+Throbbing,No,Several days ago,4,2,3,3,3,Moderate
+Throbbing,Yes,Yesterday,4,3,4,4,3,Moderate
+Burning,Yes,Several days ago,3,3,3,3,3,Moderate
+Dull,Yes,Today,4,3,3,3,3,Moderate
+Burning,Yes,Last week,3,2,3,4,3,Moderate
+Burning,Yes,Today,4,4,3,2,3,Moderate
+Dull,Yes,More than a week ago,3,3,3,2,3,Moderate
+Burning,No,Yesterday,3,4,2,3,3,Moderate
+Burning,No,Several days ago,3,3,3,3,3,Moderate
+Dull,Yes,Last week,3,2,4,2,3,Moderate
+Throbbing,Yes,Yesterday,3,3,2,4,3,Moderate
+Dull,No,Last week,4,3,4,3,3,Moderate
+Dull,Yes,Several days ago,3,4,3,2,3,Moderate
+Dull,No,Several days ago,3,4,4,4,3,Moderate
+Throbbing,No,Yesterday,4,2,3,3,4,Severe
+Dull,Yes,Several days ago,3,2,3,2,3,Moderate
+Dull,No,Today,3,3,3,3,3,Moderate
+Dull,Yes,Several days ago,3,3,2,3,3,Moderate
+Dull,Yes,Today,3,4,3,3,3,Moderate
+Dull,No,Last week,3,3,3,3,3,Moderate
+Dull,Yes,More than a week ago,4,3,2,2,3,Moderate
+Dull,No,Last week,3,3,4,4,3,Moderate
+Sharp,Yes,Last week,4,3,3,3,3,Moderate
+Throbbing,Yes,More than a week ago,3,3,2,3,3,Moderate
+Dull,No,More than a week ago,3,2,3,3,3,Moderate
+Sharp,Yes,Several days ago,3,4,3,3,3,Moderate
+Throbbing,No,Today,4,3,3,2,3,Moderate
+Sharp,No,More than a week ago,3,3,3,2,3,Moderate
+Sharp,No,Several days ago,4,3,3,3,4,Severe
+Sharp,No,Last week,3,3,2,3,3,Moderate
+Dull,No,Several days ago,4,3,3,3,4,Severe
+Burning,Yes,Several days ago,3,3,3,2,3,Moderate
+Dull,Yes,Yesterday,3,3,2,4,3,Moderate
+Dull,Yes,Several days ago,3,3,2,3,3,Moderate
+Dull,No,Yesterday,4,3,2,2,3,Moderate
+Sharp,Yes,Several days ago,3,2,2,3,3,Moderate
+Sharp,Yes,Several days ago,4,2,2,2,3,Moderate
+Burning,No,Last week,3,3,3,3,3,Moderate
+Throbbing,Yes,Today,3,4,3,2,3,Moderate
+Burning,No,Several days ago,4,3,3,3,3,Moderate
+Dull,Yes,Last week,4,4,4,3,3,Moderate
+Burning,Yes,Last week,4,4,2,2,3,Moderate
+Dull,Yes,Several days ago,4,3,3,2,4,Severe
+Sharp,No,Several days ago,3,4,2,3,3,Moderate
+Dull,Yes,More than a week ago,3,3,4,4,3,Moderate
+Dull,No,Several days ago,3,4,3,2,3,Moderate
+Sharp,Yes,Several days ago,3,3,4,3,3,Moderate
+Dull,Yes,More than a week ago,3,2,3,3,3,Moderate
+Burning,Yes,Several days ago,4,2,4,2,3,Moderate
+Dull,No,Several days ago,3,3,2,2,3,Moderate
+Dull,No,Last week,3,3,3,4,3,Moderate
+Throbbing,No,Several days ago,3,3,3,3,3,Moderate
+Burning,No,Yesterday,3,2,3,3,3,Moderate
+Dull,Yes,Today,3,3,2,3,3,Moderate
+Dull,No,Last week,3,2,4,4,3,Moderate
+Burning,Yes,More than a week ago,4,2,3,2,3,Moderate
+Dull,No,Several days ago,3,2,2,2,3,Moderate
+Sharp,No,Yesterday,3,3,4,3,3,Moderate
+Burning,Yes,Several days ago,4,3,3,4,3,Moderate
+Dull,Yes,Several days ago,3,3,3,2,3,Moderate
+Burning,Yes,Several days ago,3,3,3,2,3,Moderate
+Throbbing,No,Yesterday,3,2,2,4,3,Moderate
+Burning,No,Several days ago,3,2,3,3,3,Moderate
+Throbbing,No,Yesterday,3,3,4,4,3,Moderate
+Dull,No,More than a week ago,3,3,2,2,3,Moderate
+Dull,Yes,Yesterday,3,3,4,4,3,Moderate
+Burning,Yes,Last week,3,3,2,2,3,Moderate
+Sharp,Yes,Yesterday,3,4,3,3,3,Moderate
+Sharp,No,More than a week ago,4,3,3,3,3,Moderate
+Burning,Yes,Several days ago,4,3,2,3,3,Moderate
+Burning,Yes,Yesterday,3,3,2,4,3,Moderate
+Throbbing,No,Last week,3,2,3,3,3,Moderate
+Dull,No,Yesterday,4,2,2,3,4,Severe
+Dull,Yes,Yesterday,3,3,2,2,3,Moderate
+Burning,No,Today,4,3,2,3,3,Moderate
+Throbbing,Yes,Last week,4,3,3,3,4,Severe
+Throbbing,Yes,Today,3,2,3,4,3,Moderate
+Burning,Yes,Today,4,2,3,2,4,Severe
+Sharp,No,Today,3,4,4,2,3,Moderate
+Burning,No,Several days ago,3,3,2,4,3,Moderate
+Dull,Yes,Last week,4,2,2,2,3,Moderate
+Burning,No,Today,3,3,4,4,3,Moderate
+Burning,Yes,Yesterday,3,2,3,2,3,Moderate
+Throbbing,No,Last week,4,3,3,4,3,Moderate
+Dull,No,Last week,3,3,2,2,3,Moderate
+Sharp,Yes,Several days ago,4,3,3,3,4,Severe
+Dull,Yes,Several days ago,4,2,2,2,3,Moderate
+Throbbing,No,More than a week ago,3,2,2,2,3,Moderate
+Throbbing,No,More than a week ago,3,2,2,3,3,Moderate
+Dull,Yes,Today,4,3,3,3,3,Moderate
+Sharp,No,Last week,3,4,3,3,3,Moderate
+Dull,Yes,Yesterday,3,4,2,3,3,Moderate
+Sharp,Yes,Last week,3,3,3,4,3,Moderate
+Throbbing,No,More than a week ago,3,2,3,4,3,Moderate
+Sharp,No,Last week,3,2,2,3,3,Moderate
+Sharp,No,Today,3,3,2,3,3,Moderate
+Burning,No,Last week,3,3,3,3,3,Moderate
+Burning,No,Several days ago,3,4,3,2,3,Moderate
+Throbbing,Yes,More than a week ago,3,2,2,3,3,Moderate
+Burning,No,Yesterday,3,3,3,3,3,Moderate
+Dull,No,Several days ago,3,3,3,4,3,Moderate
+Burning,No,Today,3,2,4,2,3,Moderate
+Burning,No,More than a week ago,3,2,3,3,3,Moderate
+Dull,Yes,Several days ago,3,4,2,4,3,Moderate
+Burning,No,Several days ago,4,4,3,2,3,Moderate
+Burning,No,Last week,3,3,2,2,3,Moderate
+Dull,Yes,Last week,4,2,3,3,4,Severe
+Throbbing,No,Several days ago,4,3,2,3,4,Severe
+Dull,Yes,Several days ago,4,3,2,3,3,Moderate
+Dull,No,Several days ago,4,4,4,3,3,Moderate
+Throbbing,Yes,Today,3,3,4,3,3,Moderate
+Dull,No,Yesterday,3,3,3,2,3,Moderate
+Sharp,No,Last week,4,3,2,2,4,Severe
+Dull,No,Several days ago,4,2,3,4,3,Moderate
+Burning,No,Today,3,3,4,2,3,Moderate
+Burning,Yes,Several days ago,3,2,4,4,3,Moderate
+Dull,No,Today,3,3,2,3,3,Moderate
+Burning,No,Last week,3,2,3,2,3,Moderate
+Throbbing,Yes,Yesterday,3,3,2,2,3,Moderate
+Sharp,No,Several days ago,3,4,4,4,3,Moderate
+Sharp,No,Several days ago,3,3,2,3,3,Moderate
+Dull,No,Several days ago,4,3,3,3,3,Moderate
+Throbbing,Yes,More than a week ago,4,3,3,2,3,Moderate
+Throbbing,No,Yesterday,3,2,3,3,3,Moderate
+Sharp,No,Last week,4,3,3,2,3,Moderate
+Throbbing,Yes,Yesterday,3,4,2,4,3,Moderate
+Throbbing,No,Yesterday,4,2,3,2,4,Severe
+Burning,No,Several days ago,3,3,3,3,3,Moderate
+Dull,Yes,More than a week ago,3,2,3,2,3,Moderate
+Burning,No,Today,3,3,2,2,3,Moderate
+Throbbing,No,Several days ago,3,3,3,3,3,Moderate
+Throbbing,No,Today,3,4,4,2,3,Moderate
+Dull,Yes,Today,4,2,2,4,4,Severe
+Sharp,Yes,Today,4,2,4,4,3,Moderate
+Dull,Yes,More than a week ago,3,3,2,2,3,Moderate
+Sharp,No,Last week,3,3,3,4,3,Moderate
+Throbbing,No,Several days ago,3,4,4,4,3,Moderate
+Burning,No,Last week,3,2,2,3,3,Moderate
+Dull,No,Today,4,3,2,3,3,Moderate
+Dull,Yes,Today,3,2,3,3,3,Moderate
+Dull,No,Yesterday,4,3,4,4,3,Moderate
+Dull,Yes,More than a week ago,4,3,4,3,3,Moderate
+Dull,No,More than a week ago,4,3,3,3,3,Moderate
+Sharp,Yes,Yesterday,3,3,4,3,3,Moderate
+Throbbing,No,Several days ago,3,3,3,2,3,Moderate
+Throbbing,Yes,Yesterday,4,2,3,4,4,Severe
+Dull,No,Last week,3,2,3,3,3,Moderate
+Dull,Yes,More than a week ago,3,2,3,3,3,Moderate
+Burning,Yes,More than a week ago,3,3,4,3,3,Moderate
+Sharp,Yes,Last week,3,3,4,2,4,Severe
+Dull,Yes,Yesterday,3,2,3,2,3,Moderate
+Dull,Yes,Last week,3,2,4,2,3,Moderate
+Sharp,No,Yesterday,4,2,3,3,4,Severe
+Throbbing,Yes,Yesterday,3,4,3,4,3,Moderate
+Burning,No,Several days ago,3,2,3,3,3,Moderate
+Dull,No,More than a week ago,3,4,3,4,3,Moderate
+Dull,No,More than a week ago,3,3,3,3,3,Moderate
+Dull,No,More than a week ago,3,2,3,2,3,Moderate
+Sharp,Yes,More than a week ago,4,2,3,3,4,Severe
+Burning,No,Last week,3,3,2,3,3,Moderate
+Throbbing,No,Several days ago,3,2,3,4,3,Moderate
+Dull,No,Yesterday,3,4,2,3,3,Moderate
+Dull,No,Yesterday,3,3,3,3,3,Moderate
+Dull,No,Several days ago,3,3,4,2,3,Moderate
+Dull,Yes,Today,4,4,3,3,3,Moderate
+Throbbing,Yes,Several days ago,3,3,3,2,3,Moderate
+Burning,No,Last week,3,4,3,3,3,Moderate
+Burning,Yes,Yesterday,3,3,3,4,3,Moderate
+Throbbing,No,Several days ago,3,2,4,3,3,Moderate
+Burning,No,Today,4,3,2,2,3,Moderate
+Burning,No,More than a week ago,3,2,3,3,3,Moderate
+Dull,Yes,More than a week ago,3,3,4,4,3,Moderate
+Burning,No,Several days ago,4,2,2,2,3,Moderate
+Dull,No,Several days ago,4,4,2,4,3,Moderate
+Burning,No,Several days ago,4,2,3,4,3,Moderate
+Throbbing,Yes,Several days ago,4,3,3,3,4,Severe
+Burning,No,Last week,3,3,3,3,3,Moderate
+Sharp,No,Yesterday,3,4,3,2,3,Moderate
+Burning,Yes,More than a week ago,3,3,2,4,3,Moderate
+Sharp,Yes,Several days ago,4,3,3,3,3,Moderate
+Burning,Yes,Several days ago,3,3,2,3,3,Moderate
+Throbbing,Yes,Yesterday,3,3,3,2,3,Moderate
+Throbbing,No,Last week,4,4,4,3,4,Severe
+Dull,No,Several days ago,4,2,3,3,3,Moderate
+Sharp,No,Several days ago,4,4,4,3,3,Moderate
+Dull,No,Last week,4,4,2,4,3,Moderate
+Dull,Yes,Today,3,3,2,2,3,Moderate
+Sharp,Yes,Several days ago,3,3,2,3,3,Moderate
+Sharp,Yes,Last week,3,3,4,4,3,Moderate
+Sharp,No,Last week,3,3,3,3,4,Severe
+Throbbing,No,Today,4,4,4,3,3,Moderate
+Throbbing,Yes,Yesterday,3,3,3,2,3,Moderate
+Burning,No,Last week,4,3,3,2,3,Moderate
+Dull,Yes,Several days ago,3,2,4,3,3,Moderate
+Throbbing,No,Last week,4,4,3,3,4,Severe
+Sharp,No,Several days ago,3,2,4,3,3,Moderate
+Sharp,Yes,Today,3,3,2,3,3,Moderate
+Dull,No,Today,4,2,2,2,3,Moderate
+Dull,Yes,Today,3,4,3,2,3,Moderate
+Throbbing,Yes,Several days ago,3,2,3,3,3,Moderate
+Burning,No,More than a week ago,3,4,3,3,3,Moderate
+Throbbing,No,Last week,3,2,3,2,3,Moderate
+Burning,No,Yesterday,3,2,2,2,3,Moderate
+Sharp,No,Today,3,2,3,3,3,Moderate
+Throbbing,Yes,Several days ago,3,3,3,3,3,Moderate
+Dull,Yes,Today,3,4,2,3,3,Moderate
+Dull,No,Last week,3,4,3,3,3,Moderate
+Burning,Yes,Last week,4,3,2,3,3,Moderate
+Dull,Yes,Several days ago,3,3,4,2,3,Moderate
+Sharp,Yes,Yesterday,3,2,3,3,3,Moderate
+Throbbing,Yes,Last week,3,3,2,4,3,Moderate
+Throbbing,No,More than a week ago,4,3,2,4,3,Moderate
+Sharp,Yes,Several days ago,3,2,2,2,3,Moderate
+Dull,No,Last week,3,4,2,3,3,Moderate
+Sharp,Yes,Today,3,2,2,3,3,Moderate
+Burning,Yes,Several days ago,3,2,2,2,3,Moderate
+Sharp,Yes,Today,3,3,3,3,3,Moderate
+Sharp,Yes,Yesterday,3,2,4,3,3,Moderate
+Dull,No,Last week,3,3,3,2,3,Moderate
+Dull,Yes,Several days ago,3,3,3,2,3,Moderate
+Dull,No,Last week,3,3,3,3,3,Moderate
+Burning,No,Today,3,3,4,4,3,Moderate
+Sharp,No,Several days ago,4,3,2,3,4,Severe
+Dull,Yes,Today,3,3,2,4,3,Moderate
+Throbbing,No,Last week,3,3,4,3,3,Moderate
+Burning,Yes,Last week,4,2,2,3,3,Moderate
+Burning,No,Today,3,2,3,3,3,Moderate
+Throbbing,No,Last week,3,3,3,4,3,Moderate
+Sharp,Yes,Several days ago,3,3,4,3,3,Moderate
+Sharp,No,More than a week ago,3,2,3,3,3,Moderate
+Throbbing,No,Yesterday,3,4,3,3,3,Moderate
+Dull,Yes,More than a week ago,3,2,4,3,3,Moderate
+Sharp,No,Today,4,2,3,3,3,Moderate
+Sharp,Yes,Yesterday,3,3,3,3,3,Moderate
+Dull,Yes,Last week,4,4,2,2,3,Moderate
+Dull,Yes,Yesterday,3,3,3,3,3,Moderate
+Sharp,Yes,Several days ago,3,3,3,3,3,Moderate
+Sharp,No,Last week,3,3,3,3,3,Moderate
+Sharp,Yes,Yesterday,3,3,3,4,3,Moderate
+Burning,No,Yesterday,3,3,3,2,3,Moderate
+Dull,Yes,Yesterday,4,2,3,3,3,Moderate
+Burning,Yes,Last week,3,2,3,3,3,Moderate
+Burning,No,Yesterday,3,3,3,2,3,Moderate
+Throbbing,No,Several days ago,3,3,4,2,3,Moderate
+Burning,Yes,Several days ago,3,2,3,2,3,Moderate
+Dull,Yes,Several days ago,4,3,3,3,4,Severe
+Dull,No,Several days ago,3,3,3,2,3,Moderate
+Burning,Yes,Several days ago,3,3,3,4,3,Moderate
+Dull,No,Last week,3,3,4,4,3,Moderate
+Dull,Yes,Several days ago,4,2,3,2,3,Moderate
+Burning,Yes,Yesterday,4,3,3,3,3,Moderate
+Sharp,Yes,Yesterday,4,3,2,2,3,Moderate
+Dull,Yes,Last week,4,3,4,3,4,Severe
+Throbbing,Yes,Yesterday,3,2,3,3,3,Moderate
+Burning,Yes,Several days ago,3,3,3,3,3,Moderate
+Burning,No,Several days ago,3,4,2,4,3,Moderate
+Throbbing,No,Yesterday,3,2,3,3,3,Moderate
+Dull,Yes,Last week,3,2,2,3,3,Moderate
+Throbbing,No,Yesterday,3,3,3,3,3,Moderate
+Dull,Yes,Several days ago,4,2,4,2,3,Moderate
+Burning,No,Last week,3,2,3,3,3,Moderate
+Sharp,No,Several days ago,4,4,2,2,3,Moderate
+Sharp,Yes,Last week,3,4,4,3,3,Moderate
+Burning,No,Yesterday,3,2,2,2,3,Moderate
+Dull,Yes,Several days ago,3,3,4,3,3,Moderate
+Sharp,Yes,Last week,3,3,4,2,3,Moderate
+Burning,No,Last week,3,2,3,4,3,Moderate
+Burning,Yes,Last week,3,2,4,4,3,Moderate
+Throbbing,No,Yesterday,4,3,3,4,3,Moderate
+Dull,No,More than a week ago,3,4,4,2,3,Moderate
+Throbbing,No,Today,4,4,3,3,3,Moderate
+Burning,Yes,More than a week ago,3,3,2,2,3,Moderate
+Sharp,Yes,Today,4,4,3,4,3,Moderate
+Burning,No,Yesterday,3,3,3,3,3,Moderate
+Dull,No,Several days ago,3,2,3,2,3,Moderate
+Dull,Yes,Last week,4,3,3,4,3,Moderate
+Burning,Yes,More than a week ago,3,2,2,3,3,Moderate
+Burning,Yes,Several days ago,4,3,4,4,3,Moderate
+Dull,No,Last week,3,2,3,4,3,Moderate
+Burning,No,Yesterday,4,2,2,3,4,Severe
+Sharp,Yes,Last week,4,2,2,3,4,Severe
+Burning,Yes,More than a week ago,4,2,1,3,4,Severe
+Burning,Yes,More than a week ago,5,1,2,2,4,Severe
+Throbbing,Yes,More than a week ago,4,3,2,1,5,Very Severe
+Dull,Yes,Today,4,2,1,3,4,Severe
+Burning,No,Today,4,2,2,3,4,Severe
+Sharp,No,More than a week ago,4,2,3,1,4,Severe
+Burning,No,Yesterday,5,2,1,2,5,Very Severe
+Dull,No,Last week,4,2,1,1,4,Severe
+Sharp,Yes,More than a week ago,4,2,1,1,4,Severe
+Throbbing,Yes,Yesterday,5,2,2,1,4,Severe
+Sharp,Yes,More than a week ago,4,1,2,1,4,Severe
+Burning,Yes,Last week,4,1,2,2,4,Severe
+Dull,Yes,Yesterday,5,2,2,2,5,Very Severe
+Burning,Yes,More than a week ago,4,2,1,1,5,Very Severe
+Burning,Yes,Several days ago,5,1,3,1,4,Severe
+Sharp,No,More than a week ago,4,1,2,2,4,Severe
+Burning,Yes,Last week,4,3,3,1,4,Severe
+Burning,Yes,More than a week ago,5,2,1,1,4,Severe
+Sharp,Yes,Today,5,1,1,2,4,Severe
+Sharp,No,More than a week ago,4,1,2,2,4,Severe
+Burning,Yes,More than a week ago,4,1,2,1,4,Severe
+Burning,No,Last week,5,1,1,3,4,Severe
+Burning,No,Yesterday,4,2,3,2,4,Severe
+Sharp,Yes,More than a week ago,4,3,2,3,4,Severe
+Burning,No,Yesterday,5,2,2,1,5,Very Severe
+Throbbing,Yes,More than a week ago,4,1,1,3,4,Severe
+Sharp,Yes,Last week,4,2,1,2,4,Severe
+Burning,Yes,Today,5,2,1,1,4,Severe
+Sharp,Yes,More than a week ago,4,2,2,1,4,Severe
+Dull,No,More than a week ago,4,1,2,2,4,Severe
+Throbbing,Yes,More than a week ago,4,2,1,2,5,Very Severe
+Sharp,Yes,Last week,5,3,2,3,5,Very Severe
+Burning,Yes,Several days ago,4,2,1,1,4,Severe
+Dull,Yes,Last week,4,3,3,2,4,Severe
+Burning,Yes,Last week,4,1,2,2,5,Very Severe
+Throbbing,Yes,Several days ago,4,2,1,2,4,Severe
+Burning,Yes,More than a week ago,4,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,4,2,1,1,5,Very Severe
+Burning,Yes,Last week,4,2,1,2,4,Severe
+Dull,Yes,More than a week ago,5,1,1,2,4,Severe
+Sharp,Yes,Last week,5,1,2,1,4,Severe
+Dull,Yes,Last week,4,3,1,3,4,Severe
+Throbbing,No,More than a week ago,4,2,1,1,5,Very Severe
+Sharp,Yes,Several days ago,4,1,2,1,4,Severe
+Throbbing,No,Last week,4,1,2,2,4,Severe
+Sharp,Yes,Yesterday,4,2,1,2,4,Severe
+Burning,Yes,Last week,4,1,1,2,4,Severe
+Sharp,Yes,More than a week ago,4,2,1,2,4,Severe
+Burning,Yes,More than a week ago,5,1,1,2,4,Severe
+Throbbing,Yes,More than a week ago,5,2,2,2,4,Severe
+Sharp,Yes,Last week,4,2,1,1,4,Severe
+Burning,Yes,Last week,4,1,2,2,4,Severe
+Sharp,Yes,Last week,5,1,3,1,4,Severe
+Burning,No,Several days ago,4,1,1,1,4,Severe
+Dull,Yes,More than a week ago,4,2,2,3,4,Severe
+Burning,Yes,Several days ago,5,2,2,2,4,Severe
+Dull,Yes,Last week,5,1,2,2,4,Severe
+Burning,Yes,Last week,4,1,1,2,5,Very Severe
+Sharp,Yes,More than a week ago,4,3,1,3,4,Severe
+Sharp,Yes,More than a week ago,5,2,2,3,5,Very Severe
+Burning,Yes,Several days ago,4,2,2,1,4,Severe
+Dull,Yes,More than a week ago,4,3,2,1,4,Severe
+Burning,No,Last week,4,2,1,2,4,Severe
+Dull,Yes,More than a week ago,5,3,2,2,4,Severe
+Burning,Yes,More than a week ago,4,1,2,1,4,Severe
+Sharp,Yes,Yesterday,4,1,1,1,4,Severe
+Throbbing,Yes,More than a week ago,4,3,1,2,4,Severe
+Burning,Yes,More than a week ago,4,1,1,2,4,Severe
+Sharp,Yes,Yesterday,4,2,1,3,4,Severe
+Throbbing,Yes,Last week,5,1,2,3,4,Severe
+Sharp,Yes,Yesterday,4,1,2,3,4,Severe
+Burning,Yes,More than a week ago,4,2,2,2,4,Severe
+Burning,Yes,Last week,4,2,1,3,5,Very Severe
+Burning,Yes,More than a week ago,4,2,1,2,4,Severe
+Dull,No,More than a week ago,5,2,2,1,4,Severe
+Throbbing,No,More than a week ago,4,1,2,1,5,Very Severe
+Burning,No,Yesterday,4,1,3,2,4,Severe
+Dull,No,Today,4,3,2,1,4,Severe
+Sharp,Yes,Last week,5,1,2,2,4,Severe
+Burning,No,More than a week ago,5,2,2,1,4,Severe
+Dull,Yes,Last week,5,2,2,1,4,Severe
+Sharp,No,More than a week ago,5,2,2,2,4,Severe
+Throbbing,Yes,More than a week ago,4,1,2,2,4,Severe
+Burning,No,Yesterday,4,3,2,2,4,Severe
+Sharp,No,Several days ago,5,1,1,3,4,Severe
+Sharp,Yes,More than a week ago,5,3,3,2,4,Severe
+Burning,Yes,Last week,4,1,2,1,5,Very Severe
+Throbbing,Yes,Last week,5,2,2,2,5,Very Severe
+Dull,No,Last week,4,2,1,1,4,Severe
+Sharp,Yes,More than a week ago,4,1,2,1,4,Severe
+Dull,Yes,Last week,4,2,2,1,4,Severe
+Burning,Yes,Last week,4,1,2,1,4,Severe
+Throbbing,Yes,Last week,4,2,1,1,4,Severe
+Burning,Yes,More than a week ago,4,1,2,2,4,Severe
+Burning,Yes,Today,5,1,3,1,4,Severe
+Sharp,Yes,Last week,5,2,1,2,5,Very Severe
+Burning,Yes,Today,4,2,1,1,5,Very Severe
+Burning,Yes,More than a week ago,4,2,2,1,5,Very Severe
+Burning,Yes,Last week,4,2,1,1,4,Severe
+Dull,Yes,Yesterday,4,1,1,1,4,Severe
+Throbbing,Yes,More than a week ago,4,2,1,2,4,Severe
+Sharp,Yes,More than a week ago,4,1,2,1,4,Severe
+Burning,Yes,More than a week ago,4,1,1,2,5,Very Severe
+Throbbing,Yes,Last week,4,2,2,1,4,Severe
+Sharp,Yes,More than a week ago,5,1,2,3,4,Severe
+Sharp,Yes,Yesterday,4,2,1,1,4,Severe
+Sharp,Yes,More than a week ago,4,2,2,1,4,Severe
+Burning,Yes,More than a week ago,4,2,1,1,4,Severe
+Sharp,No,Last week,4,1,2,3,4,Severe
+Burning,No,Today,4,2,2,2,4,Severe
+Burning,No,Last week,4,2,1,1,4,Severe
+Sharp,No,More than a week ago,4,2,1,2,4,Severe
+Sharp,Yes,More than a week ago,5,1,2,1,4,Severe
+Dull,Yes,Last week,4,1,1,1,4,Severe
+Burning,Yes,Last week,4,1,2,3,4,Severe
+Burning,Yes,More than a week ago,4,3,1,1,4,Severe
+Burning,Yes,Today,5,3,2,2,5,Very Severe
+Burning,Yes,Last week,4,2,2,1,5,Very Severe
+Dull,Yes,Last week,4,1,2,1,4,Severe
+Burning,Yes,More than a week ago,4,1,2,2,4,Severe
+Sharp,No,More than a week ago,4,3,2,1,4,Severe
+Dull,Yes,More than a week ago,4,1,2,3,4,Severe
+Burning,Yes,Last week,5,1,1,2,4,Severe
+Sharp,Yes,Last week,4,1,1,3,4,Severe
+Sharp,No,Last week,5,1,1,1,4,Severe
+Throbbing,Yes,Last week,4,2,2,1,4,Severe
+Dull,Yes,Last week,5,3,2,1,4,Severe
+Sharp,Yes,More than a week ago,4,3,2,2,4,Severe
+Throbbing,No,More than a week ago,4,1,2,1,4,Severe
+Burning,Yes,Yesterday,4,1,1,3,5,Very Severe
+Burning,Yes,Last week,5,3,1,1,4,Severe
+Burning,Yes,Several days ago,4,2,2,3,4,Severe
+Dull,No,Yesterday,5,2,1,2,5,Very Severe
+Sharp,Yes,Today,4,3,3,2,4,Severe
+Throbbing,Yes,Today,4,2,2,3,4,Severe
+Burning,Yes,Yesterday,5,2,3,1,4,Severe
+Burning,No,Last week,5,2,2,2,4,Severe
+Throbbing,No,More than a week ago,4,2,2,3,4,Severe
+Burning,Yes,Several days ago,4,2,2,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,3,2,3,5,Very Severe
+Burning,Yes,More than a week ago,4,1,1,3,4,Severe
+Throbbing,Yes,Last week,5,2,2,2,4,Severe
+Throbbing,Yes,Last week,4,1,1,1,4,Severe
+Burning,Yes,Last week,4,2,1,2,4,Severe
+Sharp,No,More than a week ago,4,1,2,1,4,Severe
+Throbbing,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Dull,Yes,More than a week ago,5,1,2,3,4,Severe
+Dull,Yes,Yesterday,4,1,1,1,4,Severe
+Burning,Yes,More than a week ago,4,1,2,2,4,Severe
+Sharp,Yes,Today,4,3,1,3,4,Severe
+Sharp,No,Last week,4,2,1,3,4,Severe
+Burning,Yes,More than a week ago,4,1,1,2,4,Severe
+Sharp,Yes,More than a week ago,4,1,1,2,4,Severe
+Dull,Yes,More than a week ago,5,3,1,1,4,Severe
+Burning,No,Last week,4,2,2,2,4,Severe
+Burning,Yes,More than a week ago,5,2,1,1,4,Severe
+Throbbing,Yes,Last week,4,2,2,2,4,Severe
+Burning,Yes,More than a week ago,4,2,2,1,4,Severe
+Burning,Yes,More than a week ago,4,1,2,2,5,Very Severe
+Burning,Yes,Several days ago,5,2,1,3,4,Severe
+Sharp,No,More than a week ago,5,1,3,2,5,Very Severe
+Burning,Yes,More than a week ago,4,2,1,3,4,Severe
+Throbbing,Yes,Today,4,1,1,2,4,Severe
+Sharp,No,More than a week ago,5,2,2,1,5,Very Severe
+Dull,Yes,Last week,5,1,2,3,4,Severe
+Sharp,Yes,Last week,4,1,3,2,4,Severe
+Dull,Yes,More than a week ago,4,1,2,1,4,Severe
+Burning,Yes,Last week,5,2,2,3,5,Very Severe
+Burning,Yes,More than a week ago,4,2,2,1,4,Severe
+Burning,Yes,Last week,4,1,1,1,4,Severe
+Throbbing,No,Last week,5,2,2,2,4,Severe
+Throbbing,No,Several days ago,4,1,3,1,4,Severe
+Throbbing,Yes,Yesterday,5,2,2,2,4,Severe
+Burning,Yes,More than a week ago,4,2,1,1,5,Very Severe
+Dull,Yes,Last week,5,2,2,1,5,Very Severe
+Throbbing,Yes,More than a week ago,4,1,2,2,5,Very Severe
+Sharp,Yes,More than a week ago,4,3,1,2,4,Severe
+Dull,No,Last week,4,2,2,1,4,Severe
+Throbbing,No,Last week,5,2,2,3,5,Very Severe
+Burning,Yes,More than a week ago,4,3,1,2,4,Severe
+Burning,Yes,More than a week ago,5,1,3,3,4,Severe
+Dull,Yes,More than a week ago,5,1,2,2,4,Severe
+Sharp,Yes,Yesterday,4,1,1,2,4,Severe
+Burning,Yes,Several days ago,4,1,1,2,4,Severe
+Burning,No,Last week,4,3,3,1,4,Severe
+Burning,Yes,More than a week ago,4,2,1,2,4,Severe
+Sharp,Yes,Several days ago,4,1,3,1,4,Severe
+Burning,Yes,Last week,4,1,2,3,5,Very Severe
+Burning,Yes,More than a week ago,4,2,2,1,4,Severe
+Burning,Yes,More than a week ago,5,2,2,2,5,Very Severe
+Throbbing,Yes,More than a week ago,4,2,2,2,5,Very Severe
+Sharp,Yes,Today,4,2,2,1,4,Severe
+Burning,Yes,Last week,5,1,1,3,5,Very Severe
+Sharp,Yes,More than a week ago,4,2,3,1,4,Severe
+Sharp,No,More than a week ago,5,1,2,2,4,Severe
+Dull,Yes,Last week,4,1,2,1,4,Severe
+Burning,Yes,More than a week ago,5,2,1,1,4,Severe
+Dull,Yes,More than a week ago,4,1,2,1,4,Severe
+Throbbing,No,More than a week ago,5,3,2,2,5,Very Severe
+Throbbing,Yes,More than a week ago,4,2,2,2,4,Severe
+Throbbing,Yes,More than a week ago,5,2,2,1,4,Severe
+Throbbing,Yes,More than a week ago,5,1,1,1,4,Severe
+Dull,Yes,Last week,4,2,1,1,4,Severe
+Burning,Yes,Last week,5,2,2,1,4,Severe
+Burning,Yes,Last week,5,2,2,1,4,Severe
+Sharp,No,Several days ago,4,2,1,3,4,Severe
+Sharp,Yes,Yesterday,4,3,1,1,4,Severe
+Dull,Yes,Several days ago,4,2,2,3,4,Severe
+Throbbing,Yes,Yesterday,4,2,2,3,4,Severe
+Sharp,Yes,Last week,5,2,2,3,4,Severe
+Dull,No,More than a week ago,4,1,3,1,4,Severe
+Throbbing,Yes,More than a week ago,5,2,1,2,4,Severe
+Burning,Yes,More than a week ago,5,2,2,2,5,Very Severe
+Burning,Yes,Last week,5,1,2,1,5,Very Severe
+Dull,No,More than a week ago,4,1,3,3,4,Severe
+Sharp,No,Yesterday,5,2,2,3,4,Severe
+Burning,No,More than a week ago,5,1,2,2,4,Severe
+Burning,Yes,More than a week ago,4,2,2,2,4,Severe
+Dull,Yes,More than a week ago,4,2,2,1,4,Severe
+Dull,Yes,More than a week ago,5,1,2,2,4,Severe
+Sharp,Yes,Last week,5,3,2,2,4,Severe
+Burning,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Burning,No,Several days ago,5,3,1,1,4,Severe
+Burning,Yes,Several days ago,5,1,2,2,4,Severe
+Burning,Yes,More than a week ago,5,1,1,2,4,Severe
+Burning,Yes,Last week,5,1,2,2,4,Severe
+Throbbing,Yes,Last week,4,2,2,3,4,Severe
+Sharp,Yes,Several days ago,4,1,1,3,4,Severe
+Dull,Yes,Last week,4,2,1,2,4,Severe
+Throbbing,Yes,Last week,4,1,2,2,4,Severe
+Burning,Yes,More than a week ago,4,2,1,1,4,Severe
+Dull,No,Last week,4,1,2,1,4,Severe
+Burning,Yes,Today,4,1,3,1,4,Severe
+Throbbing,Yes,Last week,4,1,1,1,4,Severe
+Sharp,No,Last week,4,2,2,1,4,Severe
+Burning,Yes,More than a week ago,4,2,2,1,4,Severe
+Burning,No,Several days ago,4,2,2,2,5,Very Severe
+Burning,Yes,Last week,4,2,2,1,5,Very Severe
+Burning,Yes,Last week,4,2,1,1,5,Very Severe
+Burning,Yes,Last week,4,1,1,2,4,Severe
+Dull,Yes,Several days ago,4,1,2,2,4,Severe
+Burning,Yes,Last week,4,1,1,3,5,Very Severe
+Sharp,No,Last week,4,2,1,2,4,Severe
+Dull,No,Yesterday,4,2,2,2,4,Severe
+Burning,Yes,Today,5,2,2,1,4,Severe
+Dull,No,Several days ago,4,2,1,2,4,Severe
+Sharp,Yes,Yesterday,5,2,2,1,4,Severe
+Sharp,Yes,Last week,4,3,1,1,4,Severe
+Burning,Yes,More than a week ago,5,1,1,3,5,Very Severe
+Burning,Yes,More than a week ago,5,2,2,1,4,Severe
+Sharp,Yes,More than a week ago,4,1,1,1,4,Severe
+Throbbing,Yes,Last week,4,3,1,2,4,Severe
+Sharp,Yes,More than a week ago,5,2,2,1,4,Severe
+Sharp,Yes,Yesterday,4,2,1,1,4,Severe
+Dull,Yes,Several days ago,5,2,1,1,4,Severe
+Sharp,Yes,More than a week ago,5,2,2,2,5,Very Severe
+Burning,Yes,Last week,5,2,2,1,4,Severe
+Sharp,Yes,Last week,4,2,2,1,4,Severe
+Burning,Yes,More than a week ago,4,1,2,3,4,Severe
+Throbbing,Yes,Yesterday,4,1,1,1,4,Severe
+Sharp,Yes,More than a week ago,4,2,1,1,4,Severe
+Dull,Yes,Today,5,1,1,1,4,Severe
+Dull,Yes,Last week,4,2,2,1,4,Severe
+Throbbing,No,More than a week ago,4,1,2,1,4,Severe
+Burning,Yes,More than a week ago,4,1,2,2,4,Severe
+Burning,Yes,Last week,4,2,2,2,4,Severe
+Burning,Yes,Last week,4,2,3,2,4,Severe
+Burning,Yes,Several days ago,5,2,2,2,5,Very Severe
+Throbbing,Yes,Last week,4,2,1,1,4,Severe
+Throbbing,Yes,Several days ago,5,2,1,3,4,Severe
+Sharp,Yes,More than a week ago,4,1,1,3,4,Severe
+Sharp,Yes,Last week,4,1,1,2,4,Severe
+Throbbing,Yes,Last week,5,2,2,1,5,Very Severe
+Throbbing,Yes,More than a week ago,4,1,1,2,5,Very Severe
+Sharp,Yes,Several days ago,5,1,2,2,5,Very Severe
+Sharp,Yes,Last week,4,1,1,2,4,Severe
+Burning,Yes,Last week,4,2,2,1,4,Severe
+Sharp,Yes,Yesterday,4,1,3,3,4,Severe
+Burning,Yes,Last week,4,2,3,3,4,Severe
+Sharp,Yes,More than a week ago,4,1,2,3,4,Severe
+Throbbing,Yes,Yesterday,4,2,2,1,4,Severe
+Dull,Yes,More than a week ago,5,2,2,2,4,Severe
+Sharp,Yes,More than a week ago,5,3,2,2,5,Very Severe
+Sharp,No,More than a week ago,5,1,2,2,5,Very Severe
+Sharp,Yes,More than a week ago,4,1,1,3,4,Severe
+Burning,No,More than a week ago,4,1,2,2,4,Severe
+Sharp,Yes,More than a week ago,4,2,2,1,4,Severe
+Sharp,No,Last week,5,2,1,2,4,Severe
+Burning,No,Yesterday,4,2,2,3,4,Severe
+Burning,Yes,Yesterday,4,2,2,1,4,Severe
+Sharp,Yes,More than a week ago,4,1,1,1,4,Severe
+Burning,No,More than a week ago,5,1,2,1,5,Very Severe
+Sharp,Yes,Yesterday,4,3,2,3,4,Severe
+Burning,Yes,Last week,4,1,1,2,4,Severe
+Sharp,Yes,Yesterday,4,1,1,1,4,Severe
+Burning,Yes,Yesterday,4,1,2,1,4,Severe
+Burning,Yes,More than a week ago,5,3,3,2,5,Very Severe
+Sharp,No,More than a week ago,4,1,1,2,4,Severe
+Dull,Yes,More than a week ago,4,2,2,2,5,Very Severe
+Burning,Yes,Last week,5,1,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,4,2,1,2,4,Severe
+Throbbing,Yes,More than a week ago,4,2,1,1,4,Severe
+Burning,Yes,Last week,4,2,2,2,4,Severe
+Dull,Yes,More than a week ago,4,1,2,1,4,Severe
+Sharp,Yes,Last week,4,1,1,2,4,Severe
+Dull,Yes,More than a week ago,4,1,1,2,4,Severe
+Burning,No,More than a week ago,5,2,2,1,5,Very Severe
+Throbbing,Yes,Last week,4,1,2,1,4,Severe
+Burning,Yes,Last week,5,1,1,2,4,Severe
+Sharp,Yes,Several days ago,4,2,1,1,4,Severe
+Burning,Yes,Last week,4,2,2,2,4,Severe
+Throbbing,No,Last week,4,2,1,1,4,Severe
+Sharp,Yes,More than a week ago,4,1,2,2,4,Severe
+Throbbing,No,Last week,5,1,2,3,5,Very Severe
+Throbbing,No,More than a week ago,4,2,1,1,5,Very Severe
+Throbbing,No,More than a week ago,4,1,2,1,4,Severe
+Burning,Yes,Several days ago,4,1,2,2,4,Severe
+Throbbing,Yes,Several days ago,4,2,1,1,4,Severe
+Sharp,No,Several days ago,4,2,2,2,4,Severe
+Burning,No,More than a week ago,4,2,3,1,4,Severe
+Sharp,Yes,Last week,5,1,2,1,4,Severe
+Burning,Yes,Last week,5,1,3,2,4,Severe
+Sharp,Yes,More than a week ago,4,2,1,2,4,Severe
+Sharp,Yes,More than a week ago,4,1,2,3,4,Severe
+Burning,Yes,Last week,4,1,1,3,5,Very Severe
+Burning,Yes,Last week,4,2,2,2,4,Severe
+Burning,Yes,More than a week ago,4,1,1,1,4,Severe
+Sharp,Yes,More than a week ago,4,1,1,1,4,Severe
+Sharp,No,Yesterday,4,2,1,1,4,Severe
+Burning,Yes,Last week,5,3,2,2,4,Severe
+Burning,Yes,More than a week ago,4,2,1,2,4,Severe
+Dull,Yes,Several days ago,5,1,3,2,5,Very Severe
+Burning,No,Yesterday,4,3,2,1,5,Very Severe
+Sharp,No,Last week,4,3,1,1,4,Severe
+Burning,No,More than a week ago,5,2,2,2,4,Severe
+Sharp,Yes,Last week,4,2,1,1,4,Severe
+Burning,Yes,Last week,5,2,3,1,5,Very Severe
+Burning,No,Today,4,3,2,2,4,Severe
+Burning,Yes,Last week,4,2,1,2,5,Very Severe
+Sharp,Yes,Last week,5,1,1,1,4,Severe
+Burning,Yes,More than a week ago,4,1,2,3,4,Severe
+Sharp,Yes,Last week,4,2,1,1,4,Severe
+Burning,Yes,Last week,4,3,2,2,4,Severe
+Burning,No,Last week,4,1,1,1,4,Severe
+Burning,Yes,Several days ago,4,1,2,1,4,Severe
+Burning,No,Several days ago,4,2,2,2,5,Very Severe
+Sharp,No,More than a week ago,4,3,1,2,4,Severe
+Throbbing,No,Last week,4,1,3,1,4,Severe
+Burning,Yes,Yesterday,4,1,1,1,4,Severe
+Throbbing,Yes,Last week,4,1,1,2,4,Severe
+Sharp,Yes,Last week,4,2,3,2,4,Severe
+Throbbing,Yes,Several days ago,4,1,2,1,4,Severe
+Burning,Yes,More than a week ago,4,2,3,1,4,Severe
+Sharp,Yes,More than a week ago,5,2,2,1,4,Severe
+Burning,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Sharp,Yes,Today,5,2,3,1,4,Severe
+Burning,Yes,More than a week ago,4,2,2,2,4,Severe
+Burning,Yes,More than a week ago,5,1,1,3,4,Severe
+Dull,Yes,More than a week ago,4,1,2,3,4,Severe
+Throbbing,Yes,Several days ago,4,1,1,1,4,Severe
+Burning,No,Several days ago,4,2,2,2,5,Very Severe
+Burning,Yes,More than a week ago,4,1,1,2,4,Severe
+Burning,Yes,More than a week ago,4,1,2,1,4,Severe
+Burning,No,More than a week ago,4,1,2,3,4,Severe
+Burning,Yes,Last week,5,2,2,2,4,Severe
+Burning,Yes,Last week,4,2,2,1,4,Severe
+Sharp,Yes,More than a week ago,4,2,2,1,4,Severe
+Burning,Yes,More than a week ago,4,2,1,2,4,Severe
+Burning,Yes,Last week,4,2,2,1,5,Very Severe
+Sharp,Yes,Last week,5,2,1,3,4,Severe
+Burning,Yes,More than a week ago,4,1,2,2,4,Severe
+Burning,Yes,Several days ago,5,1,3,1,4,Severe
+Dull,No,More than a week ago,4,3,3,1,4,Severe
+Dull,Yes,Last week,4,1,2,2,4,Severe
+Burning,Yes,Yesterday,4,1,1,3,4,Severe
+Throbbing,Yes,Last week,4,2,2,2,4,Severe
+Throbbing,Yes,More than a week ago,4,3,1,1,4,Severe
+Burning,Yes,More than a week ago,4,1,2,3,5,Very Severe
+Burning,Yes,More than a week ago,4,2,1,2,4,Severe
+Throbbing,No,More than a week ago,5,3,2,2,4,Severe
+Dull,Yes,More than a week ago,4,1,1,3,4,Severe
+Burning,Yes,Last week,4,2,1,2,4,Severe
+Dull,No,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,Today,5,1,2,3,5,Very Severe
+Sharp,Yes,Today,4,2,2,2,4,Severe
+Dull,Yes,More than a week ago,4,1,3,2,4,Severe
+Throbbing,Yes,More than a week ago,4,1,1,2,4,Severe
+Sharp,Yes,Last week,4,1,2,3,4,Severe
+Burning,No,More than a week ago,5,2,2,2,4,Severe
+Burning,Yes,Several days ago,4,1,2,1,5,Very Severe
+Dull,Yes,Yesterday,4,2,2,1,4,Severe
+Throbbing,Yes,More than a week ago,4,2,2,2,4,Severe
+Sharp,No,More than a week ago,4,2,1,2,4,Severe
+Burning,No,Last week,4,1,1,1,4,Severe
+Burning,No,More than a week ago,5,3,2,1,4,Severe
+Burning,Yes,Last week,4,3,3,3,4,Severe
+Burning,Yes,Last week,4,1,2,2,4,Severe
+Burning,Yes,Yesterday,4,2,2,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Burning,Yes,More than a week ago,5,2,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,2,1,2,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Burning,Yes,Last week,5,1,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,Last week,5,1,1,1,5,Very Severe
+Burning,Yes,Last week,5,1,1,1,5,Very Severe
+Throbbing,Yes,More than a week ago,5,2,1,2,5,Very Severe
+Sharp,Yes,Several days ago,5,1,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Sharp,Yes,Yesterday,5,1,1,2,5,Very Severe
+Burning,Yes,More than a week ago,5,1,2,2,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,Several days ago,5,1,1,2,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,Last week,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,2,2,5,Very Severe
+Burning,Yes,Last week,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,2,2,5,Very Severe
+Burning,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Dull,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Burning,Yes,More than a week ago,5,1,2,2,5,Very Severe
+Burning,Yes,More than a week ago,5,1,2,2,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Burning,Yes,Last week,5,1,1,2,5,Very Severe
+Burning,Yes,Last week,5,1,2,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Sharp,Yes,Last week,5,1,2,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,2,1,1,5,Very Severe
+Burning,No,Last week,5,2,2,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Throbbing,Yes,More than a week ago,5,2,1,2,5,Very Severe
+Sharp,Yes,More than a week ago,5,2,1,1,5,Very Severe
+Burning,Yes,Several days ago,5,1,1,2,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Burning,Yes,Last week,5,2,1,1,5,Very Severe
+Burning,Yes,Last week,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,2,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,Yesterday,5,1,1,2,5,Very Severe
+Throbbing,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Burning,Yes,Last week,5,1,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Burning,Yes,Last week,5,1,2,2,5,Very Severe
+Sharp,Yes,Last week,5,1,1,2,5,Very Severe
+Sharp,No,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,Last week,5,1,2,1,5,Very Severe
+Burning,Yes,Last week,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Burning,Yes,Last week,5,1,1,2,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Sharp,Yes,Last week,5,1,1,2,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Burning,Yes,More than a week ago,5,2,1,1,5,Very Severe
+Dull,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,2,2,5,Very Severe
+Sharp,Yes,Last week,5,1,2,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Sharp,Yes,Last week,5,1,1,2,5,Very Severe
+Burning,Yes,Last week,5,1,1,2,5,Very Severe
+Dull,No,More than a week ago,5,1,1,2,5,Very Severe
+Burning,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Burning,Yes,Last week,5,1,1,1,5,Very Severe
+Burning,Yes,Last week,5,2,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,2,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Dull,Yes,Last week,5,1,1,1,5,Very Severe
+Throbbing,Yes,Last week,5,1,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,Last week,5,2,2,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,2,2,2,5,Very Severe
+Dull,Yes,Several days ago,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,2,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,2,2,5,Very Severe
+Sharp,Yes,Last week,5,1,1,1,5,Very Severe
+Burning,No,Last week,5,1,1,1,5,Very Severe
+Burning,Yes,Last week,5,2,1,2,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,Last week,5,1,1,2,5,Very Severe
+Throbbing,Yes,Yesterday,5,1,1,1,5,Very Severe
+Throbbing,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Throbbing,Yes,Last week,5,2,1,1,5,Very Severe
+Sharp,Yes,Last week,5,1,1,1,5,Very Severe
+Sharp,Yes,Last week,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,2,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,2,2,5,Very Severe
+Burning,Yes,Several days ago,5,1,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,Last week,5,2,1,1,5,Very Severe
+Burning,Yes,Last week,5,1,1,1,5,Very Severe
+Burning,Yes,Several days ago,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Sharp,Yes,Last week,5,2,2,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,2,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,2,2,5,Very Severe
+Throbbing,Yes,More than a week ago,5,1,2,2,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Sharp,Yes,Last week,5,1,2,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Sharp,Yes,Last week,5,1,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Sharp,Yes,Last week,5,1,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Burning,Yes,Last week,5,1,2,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Burning,Yes,Last week,5,1,1,1,5,Very Severe
+Sharp,Yes,Last week,5,2,2,2,5,Very Severe
+Dull,Yes,More than a week ago,5,2,1,2,5,Very Severe
+Dull,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Throbbing,Yes,Last week,5,1,1,1,5,Very Severe
+Sharp,Yes,Last week,5,2,1,2,5,Very Severe
+Sharp,No,Several days ago,5,1,2,1,5,Very Severe
+Burning,No,Several days ago,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,2,2,5,Very Severe
+Burning,Yes,Last week,5,1,1,1,5,Very Severe
+Sharp,Yes,Last week,5,1,1,1,5,Very Severe
+Sharp,Yes,Last week,5,2,1,2,5,Very Severe
+Throbbing,Yes,Several days ago,5,2,2,1,5,Very Severe
+Burning,Yes,Last week,5,1,2,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Throbbing,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Burning,Yes,Several days ago,5,1,1,2,5,Very Severe
+Sharp,Yes,Today,5,1,1,2,5,Very Severe
+Burning,No,More than a week ago,5,1,1,1,5,Very Severe
+Throbbing,Yes,More than a week ago,5,2,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Sharp,Yes,Last week,5,1,2,2,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Sharp,Yes,Last week,5,1,1,1,5,Very Severe
+Burning,Yes,Yesterday,5,2,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,2,2,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,2,1,2,5,Very Severe
+Burning,Yes,More than a week ago,5,2,2,1,5,Very Severe
+Burning,No,Last week,5,2,1,2,5,Very Severe
+Burning,Yes,More than a week ago,5,2,2,1,5,Very Severe
+Burning,No,More than a week ago,5,1,1,2,5,Very Severe
+Burning,Yes,Last week,5,1,1,2,5,Very Severe
+Burning,No,More than a week ago,5,1,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Burning,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Dull,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Burning,No,Last week,5,2,1,2,5,Very Severe
+Sharp,No,More than a week ago,5,2,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,2,2,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Burning,Yes,Last week,5,1,1,2,5,Very Severe
+Burning,No,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,Last week,5,1,1,2,5,Very Severe
+Throbbing,Yes,Last week,5,2,1,1,5,Very Severe
+Sharp,Yes,Yesterday,5,1,1,1,5,Very Severe
+Sharp,No,Yesterday,5,1,1,2,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Sharp,Yes,Last week,5,1,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Burning,Yes,Last week,5,1,1,2,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Throbbing,Yes,More than a week ago,5,2,1,2,5,Very Severe
+Burning,Yes,More than a week ago,5,2,1,1,5,Very Severe
+Burning,Yes,More than a week ago,5,1,2,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,1,1,2,5,Very Severe
+Burning,Yes,More than a week ago,5,1,1,1,5,Very Severe
+Sharp,Yes,More than a week ago,5,2,2,1,5,Very Severe
