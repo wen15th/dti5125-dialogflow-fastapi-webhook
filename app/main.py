@@ -32,7 +32,7 @@ else:
     RAG_AVAILABLE = False
     print(f"⚠️  Services directory not found: {services_dir}")
 
-# ========== NO CHANGES BELOW THIS LINE ========== 
+# ========== NO CHANGES BELOW THIS LINE ==========
 
 logging.basicConfig(
     level=logging.INFO,
