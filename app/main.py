@@ -5,7 +5,6 @@ from app.services.fallback_handlers import handle_fallback
 from app.services.pain_handlers import handle_submit 
 import logging
 import json
-from app.services.severity_predictor import SeverityPredictor
 
 
 
@@ -89,14 +88,3 @@ async def webhook(request: Request):
         response["outputContexts"] = output_contexts
 
     return JSONResponse(content=response)
-
-
-@app.post("/classification_test")
-async def classification_test(request: Request):
-    body = await request.json()
-    logger.info("Request body: %s", json.dumps(body, ensure_ascii=False))
-    # Test
-    predictor = SeverityPredictor()
-    severity_score = predictor.predict(body)
-
-    return {"severity_score": severity_score}
