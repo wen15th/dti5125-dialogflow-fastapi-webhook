@@ -12,6 +12,9 @@ import logging
 import os
 import sys
 from pathlib import Path
+from app.services.collect_answers import extract_answers_from_context, save_answers_jsonl
+from app.services.symptom_goal_and_definition import handle_clarification, handle_definition_and_goal
+
 
 # ENHANCED: Import for Enhanced RAG system
 # Add the services directory to Python path for enhanced RAG import
@@ -33,6 +36,12 @@ else:
     print(f"⚠️  Services directory not found: {services_dir}")
 
 # ========== NO CHANGES BELOW THIS LINE ==========
+
+
+def handle_submit(body):
+    answers = extract_answers_from_context(body, "pain_assessment")
+    save_answers_jsonl(answers)
+    return ["Thank you! Your assessment has been submitted."]
 
 logging.basicConfig(
     level=logging.INFO,
@@ -60,7 +69,7 @@ async def webhook(request: Request):
         # "confirm_yes_movement": handle_symptom_education,
         "Report_Body_Reactions_And_Pain_Issue": handle_clarification,
         "Report_Body_Reactions_And_Pain_Issue - yes": handle_definition_and_goal,
-        "Pain_Duration_Intent - custom": handle_submit, 
+        "Activity_assessment - custom": handle_submit, 
         # "Report_Sensory_Issue": handle_clarification,
         # "Report_Sensory_Issue - yes": handle_definition_and_goal
         "Default Fallback Intent": handle_fallback
@@ -179,7 +188,7 @@ async def webhook(request: Request):
         # "confirm_yes_movement": handle_symptom_education,
         "Report_Body_Reactions_And_Pain_Issue": handle_clarification,
         "Report_Body_Reactions_And_Pain_Issue - yes": handle_definition_and_goal,
-        "Pain_Duration_Intent - custom": handle_submit, 
+        "Activity_assessment - custom": handle_submit, 
         # "Report_Sensory_Issue": handle_clarification,
         # "Report_Sensory_Issue - yes": handle_definition_and_goal
         "Default Fallback Intent": handle_fallback
@@ -621,17 +630,17 @@ def get_enhanced_api_info():
     }
 
 # Colleague's handler functions - EXACTLY as provided, no changes
-def handle_clarification(body):
-    """Handler for clarification intent - implemented by colleague"""
-    return ["I understand you're experiencing pain. Let me help you with that."]
+# def handle_clarification(body):
+#     """Handler for clarification intent - implemented by colleague"""
+#     return ["I understand you're experiencing pain. Let me help you with that."]
 
-def handle_definition_and_goal(body):
-    """Handler for definition and goal intent - implemented by colleague"""
-    return ["Let me help you understand and manage your pain better."]
+# def handle_definition_and_goal(body):
+#     """Handler for definition and goal intent - implemented by colleague"""
+#     return ["Let me help you understand and manage your pain better."]
 
-def handle_submit(body):
-    """Handler for submit intent - implemented by colleague"""
-    return ["Thank you for providing the information. I'll help you with pain management."]
+# def handle_submit(body):
+#     """Handler for submit intent - implemented by colleague"""
+#     return ["Thank you for providing the information. I'll help you with pain management."]
 
 def handle_fallback(body):
     """Handler for fallback intent - implemented by colleague"""
