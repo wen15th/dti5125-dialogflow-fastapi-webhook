@@ -1,0 +1,73 @@
+{
+  "total_organizations": 9,
+  "successful_crawls": 9,
+  "failed_crawls": 0,
+  "total_pages_scraped": 618,
+  "total_videos_found": 561,
+  "total_podcasts_found": 78,
+  "organizations_summary": {
+    "Parkinson's Foundation": {
+      "status": "success",
+      "pages_crawled": 99,
+      "videos_found": 46,
+      "podcasts_found": 48,
+      "max_depth_reached": 2
+    },
+    "Michael J. Fox Foundation": {
+      "status": "success",
+      "pages_crawled": 98,
+      "videos_found": 68,
+      "podcasts_found": 17,
+      "max_depth_reached": 1
+    },
+    "American Parkinson Disease Association": {
+      "status": "success",
+      "pages_crawled": 93,
+      "videos_found": 231,
+      "podcasts_found": 6,
+      "max_depth_reached": 2
+    },
+    "Parkinson Canada": {
+      "status": "success",
+      "pages_crawled": 100,
+      "videos_found": 29,
+      "podcasts_found": 0,
+      "max_depth_reached": 2
+    },
+    "European Parkinson's Disease Association": {
+      "status": "success",
+      "pages_crawled": 0,
+      "videos_found": 0,
+      "podcasts_found": 0,
+      "max_depth_reached": 0
+    },
+    "Parkinson's UK": {
+      "status": "success",
+      "pages_crawled": 100,
+      "videos_found": 58,
+      "podcasts_found": 6,
+      "max_depth_reached": 1
+    },
+    "Davis Phinney Foundation": {
+      "status": "success",
+      "pages_crawled": 0,
+      "videos_found": 0,
+      "podcasts_found": 0,
+      "max_depth_reached": 0
+    },
+    "PMD Alliance": {
+      "status": "success",
+      "pages_crawled": 99,
+      "videos_found": 119,
+      "podcasts_found": 1,
+      "max_depth_reached": 2
+    },
+    "ParkinsonNet": {
+      "status": "success",
+      "pages_crawled": 29,
+      "videos_found": 10,
+      "podcasts_found": 0,
+      "max_depth_reached": 3
+    }
+  }
+}

@@ -83,7 +83,7 @@ class SimplifiedPainFocusedRAGRetriever:
         self.severity_queries = {
     1: [
         "pain", "ache", "discomfort", "soreness", "distress",
-        "exercise", "physical activity", "workout", "training", "exertion",
+        "exercise", "physical activity", "workout", "training", "yoga","mindful", 
         "meditation", "mindfulness", "contemplation", "introspection", "concentration",
         "nutrition", "dietary habits", "nourishment", "healthy eating", "balanced diet"
     ],
