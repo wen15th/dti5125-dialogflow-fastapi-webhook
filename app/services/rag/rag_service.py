@@ -355,7 +355,8 @@ Predefined Pain Care Tip:
             care_tip_data = self.pain_care_manager.get_pain_care_tip(severity_score)
 
             # Get SEPARATE web articles and media
-            web_articles = self.retriever.search_web_articles(severity_score, k=3)
+            # web_articles = self.retriever.search_web_articles(severity_score, k=3)
+            web_articles = []
             media_resources = self.retriever.search_media_resources(severity_score, k=2)
 
             logger.info(f"Retrieved {len(web_articles)} articles, {len(media_resources)} media for severity {severity_score}")

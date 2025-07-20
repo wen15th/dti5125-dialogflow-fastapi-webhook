@@ -1,6 +1,6 @@
 # app/services/pain_handlers.py
 # UPDATED VERSION with Enhanced RAG Integration
-
+import json
 from typing import Dict, Any
 import logging
 from .rag.rag_service import get_refined_tip_with_rag
@@ -13,49 +13,45 @@ def handle_pain_report(request_data: Dict[str, Any]) -> Dict[str, Any]:
     ENHANCED pain report handler with improved RAG integration
     """
     try:
-        # Extract user input and session info
-        user_input = request_data.get("queryResult", {}).get("queryText", "")
-        session_id = request_data.get("session", "").split("/")[-1]
-        
-        # For now, we'll use dummy data for severity prediction
-        # TODO: Replace with actual ML model prediction
-        dummy_severity_score = 3  # Hardcoded for testing
-        symptom = "pain"
-        
-        # Extract any additional context from parameters
         parameters = request_data.get("queryResult", {}).get("parameters", {})
-        
-        logger.info(f"Processing pain report for session {session_id}")
-        logger.info(f"User input: {user_input}")
-        logger.info(f"Using dummy severity score: {dummy_severity_score}")
-        
+        severity_score = parameters.get("severity_score")
+        symptom = parameters.get("symptom", "pain")
+
         # Get ENHANCED care tip using improved RAG system
         rag_result = get_refined_tip_with_rag(
-            severity_score=dummy_severity_score,
+            severity_score=severity_score,
             symptom=symptom,
-            user_id=session_id
         )
-        
+
+        logger.info(f"RAG result: {json.dumps(rag_result, ensure_ascii=False)}")
+
         if rag_result['success']:
             # Create response based on ENHANCED RAG results
-            response_text = _create_enhanced_response(rag_result, user_input)
+            response_list = _create_enhanced_response(rag_result, "")
             
             # Prepare rich response with follow-up suggestions
             response = {
-                "fulfillmentText": response_text,
+                "fulfillmentText": "\n".join(response_list),
                 "fulfillmentMessages": [
                     {
-                        "text": {
-                            "text": [response_text]
+                        "payload": {
+                            "richContent": [
+                                [
+                                    {
+                                        "type": "description",
+                                        "text": response_list
+                                    }
+                                ]
+                            ]
                         }
                     }
                 ]
             }
             
             # Add follow-up suggestions if available
-            if rag_result.get('sources') or rag_result.get('media_resources'):
-                response["fulfillmentMessages"].append(_create_enhanced_suggestions_payload(rag_result))
-            
+            # if rag_result.get('sources') or rag_result.get('media_resources'):
+            #     response["fulfillmentMessages"].append(_create_enhanced_suggestions_payload(rag_result))
+
             # Add escalation context if needed
             if rag_result.get('escalation_needed'):
                 response["outputContexts"] = [
@@ -64,7 +60,7 @@ def handle_pain_report(request_data: Dict[str, Any]) -> Dict[str, Any]:
                         "lifespanCount": 5,
                         "parameters": {
                             "symptom": symptom,
-                            "severity": dummy_severity_score,
+                            "severity": severity_score,
                             "escalation_reason": "High severity pain reported",
                             "enhanced_system_used": True
                         }
@@ -89,14 +85,14 @@ def handle_pain_report(request_data: Dict[str, Any]) -> Dict[str, Any]:
         else:
             # Fallback to basic response if enhanced RAG fails
             logger.warning(f"Enhanced RAG system failed: {rag_result.get('error', 'Unknown error')}")
-            return _create_fallback_response(dummy_severity_score, symptom, user_input)
+            return _create_fallback_response(severity_score, symptom, "")
             
     except Exception as e:
         logger.error(f"Error in handle_pain_report: {str(e)}")
         return _create_error_response(str(e))
 
 
-def _create_enhanced_response(rag_result: Dict[str, Any], user_input: str) -> str:
+def _create_enhanced_response(rag_result: Dict[str, Any], user_input: str) -> list:
     """
     Create an ENHANCED response using improved RAG results
     """
@@ -110,7 +106,7 @@ def _create_enhanced_response(rag_result: Dict[str, Any], user_input: str) -> st
     response_parts = [
         f"I understand you're experiencing {symptom} and I want to help you manage it effectively."
     ]
-    
+
     # Add severity-specific context
     if severity <= 2:
         response_parts.append("It's good that your pain level is relatively manageable.")
@@ -120,34 +116,42 @@ def _create_enhanced_response(rag_result: Dict[str, Any], user_input: str) -> st
         response_parts.append("Your pain level is concerning and requires careful management.")
     else:  # severity == 5
         response_parts.append("I'm concerned about your high pain level. This needs immediate attention.")
-    
+
     # Add the main care tip
-    response_parts.append(f"\n💡 **Care Recommendation:**\n{rag_result['predefined_tip']}")
+    response_parts.append(f"\n💡 Care Recommendation")
+    response_parts.append(rag_result['predefined_tip'])
     
     # Add AI-enhanced guidance if available
     if rag_result.get('ai_enhanced_tip') and len(rag_result['ai_enhanced_tip']) > 50:
-        response_parts.append(f"\n🤖 **Evidence-Based Guidance:**\n{rag_result['ai_enhanced_tip']}")
-    
+        response_parts.append(f"\n🤖 Evidence-Based Guidance")
+        response_parts.append(rag_result['ai_enhanced_tip'])
+
     # Add escalation notice if needed
     if escalation_needed:
-        response_parts.append("\n🚨 **Important:** Given the severity of your symptoms, I strongly recommend contacting your healthcare provider soon.")
-    
+        response_parts.append("\n🚨 Important")
+        response_parts.append("Given the severity of your symptoms, I strongly recommend contacting your healthcare provider soon.")
+
     # Add ENHANCED source information
     if rag_result.get('sources'):
         source_count = len(rag_result['sources'])
         avg_relevance = retrieval_info.get('avg_pain_relevance_score', 0)
         response_parts.append(f"\n📚 This guidance is based on {source_count} high-quality pain-focused sources from trusted Parkinson's organizations (avg. relevance: {avg_relevance:.1f}).")
-    
+
     # Add enhanced media resources mention
     if rag_result.get('media_resources'):
         media_count = len(rag_result['media_resources'])
         response_parts.append(f"\n🎬 I also found {media_count} pain-specific video/audio resources that can help with your pain management.")
+        media_count = 1
+        for media_resource in rag_result['media_resources']:
+            response_parts.append(f"{media_count}. {media_resource['title']} ({media_resource['type']}): {media_resource['source_url']}")
+            media_count += 1
     
     # Add enhanced system info if available
-    if retrieval_info.get('enhanced_pain_search'):
-        response_parts.append(f"\n✨ **Enhanced Search:** Used specialized pain-focused retrieval for more relevant recommendations.")
+    # if retrieval_info.get('enhanced_pain_search'):
+    #     response_parts.append(f"\n✨ **Enhanced Search:** Used specialized pain-focused retrieval for more relevant recommendations.")
     
-    return "\n".join(response_parts)
+    # return "\n".join(response_parts)
+    return response_parts
 
 
 def _create_enhanced_suggestions_payload(rag_result: Dict[str, Any]) -> Dict[str, Any]:
@@ -403,14 +407,14 @@ def handle_other_symptoms(request_data: Dict[str, Any], symptom_type: str) -> Di
         )
         
         if rag_result['success']:
-            response_text = _create_enhanced_response(rag_result, user_input)
+            response_list = _create_enhanced_response(rag_result, user_input)
             
             response = {
-                "fulfillmentText": response_text,
+                "fulfillmentText": "\n".join(response_list),
                 "fulfillmentMessages": [
                     {
                         "text": {
-                            "text": [response_text]
+                            "text": response_list
                         }
                     }
                 ]

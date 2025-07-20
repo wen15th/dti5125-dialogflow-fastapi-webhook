@@ -21,6 +21,7 @@ from pathlib import Path
 from app.services.collect_answers import extract_answers_from_context, save_answers_jsonl
 from app.services.symptom_goal_and_definition import handle_clarification, handle_definition_and_goal
 from app.services.severity_predictor import SeverityPredictor
+from app.services.pain_handlers import handle_pain_report
 
 # Initialize Severity Predictor
 predictor = SeverityPredictor()
@@ -98,33 +99,31 @@ async def webhook(request: Request):
 
     # Intent Map
     handlers = {
-        # "Default Welcome Intent": handle_welcome,
-        # "Report_Movement_Issue": handle_report_movement,
-        # "confirm_yes_movement": handle_symptom_education,
         "Report_Body_Reactions_And_Pain_Issue": handle_clarification,
         "Report_Body_Reactions_And_Pain_Issue - yes": handle_definition_and_goal,
-        "Activity_assessment - custom": handle_submit, 
-        # "Report_Sensory_Issue": handle_clarification,
-        # "Report_Sensory_Issue - yes": handle_definition_and_goal
+        "Activity_assessment - custom": handle_submit,
         "Default Fallback Intent": handle_fallback
     }
 
     try:
         handler = handlers.get(intent, handle_fallback)
         messages = handler(body)
+
+        logger.info(f"Response from handler: {json.dumps(messages, ensure_ascii=False)}")
     except Exception as e:
         logger.exception("Error occurred while handling request body: %s",str(e))
         messages = [f"Sorry, an error occurred, please try later."]
 
     text = ""
     message_list = []
-    for message in messages:
-        message_list.append({
-            "text": {
-                "text": [message]
-            }
-        })
-        text = (text + "\n\n" + message).strip()
+    if intent != "Activity_assessment - custom":
+        for message in messages:
+            message_list.append({
+                "text": {
+                    "text": [message]
+                }
+            })
+            text = (text + "\n\n" + message).strip()
 
     output_contexts = []
 
@@ -148,11 +147,17 @@ async def webhook(request: Request):
             "lifespanCount": 1
         }]
 
+    if intent != "Activity_assessment - custom":
+        response = {
+            "fulfillmentText": text,
+            "fulfillmentMessages": message_list,
+        }
+    else:
+        response = {
+            "fulfillmentText": messages['fulfillmentText'],
+            "fulfillmentMessages": messages['fulfillmentMessages'],
+        }
 
-    response = {
-        "fulfillmentText": text,
-        "fulfillmentMessages": message_list,
-    }
     if output_contexts:
         response["outputContexts"] = output_contexts
 
@@ -662,18 +667,73 @@ def handle_submit(body):
     care_tip_text = ""
     if RAG_AVAILABLE:
         try:
-            result = get_refined_tip_with_rag(severity_score, "pain")
-            if result.get("success"):
-                # Use either the "predefined_tip" or "ai_enhanced_tip" as needed
-                care_tip_text = result.get("ai_enhanced_tip") or result.get("predefined_tip") or ""
-            else:
-                care_tip_text = "Sorry, no care tip is available at this time."
+            # result = get_refined_tip_with_rag(severity_score, "pain")
+            # if result.get("success"):
+            #     # Use either the "predefined_tip" or "ai_enhanced_tip" as needed
+            #     care_tip_text = result.get("ai_enhanced_tip") or result.get("predefined_tip") or ""
+            # else:
+            #     care_tip_text = "Sorry, no care tip is available at this time."
+
+            result = handle_pain_report({
+                "queryResult": {
+                    "parameters": {
+                        "severity_score": severity_score,
+                        "symptom": "pain"
+                    },
+                },
+            })
+            logger.info(f"[handle_submit] result: {json.dumps(result, ensure_ascii=False)}")
+            return result
+
+            # return {
+            #     "fulfillmentText": "I understand you're experiencing pain and I want to help you manage it effectively.\nYour pain level is concerning and requires careful management.\n\n💡 **Care Recommendation:**\nTry using the journal as a 'pain log' to note when the pain happens, where it is, and what it feels like. Also, write down what has or hasn't helped ease the pain. This can help you better understand what might be causing it.\n\nSharing this with your healthcare providers can help them identify and treat your pain more accurately.\n\n🤖 **Evidence-Based Guidance:**\nEvidence-based techniques include collaborating closely with your healthcare team.  Sharing your detailed pain journal, as previously suggested, is a crucial first step.  Beyond that, consider proactively requesting a comprehensive pain assessment from your neurologist or pain specialist.  This assessment may involve neurological examinations, imaging studies (like MRI or ultrasound), and discussions about your medical history and current medications.  This more thorough approach can help identify potential underlying causes of your pain and guide the development of a personalized treatment plan.  Remember, effective pain management often requires a multidisciplinary approach, potentially involving physical therapy, occupational therapy, and/or medication adjustments.\n\n🎬 I also found 2 pain-specific video/audio resources that can help with your pain management.\n\n✨ **Enhanced Search:** Used specialized pain-focused retrieval for more relevant recommendations.",
+            #     "fulfillmentMessages": [
+            #     {
+            #       "payload": {
+            #         "richContent": [
+            #           [
+            #             # {
+            #             #   "type": "info",
+            #             #   "title": "💡 Care Recommendation",
+            #             #   "subtitle": "I recommend you speak to your doctor...",
+            #             #   "image": {
+            #             #     "src": {
+            #             #       "rawUrl": "https://example.com/image.jpg"
+            #             #     }
+            #             #   },
+            #             #   "actionLink": "https://example.com/details"
+            #             # },
+            #             {
+            #               "type": "description",
+            #               "text": [
+            #                   "I understand you're experiencing pain and I want to help you manage it effectively. I'm concerned about your high pain level. This needs immediate attention. ",
+            #                   "💡 **Care Recommendation:** I recommend you speak to your doctor or your nurse about the pain you are experiencing. They can help you find the underlying cause of your pain.",
+            #                   "🤖 **Evidence-Based Guidance:** Pain specialists recommend keeping a detailed pain diary to share with your healthcare provider. This diary should include the type of pain (e.g., sharp, aching, burning), its location, intensity (using a scale like 0-10), duration, and any triggers or relieving factors. This information will be invaluable in helping your doctor or nurse understand your pain and develop an effective treatment plan. The more information you can provide, the better equipped they will be to assist you. ",
+            #                   "🚨 **Important:** Given the severity of your symptoms, I strongly recommend contacting your healthcare provider soon. ",
+            #                   "🎬 I also found 2 pain-specific video/audio resources that can help with your pain management."
+            #               ]
+            #             }
+            #           ]
+            #         ]
+            #       }
+            #     }
+            #   ]
+            # }
+
         except Exception as e:
             care_tip_text = f"Sorry, failed to retrieve care tip: {str(e)}"
+            return {
+                'fulfillmentText': care_tip_text,
+                'fulfillmentMessages': [care_tip_text]
+            }
     else:
         care_tip_text = "RAG care tip system is not currently available."
+        return {
+            'fulfillmentText': care_tip_text,
+            'fulfillmentMessages': [care_tip_text]
+        }
 
     # Respond to Dialogflow
-    return [
-        f"Thank you! Your assessment has been submitted. Severity Score: {severity_score}\n\nCare Tip: {care_tip_text}"
-    ]
+    # return [
+    #     f"Thank you! Your assessment has been submitted. Severity Score: {severity_score}\n\nCare Tip: {care_tip_text}"
+    # ]
