@@ -1,5 +1,11 @@
 # app/main.py
 # ADAPTED VERSION - Enhanced RAG Integration While Preserving Colleague's Code
+from dotenv import load_dotenv
+load_dotenv()  # Automatically loads from .env in your working directory
+
+import os
+api_key = os.getenv("GOOGLE_API_KEY")
+
 
 from fastapi import FastAPI, Request, HTTPException
 from fastapi.responses import JSONResponse
@@ -14,8 +20,10 @@ import sys
 from pathlib import Path
 from app.services.collect_answers import extract_answers_from_context, save_answers_jsonl
 from app.services.symptom_goal_and_definition import handle_clarification, handle_definition_and_goal
+from app.services.severity_predictor import SeverityPredictor
 
-
+# Initialize Severity Predictor
+predictor = SeverityPredictor()
 # ENHANCED: Import for Enhanced RAG system
 # Add the services directory to Python path for enhanced RAG import
 current_dir = Path(__file__).parent
@@ -24,7 +32,7 @@ if services_dir.exists():
     sys.path.append(str(services_dir))
     try:
         # Import the ENHANCED RAG function (updated name)
-        from rag.rag_service import get_refined_tip_with_rag
+        from app.services.rag.rag_service import get_refined_tip_with_rag  
         RAG_AVAILABLE = True
         print("✅ Enhanced Pain RAG service loaded successfully")
     except ImportError as e:
@@ -37,11 +45,37 @@ else:
 
 # ========== NO CHANGES BELOW THIS LINE ==========
 
+DESIRED_KEYS = [
+    "pain_type",
+    "radiates",
+    "duration",
+    "self_score",
+    "activity_score",
+    "mood_score",
+    "sleep_score"
+]
 
-def handle_submit(body):
-    answers = extract_answers_from_context(body, "pain_assessment")
-    save_answers_jsonl(answers)
-    return ["Thank you! Your assessment has been submitted."]
+
+# def handle_submit(body):
+#     answers = extract_answers_from_context(body, "pain_assessment")
+    
+#     # Filter for only the allowed keys
+#     user_input_dict = {k: answers[k] for k in DESIRED_KEYS if k in answers}
+    
+#     # Ensure numeric fields are int, not str
+#     for key in ["self_score", "activity_score", "mood_score", "sleep_score"]:
+#         if key in user_input_dict:
+#             user_input_dict[key] = int(user_input_dict[key])
+    
+#     # Predict severity using only allowed fields
+#     severity_score = predictor.predict(user_input_dict)
+
+#     # Save just filtered answers + prediction
+#     user_input_dict["predicted_severity_score"] = severity_score
+#     save_answers_jsonl(user_input_dict)
+
+#     return [f"Thank you! Your assessment has been submitted. Severity Score: {severity_score}"]
+
 
 logging.basicConfig(
     level=logging.INFO,
@@ -149,7 +183,7 @@ if services_dir.exists():
     sys.path.append(str(services_dir))
     try:
         # Import the ENHANCED RAG function (updated name)
-        from rag.rag_service import get_refined_tip_with_rag
+        from app.services.rag.rag_service import get_refined_tip_with_rag
         RAG_AVAILABLE = True
         print("✅ Enhanced Pain RAG service loaded successfully")
     except ImportError as e:
@@ -160,90 +194,6 @@ else:
     RAG_AVAILABLE = False
     print(f"⚠️  Services directory not found: {services_dir}")
 
-# ========== NO CHANGES BELOW THIS LINE ========== 
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
-)
-logger = logging.getLogger(__name__)
-
-app = FastAPI()
-
-@app.get("/")
-def read_root():
-    return {"message": "Hello, FastAPI backend service is running!"}
-
-@app.post("/webhook")
-async def webhook(request: Request):
-    body = await request.json()
-    logger.info("Request body: %s", json.dumps(body, ensure_ascii=False))
-
-    intent = body["queryResult"]["intent"]["displayName"]
-
-    # Intent Map
-    handlers = {
-        # "Default Welcome Intent": handle_welcome,
-        # "Report_Movement_Issue": handle_report_movement,
-        # "confirm_yes_movement": handle_symptom_education,
-        "Report_Body_Reactions_And_Pain_Issue": handle_clarification,
-        "Report_Body_Reactions_And_Pain_Issue - yes": handle_definition_and_goal,
-        "Activity_assessment - custom": handle_submit, 
-        # "Report_Sensory_Issue": handle_clarification,
-        # "Report_Sensory_Issue - yes": handle_definition_and_goal
-        "Default Fallback Intent": handle_fallback
-    }
-
-    try:
-        handler = handlers.get(intent, handle_fallback)
-        messages = handler(body)
-    except Exception as e:
-        logger.exception("Error occurred while handling request body: %s",str(e))
-        messages = [f"Sorry, an error occurred, please try later."]
-
-    text = ""
-    message_list = []
-    for message in messages:
-        message_list.append({
-            "text": {
-                "text": [message]
-            }
-        })
-        text = (text + "\n\n" + message).strip()
-
-    output_contexts = []
-
-    if intent == "Report_Body_Reactions_And_Pain_Issue - yes":
-        consent_text = "To help me provide the best care tips, would you be okay to answer a few more questions?"
-        text = (text + "\n\n" + consent_text).strip()
-        message_list.append({
-            "text": {
-                "text": [consent_text]
-            }
-        })
-
-        # Set output context for awaiting_consent
-        session_path = body.get("session") or body.get("sessionInfo", {}).get("session")
-        if not session_path:
-            logger.error("No session path found in webhook request!")
-            session_path = "projects/YOUR_PROJECT_ID/agent/sessions/placeholder"
-
-        output_contexts = [{
-            "name": f"{session_path}/contexts/awaiting_consent",
-            "lifespanCount": 1
-        }]
-
-
-    response = {
-        "fulfillmentText": text,
-        "fulfillmentMessages": message_list,
-    }
-    if output_contexts:
-        response["outputContexts"] = output_contexts
-
-    return JSONResponse(content=response)
-
-# ========== NO CHANGES ABOVE THIS LINE ==========
 
 # ===== ENHANCED RAG TESTING ENDPOINTS (NEW) =====
 
@@ -691,3 +641,39 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"❌ Failed to start enhanced server: {str(e)}")
         print("Please check your dependencies and enhanced configuration")
+
+def handle_submit(body):
+    answers = extract_answers_from_context(body, "pain_assessment")
+    user_input_dict = {k: answers[k] for k in DESIRED_KEYS if k in answers}
+
+    # Ensure numeric fields are int, not str
+    for key in ["self_score", "activity_score", "mood_score", "sleep_score"]:
+        if key in user_input_dict:
+            user_input_dict[key] = int(user_input_dict[key])
+
+    # Predict severity using only allowed fields
+    severity_score = predictor.predict(user_input_dict)
+    user_input_dict["predicted_severity_score"] = severity_score
+
+    # Save to JSONL
+    save_answers_jsonl(user_input_dict)
+
+    # === NEW: Call RAG for care tip ===
+    care_tip_text = ""
+    if RAG_AVAILABLE:
+        try:
+            result = get_refined_tip_with_rag(severity_score, "pain")
+            if result.get("success"):
+                # Use either the "predefined_tip" or "ai_enhanced_tip" as needed
+                care_tip_text = result.get("ai_enhanced_tip") or result.get("predefined_tip") or ""
+            else:
+                care_tip_text = "Sorry, no care tip is available at this time."
+        except Exception as e:
+            care_tip_text = f"Sorry, failed to retrieve care tip: {str(e)}"
+    else:
+        care_tip_text = "RAG care tip system is not currently available."
+
+    # Respond to Dialogflow
+    return [
+        f"Thank you! Your assessment has been submitted. Severity Score: {severity_score}\n\nCare Tip: {care_tip_text}"
+    ]
