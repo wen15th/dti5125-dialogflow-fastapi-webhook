@@ -38,3 +38,6 @@ jobs:
           service: ${{ secrets.CLOUD_RUN_SERVICE }}
           image: gcr.io/${{ secrets.GCP_PROJECT_ID }}/dti5125-dialogflow-fastapi-webhook
           region: ${{ secrets.CLOUD_RUN_REGION }}
+          env_vars: |
+            GOOGLE_API_KEY=${{ secrets.GOOGLE_API_KEY }}
+            ENV=production
