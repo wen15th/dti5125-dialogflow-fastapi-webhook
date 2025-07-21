@@ -83,7 +83,7 @@ class SimplifiedPainFocusedRAGRetriever:
         self.severity_queries = {
     1: [
         "pain", "ache", "discomfort", "soreness", "distress",
-        "exercise", "physical activity", "workout", "training", "yoga","mindful", 
+        "exercise", "physical activity", "workout", "training", "yoga","mindful",
         "meditation", "mindfulness", "contemplation", "introspection", "concentration",
         "nutrition", "dietary habits", "nourishment", "healthy eating", "balanced diet"
     ],
@@ -227,11 +227,17 @@ class SimplifiedPainFocusedRAGRetriever:
             logger.info(f"Searching media for severity {severity}")
             
             for query in queries:
+                logger.info(f"Processing query: {query}")
+
                 try:
                     # Add media-specific terms
                     media_query = f"{query} video podcast"
-                    results = self.vector_store.similarity_search(media_query, k=k*5)
-                    
+                    results = self.vector_store.similarity_search(
+                        media_query,
+                        k=k*5,
+                        filter={"content_type": {"$in": ["video", "podcast"]}}
+                    )
+
                     for doc in results:
                         if not self._is_media_content(doc.metadata):
                             continue
