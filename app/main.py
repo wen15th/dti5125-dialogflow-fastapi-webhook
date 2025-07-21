@@ -1,82 +1,44 @@
 # app/main.py
 # ADAPTED VERSION - Enhanced RAG Integration While Preserving Colleague's Code
-from dotenv import load_dotenv
-load_dotenv()  # Automatically loads from .env in your working directory
-
-import os
-api_key = os.getenv("GOOGLE_API_KEY")
-
-
-from fastapi import FastAPI, Request, HTTPException
-from fastapi.responses import JSONResponse
-from fastapi.middleware.cors import CORSMiddleware
-import logging
-import json
-from pydantic import BaseModel, Field
-from typing import Optional
+import uuid
 import logging
 import os
 import sys
+
+from app.config import globals
+from dotenv import load_dotenv
+from fastapi import FastAPI, Request, HTTPException
 from pathlib import Path
-from app.services.collect_answers import extract_answers_from_context, save_answers_jsonl
 from app.services.symptom_goal_and_definition import handle_clarification, handle_definition_and_goal
 from app.services.severity_predictor import SeverityPredictor
-from app.services.pain_handlers import handle_pain_report
+from app.services.care_tip_handlers import handle_care_tip, run_rag_async
+from app.services.handle_severity_response import handle_submit
 
-# Initialize Severity Predictor
-predictor = SeverityPredictor()
+load_dotenv()  # Automatically loads from .env in your working directory
+api_key = os.getenv("GOOGLE_API_KEY")
+PROJECT_ID = "bb-tkqk"
+
 # ENHANCED: Import for Enhanced RAG system
 # Add the services directory to Python path for enhanced RAG import
 current_dir = Path(__file__).parent
 services_dir = current_dir / "services"
+
 if services_dir.exists():
     sys.path.append(str(services_dir))
     try:
         # Import the ENHANCED RAG function (updated name)
         from app.services.rag.rag_service import get_refined_tip_with_rag  
-        RAG_AVAILABLE = True
+        globals.RAG_AVAILABLE = True
         print("✅ Enhanced Pain RAG service loaded successfully")
     except ImportError as e:
-        RAG_AVAILABLE = False
+        globals.RAG_AVAILABLE = False
         print(f"⚠️  Enhanced Pain RAG service not available: {e}")
         print("   Please ensure the enhanced rag_service.py is in place")
 else:
-    RAG_AVAILABLE = False
+    globals.RAG_AVAILABLE = False
     print(f"⚠️  Services directory not found: {services_dir}")
 
 # ========== NO CHANGES BELOW THIS LINE ==========
-
-DESIRED_KEYS = [
-    "pain_type",
-    "radiates",
-    "duration",
-    "self_score",
-    "activity_score",
-    "mood_score",
-    "sleep_score"
-]
-
-
-# def handle_submit(body):
-#     answers = extract_answers_from_context(body, "pain_assessment")
-    
-#     # Filter for only the allowed keys
-#     user_input_dict = {k: answers[k] for k in DESIRED_KEYS if k in answers}
-    
-#     # Ensure numeric fields are int, not str
-#     for key in ["self_score", "activity_score", "mood_score", "sleep_score"]:
-#         if key in user_input_dict:
-#             user_input_dict[key] = int(user_input_dict[key])
-    
-#     # Predict severity using only allowed fields
-#     severity_score = predictor.predict(user_input_dict)
-
-#     # Save just filtered answers + prediction
-#     user_input_dict["predicted_severity_score"] = severity_score
-#     save_answers_jsonl(user_input_dict)
-
-#     return [f"Thank you! Your assessment has been submitted. Severity Score: {severity_score}"]
-
 
 logging.basicConfig(
     level=logging.INFO,
@@ -96,12 +58,14 @@ async def webhook(request: Request):
     logger.info("Request body: %s", json.dumps(body, ensure_ascii=False))
 
     intent = body["queryResult"]["intent"]["displayName"]
+    body['care_tip_uuid'] = str(uuid.uuid1()) # only used in "handle_submit"
 
     # Intent Map
     handlers = {
         "Report_Body_Reactions_And_Pain_Issue": handle_clarification,
         "Report_Body_Reactions_And_Pain_Issue - yes": handle_definition_and_goal,
         "Activity_assessment - custom": handle_submit,
+        "Activity_assessment - custom - yes": handle_care_tip,
         "Default Fallback Intent": handle_fallback
     }
 
@@ -116,7 +80,7 @@ async def webhook(request: Request):
 
     text = ""
     message_list = []
-    if intent != "Activity_assessment - custom":
+    if intent != "Activity_assessment - custom - yes":
         for message in messages:
             message_list.append({
                 "text": {
@@ -140,22 +104,50 @@ async def webhook(request: Request):
         session_path = body.get("session") or body.get("sessionInfo", {}).get("session")
         if not session_path:
             logger.error("No session path found in webhook request!")
-            session_path = "projects/YOUR_PROJECT_ID/agent/sessions/placeholder"
+            session_path = f"projects/{PROJECT_ID}/agent/sessions/placeholder"
 
         output_contexts = [{
             "name": f"{session_path}/contexts/awaiting_consent",
             "lifespanCount": 1
         }]
 
-    if intent != "Activity_assessment - custom":
+
+    # Set output context for awaiting_care_tip
+    session_path = body.get("session") or body.get("sessionInfo", {}).get("session")
+    if not session_path:
+        logger.error("No session path found in webhook request!")
+        session_path = f"projects/{PROJECT_ID}/agent/sessions/placeholder"
+    if intent == "Activity_assessment - custom":
+        followup_question = "I’m currently preparing your care tips. This may take a few seconds. Please come back and reply \"Yes\" in about 10 seconds to view them."
+        message_list.append({
+            "text": {
+                "text": [followup_question]
+            }
+        })
+        output_contexts = [{
+            "name": f"{session_path}/contexts/awaiting_care_tip",
+            "lifespanCount": 3,
+            "parameters": {
+                "care_tip_uuid": body['care_tip_uuid']
+            }
+        }]
+
+    if intent == "Activity_assessment - custom - yes":
+        response = {
+            "fulfillmentText": messages['fulfillmentText'],
+            "fulfillmentMessages": messages['fulfillmentMessages']
+        }
+        output_contexts = [{
+            "name": f"{session_path}/contexts/awaiting_care_tip",
+            "lifespanCount": 3,
+            "parameters": {
+                "care_tip_uuid": body['care_tip_uuid']
+            }
+        }]
+    else:
         response = {
             "fulfillmentText": text,
             "fulfillmentMessages": message_list,
-        }
-    else:
-        response = {
-            "fulfillmentText": messages['fulfillmentText'],
-            "fulfillmentMessages": messages['fulfillmentMessages'],
         }
 
     if output_contexts:
@@ -189,14 +181,14 @@ if services_dir.exists():
     try:
         # Import the ENHANCED RAG function (updated name)
         from app.services.rag.rag_service import get_refined_tip_with_rag
-        RAG_AVAILABLE = True
+        globals.RAG_AVAILABLE = True
         print("✅ Enhanced Pain RAG service loaded successfully")
     except ImportError as e:
-        RAG_AVAILABLE = False
+        globals.RAG_AVAILABLE = False
         print(f"⚠️  Enhanced Pain RAG service not available: {e}")
         print("   Please ensure the enhanced rag_service.py is in place")
 else:
-    RAG_AVAILABLE = False
+    globals.RAG_AVAILABLE = False
     print(f"⚠️  Services directory not found: {services_dir}")
 
 
@@ -229,13 +221,13 @@ def enhanced_health_check():
         "status": "healthy",
         "service": "Enhanced Parkinson's Care Assistant API",
         "version": "2.0.0",
-        "enhanced_rag_available": RAG_AVAILABLE,
+        "enhanced_rag_available": globals.RAG_AVAILABLE,
         "features": [
             "Enhanced pain-focused RAG retrieval",
             "Strict content filtering", 
             "High-relevance source selection",
             "Evidence-based pain management guidance"
-        ] if RAG_AVAILABLE else ["Basic API functionality"]
+        ] if globals.RAG_AVAILABLE else ["Basic API functionality"]
     }
 
 # Enhanced Pain Care Tip Endpoint (POST)
@@ -250,7 +242,7 @@ async def get_enhanced_pain_care_tip(request: EnhancedPainCareRequest):
         "user_id": "optional_user_id"
     }
     """
-    if not RAG_AVAILABLE:
+    if not globals.RAG_AVAILABLE:
         raise HTTPException(
             status_code=503, 
             detail="Enhanced Pain RAG service is not available. Please check server configuration and ensure enhanced rag_service.py is properly installed."
@@ -283,7 +275,7 @@ async def get_enhanced_pain_care_tip_get(severity_score: int, user_id: Optional[
     
     URL: /api/pain/care-tip/3?user_id=optional_user_id
     """
-    if not RAG_AVAILABLE:
+    if not globals.RAG_AVAILABLE:
         raise HTTPException(
             status_code=503, 
             detail="Enhanced Pain RAG service is not available. Please check server configuration and ensure enhanced rag_service.py is properly installed."
@@ -323,7 +315,7 @@ async def test_all_enhanced_pain_severities(user_id: Optional[str] = "test_user"
     Test endpoint to get ENHANCED care tips for all pain severity levels
     Includes enhanced system metrics and quality assessment
     """
-    if not RAG_AVAILABLE:
+    if not globals.RAG_AVAILABLE:
         raise HTTPException(
             status_code=503, 
             detail="Enhanced Pain RAG service is not available. Please check server configuration."
@@ -408,7 +400,7 @@ async def validate_enhanced_pain_system():
     ENHANCED validation endpoint to check if the pain-focused system is working correctly
     Includes detailed quality metrics and recommendations
     """
-    if not RAG_AVAILABLE:
+    if not globals.RAG_AVAILABLE:
         raise HTTPException(
             status_code=503, 
             detail="Enhanced Pain RAG service is not available. Please check server configuration."
@@ -551,7 +543,7 @@ def get_enhanced_api_info():
     return {
         "service": "Enhanced Parkinson's Care Assistant API",
         "version": "2.0.0",
-        "enhanced_rag_available": RAG_AVAILABLE,
+        "enhanced_rag_available": globals.RAG_AVAILABLE,
         "enhanced_features": [
             "Pain-focused content retrieval with 20+ relevance threshold",
             "Strict filtering to exclude general PD content", 
@@ -559,7 +551,7 @@ def get_enhanced_api_info():
             "Enhanced relevance scoring with penalties for general content",
             "Evidence-based AI response generation",
             "Comprehensive quality metrics and validation"
-        ] if RAG_AVAILABLE else ["Basic API functionality"],
+        ] if globals.RAG_AVAILABLE else ["Basic API functionality"],
         "endpoints": {
             "webhook": "POST /webhook - Dialogflow webhook integration (colleague's code)",
             "health": "GET /health - Enhanced health check",
@@ -583,19 +575,6 @@ def get_enhanced_api_info():
             "target_quality": "Pain-specific sources only"
         }
     }
-
-# Colleague's handler functions - EXACTLY as provided, no changes
-# def handle_clarification(body):
-#     """Handler for clarification intent - implemented by colleague"""
-#     return ["I understand you're experiencing pain. Let me help you with that."]
-
-# def handle_definition_and_goal(body):
-#     """Handler for definition and goal intent - implemented by colleague"""
-#     return ["Let me help you understand and manage your pain better."]
-
-# def handle_submit(body):
-#     """Handler for submit intent - implemented by colleague"""
-#     return ["Thank you for providing the information. I'll help you with pain management."]
 
 def handle_fallback(body):
     """Handler for fallback intent - implemented by colleague"""
@@ -631,7 +610,7 @@ if __name__ == "__main__":
         print("   http://localhost:8000/api/pain/validate")
         print("   http://localhost:8000/docs (FastAPI interactive docs)")
         
-        if RAG_AVAILABLE:
+        if globals.RAG_AVAILABLE:
             print(f"\n✨ Enhanced Features Active:")
             print("   🎯 Pain-focused content retrieval")
             print("   🔍 Strict quality filtering")
@@ -647,93 +626,4 @@ if __name__ == "__main__":
         print(f"❌ Failed to start enhanced server: {str(e)}")
         print("Please check your dependencies and enhanced configuration")
 
-def handle_submit(body):
-    answers = extract_answers_from_context(body, "pain_assessment")
-    user_input_dict = {k: answers[k] for k in DESIRED_KEYS if k in answers}
 
-    # Ensure numeric fields are int, not str
-    for key in ["self_score", "activity_score", "mood_score", "sleep_score"]:
-        if key in user_input_dict:
-            user_input_dict[key] = int(user_input_dict[key])
-
-    # Predict severity using only allowed fields
-    severity_score = predictor.predict(user_input_dict)
-    user_input_dict["predicted_severity_score"] = severity_score
-
-    # Save to JSONL
-    save_answers_jsonl(user_input_dict)
-
-    # === NEW: Call RAG for care tip ===
-    care_tip_text = ""
-    if RAG_AVAILABLE:
-        try:
-            # result = get_refined_tip_with_rag(severity_score, "pain")
-            # if result.get("success"):
-            #     # Use either the "predefined_tip" or "ai_enhanced_tip" as needed
-            #     care_tip_text = result.get("ai_enhanced_tip") or result.get("predefined_tip") or ""
-            # else:
-            #     care_tip_text = "Sorry, no care tip is available at this time."
-
-            result = handle_pain_report({
-                "queryResult": {
-                    "parameters": {
-                        "severity_score": severity_score,
-                        "symptom": "pain"
-                    },
-                },
-            })
-            logger.info(f"[handle_submit] result: {json.dumps(result, ensure_ascii=False)}")
-            return result
-
-            # return {
-            #     "fulfillmentText": "I understand you're experiencing pain and I want to help you manage it effectively.\nYour pain level is concerning and requires careful management.\n\n💡 **Care Recommendation:**\nTry using the journal as a 'pain log' to note when the pain happens, where it is, and what it feels like. Also, write down what has or hasn't helped ease the pain. This can help you better understand what might be causing it.\n\nSharing this with your healthcare providers can help them identify and treat your pain more accurately.\n\n🤖 **Evidence-Based Guidance:**\nEvidence-based techniques include collaborating closely with your healthcare team.  Sharing your detailed pain journal, as previously suggested, is a crucial first step.  Beyond that, consider proactively requesting a comprehensive pain assessment from your neurologist or pain specialist.  This assessment may involve neurological examinations, imaging studies (like MRI or ultrasound), and discussions about your medical history and current medications.  This more thorough approach can help identify potential underlying causes of your pain and guide the development of a personalized treatment plan.  Remember, effective pain management often requires a multidisciplinary approach, potentially involving physical therapy, occupational therapy, and/or medication adjustments.\n\n🎬 I also found 2 pain-specific video/audio resources that can help with your pain management.\n\n✨ **Enhanced Search:** Used specialized pain-focused retrieval for more relevant recommendations.",
-            #     "fulfillmentMessages": [
-            #     {
-            #       "payload": {
-            #         "richContent": [
-            #           [
-            #             # {
-            #             #   "type": "info",
-            #             #   "title": "💡 Care Recommendation",
-            #             #   "subtitle": "I recommend you speak to your doctor...",
-            #             #   "image": {
-            #             #     "src": {
-            #             #       "rawUrl": "https://example.com/image.jpg"
-            #             #     }
-            #             #   },
-            #             #   "actionLink": "https://example.com/details"
-            #             # },
-            #             {
-            #               "type": "description",
-            #               "text": [
-            #                   "I understand you're experiencing pain and I want to help you manage it effectively. I'm concerned about your high pain level. This needs immediate attention. ",
-            #                   "💡 **Care Recommendation:** I recommend you speak to your doctor or your nurse about the pain you are experiencing. They can help you find the underlying cause of your pain.",
-            #                   "🤖 **Evidence-Based Guidance:** Pain specialists recommend keeping a detailed pain diary to share with your healthcare provider. This diary should include the type of pain (e.g., sharp, aching, burning), its location, intensity (using a scale like 0-10), duration, and any triggers or relieving factors. This information will be invaluable in helping your doctor or nurse understand your pain and develop an effective treatment plan. The more information you can provide, the better equipped they will be to assist you. ",
-            #                   "🚨 **Important:** Given the severity of your symptoms, I strongly recommend contacting your healthcare provider soon. ",
-            #                   "🎬 I also found 2 pain-specific video/audio resources that can help with your pain management."
-            #               ]
-            #             }
-            #           ]
-            #         ]
-            #       }
-            #     }
-            #   ]
-            # }
-
-        except Exception as e:
-            care_tip_text = f"Sorry, failed to retrieve care tip: {str(e)}"
-            return {
-                'fulfillmentText': care_tip_text,
-                'fulfillmentMessages': [care_tip_text]
-            }
-    else:
-        care_tip_text = "RAG care tip system is not currently available."
-        return {
-            'fulfillmentText': care_tip_text,
-            'fulfillmentMessages': [care_tip_text]
-        }
-
-    # Respond to Dialogflow
-    # return [
-    #     f"Thank you! Your assessment has been submitted. Severity Score: {severity_score}\n\nCare Tip: {care_tip_text}"
-    # ]

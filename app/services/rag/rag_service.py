@@ -81,40 +81,22 @@ class SimplifiedPainFocusedRAGRetriever:
         
         # Your improved severity-specific queries
         self.severity_queries = {
-    1: [
-        "pain", "ache", "discomfort", "soreness", "distress",
-        "exercise", "physical activity", "workout", "training", "yoga","mindful",
-        "meditation", "mindfulness", "contemplation", "introspection", "concentration",
-        "nutrition", "dietary habits", "nourishment", "healthy eating", "balanced diet"
-    ],
-    2: [
-        "pain", "ache", "discomfort", "soreness", "distress",
-        "exercise", "physical activity", "workout", "training", "exertion",
-        "meditation", "mindfulness", "contemplation", "introspection", "concentration",
-        "nutrition", "dietary habits", "nourishment", "healthy eating", "balanced diet"
-    ],
-    3: [
-        "pain", "ache", "discomfort", "soreness", "distress",
-        "pain relief", "pain alleviation", "analgesia", "soothing", "comfort",
-        "pain therapy", "pain management", "therapeutic intervention", "pain treatment",
-        "managing pain", "pain control", "pain coping strategies", "pain self-care",
-        "pain treatment care tips", "pain care advice", "pain relief guidelines", "pain management tips"
-    ],
-    4: [
-        "pain", "ache", "discomfort", "soreness", "distress",
-        "chronic pain", "persistent pain", "long-term pain", "chronic pain syndrome",
-        "tracking", "monitoring", "logging", "documenting", "recording", "pain medication",
-        "healthcare collaboration", "clinical teamwork", "coordinated care", "multidisciplinary care",
-        "pain treatment care tips", "pain care advice", "pain relief guidelines", "pain management tips"
-    ],
-    5: [
-        "pain", "ache", "discomfort", "soreness", "distress",
-        "severe pain", "intense pain", "acute pain", "excruciating pain", "pain medication",
-        "pain medication", "pain relievers", "analgesics", "pharmacologic pain treatment", "pain meds",
-        "urgent pain management", "emergency pain relief", "rapid analgesia", "immediate pain control",
-        "healthcare pain consultation", "clinical pain evaluation", "pain specialist consultation"
-    ]
-}
+            1: [
+                "pain", "exercise", "nutrition"
+            ],
+            2: [
+                "pain", "meditation", "nutrition"
+            ],
+            3: [
+                "pain", "managing pain", "pain treatment"
+            ],
+            4: [
+                "chronic pain", "tracking", "monitoring", "pain medication"
+            ],
+            5: [
+                "chronic pain", "healthcare collaboration", "clinical teamwork", "coordinated care", "multidisciplinary care"
+            ]
+        }
 
     def _is_web_article(self, metadata) -> bool:
         """SIMPLIFIED: Basic web article check"""

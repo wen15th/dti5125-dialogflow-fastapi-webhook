@@ -1,6 +1,7 @@
 # app/services/pain_handlers.py
 # UPDATED VERSION with Enhanced RAG Integration
 import json
+import time
 from typing import Dict, Any
 import logging
 from .rag.rag_service import get_refined_tip_with_rag
@@ -13,6 +14,7 @@ def handle_pain_report(request_data: Dict[str, Any]) -> Dict[str, Any]:
     ENHANCED pain report handler with improved RAG integration
     """
     try:
+        session_id = request_data.get("session", "").split("/")[-1]
         parameters = request_data.get("queryResult", {}).get("parameters", {})
         severity_score = parameters.get("severity_score")
         symptom = parameters.get("symptom", "pain")
@@ -23,6 +25,10 @@ def handle_pain_report(request_data: Dict[str, Any]) -> Dict[str, Any]:
             symptom=symptom,
         )
 
+        ### --------------------- Dummy data for debugging -----------------------
+        # tmp_str = r'{"symptom": "pain", "severity_score": 3, "care_level": "basic_care", "escalation_needed": false, "predefined_tip": "Warm packs may help control your pain. However, avoid electric heating pads as they can cause burns with prolonged use.\n\nIf your pain is due to acute injury, consider using a cold pack instead to reduce pain and swelling. This should typically not be done for > 20 minutes.", "ai_enhanced_tip": "Pain management research suggests that combining heat and cold therapy can be particularly effective for some individuals.  You might try alternating between a warm pack (as previously suggested, avoiding electric pads) and a cold pack (for no more than 20 minutes at a time) to see if this approach provides more relief than either method alone.  Remember to always protect your skin with a thin cloth between the pack and your skin to prevent burns or irritation.", "sources": [], "media_resources": [{"type": "podcast", "title": "“Living Well Starts Here” podcast", "organization": "PMD Alliance", "media_url": "https://yopn.podbean.com/", "source_url": "https://yopn.podbean.com/", "description": "“Living Well Starts Here” podcast", "duration": "", "content_preview": "Podcast Title: “Living Well Starts Here” podcast\nDescription: “Living Well Starts Here” podcast\nPodcast URL: https://yopn.podbean.com/\nSource Page: https://www.pmdalliance.org/2025/06/10/tiktok-yopd-c..."}, {"type": "podcast", "title": "Communicating About Off Episodes", "organization": "American Parkinson Disease Association", "media_url": "https://d2icp22po6iej.cloudfront.net/wp-content/uploads/2025/07/82559239_APDA21493-Communicating-About-Off-D4V3_V5_Proof.pdf", "source_url": "https://d2icp22po6iej.cloudfront.net/wp-content/uploads/2025/07/82559239_APDA21493-Communicating-About-Off-D4V3_V5_Proof.pdf", "description": "Communicating About Off Episodes", "duration": "", "content_preview": "Podcast Title: Communicating About Off Episodes\nDescription: Communicating About Off Episodes\nPodcast URL: https://d2icp22po6iej.cloudfront.net/wp-content/uploads/2025/07/82559239_APDA21493-Communicat..."}], "tone_info": {"tone_style": "practical_supportive", "focus_area": "immediate_relief_strategies"}, "retrieval_info": {"enhanced_pain_search": true, "simplified_filtering": true, "total_pain_docs_found": 0, "total_pain_media_found": 2}, "success": true}'
+        # rag_result = json.loads(tmp_str)
+
         logger.info(f"RAG result: {json.dumps(rag_result, ensure_ascii=False)}")
 
         if rag_result['success']:
@@ -31,6 +37,7 @@ def handle_pain_report(request_data: Dict[str, Any]) -> Dict[str, Any]:
             
             # Prepare rich response with follow-up suggestions
             response = {
+                "time": int(time.time()),
                 "fulfillmentText": "\n".join(response_list),
                 "fulfillmentMessages": [
                     {
@@ -80,6 +87,7 @@ def handle_pain_report(request_data: Dict[str, Any]) -> Dict[str, Any]:
             
             logger.info(f"Enhanced RAG response created successfully for {symptom}")
             logger.info(f"Retrieved {len(rag_result.get('sources', []))} enhanced pain sources")
+
             return response
             
         else:

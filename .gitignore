@@ -218,3 +218,6 @@ __marimo__/
 
 
 .DS_Store
+
+app/services/care_tip_cache/
+user_answers.jsonl
