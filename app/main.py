@@ -13,6 +13,7 @@ from app.services.symptom_goal_and_definition import handle_clarification, handl
 from app.services.severity_predictor import SeverityPredictor
 from app.services.care_tip_handlers import handle_care_tip, run_rag_async
 from app.services.handle_severity_response import handle_submit
+from app.services.feedback import handle_feedback_response
 
 load_dotenv()  # Automatically loads from .env in your working directory
 api_key = os.getenv("GOOGLE_API_KEY")
@@ -66,7 +67,8 @@ async def webhook(request: Request):
         "Report_Body_Reactions_And_Pain_Issue - yes": handle_definition_and_goal,
         "Activity_assessment - custom": handle_submit,
         "Activity_assessment - custom - yes": handle_care_tip,
-        "Default Fallback Intent": handle_fallback
+        "Default Fallback Intent": handle_fallback,
+        "Care_Tip_Feedback": handle_feedback_response,
     }
 
     try:
@@ -113,47 +115,53 @@ async def webhook(request: Request):
 
 
     # Set output context for awaiting_care_tip
-    session_path = body.get("session") or body.get("sessionInfo", {}).get("session")
-    if not session_path:
-        logger.error("No session path found in webhook request!")
-        session_path = f"projects/{PROJECT_ID}/agent/sessions/placeholder"
-    if intent == "Activity_assessment - custom":
-        followup_question = "I’m currently preparing your care tips. This may take a few seconds. Please come back and reply \"Yes\" in about 10 seconds to view them."
-        message_list.append({
-            "text": {
-                "text": [followup_question]
-            }
-        })
-        output_contexts = [{
-            "name": f"{session_path}/contexts/awaiting_care_tip",
-            "lifespanCount": 3,
-            "parameters": {
-                "care_tip_uuid": body['care_tip_uuid']
-            }
-        }]
-
     if intent == "Activity_assessment - custom - yes":
-        response = {
-            "fulfillmentText": messages['fulfillmentText'],
-            "fulfillmentMessages": messages['fulfillmentMessages']
-        }
-        output_contexts = [{
-            "name": f"{session_path}/contexts/awaiting_care_tip",
-            "lifespanCount": 3,
-            "parameters": {
-                "care_tip_uuid": body['care_tip_uuid']
+        if isinstance(messages, dict) and messages.get("success", True):
+            care_tip_text = messages["fulfillmentText"]
+            care_tip_messages = messages["fulfillmentMessages"]
+            
+        else:
+            care_tip_text = "Sorry, I was unable to generate a care tip at this time."
+            care_tip_messages = [{"text": {"text": [care_tip_text]}}]
+
+        feedback_prompt = "How helpful did you find this care tip?"
+        feedback_buttons = {
+            "payload": {
+                "richContent": [[
+                    {
+                        "type": "chips",
+                        "options": [
+                            {"text": "👍 Helpful"},
+                            {"text": "👎 Not Helpful"},
+                        ]
+                    }
+                ]]
             }
-        }]
-    else:
-        response = {
-            "fulfillmentText": text,
-            "fulfillmentMessages": message_list,
         }
 
-    if output_contexts:
-        response["outputContexts"] = output_contexts
+        care_tip_messages.append({"text": {"text": [feedback_prompt]}})
+        care_tip_messages.append(feedback_buttons)
 
-    return JSONResponse(content=response)
+        session_path = body.get("session") or body.get("sessionInfo", {}).get("session")
+        if not session_path:
+            logger.error("No session path found in webhook request!")
+            session_path = f"projects/{PROJECT_ID}/agent/sessions/placeholder2"
+        
+        response = {
+            "fulfillmentText": care_tip_text,
+            "fulfillmentMessages": care_tip_messages,
+            "outputContexts": [{
+                "name": f"{session_path}/contexts/awaiting_feedback",
+                "lifespanCount": 3,
+                "parameters": {
+                    "care_tip_uuid": body['care_tip_uuid']
+                }
+            }]
+        }
+
+        return JSONResponse(content=response)
+
+
   
   # ========== NO CHANGES ABOVE THIS LINE ========== 
 

@@ -18,6 +18,7 @@ def handle_care_tip(body):
     care_tips = read_refined_care_tip(session_id, uuid)
     if not care_tips:
         return {
+            "success": False,
             "fulfillmentText": "Sorry, failed to retrieve care tip. Please try again later.",
             "fulfillmentMessages": [
                 {
@@ -29,7 +30,11 @@ def handle_care_tip(body):
         }
 
     # Return saved care tips
-    return care_tips
+    return {
+        "success": True,
+        "fulfillmentText": care_tips.get("fulfillmentText", ""),
+        "fulfillmentMessages": care_tips.get("fulfillmentMessages", [])
+    }
 
 
 def run_rag_async(session_id: str, uuid: str, severity_score: int):
