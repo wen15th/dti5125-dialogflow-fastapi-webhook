@@ -1,34 +1,35 @@
 # app/main.py
-# ADAPTED VERSION - Enhanced RAG Integration While Preserving Colleague's Code
+# ADAPTED VERSION - Enhanced RAG Integration 
 import uuid
 import logging
 import os
 import sys
-
-from app.config import globals
-from dotenv import load_dotenv
+import json
+import threading
+from fastapi.responses import JSONResponse
 from fastapi import FastAPI, Request, HTTPException
+from dotenv import load_dotenv
 from pathlib import Path
+from app.config import globals
 from app.services.symptom_goal_and_definition import handle_clarification, handle_definition_and_goal
 from app.services.severity_predictor import SeverityPredictor
 from app.services.care_tip_handlers import handle_care_tip, run_rag_async
 from app.services.handle_severity_response import handle_submit
 from app.services.feedback import handle_feedback_response
+from app.services.fallback_handlers import handle_fallback
+from app.services.collect_answers import extract_answers_from_context, save_answers_jsonl
 
-load_dotenv()  # Automatically loads from .env in your working directory
+load_dotenv() # Automatically loads from .env in your working directory
 api_key = os.getenv("GOOGLE_API_KEY")
 PROJECT_ID = "bb-tkqk"
 
-# ENHANCED: Import for Enhanced RAG system
-# Add the services directory to Python path for enhanced RAG import
 current_dir = Path(__file__).parent
 services_dir = current_dir / "services"
-
 if services_dir.exists():
     sys.path.append(str(services_dir))
     try:
         # Import the ENHANCED RAG function (updated name)
-        from app.services.rag.rag_service import get_refined_tip_with_rag  
+        from app.services.rag.rag_service import get_refined_tip_with_rag
         globals.RAG_AVAILABLE = True
         print("✅ Enhanced Pain RAG service loaded successfully")
     except ImportError as e:
@@ -38,8 +39,6 @@ if services_dir.exists():
 else:
     globals.RAG_AVAILABLE = False
     print(f"⚠️  Services directory not found: {services_dir}")
-
-# ========== NO CHANGES BELOW THIS LINE ==========
 
 logging.basicConfig(
     level=logging.INFO,
@@ -58,68 +57,45 @@ async def webhook(request: Request):
     body = await request.json()
     logger.info("Request body: %s", json.dumps(body, ensure_ascii=False))
 
+    session_path = body.get("session") or body.get("sessionInfo", {}).get("session")
+    if not session_path:
+        logger.error("No session path found in webhook request!")
+        session_path = f"projects/{PROJECT_ID}/agent/sessions/placeholder"
+
     intent = body["queryResult"]["intent"]["displayName"]
-    body['care_tip_uuid'] = str(uuid.uuid1()) # only used in "handle_submit"
-
-    # Intent Map
-    handlers = {
-        "Report_Body_Reactions_And_Pain_Issue": handle_clarification,
-        "Report_Body_Reactions_And_Pain_Issue - yes": handle_definition_and_goal,
-        "Activity_assessment - custom": handle_submit,
-        "Activity_assessment - custom - yes": handle_care_tip,
-        "Default Fallback Intent": handle_fallback,
-        "Care_Tip_Feedback": handle_feedback_response,
-    }
-
-    try:
-        handler = handlers.get(intent, handle_fallback)
-        messages = handler(body)
-
-        logger.info(f"Response from handler: {json.dumps(messages, ensure_ascii=False)}")
-    except Exception as e:
-        logger.exception("Error occurred while handling request body: %s",str(e))
-        messages = [f"Sorry, an error occurred, please try later."]
-
-    text = ""
-    message_list = []
-    if intent != "Activity_assessment - custom - yes":
-        for message in messages:
-            message_list.append({
-                "text": {
-                    "text": [message]
-                }
-            })
-            text = (text + "\n\n" + message).strip()
+    body['care_tip_uuid'] = str(uuid.uuid1())
 
     output_contexts = []
 
-    if intent == "Report_Body_Reactions_And_Pain_Issue - yes":
+    if intent == "Report_Body_Reactions_And_Pain_Issue":
+        messages = handle_clarification(body)
+
+    elif intent == "Report_Body_Reactions_And_Pain_Issue - yes":
+        messages = handle_definition_and_goal(body)
         consent_text = "To help me provide the best care tips, would you be okay to answer a few more questions?"
-        text = (text + "\n\n" + consent_text).strip()
-        message_list.append({
-            "text": {
-                "text": [consent_text]
-            }
-        })
-
-        # Set output context for awaiting_consent
-        session_path = body.get("session") or body.get("sessionInfo", {}).get("session")
-        if not session_path:
-            logger.error("No session path found in webhook request!")
-            session_path = f"projects/{PROJECT_ID}/agent/sessions/placeholder"
-
+        messages.append(consent_text)
         output_contexts = [{
             "name": f"{session_path}/contexts/awaiting_consent",
             "lifespanCount": 1
         }]
 
+    elif intent == "Activity_assessment - custom":
+        messages = handle_submit(body)
+        messages.append("I’m currently preparing your care tips. This may take a few seconds. Please come back and reply \"Yes\" in about 10 seconds to view them.")
 
-    # Set output context for awaiting_care_tip
-    if intent == "Activity_assessment - custom - yes":
+        output_contexts = [{
+            "name": f"{session_path}/contexts/awaiting_care_tip",
+            "lifespanCount": 3,
+            "parameters": {
+                "care_tip_uuid": body["care_tip_uuid"]
+            }
+        }]
+
+    elif intent == "Activity_assessment - custom - yes":
+        messages = handle_care_tip(body)
         if isinstance(messages, dict) and messages.get("success", True):
-            care_tip_text = messages["fulfillmentText"]
-            care_tip_messages = messages["fulfillmentMessages"]
-            
+            care_tip_text = messages.get("fulfillmentText", "Here is your care tip.")
+            care_tip_messages = messages.get("fulfillmentMessages", [{"text": {"text": [care_tip_text]}}])
         else:
             care_tip_text = "Sorry, I was unable to generate a care tip at this time."
             care_tip_messages = [{"text": {"text": [care_tip_text]}}]
@@ -138,28 +114,45 @@ async def webhook(request: Request):
                 ]]
             }
         }
-
         care_tip_messages.append({"text": {"text": [feedback_prompt]}})
         care_tip_messages.append(feedback_buttons)
 
-        session_path = body.get("session") or body.get("sessionInfo", {}).get("session")
-        if not session_path:
-            logger.error("No session path found in webhook request!")
-            session_path = f"projects/{PROJECT_ID}/agent/sessions/placeholder2"
-        
-        response = {
+        output_contexts = [{
+            "name": f"{session_path}/contexts/awaiting_feedback",
+            "lifespanCount": 3,
+            "parameters": {
+                "care_tip_uuid": body["care_tip_uuid"]
+            }
+        }]
+
+        return JSONResponse(content={
             "fulfillmentText": care_tip_text,
             "fulfillmentMessages": care_tip_messages,
-            "outputContexts": [{
-                "name": f"{session_path}/contexts/awaiting_feedback",
-                "lifespanCount": 3,
-                "parameters": {
-                    "care_tip_uuid": body['care_tip_uuid']
-                }
-            }]
-        }
+            "outputContexts": output_contexts
+        })
 
-        return JSONResponse(content=response)
+    elif intent == "Care_Tip_Feedback":
+        logger.info("✅ Care_Tip_Feedback intent triggered")
+        messages = handle_feedback_response(body)
+
+    else:
+        messages = handle_fallback(body)
+
+    fulfillment_messages = [
+        {"text": {"text": [msg]}} for msg in messages
+    ]
+    text = "\n\n".join(msg["text"]["text"][0] for msg in fulfillment_messages if "text" in msg)
+
+    response = {
+        "fulfillmentText": text,
+        "fulfillmentMessages": fulfillment_messages
+    }
+
+    if output_contexts:
+        response["outputContexts"] = output_contexts
+
+    logger.info("➡️ Final response: %s", json.dumps(response, ensure_ascii=False))
+    return JSONResponse(content=response)
 
 
   
