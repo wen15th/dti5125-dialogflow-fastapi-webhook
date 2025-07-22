@@ -79,23 +79,13 @@ class SimplifiedPainFocusedRAGRetriever:
     def __init__(self, vector_store):
         self.vector_store = vector_store
         
-        # Your improved severity-specific queries
+        # Severity-specific queries
         self.severity_queries = {
-            1: [
-                "pain", "exercise", "nutrition"
-            ],
-            2: [
-                "pain", "meditation", "nutrition"
-            ],
-            3: [
-                "pain", "managing pain", "pain treatment"
-            ],
-            4: [
-                "chronic pain", "tracking", "monitoring", "pain medication"
-            ],
-            5: [
-                "chronic pain", "healthcare collaboration", "clinical teamwork", "coordinated care", "multidisciplinary care"
-            ]
+            1: ["exercise", "meditation", "nutrition"],
+            2: ["meditation", "exercise", "nutrition"],
+            3: ["pain management", "pain treatment", "pain medication"],
+            4: ["chronic pain", "tracking", "monitoring"],
+            5: ["pain", "healthcare collaboration", "multidisciplinary care"]
         }
 
     def _is_web_article(self, metadata) -> bool:
